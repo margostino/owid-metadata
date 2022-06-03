@@ -1,0 +1,251 @@
+name: ipcc_scenarios_iiasa
+description: ""
+data_file: IPCC Scenarios (IIASA).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/IPCC%20Scenarios%20(IIASA)/IPCC
+    Scenarios (IIASA).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: agri_demand_crops
+    type: Float
+  - name: agri_demand_energycrops
+    type: Float
+  - name: agri_demand_livestock
+    type: Float
+  - name: agri_prod_crops_energy
+    type: Float
+  - name: agri_prod_crops_nonenergy
+    type: Float
+  - name: agri_prod_livestock
+    type: Float
+  - name: carbon_price
+    type: Float
+  - name: concentration_ch4
+    type: Float
+  - name: concentration_co2
+    type: Float
+  - name: concentration_n2o
+    type: Float
+  - name: econ_consumption
+    type: Float
+  - name: elec_capacity
+    type: Float
+  - name: elec_capacity_biomass
+    type: Float
+  - name: elec_capacity_coal
+    type: Float
+  - name: elec_capacity_csp
+    type: Float
+  - name: elec_capacity_gas
+    type: Float
+  - name: elec_capacity_geothermal
+    type: Float
+  - name: elec_capacity_hydro
+    type: Float
+  - name: elec_capacity_nuclear
+    type: Float
+  - name: elec_capacity_offshorewind
+    type: Float
+  - name: elec_capacity_oil
+    type: Float
+  - name: elec_capacity_onshorewind
+    type: Float
+  - name: elec_capacity_other
+    type: Float
+  - name: elec_capacity_solar
+    type: Float
+  - name: elec_capacity_solarpv
+    type: Float
+  - name: elec_capacity_wind
+    type: Float
+  - name: emissions_blackcarbon
+    type: Float
+  - name: emissions_ch4
+    type: Float
+  - name: emissions_ch4_fossil
+    type: Float
+  - name: emissions_ch4_land
+    type: Float
+  - name: emissions_co
+    type: Float
+  - name: emissions_co2
+    type: Float
+  - name: emissions_co2_beccs
+    type: Float
+  - name: emissions_co2_ccs
+    type: Float
+  - name: emissions_co2_fossil
+    type: Float
+  - name: emissions_co2_land
+    type: Float
+  - name: emissions_fgas
+    type: Float
+  - name: emissions_kyotogas
+    type: Float
+  - name: emissions_n2o
+    type: Float
+  - name: emissions_n2o_land
+    type: Float
+  - name: emissions_nh3
+    type: Float
+  - name: emissions_nox
+    type: Float
+  - name: emissions_oc
+    type: Float
+  - name: emissions_sulfur
+    type: Float
+  - name: emissions_voc
+    type: Float
+  - name: energy_transport_freight
+    type: Float
+  - name: energy_transport_passenger
+    type: Float
+  - name: final_energy
+    type: Float
+  - name: final_energy_biomass
+    type: Float
+  - name: final_energy_coal
+    type: Float
+  - name: final_energy_elec
+    type: Float
+  - name: final_energy_gases
+    type: Float
+  - name: final_energy_heat
+    type: Float
+  - name: final_energy_hydrogen
+    type: Float
+  - name: final_energy_industry
+    type: Float
+  - name: final_energy_liquids
+    type: Float
+  - name: final_energy_residentialcommercial
+    type: Float
+  - name: final_energy_solar
+    type: Float
+  - name: final_energy_solids
+    type: Float
+  - name: final_energy_traditionalbiomass
+    type: Float
+  - name: final_energy_transport
+    type: Float
+  - name: forcing
+    type: Float
+  - name: forcing_aerosol
+    type: Float
+  - name: forcing_ch4
+    type: Float
+  - name: forcing_co2
+    type: Float
+  - name: forcing_fgases
+    type: Float
+  - name: forcing_kyoto
+    type: Float
+  - name: forcing_n2o
+    type: Float
+  - name: gdp
+    type: Float
+  - name: land_cropland
+    type: Float
+  - name: land_forest
+    type: Float
+  - name: land_pasture
+    type: Float
+  - name: land_urban
+    type: Float
+  - name: population
+    type: Float
+  - name: primary_energy
+    type: Float
+  - name: primary_energy_biomass
+    type: Float
+  - name: primary_energy_biomass_ccs
+    type: Float
+  - name: primary_energy_biomass_no_ccs
+    type: Float
+  - name: primary_energy_coal
+    type: Float
+  - name: primary_energy_coal_ccs
+    type: Float
+  - name: primary_energy_coal_no_ccs
+    type: Float
+  - name: primary_energy_fossil
+    type: Float
+  - name: primary_energy_fossil_ccs
+    type: Float
+  - name: primary_energy_fossil_no_ccs
+    type: Float
+  - name: primary_energy_gas
+    type: Float
+  - name: primary_energy_gas_ccs
+    type: Float
+  - name: primary_energy_geothermal
+    type: Float
+  - name: primary_energy_hydro
+    type: Float
+  - name: primary_energy_no_ccs
+    type: Float
+  - name: primary_energy_nonbio_renewables
+    type: Float
+  - name: primary_energy_nuclear
+    type: Float
+  - name: primary_energy_oil
+    type: Float
+  - name: primary_energy_oil_ccs
+    type: Float
+  - name: primary_energy_oil_no_ccs
+    type: Float
+  - name: primary_energy_other
+    type: Float
+  - name: primary_energy_solar
+    type: Float
+  - name: primary_energy_tradbiomass
+    type: Float
+  - name: primary_energy_wind
+    type: Float
+  - name: temp
+    type: Float
+  - name: annotation
+    type: Float
+  - name: secondary_energy_elec
+    type: Float
+  - name: secondary_energy_elec_biomass
+    type: Float
+  - name: secondary_energy_elec_biomass_ccs
+    type: Float
+  - name: secondary_energy_elec_coal
+    type: Float
+  - name: secondary_energy_elec_coal_ccs
+    type: Float
+  - name: secondary_energy_elec_gas
+    type: Float
+  - name: secondary_energy_elec_gas_ccs
+    type: Float
+  - name: secondary_energy_elec_geothermal
+    type: Float
+  - name: secondary_energy_elec_hydro
+    type: Float
+  - name: secondary_energy_elec_nonbiorenewables
+    type: Float
+  - name: secondary_energy_elec_nuclear
+    type: Float
+  - name: secondary_energy_elec_oil
+    type: Float
+  - name: secondary_energy_elec_solar
+    type: Float
+  - name: secondary_energy_elec_wind
+    type: Float
+  - name: secondary_energy_gas
+    type: Float
+  - name: secondary_energy_heat
+    type: Float
+  - name: secondary_energy_heat_hydro
+    type: Float
+  - name: secondary_energy_hydrogen
+    type: Float
+  - name: secondary_energy_liquid_biofuel
+    type: Float
+  - name: secondary_energy_oil
+    type: Float

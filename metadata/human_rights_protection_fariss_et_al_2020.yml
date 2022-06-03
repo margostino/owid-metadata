@@ -1,0 +1,14 @@
+name: human_rights_protection_fariss_et_al_2020
+description: This dataset provides the human rights protection scores by Fariss et
+    al. (2020), first developed by Schnakenberg and Fariss (2014).
+data_file: Human rights protection – Fariss et al. (2020).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Human%20rights%20protection%20%E2%80%93%20Fariss%20et%20al.%20(2020)/Human
+    rights protection – Fariss et al. (2020).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: human_rights_protection
+    type: Float

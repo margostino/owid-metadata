@@ -1,0 +1,18 @@
+name: government_expenditure_imf_based_on_mauro_et_al_2015
+description: |-
+    Government expenditure estimates correspond to non-interest government expenditures. The authors als note: "The database covers an unbalanced panel of 55 countries (24 advanced economies—by present day definition from the IMF’s World Economic Outlook classification—and 31 nonadvanced) over 1800–2011. The data consist of government revenue, non-interest government expenditure, and the interest bill (and thus also the overall fiscal balance and the primary balance), as well as gross public debt, all expressed as a share of GDP...About half of the observations for the fiscal variables in our dataset are drawn from various cross-country sources, including the IMF’s World Economic Outlook (WEO) and International Financial Statistics (IFS) and the OECD Analytical Database...We hand-collected the other half of the data from country-specific sources, such as official government publications or economic histories that included public finance statistics."
+
+    IMF data on government expenditure does not include interest paid on debt payments. In order to derive government expenditure with interest paid on debt included, the datasets "government expenditure, percent of GDP" and "interest paid on public debt, percent of GDP" from the IMF database.
+
+    This data is therefore inclusive of interest on debt payments.
+data_file: Government Expenditure – IMF based on Mauro et al. (2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Government%20Expenditure%20%E2%80%93%20IMF%20based%20on%20Mauro%20et%20al.%20(2015)/Government
+    Expenditure – IMF based on Mauro et al. (2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: government_expenditure_imf_based_on_mauro_et_al_2015
+    type: Float

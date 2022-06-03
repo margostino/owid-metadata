@@ -1,0 +1,20 @@
+name: world_conflict_deaths_various_sources
+description: 'For more details on the construction and sources of these series, see
+    our data appendix here: https://ourworldindata.org/uploads/2018/09/Notes-on-five-sources-of-the-world-conflict-death-rate-since-1989.pdf'
+data_file: World conflict deaths (various sources).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/World%20conflict%20deaths%20(various%20sources)/World
+    conflict deaths (various sources).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: correlates_of_war
+    type: Float
+  - name: conflict_catalogue_total
+    type: Float
+  - name: conflict_catalogue_military_only
+    type: Float
+  - name: prio_ucdp
+    type: Float

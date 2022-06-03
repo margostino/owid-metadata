@@ -1,0 +1,15 @@
+name: population_growth_rate_by_region_2020_2100_medium_variant_projection_un_population_division_2015
+description: ""
+data_file: Population growth rate by region, 2020-2100 medium variant projection -
+    UN Population Division (2015 revision).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Population%20growth%20rate%20by%20region%2C%202020-2100%20medium%20variant%20projection%20-%20UN%20Population%20Division%20(2015/Population
+    growth rate by region, 2020-2100 medium variant projection - UN Population Division
+    (2015 revision).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: projected_growth_rate_un_population_division_2015_revision
+    type: Float

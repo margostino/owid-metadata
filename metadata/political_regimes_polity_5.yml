@@ -1,0 +1,72 @@
+name: political_regimes_polity_5
+description: |-
+    This dataset provides information on political regimes, using data from Polity (2021).
+
+    You can download the code and complete dataset, including supplementary variables, from GitHub: https://github.com/owid/notebooks/tree/main/BastianHerre/democracy
+data_file: Political regimes - Polity 5.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Political%20regimes%20-%20Polity%205/Political
+    regimes - Polity 5.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: democracy_polity
+    type: Float
+  - name: regime_polity
+    type: Float
+  - name: dem_age_polity
+    type: Float
+  - name: dem_age_group_polity
+    type: Float
+  - name: exec_reccomp_polity
+    type: Float
+  - name: exec_recopen_polity
+    type: Float
+  - name: exec_constr_polity
+    type: Float
+  - name: polpart_reg_polity
+    type: Float
+  - name: polpart_comp_polity
+    type: Float
+  - name: dem_exp_polity
+    type: Float
+  - name: number_aut_polity
+    type: Float
+  - name: number_ano_polity
+    type: Float
+  - name: number_dem_polity
+    type: Float
+  - name: number_dem_18_polity
+    type: Float
+  - name: number_dem_30_polity
+    type: Float
+  - name: number_dem_60_polity
+    type: Float
+  - name: number_dem_90_polity
+    type: Float
+  - name: number_dem_91plus_polity
+    type: Float
+  - name: pop_aut_polity
+    type: Float
+  - name: pop_ano_polity
+    type: Float
+  - name: pop_dem_polity
+    type: Float
+  - name: pop_missreg_polity
+    type: Float
+  - name: pop_dem_18_polity
+    type: Float
+  - name: pop_dem_30_polity
+    type: Float
+  - name: pop_dem_60_polity
+    type: Float
+  - name: pop_dem_90_polity
+    type: Float
+  - name: pop_dem_91plus_polity
+    type: Float
+  - name: popw_democracy_polity
+    type: Float
+  - name: region
+    type: Float

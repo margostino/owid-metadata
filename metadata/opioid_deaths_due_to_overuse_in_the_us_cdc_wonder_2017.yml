@@ -1,0 +1,35 @@
+name: opioid_deaths_due_to_overuse_in_the_us_cdc_wonder_2017
+description: The total number of deaths as cited by the National Institute of Drug
+    Abuse (2017) were divided by the US national population figures as cited on the
+    US Census website and subsequently multiplied by 100,000.
+data_file: Opioid deaths due to overuse in the US - CDC WONDER (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Opioid%20deaths%20due%20to%20overuse%20in%20the%20US%20-%20CDC%20WONDER%20(2017)/Opioid
+    deaths due to overuse in the US - CDC WONDER (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: total_overdose_deaths_cdc_wonder_2017
+    type: Float
+  - name: prescription_drugs_cdc_wonder_2017
+    type: Float
+  - name: opioid_pain_relievers_cdc_wonder_2017
+    type: Float
+  - name: benzodiazepines_cdc_wonder_2017
+    type: Float
+  - name: illicit_drugs_cdc_wonder_2017
+    type: Float
+  - name: cocaine_cdc_wonder_2017
+    type: Float
+  - name: heroin_cdc_wonder_2017
+    type: Float
+  - name: any_opioids_cdc_wonder_2017
+    type: Float
+  - name: opioid_pain_relievers_other_than_synthetic_opioids_cdc_wonder_2017
+    type: Float
+  - name: synthetic_opioids_other_than_methadone_cdc_wonder_2017
+    type: Float
+  - name: illicit_opioids_heroin_and_synthetic_opioids_other_than_methadone_cdc_wonder_2017
+    type: Float

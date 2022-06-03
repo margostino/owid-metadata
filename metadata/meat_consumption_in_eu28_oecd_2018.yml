@@ -1,0 +1,26 @@
+name: meat_consumption_in_eu28_oecd_2018
+description: |-
+    Per capita meat availability, given as the average of the EU-28 countries. Meat availability is typically taken as an estimate of per capita consumption. Meat availability does not account for consumption (household and retail waste), so actual consumption will be slightly lower than these values.
+
+    Per capita meat consumption is measured in kilograms per person per year.
+data_file: Meat consumption in EU28 (OECD, 2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Meat%20consumption%20in%20EU28%20(OECD%2C%202018)/Meat
+    consumption in EU28 (OECD, 2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: per_capita_beef_consumption
+    type: Float
+  - name: per_capita_pork_consumption
+    type: Float
+  - name: per_capita_poultry_consumption
+    type: Float
+  - name: per_capita_sheep_consumption
+    type: Float
+  - name: per_capita_red_meat_consumption
+    type: Float
+  - name: per_capita_meat_consumption
+    type: Float

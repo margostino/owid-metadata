@@ -1,0 +1,39 @@
+name: incomes_across_the_distribution_database_authored_by_nolan_thewissen_roser_based_on_lis_indexed
+description: The decile cut-offs  are calculated on the basis of disposable household
+    income. The measure of disposable household income employed in the Luxembourg
+    Income Study is paid employment and self-employment income, capital income, transfer
+    income, which includes social security transfers (work-related insurance transfers,
+    universal benefits, and assistance benefits) and private transfers, minus income
+    taxes and social security contributions. This follows the definitions of the Canberra
+    Group.
+data_file: Incomes across the Distribution Database (authored by Nolan, Thewissen,
+    Roser; based on LIS) indexed to the first year (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Incomes%20across%20the%20Distribution%20Database%20(authored%20by%20Nolan%2C%20Thewissen%2C%20Roser%3B%20based%20on%20LIS)%20indexed/Incomes
+    across the Distribution Database (authored by Nolan, Thewissen, Roser; based on
+    LIS) indexed to the first year (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: o1st_incomes_across_the_distribution_database_2016
+    type: Float
+  - name: o2nd_incomes_across_the_distribution_database_2016
+    type: Float
+  - name: o3rd_incomes_across_the_distribution_database_2016
+    type: Float
+  - name: o4th_incomes_across_the_distribution_database_2016
+    type: Float
+  - name: o5th_incomes_across_the_distribution_database_2016
+    type: Float
+  - name: o6th_incomes_across_the_distribution_database_2016
+    type: Float
+  - name: o7th_incomes_across_the_distribution_database_2016
+    type: Float
+  - name: o8th_incomes_across_the_distribution_database_2016
+    type: Float
+  - name: o9th_incomes_across_the_distribution_database_2016
+    type: Float
+  - name: mean_incomes_across_the_distribution_database_2016
+    type: Float

@@ -1,0 +1,53 @@
+name: agricultural_total_factor_productivity_usda
+description: ""
+data_file: Agricultural total factor productivity (USDA).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Agricultural%20total%20factor%20productivity%20(USDA)/Agricultural
+    total factor productivity (USDA).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: tfp
+    type: Float
+  - name: output
+    type: Float
+  - name: inputs
+    type: Float
+  - name: ag_land_index
+    type: Float
+  - name: labor_index
+    type: Float
+  - name: capital_index
+    type: Float
+  - name: materials_index
+    type: Float
+  - name: output_quantity
+    type: Float
+  - name: crop_output_quantity
+    type: Float
+  - name: animal_output_quantity
+    type: Float
+  - name: fish_output_quantity
+    type: Float
+  - name: ag_land_quantity
+    type: Float
+  - name: labor_quantity
+    type: Float
+  - name: capital_quantity
+    type: Float
+  - name: machinery_quantity
+    type: Float
+  - name: livestock_quantity
+    type: Float
+  - name: fertilizer_quantity
+    type: Float
+  - name: animal_feed_quantity
+    type: Float
+  - name: cropland_quantity
+    type: Float
+  - name: pasture_quantity
+    type: Float
+  - name: irrigation_quantity
+    type: Float

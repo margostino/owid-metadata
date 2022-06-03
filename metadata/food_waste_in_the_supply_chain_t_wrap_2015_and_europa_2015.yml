@@ -1,0 +1,26 @@
+name: food_waste_in_the_supply_chain_t_wrap_2015_and_europa_2015
+description: |-
+    Food waste data for the UK is sourced from: WRAP (2015). Estimates of Food and Packaging Waste in the UK Grocery Retail and Hospitality Supply Chains. Available at: http://www.wrap.org.uk/sites/files/wrap/UK%20Estimates%20October%2015%20%28FINAL%29_0.pdf [accessed 12th October 2017].
+
+    Food waste data for the EU is sourced from: FUSIONS (2015). Estimates of European food waste levels. Available at: http://www.eu-fusions.org/phocadownload/Publications/Estimates%20of%20European%20food%20waste%20levels.pdf [accessed 12th October 2017].
+
+    Food waste data includes all food and drink categories and is based on waste by mass (i.e. measured in tonnes).
+data_file: Food waste in the supply chain (t) - WRAP (2015) & Europa (2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Food%20waste%20in%20the%20supply%20chain%20(t)%20-%20WRAP%20(2015)%20%26%20Europa%20(2015)/Food
+    waste in the supply chain (t) - WRAP (2015) & Europa (2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: manufacturing_wrap_2015_and_europa_2015
+    type: Float
+  - name: retail_and_wholesale_wrap_2015_and_europa_2015
+    type: Float
+  - name: catering_and_hospitality_wrap_2015_and_europa_2015
+    type: Float
+  - name: household_wrap_2015_and_europa_2015
+    type: Float
+  - name: production_wrap_2015_and_europa_2015
+    type: Float

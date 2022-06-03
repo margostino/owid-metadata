@@ -1,0 +1,18 @@
+name: lab_grown_meat_prices_nextbigfuture_2017_and_united_states_bureau_of_labor_statistics_bls_201
+description: |-
+    Data is based on industry and company reports from lab-scale (not commercial-scale) production of in-vitro beef.
+
+    Prices have been reported in US$ per pound (lb) of lab-grown beef. We have converted this to US$ per kilogram using a conversion factor of 0.454.
+data_file: Lab-grown meat prices - NextBigFuture (2017) and United States Bureau of
+    Labor Statistics (BLS) (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Lab-grown%20meat%20prices%20-%20NextBigFuture%20(2017)%20and%20United%20States%20Bureau%20of%20Labor%20Statistics%20(BLS)%20(201/Lab-grown
+    meat prices - NextBigFuture (2017) and United States Bureau of Labor Statistics
+    (BLS) (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: lab_grown_beef_nextbigfuture_2017
+    type: Float

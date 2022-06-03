@@ -1,0 +1,17 @@
+name: percentage_gained_access_to_improved_water_and_sanitation_1990_2015_who
+description: This metric measures the proportion of the 2015 population who gained
+    access to improved water sources or sanitation since 1990. This marks the start
+    and end dates of the Millennium Development Goals (MDGs).
+data_file: Percentage gained access to improved water and sanitation 1990-2015 - WHO.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Percentage%20gained%20access%20to%20improved%20water%20and%20sanitation%201990-2015%20-%20WHO/Percentage
+    gained access to improved water and sanitation 1990-2015 - WHO.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: population_who_gained_access_to_water_from_1990_2015
+    type: Float
+  - name: population_who_gained_access_to_sanitation_from_1990_2015
+    type: Float

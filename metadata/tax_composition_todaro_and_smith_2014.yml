@@ -1,0 +1,25 @@
+name: tax_composition_todaro_and_smith_2014
+description: 'Estimates are provided by the source in two windows of time: 1985-1987
+    and 1995-1997. We report the estimates for the year in the middle of the corresponding
+    estimates (i.e. 1986 and 1996)'
+data_file: Tax composition – Todaro and Smith (2014).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Tax%20composition%20%E2%80%93%20Todaro%20and%20Smith%20(2014)/Tax
+    composition – Todaro and Smith (2014).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: corporate_income_taxes_todaro_and_smith_2014
+    type: Float
+  - name: personal_income_taxes_todaro_and_smith_2014
+    type: Float
+  - name: general_consumption_taxes_todaro_and_smith_2014
+    type: Float
+  - name: excise_taxes_todaro_and_smith_2014
+    type: Float
+  - name: trade_taxes_todaro_and_smith_2014
+    type: Float
+  - name: social_security_todaro_and_smith_2014
+    type: Float

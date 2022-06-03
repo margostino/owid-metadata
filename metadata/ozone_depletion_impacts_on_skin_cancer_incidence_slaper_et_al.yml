@@ -1,0 +1,25 @@
+name: ozone_depletion_impacts_on_skin_cancer_incidence_slaper_et_al
+description: "The authors modelled the number of excess skin cancer cases they would
+    expect among fair-skinned populations in the United States and Northwest Europe
+    as a result of stratospheric ozone depletion.\n\nThis was modelled for a scenario
+    of no restrictions on ozone-depleting substances, where the authors assumed a
+    3% annual increase in emissions of chloroflourocarbons (CFCs), halons and methyl
+    chloroforms. \n\nThe Montreal Protocol scenario assumed a decline of five important
+    ozone-depleting substances by 50% by the end of 1999 as agreed in the protocol
+    in 1987.\n\nThe Copenhagen Amendment assumed the production of 21 ozone-depleting
+    substances reduced to zero by the end of 1995."
+data_file: Ozone depletion impacts on skin cancer incidence - Slaper et al..csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Ozone%20depletion%20impacts%20on%20skin%20cancer%20incidence%20-%20Slaper%20et%20al./Ozone
+    depletion impacts on skin cancer incidence - Slaper et al..csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: excess_skin_cancer_cases_per_million_no_restrictions
+    type: Float
+  - name: excess_skin_cancer_cases_per_million_montreal_protocol
+    type: Float
+  - name: excess_skin_cancer_cases_per_million_copenhagen_amendments
+    type: Float

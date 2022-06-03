@@ -1,0 +1,68 @@
+name: political_regimes_bertelsmann_transformation_index_2022
+description: |-
+    This dataset provides information on political regimes, using data from Bertelsmann Foundation's Bertelsmann Transformation Index (2022).
+
+    You can download the code and complete dataset, including supplementary variables, from GitHub: https://github.com/owid/notebooks/tree/main/BastianHerre/democracy
+data_file: Political regimes - Bertelsmann Transformation Index (2022).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Political%20regimes%20-%20Bertelsmann%20Transformation%20Index%20(2022)/Political
+    regimes - Bertelsmann Transformation Index (2022).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: regime_bti
+    type: Float
+  - name: state_basic_bti
+    type: Float
+  - name: electfreefair_bti
+    type: Float
+  - name: effective_power_bti
+    type: Float
+  - name: freeassoc_bti
+    type: Float
+  - name: freeexpr_bti
+    type: Float
+  - name: sep_power_bti
+    type: Float
+  - name: civ_rights_bti
+    type: Float
+  - name: democracy_bti
+    type: Float
+  - name: state_bti
+    type: Float
+  - name: political_participation_bti
+    type: Float
+  - name: rule_of_law_bti
+    type: Float
+  - name: stability_dem_inst_bti
+    type: Float
+  - name: pol_soc_integr_bti
+    type: Float
+  - name: number_hardaut_bti
+    type: Float
+  - name: number_modaut_bti
+    type: Float
+  - name: number_hdefdem_bti
+    type: Float
+  - name: number_defdem_bti
+    type: Float
+  - name: number_consdem_bti
+    type: Float
+  - name: pop_hardaut_bti
+    type: Float
+  - name: pop_modaut_bti
+    type: Float
+  - name: pop_hdefdem_bti
+    type: Float
+  - name: pop_defdem_bti
+    type: Float
+  - name: pop_consdem_bti
+    type: Float
+  - name: pop_missreg_bti
+    type: Float
+  - name: popw_democracy_bti
+    type: Float
+  - name: region
+    type: Float

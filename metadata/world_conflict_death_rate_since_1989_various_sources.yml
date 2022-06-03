@@ -1,0 +1,15 @@
+name: world_conflict_death_rate_since_1989_various_sources
+description: Some sources release data only at the conflict level. In these cases
+    we have assumed an even death toll across the duration of the conflict and aggregated
+    by year across all conflicts.
+data_file: World conflict death rate since 1989 (various sources).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/World%20conflict%20death%20rate%20since%201989%20(various%20sources)/World
+    conflict death rate since 1989 (various sources).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: conflict_deaths_per_100_000_world_various_sources
+    type: Float

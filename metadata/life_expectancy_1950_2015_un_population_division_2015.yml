@@ -1,0 +1,14 @@
+name: life_expectancy_1950_2015_un_population_division_2015
+description: The original data refers to intervals of 5 years. Here the data is assigned
+    the last year of that original interval. For example 1955 refers to 1950-1955.
+data_file: Life Expectancy (1950-2015) – UN Population Division (2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Life%20Expectancy%20(1950-2015)%20%E2%80%93%20UN%20Population%20Division%20(2015)/Life
+    Expectancy (1950-2015) – UN Population Division (2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: life_expectancy_1950_2015_un_population_division_2015
+    type: Float

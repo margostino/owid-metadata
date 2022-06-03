@@ -1,0 +1,15 @@
+name: health_expenditure_uk_1950_2012_office_of_health_economics_2012
+description: ""
+data_file: Health Expenditure UK 1950-2012 - Office of Health Economics (2012).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Health%20Expenditure%20UK%201950-2012%20-%20Office%20of%20Health%20Economics%20(2012)/Health
+    Expenditure UK 1950-2012 - Office of Health Economics (2012).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: nhs_expenditure_percgdp_1950_2012_office_of_health_economics_2012
+    type: Float
+  - name: nhs_expenditure_per_capita_office_of_health_economics_2012
+    type: Float

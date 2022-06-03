@@ -1,0 +1,13 @@
+name: learning_adjusted_years_of_schooling_world_bank_2018
+description: 'The methodology can be read up in Filmer et al. (2018): http://documents.worldbank.org/curated/en/243261538075151093/Learning-Adjusted-Years-of-Schooling-LAYS-Defining-A-New-Macro-Measure-of-Education'
+data_file: Learning-Adjusted Years of Schooling - World Bank (2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Learning-Adjusted%20Years%20of%20Schooling%20-%20World%20Bank%20(2018)/Learning-Adjusted
+    Years of Schooling - World Bank (2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: learning_adjusted_years_of_school
+    type: Float

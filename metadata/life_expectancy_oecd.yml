@@ -1,0 +1,13 @@
+name: life_expectancy_oecd
+description: ""
+data_file: Life expectancy - OECD.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Life%20expectancy%20-%20OECD/Life
+    expectancy - OECD.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: life_expectancy_oecd
+    type: Float

@@ -1,0 +1,14 @@
+name: population_growth_un_population_division_2015_revision
+description: Years refer to the average over the preceding 5 year interval (1955 refers
+    to the period 1950 to 1955 etc.)
+data_file: Population Growth -  UN Population Division (2015 revision).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Population%20Growth%20-%20%20UN%20Population%20Division%20(2015%20revision)/Population
+    Growth -  UN Population Division (2015 revision).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: population_growth_un_population_division_2015_revision
+    type: Float

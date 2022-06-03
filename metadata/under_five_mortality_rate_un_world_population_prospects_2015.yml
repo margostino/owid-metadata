@@ -1,0 +1,16 @@
+name: under_five_mortality_rate_un_world_population_prospects_2015
+description: |-
+    – The original data is presented in deaths per 1,000 live births. Here it is changed to percentages by dividing the original estimates by 100.
+
+    – Importantly data refer to 5 year intervals preceding the indicated year. E.g. 1955 refers to 1950-1955 in the original dataset.
+data_file: Under five mortality rate - UN World Population Prospects (2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Under%20five%20mortality%20rate%20-%20UN%20World%20Population%20Prospects%20(2015)/Under
+    five mortality rate - UN World Population Prospects (2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: under_five_mortality_rate_un_world_population_prospects_2015
+    type: Float

@@ -1,0 +1,13 @@
+name: top_1perc_wealth_shares_chartbook_of_economic_inequality_2017
+description: ""
+data_file: Top 1% wealth shares - Chartbook of Economic Inequality (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Top%201%25%20wealth%20shares%20-%20Chartbook%20of%20Economic%20Inequality%20(2017)/Top
+    1% wealth shares - Chartbook of Economic Inequality (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_of_wealth_held_by_top_1perc_chartbook_of_economic_inequality_2017
+    type: Float

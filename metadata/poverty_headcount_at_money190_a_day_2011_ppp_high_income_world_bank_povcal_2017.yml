@@ -1,0 +1,20 @@
+name: poverty_headcount_at_money190_a_day_2011_ppp_high_income_world_bank_povcal_2017
+description: "According to the World Bank's definition: \"PovcalNet is an interactive
+    computational tool that allows you to replicate the calculations made by the World
+    Bank's researchers in estimating the extent of absolute poverty in the world\".\r\n\r\nData
+    are based on primary household survey data obtained from government statistical
+    agencies and World Bank country departments. Data for high-income economies are
+    from the Luxembourg Income Study database. For more information and methodology,
+    please see PovcalNet. (http://iresearch.worldbank.org/PovcalNet/methodology.aspx)."
+data_file: Poverty headcount at $1.90 a day (2011 PPP) - High-income - World Bank
+    (Povcal) (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Poverty%20headcount%20at%20%241.90%20a%20day%20(2011%20PPP)%20-%20High-income%20-%20World%20Bank%20(Povcal)%20(2017)/Poverty
+    headcount at $1.90 a day (2011 PPP) - High-income - World Bank (Povcal) (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: extreme_poverty_headcount_high_income_world_bank_povcal_2017
+    type: Float

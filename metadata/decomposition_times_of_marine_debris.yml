@@ -1,0 +1,13 @@
+name: decomposition_times_of_marine_debris
+description: Average estimated decomposition time of typical marine debris items.
+data_file: Decomposition times of marine debris.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Decomposition%20times%20of%20marine%20debris/Decomposition
+    times of marine debris.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: decomposition_rates_of_marine_debris_years
+    type: Float

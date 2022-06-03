@@ -1,0 +1,15 @@
+name: lis_key_figures_luxumbourg_income_study
+description: ""
+data_file: LIS Key Figures – Luxumbourg Income Study.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/LIS%20Key%20Figures%20%E2%80%93%20Luxumbourg%20Income%20Study/LIS
+    Key Figures – Luxumbourg Income Study.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: gini_disposable_household_income_lis_key_figures
+    type: Float
+  - name: poverty_rate_less60perc_of_median_lis_key_figures
+    type: Float

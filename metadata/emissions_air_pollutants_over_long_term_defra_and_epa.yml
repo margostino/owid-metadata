@@ -1,0 +1,42 @@
+name: emissions_air_pollutants_over_long_term_defra_and_epa
+description: |-
+    Data is presented as total UK and US emissions of air pollutants from all anthropogenic/human sources measured in tonnes per year. Also provided is an index of emissions, normalised to emissions in the first year of data (1970/1980 or 1990) 1970. In other words, annual emissions in 1970 are denoted as equal to 100; values below 100 therefore indicate a fall in emissions; values above 100 indicate an increase in emissions.
+
+    PM10 and PM2.5 are used to denote emissions of particulate matter (PM) measuring less than 10 microns in diameter (PM10) and 2.5 microns in diameter (PM2.5).
+
+    UK DEFRA Source: https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/681445/Emissions_of_air_pollutants_statistical_release_FINALv4.pdf
+
+    US EPA Source: https://www.epa.gov/air-emissions-inventories/air-pollutant-emissions-trends-data
+data_file: Emissions air pollutants over long-term (DEFRA & EPA).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Emissions%20air%20pollutants%20over%20long-term%20(DEFRA%20%26%20EPA)/Emissions
+    air pollutants over long-term (DEFRA & EPA).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: sulphur_dioxide_so2
+    type: Float
+  - name: nitrogen_oxides_nox
+    type: Float
+  - name: non_methane_volatile_organic_compounds_vocs
+    type: Float
+  - name: ammonia
+    type: Float
+  - name: pm10
+    type: Float
+  - name: pm25
+    type: Float
+  - name: sulphur_dioxide_index
+    type: Float
+  - name: nitrogen_oxides_index
+    type: Float
+  - name: non_methane_volatile_organic_compounds_index
+    type: Float
+  - name: ammonia_index
+    type: Float
+  - name: pm10_index
+    type: Float
+  - name: pm25_index
+    type: Float

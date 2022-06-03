@@ -1,0 +1,38 @@
+name: endemic_and_threatened_invertebrate_species_by_country_iucn_2020
+description: "Data denotes the number of endemic invertebrate species within a given
+    organism group by country. Endemic species are those which are known to naturally
+    occur in only one country. \n\nAlso available is the number of these endemic species
+    which are categorised as 'threatened'. 'Threatened' species are those in any of
+    the three Red List categories: Critically Endangered, Endangered, or Vulnerable.
+    They are considered high or greater risk of extinction in the wild.\n\nThis data
+    is only given for the more comprehensively assessed species groups (i.e., where
+    >80% of the species in the group have been assessed)."
+data_file: Endemic and threatened invertebrate species by country (IUCN, 2020).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Endemic%20and%20threatened%20invertebrate%20species%20by%20country%20(IUCN%2C%202020)/Endemic
+    and threatened invertebrate species by country (IUCN, 2020).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: freshwater_crabs_total_endemics
+    type: Float
+  - name: freshwater_crabs_threatened_endemics
+    type: Float
+  - name: freshwater_crayfish_total_endemics
+    type: Float
+  - name: freshwater_crayfish_threatened_endemics
+    type: Float
+  - name: lobsters_total_endemics
+    type: Float
+  - name: lobsters_threatened_endemics
+    type: Float
+  - name: cone_snails_total_endemics
+    type: Float
+  - name: cone_snails_threatened_endemics
+    type: Float
+  - name: reef_forming_corals_total_endemics
+    type: Float
+  - name: reef_forming_corals_threatened_endemics
+    type: Float

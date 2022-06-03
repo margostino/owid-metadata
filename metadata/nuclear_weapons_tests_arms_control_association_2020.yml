@@ -1,0 +1,14 @@
+name: nuclear_weapons_tests_arms_control_association_2020
+description: This datasets provides the number of nuclear weapons tests by country
+    using data from the Arms Control Association (2020).
+data_file: Nuclear Weapons Tests – Arms Control Association (2020).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Nuclear%20Weapons%20Tests%20%E2%80%93%20Arms%20Control%20Association%20(2020)/Nuclear
+    Weapons Tests – Arms Control Association (2020).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: nuclear_weapons_tests
+    type: Float

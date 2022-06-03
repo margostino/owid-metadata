@@ -1,0 +1,13 @@
+name: population_growth_1992_2015_listed_2017_un_population_division_2015
+description: ""
+data_file: Population growth 1992-2015 (listed 2017) (UN Population Division 2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Population%20growth%201992-2015%20(listed%202017)%20(UN%20Population%20Division%202015)/Population
+    growth 1992-2015 (listed 2017) (UN Population Division 2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: population_growth_1992_2015_un_population_division
+    type: Float

@@ -1,0 +1,14 @@
+name: share_of_top_1perc_in_net_personal_wealth_world_wealth_and_income_database_2018
+description: ""
+data_file: Share of Top 1% in net personal wealth – World Wealth and Income Database
+    (2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Share%20of%20Top%201%25%20in%20net%20personal%20wealth%20%E2%80%93%20World%20Wealth%20and%20Income%20Database%20(2018)/Share
+    of Top 1% in net personal wealth – World Wealth and Income Database (2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_of_top_1perc_in_net_personal_wealth
+    type: Float

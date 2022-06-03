@@ -1,0 +1,23 @@
+name: minimum_reading_and_maths_proficiency_gem_report_20178
+description: ""
+data_file: Minimum reading and maths proficiency (GEM Report (2017/8)).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Minimum%20reading%20and%20maths%20proficiency%20(GEM%20Report%20(2017!8))/Minimum
+    reading and maths proficiency (GEM Report (2017/8)).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: percentage_of_students_at_end_of_lower_secondary_education_achieving_at_least_a_minimum_proficiency_level_in_reading_gem_report_20178
+    type: Float
+  - name: percentage_of_students_at_end_of_lower_secondary_education_achieving_at_least_a_minimum_proficiency_level_in_mathematics_gem_report_20178
+    type: Float
+  - name: percentage_of_pupils_in_early_primary_education_grades_2_or_3_achieving_at_least_a_minimum_proficiency_level_in_reading_gem_report_20178
+    type: Float
+  - name: percentage_of_pupils_in_early_primary_education_grades_2_or_3_achieving_at_least_a_minimum_proficiency_level_in_mathematics_gem_report_20178
+    type: Float
+  - name: percentage_of_pupils_at_end_of_primary_education_achieving_at_least_a_minimum_proficiency_level_in_reading_gem_report_20178
+    type: Float
+  - name: percentage_of_pupils_at_end_of_primary_education_achieving_at_least_a_minimum_proficiency_level_in_mathematics_gem_report_20178
+    type: Float

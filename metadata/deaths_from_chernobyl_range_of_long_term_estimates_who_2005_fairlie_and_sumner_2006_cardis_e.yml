@@ -1,0 +1,31 @@
+name: deaths_from_chernobyl_range_of_long_term_estimates_who_2005_fairlie_and_sumner_2006_cardis_e
+description: "Estimates of the total number of deaths from the Chernobyl nuclear incidents
+    remain contested: we have therefore included a series of published estimates to
+    cover the range of considered values.\r\n\r\nWHO (2005a) refers to the number
+    of deaths (up to 4000) estimated in the populations with highest exposure to radioactive
+    fallout from the incident. WHO (2005b) add this to further estimates by the WHO
+    [not included in its report] on the potential death toll in individuals beyond
+    proximate areas.\r\n\r\nFairlie & Sumner (a) and (b) are represent their published
+    lower and upper estimates, respectively.\r\n\r\nReferences:\r\n\r\nIAEA, WHO (2005/06).
+    Chernobyl’s Legacy: Health, Environmental and Socio-Economic Impacts. Press release
+    available at: http://www.who.int/mediacentre/news/releases/2005/pr38/en/\r\n\r\nSpecial
+    Report: Counting the dead. Nature 440, 982-983 (20 April 2006) | doi:10.1038/440982a.\r\n\r\nCardis
+    et al. (2006). Estimates of the cancer burden in Europe from radioactive fallout
+    from the Chernobyl accident. International Journal of Cancer.\r\n\r\nFairlie and
+    Sumner (2006). An independent scientific evaluation of health and environmental
+    effects 20 years after the nuclear disaster providing critical analysis of a recent
+    report by the International Atomic Energy Agency (IAEA) and the World Health Organisation
+    (WHO). Available at: http://www.chernobylreport.org/?p=summary"
+data_file: Deaths from Chernobyl (Range of long-term estimates) - WHO (2005), Fairlie
+    & Sumner (2006), Cardis et al. (2006).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Deaths%20from%20Chernobyl%20(Range%20of%20long-term%20estimates)%20-%20WHO%20(2005)%2C%20Fairlie%20%26%20Sumner%20(2006)%2C%20Cardis%20e/Deaths
+    from Chernobyl (Range of long-term estimates) - WHO (2005), Fairlie & Sumner (2006),
+    Cardis et al. (2006).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: chernobyl_who_2005_fairlie_and_sumner_2006_cardis_et_al_2006
+    type: Float

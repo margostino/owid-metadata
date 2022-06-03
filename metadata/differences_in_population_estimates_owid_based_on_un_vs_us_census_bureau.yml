@@ -1,0 +1,29 @@
+name: differences_in_population_estimates_owid_based_on_un_vs_us_census_bureau
+description: "This dataset was calculated by OWID based on population estimates from
+    the UN Population Division (2017) and US Census Bureau.\r\n\r\nAbsolute differences
+    measure the absolute difference in regional and global population estimates from
+    the UN Population Division and US Census Bureau. Figures were calculated as the
+    annual total population estimate from the UN Population Division (2017) minus
+    population estimates from the US Census Bureau.\r\n\r\nRelative differences measure
+    this difference in estimates as a percentage of UN figures (i.e. (UN population
+    - US Census Bureau population) / UN population).\r\n\r\nNegative figures therefore
+    represent lower UN estimates vs. US Census Bureau estimates, and vice versa (positive
+    values indicate higher UN estimates).\r\n\r\nReferences:\r\n\r\nUnited Nations,
+    Department of Economic and Social Affairs, Population Division (2017). World Population
+    Prospects: The 2017 Revision, DVD Edition. Available at: https://esa.un.org/unpd/wpp/Download/Standard/Population/
+    [accessed 2nd October 2017].\r\n\r\nUnited States Census Bureau International
+    Database (IDB). Available at: https://www.census.gov/population/international/data/idb/informationGateway.php
+    [accessed 2nd October 2017]."
+data_file: Differences in population estimates - OWID based on UN vs US Census Bureau.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Differences%20in%20population%20estimates%20-%20OWID%20based%20on%20UN%20vs%20US%20Census%20Bureau/Differences
+    in population estimates - OWID based on UN vs US Census Bureau.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: absolute_difference_in_population_owid_based_on_un_vs_us_census_bureau
+    type: Float
+  - name: relative_difference_in_population_owid_based_on_un_vs_us_census_bureau
+    type: Float

@@ -1,0 +1,32 @@
+name: extreme_temperatures_in_us_noaa
+description: |-
+    The U.S. Annual Heat Wave Index tracks the occurrence of heat wave conditions across the United States. While there is no universal definition of a heat wave, this index defines a heat wave as a period lasting at least four days with an average temperature that would only be expected to occur once every 10 years, based on the historical record. The index value for a given year depends on how often heat waves occur and how widespread they are.
+
+    Unusually high and low temperatures measure the percentage of the country’s area experiencing unusually hot temperatures in the summer and unusually cold temperatures in the winter. These graphs are based on daily maximum temperatures, which usually occur during the day, and daily minimum temperatures, which usually occur at night. At each station, the recorded highs and lows are compared with the full set of historical records. After averaging over a particular month or season of interest, the coldest 10 percent of years are considered “unusually cold” and the warmest 10 percent are “unusually hot.” For example, if last year’s summer highs were the 10th warmest on record for a particular location with more than 100 years of data, that year’s summer highs would be considered unusually warm. Data are available from 1910 to 2015 for summer (June through August) and from 1911 to 2016 for winter (December of the previous year through February).
+data_file: Extreme Temperatures in US (NOAA).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Extreme%20Temperatures%20in%20US%20(NOAA)/Extreme
+    Temperatures in US (NOAA).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: heat_wave_index_noaa
+    type: Float
+  - name: cold_daily_highs_noaa
+    type: Float
+  - name: o9_year_average_cold_daily_highs
+    type: Float
+  - name: cold_daily_lows_noaa
+    type: Float
+  - name: o9_year_average_cold_daily_lows
+    type: Float
+  - name: hot_daily_highs_noaa
+    type: Float
+  - name: o9_year_average_hot_daily_highs
+    type: Float
+  - name: hot_daily_lows_noaa
+    type: Float
+  - name: o9_year_average_hot_daily_lows
+    type: Float

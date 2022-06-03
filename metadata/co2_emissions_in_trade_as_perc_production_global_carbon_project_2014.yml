@@ -1,0 +1,16 @@
+name: co2_emissions_in_trade_as_perc_production_global_carbon_project_2014
+description: Original data on production-based emissions, and emissions transfers
+    in trade from Peters et al. (2012) via the Global Carbon Project (http://www.globalcarbonproject.org/carbonbudget/16/data.htm)
+    have been manipulated to calculate the emissions transfers as a percentage of
+    production-based emissions, presented in this chart.
+data_file: CO2 emissions in trade as % production - Global Carbon Project (2014).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/CO2%20emissions%20in%20trade%20as%20%25%20production%20-%20Global%20Carbon%20Project%20(2014)/CO2
+    emissions in trade as % production - Global Carbon Project (2014).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: co2_traded_as_percentage_of_domestic_emissions_production_global_carbon_project_2014
+    type: Float

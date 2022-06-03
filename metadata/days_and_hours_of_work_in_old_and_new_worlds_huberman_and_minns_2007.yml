@@ -1,0 +1,23 @@
+name: days_and_hours_of_work_in_old_and_new_worlds_huberman_and_minns_2007
+description: |-
+    The New World includes Europe, the United States, Australia, and Canada while the Old World consists of all other countries included in Huberman and Minns's sample. The 'Old World (weighted)' and 'New World (weighted)' series are population weighted averages.
+
+    See table 1 for further information regarding sources the authors consulted in producing hours of work per week estimates.
+    See table 2 for more information about vacation and holidays estimates.
+data_file: Days and hours of work in Old and New Worlds - Huberman and Minns (2007).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Days%20and%20hours%20of%20work%20in%20Old%20and%20New%20Worlds%20-%20Huberman%20and%20Minns%20(2007)/Days
+    and hours of work in Old and New Worlds - Huberman and Minns (2007).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: hours_of_work_per_week_total_huberman_and_minns_2007
+    type: Float
+  - name: hours_of_work_per_week_male_huberman_and_minns_2007
+    type: Float
+  - name: hours_of_work_per_week_female_huberman_and_minns_2007
+    type: Float
+  - name: numbers_of_days_off_huberman_and_minns_2007
+    type: Float

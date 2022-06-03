@@ -1,0 +1,18 @@
+name: newsworthiness_of_disasters_by_disaster_type_and_region_eisensee_and_stromberg_2007
+description: ""
+data_file: Newsworthiness of disasters by disaster type and region - Eisensee and
+    Strömberg (2007).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Newsworthiness%20of%20disasters%20by%20disaster%20type%20and%20region%20-%20Eisensee%20and%20Str%C3%B6mberg%20(2007)/Newsworthiness
+    of disasters by disaster type and region - Eisensee and Strömberg (2007).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_in_news_eisensee_and_stromberg_2007
+    type: Float
+  - name: fixed_effects_regression_eisensee_and_stromberg_2007
+    type: Float
+  - name: equal_coverage_casualties_ratio_eisensee_and_stromberg_2007
+    type: Float

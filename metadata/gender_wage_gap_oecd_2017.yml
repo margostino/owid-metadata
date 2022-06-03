@@ -1,0 +1,14 @@
+name: gender_wage_gap_oecd_2017
+description: |4+
+
+data_file: Gender Wage Gap – OECD (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Gender%20Wage%20Gap%20%E2%80%93%20OECD%20(2017)/Gender
+    Wage Gap – OECD (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: gender_wage_gap_oecd_2017
+    type: Float

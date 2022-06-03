@@ -1,0 +1,25 @@
+name: teaching_time_lost_world_development_report_2018
+description: "The years for each observation correspond to the year of publication
+    of the underlying source.\r\n\r\nThe full list of underlying sources is as follows:
+    Abadzi (2009): Brazil (Pernambuco state), Ghana, Morocco, and Tunisia; Benveniste,
+    Marshall, and Araujo (2008): Cambodia; Benveniste, Marshall, and Santibañez (2007):
+    Lao People’s Democratic Republic; Millot and Lane (2002): Arab Republic of Egypt,
+    Lebanon, and Republic of Yemen; World Bank (2016a): Madagascar; World Bank (2016b):
+    Zambia; World Bank’s Service Delivery Indicators, 2012–13 (http://www.worldbank
+    .org/sdi): Kenya, Mozambique, Nigeria, Senegal, Tanzania, Togo, and Uganda. \r\n\r\nFor
+    Brazil, Cambodia, Ghana, Lao PDR, Senegal, Tanzania, and Tunisia, data include
+    public schools. For all other countries, data include both public and private
+    schools.\r\n\r\nAlso, for Brazil, the data corresponds only to Pernambuco state. "
+data_file: Teaching time lost - World Development Report (2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Teaching%20time%20lost%20-%20World%20Development%20Report%20(2018)/Teaching
+    time lost - World Development Report (2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: percentage_of_scheduled_time_teacher_is_present_in_classroom
+    type: Float
+  - name: percentage_of_scheduled_time_teacher_is_teaching
+    type: Float

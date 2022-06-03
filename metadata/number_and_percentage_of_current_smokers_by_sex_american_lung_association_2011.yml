@@ -1,0 +1,23 @@
+name: number_and_percentage_of_current_smokers_by_sex_american_lung_association_2011
+description: 'For the original data, please see Table 3: Number of Adults Who Were
+    Current Smokers By Sex, Race and Age, Selected Years, 1965-2009. Due to the redesign
+    of the NHIS survey in 1997, comparisons with data from prior years must be conducted
+    with caution.'
+data_file: Number and percentage of current smokers, by sex (American Lung Association
+    (2011)).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Number%20and%20percentage%20of%20current%20smokers%2C%20by%20sex%20(American%20Lung%20Association%20(2011))/Number
+    and percentage of current smokers, by sex (American Lung Association (2011)).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: number_of_adults_who_were_current_smokers_male_american_lung_association_2011
+    type: Float
+  - name: number_of_adults_who_were_current_smokers_female_american_lung_association_2011
+    type: Float
+  - name: percent_of_adults_who_were_current_smokers_male_american_lung_association_2011
+    type: Float
+  - name: percent_of_adults_who_were_current_smokers_female_american_lung_association_2011
+    type: Float

@@ -1,0 +1,13 @@
+name: lowest_paying_occupations_percent_female_nwlc_2014
+description: ""
+data_file: Lowest paying occupations, percent female – NWLC (2014).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Lowest%20paying%20occupations%2C%20percent%20female%20%E2%80%93%20NWLC%20(2014)/Lowest
+    paying occupations, percent female – NWLC (2014).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: percent_women_nwlc_2014
+    type: Float

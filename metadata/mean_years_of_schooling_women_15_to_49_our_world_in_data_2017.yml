@@ -1,0 +1,15 @@
+name: mean_years_of_schooling_women_15_to_49_our_world_in_data_2017
+description: Shown is the average of mean years of schooling for mean between 15 and
+    49 years of age. This is calculated as the average of the estimates published
+    by Barro and Lee.
+data_file: Mean years of schooling, women (15 to 49) – Our World In Data (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Mean%20years%20of%20schooling%2C%20women%20(15%20to%2049)%20%E2%80%93%20Our%20World%20In%20Data%20(2017)/Mean
+    years of schooling, women (15 to 49) – Our World In Data (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: mean_years_of_schooling_women_in_reproductive_age_15_to_49_our_world_in_data_2017
+    type: Float

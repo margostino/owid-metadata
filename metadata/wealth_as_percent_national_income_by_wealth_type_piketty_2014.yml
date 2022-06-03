@@ -1,0 +1,26 @@
+name: wealth_as_percent_national_income_by_wealth_type_piketty_2014
+description: |-
+    National wealth held in different forms, expressed as a percentage of national income at the time.
+
+    Taken from Thomas Piketty's book, 'Capital in the 21st Century'. All the data used in the book is made available by Piketty on his website here: http://piketty.pse.ens.fr/files/capital21c/en/
+data_file: Wealth as percent national income by wealth type – Piketty (2014).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Wealth%20as%20percent%20national%20income%20by%20wealth%20type%20%E2%80%93%20Piketty%20(2014)/Wealth
+    as percent national income by wealth type – Piketty (2014).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: land_wealth_perc_of_national_income
+    type: Float
+  - name: housing_wealth_perc_of_national_income
+    type: Float
+  - name: other_domestic_wealth_perc_of_national_income
+    type: Float
+  - name: net_foreign_wealth_perc_of_national_income
+    type: Float
+  - name: total_wealth_as_perc_of_national_income
+    type: Float
+  - name: other_domestic_wealth_plus_net_foreign_wealth_as_perc_of_national_income
+    type: Float

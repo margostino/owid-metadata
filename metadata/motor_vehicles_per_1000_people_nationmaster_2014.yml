@@ -1,0 +1,15 @@
+name: motor_vehicles_per_1000_people_nationmaster_2014
+description: '"All countries compared for Transport > Road > Motor vehicles per 1000
+    people", Wikipedia: List of countries by vehicles per capita. Aggregates compiled
+    by NationMaster. Retrieved from http://www.nationmaster.com/country-info/stats/Transport/Road/Motor-vehicles-per-1000-people'
+data_file: Motor vehicles per 1000 people - NationMaster (2014).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Motor%20vehicles%20per%201000%20people%20-%20NationMaster%20(2014)/Motor
+    vehicles per 1000 people - NationMaster (2014).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: motor_vehicles_per_1000_people_nationmaster_2014
+    type: Float

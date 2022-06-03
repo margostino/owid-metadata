@@ -1,0 +1,15 @@
+name: child_labor_uk_historic_cunningham_h_and_viazzo_pp_1996
+description: ""
+data_file: Child Labor UK (historic) - Cunningham, H. and Viazzo, P.P. (1996).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Child%20Labor%20UK%20(historic)%20-%20Cunningham%2C%20H.%20and%20Viazzo%2C%20P.P.%20(1996)/Child
+    Labor UK (historic) - Cunningham, H. and Viazzo, P.P. (1996).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: child_labor_uk_boys_historic_cunningham_h_and_viazzo_pp_1996
+    type: Float
+  - name: child_labor_uk_girls_historic_cunningham_h_and_viazzo_pp_1996
+    type: Float

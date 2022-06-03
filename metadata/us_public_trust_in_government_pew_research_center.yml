@@ -1,0 +1,14 @@
+name: us_public_trust_in_government_pew_research_center
+description: For those years with estimates from more than one poll, the reported
+    figure corresponds to the average for that year.
+data_file: US - Public Trust in Government - Pew Research Center.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/US%20-%20Public%20Trust%20in%20Government%20-%20Pew%20Research%20Center/US
+    - Public Trust in Government - Pew Research Center.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: public_trust_government
+    type: Float

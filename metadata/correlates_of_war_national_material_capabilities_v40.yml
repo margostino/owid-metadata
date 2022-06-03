@@ -1,0 +1,22 @@
+name: correlates_of_war_national_material_capabilities_v40
+description: |-
+    The variable 'milex' has been split into two variables as the currency of expenditure changes pre and post-1914. Pre-1914, military expenditure is in thousands of UK pounds and post-1914 it is in thousands of US dollars. Both expenditure figures are measured in current prices.
+
+    For values in real prices: Deflated the pre-1914 series to give the value in 1900 UK £s and  deflated the post-1914 series to give the value in 2000 US $s. Uses Quandl data.
+data_file: 'Correlates of War: National Material Capabilities (v4.0).csv'
+data_base_url_file: 'https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Correlates%20of%20War!%20National%20Material%20Capabilities%20(v4.0)/Correlates
+    of War: National Material Capabilities (v4.0).csv'
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: iron_and_steel_production_correlates_of_war_national_material_capabilities_v40
+    type: Float
+  - name: military_expenditure_1816_1913_current_prices_correlates_of_war_national_material_capabilities_v40
+    type: Float
+  - name: military_expenditure_1914_2007_current_prices_correlates_of_war_national_material_capabilities_v40
+    type: Float
+  - name: military_personnel_correlates_of_war_national_material_capabilities_v40
+    type: Float

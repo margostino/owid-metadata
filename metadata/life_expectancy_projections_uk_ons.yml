@@ -1,0 +1,23 @@
+name: life_expectancy_projections_uk_ons
+description: "Data provides projections from the UK ONS publications in its 2014 and
+    2016 revisions. \n\n2014 revisions are available at: https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationprojections/compendium/nationalpopulationprojections/2015-10-29/mortalityassumptions\n\n2016
+    revisions are available at: https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationprojections/compendium/nationalpopulationprojections/2016basedprojections/mortalityassumptions\n\nHistoric
+    estimates are given on a calendar year basis, whereas future projections are on
+    mid-year basis."
+data_file: Life expectancy projections - UK ONS.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Life%20expectancy%20projections%20-%20UK%20ONS/Life
+    expectancy projections - UK ONS.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: male_life_expectancy_2016_projections
+    type: Float
+  - name: female_life_expectancy_2016_projections
+    type: Float
+  - name: male_life_expectancy_2014_projections
+    type: Float
+  - name: female_life_expectancy_2014_projections
+    type: Float

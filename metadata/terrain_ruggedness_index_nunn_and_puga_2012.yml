@@ -1,0 +1,13 @@
+name: terrain_ruggedness_index_nunn_and_puga_2012
+description: ""
+data_file: Terrain Ruggedness Index - Nunn and Puga (2012).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Terrain%20Ruggedness%20Index%20-%20Nunn%20and%20Puga%20(2012)/Terrain
+    Ruggedness Index - Nunn and Puga (2012).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: terrain_ruggedness_index_100m_nunn_and_puga_2012
+    type: Float

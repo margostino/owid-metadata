@@ -1,0 +1,21 @@
+name: antibiotic_use_in_livestock_2030_boeckel_et_al_2017
+description: "Boeker et al. (2017) project global antibiotic use under business-as-usual
+    antibiotic concentrations and projected meat consumption.\r\n\r\nThe authors also
+    project a number of potential reduction scenarios:\r\n- a global limit of 50 milligrams
+    of antibiotic use per kilogram of meat production.\r\n- a limit of 50 milligrams
+    of antibiotic use per kilogram of meat production for OECD countries & China.\r\n-
+    global per capita meat consumption of 40 grams per day (the equivalent of an average
+    burger patty)\r\n- global per capita meat consumption of 165 grams per day (the
+    projected EU average in 2030)\r\n\r\nProjected global antibiotic use for livestock
+    are shown for each of these potential reduction scenarios."
+data_file: Antibiotic use in livestock 2030 - Boeckel et al. (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Antibiotic%20use%20in%20livestock%202030%20-%20Boeckel%20et%20al.%20(2017)/Antibiotic
+    use in livestock 2030 - Boeckel et al. (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: global_antibiotic_use
+    type: Float

@@ -1,0 +1,17 @@
+name: female_weekly_hours_worked_oecd_2017
+description: "Original source notes: \nPart-time employment is defined according to
+    a common definition of less than 30-weekly-usual hours worked in the main job.
+    \n\nFull-time employment is defined according to a common definition of more than
+    30-weekly-usual hours worked in the main job. \n\nInformation for all countries
+    and all LFS subjects may be found in the attached file : \nwww.oecd.org/els/employmentpoliciesanddata/LFSNOTES_SOURCES.pdf."
+data_file: Female weekly hours worked – OECD (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Female%20weekly%20hours%20worked%20%E2%80%93%20OECD%20(2017)/Female
+    weekly hours worked – OECD (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: average_weekly_hours_worked_women_15_oecd_labor_force_statistics_2017
+    type: Float

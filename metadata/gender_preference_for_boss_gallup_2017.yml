@@ -1,0 +1,27 @@
+name: gender_preference_for_boss_gallup_2017
+description: "Question posed to respondents: If you were taking a new job and had
+    your choice of a boss would you prefer to work for a man or a woman?\n\nPossible
+    answers included: prefer man boss, prefer woman boss, no difference, and no opinion.
+    \nWe report the first two responses to this question.\n\nFor more information
+    on the Gallup Poll see the link above. "
+data_file: Gender preference for boss - Gallup (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Gender%20preference%20for%20boss%20-%20Gallup%20(2017)/Gender
+    preference for boss - Gallup (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_of_people_who_prefer_male_boss_gallup_2017
+    type: Float
+  - name: share_of_people_who_prefer_female_boss_gallup_2017
+    type: Float
+  - name: share_of_women_who_prefer_a_male_boss_gallup_2017
+    type: Float
+  - name: share_of_women_who_prefer_a_female_boss_gallup_2017
+    type: Float
+  - name: share_of_men_who_prefer_a_male_boss_gallup_2017
+    type: Float
+  - name: share_of_men_who_prefer_a_female_boss_gallup_2017
+    type: Float

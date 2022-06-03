@@ -1,0 +1,16 @@
+name: prevalence_of_zinc_deficiency_wessells_et_al_2012
+description: |-
+    Estimates of zinc inadequacy were measured on the basis of national dietary intakes and esimates physiological requirements.
+
+    The authors note: "National food balance sheet data were obtained from the Food and Agriculture Organization of the United Nations. Country-specific estimated prevalence of inadequate zinc intake were calculated based on the estimated absorbable zinc content of the national food supply, International Zinc Nutrition Consultative Group estimated physiological requirements for absorbed zinc, and demographic data obtained from United Nations estimates. Stunting data were obtained from a recent systematic analysis based on World Health Organization growth standards."
+data_file: Prevalence of zinc deficiency - Wessells et al. (2012).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Prevalence%20of%20zinc%20deficiency%20-%20Wessells%20et%20al.%20(2012)/Prevalence
+    of zinc deficiency - Wessells et al. (2012).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: prevalence_of_zinc_deficiency_wessells_et_al_2012
+    type: Float

@@ -1,0 +1,18 @@
+name: parties_to_montreal_protocol_unep
+description: |-
+    Through The Vienna Convention on the Protection of the Ozone Layer governments committed themselves to protect the ozone layer and to co-operate with each other in scientific research to improve understanding of the atmospheric processes.
+
+    The Montreal Protocol on Substances that Deplete the Ozone Layer was adopted by Governments in 1987 and has been modified five times so far. Its control provisions were strengthened through four adjustments to the Protocol adopted in London (1990), Copenhagen (1992), Vienna (1995), Montreal (1997) and Beijing (1999). The Protocol aims to reduce and eventually eliminate the emissions of man-made ozone depleting substances
+data_file: Parties to Montreal Protocol - UNEP.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Parties%20to%20Montreal%20Protocol%20-%20UNEP/Parties
+    to Montreal Protocol - UNEP.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: vienna_convention_and_montreal_protocol_parties_subscribing_each_year
+    type: Float
+  - name: vienna_convention_and_montreal_protocol_cumulative_parties
+    type: Float

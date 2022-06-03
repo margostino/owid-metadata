@@ -1,0 +1,22 @@
+name: hubberts_peak_cavallo_and_eia
+description: "Data on actual US oil production is based on reported historical figures
+    from the US Energy Information Administration (EIA). This has been plotted based
+    on its dataset on annual 'US Field Production of Crude Oil'. Available online
+    at: https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=pet&s=mcrfpus1&f=a [accessed
+    30th July 2017].\r\n\r\nData on Hubbert's hypothesised peak oil production in
+    the US is based on distribution analysis discussed and reported in: Cavallo, A.
+    J. (2004). Hubbert’s petroleum production model: an evaluation and implications
+    for world oil production forecasts. Natural Resources Research, 13(4), 211-221."
+data_file: Hubbert's Peak - Cavallo & EIA.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Hubbert's%20Peak%20-%20Cavallo%20%26%20EIA/Hubbert's
+    Peak - Cavallo & EIA.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: actual_production_cavallo_and_eia
+    type: Float
+  - name: hubberts_curve_cavallo_and_eia
+    type: Float

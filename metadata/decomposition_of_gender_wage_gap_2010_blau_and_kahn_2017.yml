@@ -1,0 +1,14 @@
+name: decomposition_of_gender_wage_gap_2010_blau_and_kahn_2017
+description: 'See the authors'' data appendix for more detail on how the data was
+    prepared and analyzed. '
+data_file: Decomposition of Gender Wage Gap 2010 - Blau and Kahn (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Decomposition%20of%20Gender%20Wage%20Gap%202010%20-%20Blau%20and%20Kahn%20(2017)/Decomposition
+    of Gender Wage Gap 2010 - Blau and Kahn (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: percent_of_gender_gap_2010_blau_and_kahn_2017
+    type: Float

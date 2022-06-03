@@ -1,0 +1,27 @@
+name: labor_productivity_in_cotton_spinning_and_weaving_ellison_1886
+description: 'Full reference: Ellison, T., 1886. The cotton trade of Great Britain:
+    including a history of the Liverpool cotton market and of the Liverpool cotton
+    brokers'' association. E. Wilson. [Please see the table at the bottom of page
+    68 titled ''YARN'' and the table at the top of page 69 titled ''GOODS'' for the
+    original data.]'
+data_file: Labor productivity in cotton spinning and weaving (Ellison (1886)).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Labor%20productivity%20in%20cotton%20spinning%20and%20weaving%20(Ellison%20(1886))/Labor
+    productivity in cotton spinning and weaving (Ellison (1886)).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: yarn_spun_ellison_1886
+    type: Float
+  - name: hands_employed_spinning_ellison_1886
+    type: Float
+  - name: output_per_hand_spun_ellison_1886
+    type: Float
+  - name: cloth_woven_ellison_1886
+    type: Float
+  - name: hands_employed_weaving_ellison_1886
+    type: Float
+  - name: output_per_hand_woven_ellison_1886
+    type: Float

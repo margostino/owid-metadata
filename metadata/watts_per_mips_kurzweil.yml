@@ -1,0 +1,15 @@
+name: watts_per_mips_kurzweil
+description: 'Computing efficiency is measured as the number of watts used per computation/operation
+    per second. Here it is measured in Watts per MIPS (Millions of instructions per
+    second). '
+data_file: Watts per MIPS- Kurzweil.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Watts%20per%20MIPS-%20Kurzweil/Watts
+    per MIPS- Kurzweil.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: computing_efficiency
+    type: Float

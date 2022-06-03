@@ -1,0 +1,29 @@
+name: surface_ocean_plastic_by_particle_count_eriksen_et_al_2014
+description: "Estimates by Eriksen et al. (2014) on the number of plastic particles
+    of surface ocean debris floating at sea, differentiated by ocean basin and particle
+    size.\n\nParticle size categories range from small microplastics to macroplastics.
+    \n\nEstimates are based on results from 24 expeditions (over the period 2007–2013)
+    across all five sub-tropical gyres, costal Australia, Bay of Bengal and the Mediterranean
+    Sea conducting surface net tows (N = 680) and visual survey transects of large
+    plastic debris (N = 891). These field-based results were combined with oceanographic
+    modelling of floating debris dispersal and wind-driven vertical mixing to derive
+    total oceanic figures."
+data_file: Surface ocean plastic by particle count - Eriksen et al. (2014).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Surface%20ocean%20plastic%20by%20particle%20count%20-%20Eriksen%20et%20al.%20(2014)/Surface
+    ocean plastic by particle count - Eriksen et al. (2014).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: small_microplastic_count_033_1mm
+    type: Float
+  - name: large_microplastic_count_101_475mm
+    type: Float
+  - name: mesoplastic_count_476_200mm
+    type: Float
+  - name: macroplastic_count_greater200mm
+    type: Float
+  - name: all_sizes_total_count
+    type: Float

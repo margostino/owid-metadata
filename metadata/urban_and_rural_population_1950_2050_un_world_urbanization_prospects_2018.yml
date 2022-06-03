@@ -1,0 +1,16 @@
+name: urban_and_rural_population_1950_2050_un_world_urbanization_prospects_2018
+description: ""
+data_file: Urban and rural population 1950-2050 - UN World Urbanization Prospects
+    2018.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Urban%20and%20rural%20population%201950-2050%20-%20UN%20World%20Urbanization%20Prospects%202018/Urban
+    and rural population 1950-2050 - UN World Urbanization Prospects 2018.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: urban_population_1950_2050_un_world_urbanization_prospects_2018
+    type: Float
+  - name: rural_population_1950_2050_un_world_urbanization_prospects_2018
+    type: Float

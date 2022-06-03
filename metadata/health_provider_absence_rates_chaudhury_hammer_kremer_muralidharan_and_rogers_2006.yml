@@ -1,0 +1,17 @@
+name: health_provider_absence_rates_chaudhury_hammer_kremer_muralidharan_and_rogers_2006
+description: |-
+    Authors' note: "Absence data are based on direct physical verification of the provider's presence, rather than attendance logbooks or interviews with the faculty head." For the original data, see table 1 in the linked paper.
+
+    The majority of this fieldwork was carried out between October 2002 and April 2003. See the source link for further information on the collection of absence data.
+data_file: Health provider absence rates - Chaudhury, Hammer, Kremer, Muralidharan,
+    and Rogers (2006).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Health%20provider%20absence%20rates%20-%20Chaudhury%2C%20Hammer%2C%20Kremer%2C%20Muralidharan%2C%20and%20Rogers%20(2006)/Health
+    provider absence rates - Chaudhury, Hammer, Kremer, Muralidharan, and Rogers (2006).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: health_provider_absence_rate_perc_chaudhury_hammer_kremer_muralidharan_and_rogers_2006
+    type: Float

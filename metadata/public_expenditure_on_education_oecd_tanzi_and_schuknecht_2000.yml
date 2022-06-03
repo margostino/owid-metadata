@@ -1,0 +1,21 @@
+name: public_expenditure_on_education_oecd_tanzi_and_schuknecht_2000
+description: 'The underlying sources for Tanzi & Schuknecht (2000) include: League
+    of Nations Statistical Yearbook (various years), Mitchell (1962), OECD Education
+    at a Glance (1996), UNESCO World Education Report (1993), UNDP Human Development
+    Report (1996), UN World Economics Survey (various years). To the extent that the
+    authors do not specify which sources were prioritised for each year/country, it
+    is not possible for us to reliably extend the time series with newer data. For
+    instance, the OECD Education at a Glance report (1998), which presents estimates
+    for the years 1990 and 1995, suggests discrepancies with the values reported by
+    Tanzi & Schuknecht (2000) for 1993.'
+data_file: Public Expenditure on Education OECD - Tanzi & Schuknecht (2000).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Public%20Expenditure%20on%20Education%20OECD%20-%20Tanzi%20%26%20Schuknecht%20(2000)/Public
+    Expenditure on Education OECD - Tanzi & Schuknecht (2000).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: public_expenditure_on_education_tanzi_and_schuktnecht_2000
+    type: Float

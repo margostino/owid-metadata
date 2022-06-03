@@ -1,0 +1,19 @@
+name: energy_prices_bp_statistics_2016
+description: "Prices corrected to 2015 US$ using the Consumer Price Index for the
+    US\r\n\r\nPrices have been normalised to a commodity-specific index by the author
+    where prices in 2000=100"
+data_file: Energy Prices - BP Statistics (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Energy%20Prices%20-%20BP%20Statistics%20(2016)/Energy
+    Prices - BP Statistics (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: oil_bp_statistics_2016
+    type: Float
+  - name: natural_gas_bp_statistics_2016
+    type: Float
+  - name: coal_bp_statistics_2016
+    type: Float

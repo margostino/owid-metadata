@@ -1,0 +1,16 @@
+name: life_expectancy_gapminder_un_ihme
+description: Gapminder data is used up until 1990. Gapminder uses UN data from 1950
+    onward. We have used IHME life expectancy data from 1990 to today.
+data_file: Life expectancy (Gapminder, UN, IHME).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Life%20expectancy%20(Gapminder%2C%20UN%2C%20IHME)/Life
+    expectancy (Gapminder, UN, IHME).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: life_expectancy_interpolated_gapminder_un_ihme
+    type: Float
+  - name: life_expectancy_non_interpolated_gapminder_un_ihme
+    type: Float

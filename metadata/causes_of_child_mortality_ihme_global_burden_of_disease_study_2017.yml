@@ -1,0 +1,18 @@
+name: causes_of_child_mortality_ihme_global_burden_of_disease_study_2017
+description: "Estimates refer to both sexes and to the global level.\r\n\r\nAll causes
+    for which IHME published an estimate of 0 were removed from the dataset.\r\n\r\nEbola
+    as a cause of death was only included in 2015 by IHME. We have assumed 0 deaths
+    for Ebola in 1990."
+data_file: Causes of child mortality – IHME Global Burden of Disease study (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Causes%20of%20child%20mortality%20%E2%80%93%20IHME%20Global%20Burden%20of%20Disease%20study%20(2017)/Causes
+    of child mortality – IHME Global Burden of Disease study (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_of_children_dying_in_first_5_years_globally_by_cause_ihme_2017
+    type: Float
+  - name: deaths_ihme_2017
+    type: Float

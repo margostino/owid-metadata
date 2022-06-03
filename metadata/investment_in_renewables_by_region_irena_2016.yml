@@ -1,0 +1,19 @@
+name: investment_in_renewables_by_region_irena_2016
+description: 'Data on investment is included for the following renewable energy projects:
+    all biomass, waste-to-energy, geothermal and wind projects more than 1MW in capacity;
+    all wave and tidal; hydropower projects between 1MW and 50MW; biofuel projects
+    of more than one million litres per year; and all solar projects (with estimates
+    of rooftop installations less than 1MW). Hydropower projects greater than 50MW
+    have not been included in this data, since this technology has been mature for
+    decades and is at a different stage of development versus more recent technologies.'
+data_file: Investment in Renewables by Region - IRENA (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Investment%20in%20Renewables%20by%20Region%20-%20IRENA%20(2016)/Investment
+    in Renewables by Region - IRENA (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: investment_in_renewables_by_region_irena_2016
+    type: Float

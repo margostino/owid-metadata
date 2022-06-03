@@ -1,0 +1,17 @@
+name: same_sex_marriage_law_pew_research_center_cfr
+description: 'The United Kingdom in the dataset refers to England/Wales. In the United
+    Kingdom, England and Wales were first to legalise same-sex marriage in 2013, Scotland
+    followed in 2014, and Northern Ireland introduced its legalisation in 2019. '
+data_file: Same sex marriage law (Pew Research Center, CFR).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Same%20sex%20marriage%20law%20(Pew%20Research%20Center%2C%20CFR)/Same
+    sex marriage law (Pew Research Center, CFR).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: same_sex_marriage_and_civil_unions_legal
+    type: Float
+  - name: number_of_countries_that_have_legalised_same_sex_marriage
+    type: Float

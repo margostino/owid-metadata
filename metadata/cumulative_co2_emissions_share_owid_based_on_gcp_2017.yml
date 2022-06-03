@@ -1,0 +1,23 @@
+name: cumulative_co2_emissions_share_owid_based_on_gcp_2017
+description: "Cumulative carbon dioxide (CO₂) emissions have been calculated by Our
+    World in Data based on annual CO₂ emissions published by the Global Carbon Project
+    (GCP). By summing the annual emissions to a given year we have calculated the
+    cumulative total. \n\nThis is given as the share of global cumulative emissions
+    by dividing each country or region's cumulative emissions by the cumulative world
+    emissions for that given year. \n\nData converted from carbon into carbon dioxide
+    (using conversion factor of 3.67). Data for Australia appears to be negative from
+    1851-1858; for clarity, these figures have been renormalised to zero.\n\nArchived
+    data is held at the Carbon Dioxide Information Analysis Centre (CDIAC). Reference:
+    Tom Boden and Bob Andres (Oak Ridge National Laboratory); Gregg Marland (Appalachian
+    State University). Available at: http://cdiac.ornl.gov/"
+data_file: Cumulative CO2 emissions share (OWID based on GCP, 2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Cumulative%20CO2%20emissions%20share%20(OWID%20based%20on%20GCP%2C%202017)/Cumulative
+    CO2 emissions share (OWID based on GCP, 2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: cumulative_co2_emissions_share_owid_based_on_gcp_2017
+    type: Float

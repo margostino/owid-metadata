@@ -1,0 +1,13 @@
+name: price_of_mobile_data_alliance_for_affordable_internet_2019
+description: ""
+data_file: Price of mobile data - Alliance for Affordable Internet (2019).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Price%20of%20mobile%20data%20-%20Alliance%20for%20Affordable%20Internet%20(2019)/Price
+    of mobile data - Alliance for Affordable Internet (2019).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: cost_of_1gb_of_mobile_data_perc_of_mean_gni_per_capita
+    type: Float

@@ -1,0 +1,13 @@
+name: air_travel_trips_per_capita_airbus_2019
+description: ""
+data_file: Air travel trips per capita (Airbus, 2019).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Air%20travel%20trips%20per%20capita%20(Airbus%2C%202019)/Air
+    travel trips per capita (Airbus, 2019).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: air_travel_trips_per_capita
+    type: Float

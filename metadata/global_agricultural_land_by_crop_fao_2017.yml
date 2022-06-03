@@ -1,0 +1,14 @@
+name: global_agricultural_land_by_crop_fao_2017
+description: Data for crops refers to the total global area under production, measured
+    in hectares.
+data_file: Global agricultural land by crop - FAO (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Global%20agricultural%20land%20by%20crop%20-%20FAO%20(2017)/Global
+    agricultural land by crop - FAO (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: area_used_for_production_fao_2017
+    type: Float

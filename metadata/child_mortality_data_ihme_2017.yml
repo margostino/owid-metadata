@@ -1,0 +1,15 @@
+name: child_mortality_data_ihme_2017
+description: Data from the IHME GBDx database on child mortality is defined as the
+    probability (expressed as the rate per 1,000 live births) that children born alive
+    will die before reaching the age of 5 years
+data_file: Child mortality data - IHME (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Child%20mortality%20data%20-%20IHME%20(2017)/Child
+    mortality data - IHME (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: under_5_mortality_rate_ihme_2017
+    type: Float

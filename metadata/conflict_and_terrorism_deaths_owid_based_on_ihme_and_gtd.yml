@@ -1,0 +1,30 @@
+name: conflict_and_terrorism_deaths_owid_based_on_ihme_and_gtd
+description: "Data for conflict and terrorism deaths has been differentiated by Our
+    World in Data based on published figures by the IHME, Global Burden of Disease
+    (GBD), and Global Terrorism Database (GTD).\n\nThe IHME, GBD report combined deaths
+    from 'Conflict and Terrorism'. To differentiate 'conflict' deaths, we have subtracted
+    number of terrorism deaths published by the GTD from this combined metric of 'Conflict
+    and Terrorism'. \n\nWe have also calculated both of these individual parameters
+    in terms of the percentage of total deaths, by dividing by IHME figures of deaths
+    for 'All causes'.\n\nNote that in some cases, estimates of homicide, conflict
+    and terrorism can be challenging to differentiate, with different estimates from
+    different sources and definitions. For terrorism, we have used data from the GTD;
+    full data and definitions can be found at our entry: www.ourworldindata.org/terrorism\n\nSources:\nIHME,
+    GBD: http://ghdx.healthdata.org/gbd-results-tool\nGTD: http://www.start.umd.edu/gtd/"
+data_file: Conflict and Terrorism deaths - OWID based on IHME & GTD.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Conflict%20and%20Terrorism%20deaths%20-%20OWID%20based%20on%20IHME%20%26%20GTD/Conflict
+    and Terrorism deaths - OWID based on IHME & GTD.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: terrorism_deaths
+    type: Float
+  - name: conflict_deaths
+    type: Float
+  - name: terrorism_percent
+    type: Float
+  - name: conflict_percent
+    type: Float

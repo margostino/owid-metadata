@@ -1,0 +1,40 @@
+name: emissions_intensity_and_value_added_by_sector_linus_et_al
+description: "Figures are derived from authors based on data from the (WIOD) World
+    Input-Output Dataset. \n\nWorld Input-Output Database 2013 release [Timmer, M.
+    P., Dietzenbacher, E., Los, B., Stehrer, R. and de Vries, G. J. (2015),\"An Illustrated
+    User Guide to the World Input–Output Database: the Case of Global Automotive Production\",
+    Review of International Economics., 23: 575–605]. Year 2009 in basic prices, value
+    added computed as net sectoral output (gross sectoral output less sectoral input)."
+data_file: Emissions intensity & value added by sector - Linus et al..csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Emissions%20intensity%20%26%20value%20added%20by%20sector%20-%20Linus%20et%20al./Emissions
+    intensity & value added by sector - Linus et al..csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_of_co2_emissions_perc_china
+    type: Float
+  - name: value_added_to_gdp_perc_china
+    type: Float
+  - name: emissions_growth_perc_china
+    type: Float
+  - name: value_added_growth_perc_china
+    type: Float
+  - name: share_of_co2_emissions_perc_usa
+    type: Float
+  - name: value_added_to_gdp_perc_usa
+    type: Float
+  - name: emissions_growth_perc_usa
+    type: Float
+  - name: value_added_growth_perc_usa
+    type: Float
+  - name: share_of_co2_emissions_perc_germany
+    type: Float
+  - name: value_added_to_gdp_perc_germany
+    type: Float
+  - name: emissions_growth_perc_germany
+    type: Float
+  - name: value_added_growth_perc_germany
+    type: Float

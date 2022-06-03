@@ -1,0 +1,17 @@
+name: plastic_waste_generation_by_country_owid_based_on_jambeck_et_al_and_world_bank
+description: |-
+    Data on total national plastic waste generation was calculated by Our World in Data based on per capita plastic waste generation data published in Jambeck et al. (2015), and total population data published in the World Bank, World Development Indicators (available at: https://datacatalog.worldbank.org/dataset/world-development-indicators).
+
+    Jambeck et al. quantified municipal and plastic waste streams from coastal populations in 2010. Their estimates were therefore multiplied by coastal population numbers to derive national plastic waste at risk of entering oceans and waterways. Here we calculate the total plastic waste generation by instead multiplying by total population figures.
+data_file: Plastic waste generation by country - OWID based on Jambeck et al. & World
+    Bank.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Plastic%20waste%20generation%20by%20country%20-%20OWID%20based%20on%20Jambeck%20et%20al.%20%26%20World%20Bank/Plastic
+    waste generation by country - OWID based on Jambeck et al. & World Bank.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: plastic_waste_generation_tonnes_total
+    type: Float

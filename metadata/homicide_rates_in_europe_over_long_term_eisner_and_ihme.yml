@@ -1,0 +1,21 @@
+name: homicide_rates_in_europe_over_long_term_eisner_and_ihme
+description: |+
+    Data for all observations up to 1985 is taken from Table 1 in Eisner (2003) - Long-Term Historical Trends in Violent Crime. In Crime and Justice, 30, 83--142. Available at: https://www.jstor.org/stable/1147697
+
+    There, we assume and allocate the homicide rate at the midpoint of the given period.
+
+    Data from 1990 onwards is taken from the Institute of Health Metrics and Evaluation (IHME), Global Burden of Disease study. For categories with more than one country we take the average of all countries in that region. For example, the average of Germany and Switzerland, and for Scandinavia, the average of Sweden, Norway, Finland, Denmark and Iceland.
+
+    IHME data is sourced from: Global Burden of Disease Collaborative Network. Global Burden of Disease Study 2016 (GBD 2016) Results. Seattle, United States: Institute for Health Metrics and Evaluation (IHME), 2017. Available at: http://ghdx.healthdata.org/gbd-results-tool
+
+data_file: Homicide rates in Europe over long-term (Eisner & IHME).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Homicide%20rates%20in%20Europe%20over%20long-term%20(Eisner%20%26%20IHME)/Homicide
+    rates in Europe over long-term (Eisner & IHME).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: homicide_rate_in_europe_over_long_term_per_100_000
+    type: Float

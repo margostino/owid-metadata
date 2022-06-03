@@ -1,0 +1,28 @@
+name: long_term_energy_transition_in_europe_gales_et_al_2007
+description: "The authors note: “Muscle energy corresponds to the input of food by
+    men and working animals; ﬁrewood to the actual consumption; wind and water have
+    been estimated from the power of water and wind engines – sailing ships included
+    – and the time, per year, these engines were in use.”\r\n\r\nFull citation: Ben
+    Gales, Astrid Kander, Paolo Malanima and Mar Rubio (2007) – North versus South:
+    Energy transition and energy intensity in Europe over 200 years. European Review
+    of Economic History Vol. 11, No. 2 (August 2007), pp. 219-253. Cambridge University
+    Press Available online at: http://dx.doi.org/10.1017/S1361491607001967"
+data_file: Long-term energy transition in Europe - Gales et al. (2007).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Long-term%20energy%20transition%20in%20Europe%20-%20Gales%20et%20al.%20(2007)/Long-term
+    energy transition in Europe - Gales et al. (2007).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: muscle_gales_et_al_2007
+    type: Float
+  - name: firewood_gales_et_al_2007
+    type: Float
+  - name: wind_water_gales_et_al_2007
+    type: Float
+  - name: fossil_fuels_gales_et_al_2007
+    type: Float
+  - name: primary_electricity_gales_et_al_2007
+    type: Float

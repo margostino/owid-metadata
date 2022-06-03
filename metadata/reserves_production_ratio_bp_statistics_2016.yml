@@ -1,0 +1,22 @@
+name: reserves_production_ratio_bp_statistics_2016
+description: The Reserves-to-Production (R/P) Ratio measures the number of years of
+    fuel supplies left based on current annual consumption rates. Note that this can
+    change through time through the discovery of new fuel reserves, and increases
+    in annual consumption.
+data_file: Reserves-Production Ratio - BP Statistics (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Reserves-Production%20Ratio%20-%20BP%20Statistics%20(2016)/Reserves-Production
+    Ratio - BP Statistics (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: coal_bp_statistics_2016
+    type: Float
+  - name: oil_bp_statistics_2016
+    type: Float
+  - name: natural_gas_bp_statistics_2016
+    type: Float
+  - name: reserves_production_ratio_bp_statistics_2016
+    type: Float

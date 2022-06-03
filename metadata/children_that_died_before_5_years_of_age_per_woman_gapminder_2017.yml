@@ -1,0 +1,21 @@
+name: children_that_died_before_5_years_of_age_per_woman_gapminder_2017
+description: "The number of children that died before 5 years of age per women is
+    calculated by multiplying the child mortality rate by the fertility rate of a
+    country for a given year.\n\nChild mortality is the share of newborns who die
+    before reaching the age of 5. The dataset comes from version 10 of Gapminder,
+    the latest version as of 2019. \n\nTotal fertility rate represents the number
+    of children that would be born to a woman if she were to live to the end of her
+    childbearing years and bear children in accordance with age-specific fertility
+    rates of the specified year. The dataset comes from version 12 of Gapminder, the
+    latest version as of 2019."
+data_file: Children that died before 5 years of age per woman - Gapminder (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Children%20that%20died%20before%205%20years%20of%20age%20per%20woman%20-%20Gapminder%20(2017)/Children
+    that died before 5 years of age per woman - Gapminder (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: children_that_died_before_5_years_of_age_per_woman_based_on_gapminder_2017
+    type: Float

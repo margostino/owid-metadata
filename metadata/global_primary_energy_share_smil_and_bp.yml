@@ -1,0 +1,36 @@
+name: global_primary_energy_share_smil_and_bp
+description: |
+    Global share of primary energy consumption by source, calculated by Our World in Data based on absolute energy consumption figures from Smil (2017) and BP Statistical Review of World Energy (2018).
+
+    This data comprises of a combination of data from Appendix A of Vaclav Smil's Updated and Revised Edition of his book, 'Energy Transitions: Global and National Perspectives' (2017). & BP Statistical Review of World Energy.
+
+    All data prior to the year 1965 is sourced from Smil (2017). All data from 1965 onwards, with the exception of traditional biomass is sourced from BP Statistical Review. Smil's estimates of traditional biomass have been used for the full series, with interpolation of annual changes by Our World in Data between reported 5-year increments by Smil. Traditional biomass for the years 2016 and 2017 have been estimated based on the approximate rate of change in the previous 5 years from Smil data.
+
+    Data represents primary energy (rather than final energy) consumption. 'Other renewables' represents all renewable sources minus solar, wind, and hydropower (e.g. geothermal, wave and tidal, and modern biofuels).
+data_file: Global primary energy share (Smil & BP).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Global%20primary%20energy%20share%20(Smil%20%26%20BP)/Global
+    primary energy share (Smil & BP).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: coal_perc
+    type: Float
+  - name: solar_perc
+    type: Float
+  - name: crude_oil_perc
+    type: Float
+  - name: natural_gas_perc
+    type: Float
+  - name: traditional_biofuels_perc
+    type: Float
+  - name: other_renewables_perc
+    type: Float
+  - name: hydropower_perc
+    type: Float
+  - name: nuclear_perc
+    type: Float
+  - name: wind_perc
+    type: Float

@@ -1,0 +1,23 @@
+name: population_by_country_1800_to_2100_gapminder_and_un
+description: |-
+    Population data by country is taken from Version 5 of Gapminder. This provides data by country from 1800 through to 2100.
+
+    From 1950 to 2015, estimates come from the UN Population Revision (2017), and projections to 2100 from the UN Population Revision (2017) medium scenario.
+
+    Full documentation of Gapminder's sources and process are available here: https://www.gapminder.org/data/documentation/gd003/.
+
+    UN population revision citation:
+    United Nations, Department of Economic and Social Affairs, Population Division (2017). World Population Prospects: The 2017 Revision, DVD Edition. Available at: https://esa.un.org/unpd/wpp/Download/Standard/Population/.
+data_file: Population by country, 1800 to 2100 (Gapminder & UN).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Population%20by%20country%2C%201800%20to%202100%20(Gapminder%20%26%20UN)/Population
+    by country, 1800 to 2100 (Gapminder & UN).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: population_by_country_historic_and_projections_gapminder_and_un
+    type: Float
+  - name: population_by_country_1800_to_2015_gapminder_and_un
+    type: Float

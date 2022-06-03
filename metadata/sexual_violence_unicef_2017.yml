@@ -1,0 +1,18 @@
+name: sexual_violence_unicef_2017
+description: 'The source notes that in some instances observations differ from the
+    standard definition or refer to only part of a country. '
+data_file: Sexual Violence – UNICEF (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Sexual%20Violence%20%E2%80%93%20UNICEF%20(2017)/Sexual
+    Violence – UNICEF (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: sexual_violence_prevalence_among_girls_15_to_19_unicef_global_databases_2014
+    type: Float
+  - name: prevalence_of_forced_sex_among_boys
+    type: Float
+  - name: prevalence_of_forced_sex_among_girls
+    type: Float

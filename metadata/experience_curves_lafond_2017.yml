@@ -1,0 +1,15 @@
+name: experience_curves_lafond_2017
+description: ""
+data_file: Experience Curves - LaFond (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Experience%20Curves%20-%20LaFond%20(2017)/Experience
+    Curves - LaFond (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: cumulative_production_lafond_2017
+    type: Float
+  - name: unit_cost_lafond_2017
+    type: Float

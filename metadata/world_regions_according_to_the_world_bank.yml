@@ -1,0 +1,13 @@
+name: world_regions_according_to_the_world_bank
+description: This dataset simply lists how the World Bank defines world regions.
+data_file: World Regions according to the World Bank.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/World%20Regions%20according%20to%20the%20World%20Bank/World
+    Regions according to the World Bank.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: world_region_according_to_the_world_bank
+    type: Float

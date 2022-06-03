@@ -1,0 +1,26 @@
+name: co2_mitigation_curves_for_2c_andrews_and_gcp_2019
+description: "Data denotes the range of CO2 mitigation curves for a range of 'start
+    year scenarios': scenarios are based on the annual emission reductions necessary
+    to keep global temperature rise below 2C if emissions mitigation was to start
+    in a given year. \n\nFor example, 'Start in 2010' marks the necessary future emissions
+    pathway to have a >66% chance of keeping global average temperatures below 2C
+    warming if global CO2 emissions mitigation had started in 2010, very quickly peaking
+    then falling. \n\nData is sourced from Robbie Andrew, and available for download
+    here: http://folk.uio.no/roberan/t/global_mitigation_curves.shtml\n\nHistorical
+    emissions to 2017 are sourced from CDIAC/Global Carbon Project, projection to
+    2018 from Global Carbon Project (Le Quéré et al. 2018).\n\nGlobal cumulative CO2
+    emissions budgets are from the IPCC Special Report on 1.5°C (Rogelj et al 2018):
+    420 GtCO2 for a 66% of 1.5°C and 1170 GtCO2 for a 66% of 2°C. Mitigation curves
+    describe approximately exponential decay pathways such that the quota is never
+    exceeded (see Raupach et al., 2014)."
+data_file: CO2 mitigation curves for 2C (Andrews & GCP, 2019).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/CO2%20mitigation%20curves%20for%202C%20(Andrews%20%26%20GCP%2C%202019)/CO2
+    mitigation curves for 2C (Andrews & GCP, 2019).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: co2_mitigation_curves_for_2c_andrews_and_gcp_2019
+    type: Float

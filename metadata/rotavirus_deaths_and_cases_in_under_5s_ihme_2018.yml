@@ -1,0 +1,30 @@
+name: rotavirus_deaths_and_cases_in_under_5s_ihme_2018
+description: |-
+    Data is the summary of research published by Troeger et al. (2018) based on statistics from the IHME, Global Burden of Disease study.
+
+    Data presents the estimated number of child (under five years old) deaths; child mortality rate; and number of cases from rotavirus. Also given is the estimated number of deaths averted from the rotavirus vaccine, and potential avertable deaths if full rotavirus vaccine coverage was achieved.
+
+    Rotavirus is a diarrheal disease responsible for an estimated 29% of diarrheal disease deaths in children under five years old.
+
+    Estimates of potentially avertable deaths from the rotavirus vaccine take into consideration its efficacy in different regions: whilst efficacy in children in high-income countries is typically greater than 90%, in lower-income countries, particularly in Sub-Saharan Africa, this efficacy rate is closer to 50%.
+data_file: Rotavirus deaths and cases in under-5s (IHME, 2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Rotavirus%20deaths%20and%20cases%20in%20under-5s%20(IHME%2C%202018)/Rotavirus
+    deaths and cases in under-5s (IHME, 2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: child_deaths_from_rotavirus
+    type: Float
+  - name: child_mortality_from_rotavirus_per_100_000
+    type: Float
+  - name: rotavirus_incidence_per_1_000_children
+    type: Float
+  - name: rotavirus_cases_in_children
+    type: Float
+  - name: deaths_averted_from_rotavirus_vaccine
+    type: Float
+  - name: avertable_deaths_if_rotavirus_vaccine_coverage_was_100perc
+    type: Float

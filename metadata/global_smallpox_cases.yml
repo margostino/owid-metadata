@@ -1,0 +1,16 @@
+name: global_smallpox_cases
+description: 'Because smallpox was eradicated in 1977, there were no new cases since
+    2010 so we extended the time series until 2016. '
+data_file: Global Smallpox Cases.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Global%20Smallpox%20Cases/Global
+    Smallpox Cases.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: global_smallpox_cases_who_2011
+    type: Float
+  - name: reported_smallpox_cases_who_2011
+    type: Float

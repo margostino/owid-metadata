@@ -1,0 +1,22 @@
+name: water_resources_by_continent_fao_aquastat
+description: "Precipitation is measured in terms of average volumetric precipitation
+    rates per year (based on trends to the year 2015). \n\nInternal renewable freshwater
+    resources measures the total volume of resources which could be sustainably used
+    per year, without depleting internal reserves. \n\nPer capita renewable resources
+    are based on the average volume per person which could be used in 2015 without
+    depleting reserves."
+data_file: Water resources by continent - FAO AQUASTAT.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Water%20resources%20by%20continent%20-%20FAO%20AQUASTAT/Water
+    resources by continent - FAO AQUASTAT.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: precipitation
+    type: Float
+  - name: internal_renewable_freshwater_resources
+    type: Float
+  - name: per_capita_renewable_resources
+    type: Float

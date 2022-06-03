@@ -1,0 +1,20 @@
+name: projected_change_in_under_5_population_by_country_2015_2050_2100_owid_based_on_un_population_20
+description: "Population data is based on the Medium UN projection (2017 Edition)
+    from 2015-2100. \n\nOur World in Data have derived the change in the projected
+    under-5 population between the year 2015 to 2050 (here, denoted as '2050') and
+    the change between 2050 to 2100 (here, denoted as '2100'). This was calculated
+    simply through the subtraction of 2015 under-5 numbers from projected 2050 figures;
+    and 2050 figures subtracted from 2100 projections."
+data_file: Projected change in under-5 population by country 2015, 2050, 2100 - OWID
+    based on UN Population (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Projected%20change%20in%20under-5%20population%20by%20country%202015%2C%202050%2C%202100%20-%20OWID%20based%20on%20UN%20Population%20(20/Projected
+    change in under-5 population by country 2015, 2050, 2100 - OWID based on UN Population
+    (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: change_in_under_5_population_2015_to_2050_2050_to_2100
+    type: Float

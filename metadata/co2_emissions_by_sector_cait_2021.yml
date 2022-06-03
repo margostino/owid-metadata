@@ -1,0 +1,62 @@
+name: co2_emissions_by_sector_cait_2021
+description: |-
+    Carbon dioxide (CO₂) emissions broken down by sector, measured in tonnes per year. Further information on sector definitions is available here: https://ourworldindata.org/ghg-emissions-by-sector
+
+    This data is published by country and sector from the CAIT Climate Data Explorer, and downloaded from the Climate Watch Portal. Available here: https://www.climatewatchdata.org/data-explorer/historical-emissions
+data_file: CO2 emissions by sector (CAIT, 2021).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/CO2%20emissions%20by%20sector%20(CAIT%2C%202021)/CO2
+    emissions by sector (CAIT, 2021).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: aviation_and_shipping
+    type: Float
+  - name: aviation_and_shipping_per_capita
+    type: Float
+  - name: buildings
+    type: Float
+  - name: buildings_per_capita
+    type: Float
+  - name: electricity_and_heat
+    type: Float
+  - name: electricity_and_heat_per_capita
+    type: Float
+  - name: energy
+    type: Float
+  - name: energy_per_capita
+    type: Float
+  - name: fugitive_emissions
+    type: Float
+  - name: fugitive_emissions_per_capita
+    type: Float
+  - name: industry
+    type: Float
+  - name: industry_per_capita
+    type: Float
+  - name: land_use_change_and_forestry
+    type: Float
+  - name: land_use_change_and_forestry_per_capita
+    type: Float
+  - name: manufacturing_and_construction
+    type: Float
+  - name: manufacturing_and_construction_per_capita
+    type: Float
+  - name: other_fuel_combustion
+    type: Float
+  - name: other_fuel_combustion_per_capita
+    type: Float
+  - name: total_excluding_lucf
+    type: Float
+  - name: total_excluding_lucf_per_capita
+    type: Float
+  - name: total_including_lucf
+    type: Float
+  - name: total_including_lucf_per_capita
+    type: Float
+  - name: transport
+    type: Float
+  - name: transport_per_capita
+    type: Float

@@ -1,0 +1,18 @@
+name: employment_and_gender_attitudes_pew_research_centre_2012
+description: "Figures for China and India are non-national samples. \n\nCountry figures
+    are taken from the Spring 2010 Survey conducted by the Pew Research Centre with
+    the exception of Turkey, Pakistan, Lebanon, Jordan, and Egypt, for which figures
+    are taken from the Spring 2012 Survey. "
+data_file: Employment and Gender attitudes - Pew Research Centre (2012).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Employment%20and%20Gender%20attitudes%20-%20Pew%20Research%20Centre%20(2012)/Employment
+    and Gender attitudes - Pew Research Centre (2012).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_who_agree_pew_research_centre_2012
+    type: Float
+  - name: share_who_disagree_pew_research_centre_2012
+    type: Float

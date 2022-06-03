@@ -1,0 +1,23 @@
+name: industrial_motive_power_in_the_uk_1800_70_musson_1976
+description: 'Data published by: Musson, A. E. “Industrial Motive Power in the United
+    Kingdom, 1800-70.” The Economic History Review, vol. 29, no. 3, 1976, pp. 415–439.
+    JSTOR, JSTOR, www.jstor.org/stable/2595302. Adapted from table on page 424.'
+data_file: Industrial motive power in the UK 1800-70 (Musson (1976)).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Industrial%20motive%20power%20in%20the%20UK%201800-70%20(Musson%20(1976))/Industrial
+    motive power in the UK 1800-70 (Musson (1976)).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: number_of_factories_musson_1976
+    type: Float
+  - name: number_of_steam_engines_musson_1976
+    type: Float
+  - name: horse_power_of_steam_engines_musson_1976
+    type: Float
+  - name: number_of_water_wheels_musson_1976
+    type: Float
+  - name: horse_power_of_water_wheels_musson_1976
+    type: Float

@@ -1,0 +1,46 @@
+name: fatal_aviation_accidents_and_fatalties_aviation_safety_network_asn
+description: "Data on fatal accidents, hijacking incidents and numbers of fatalities
+    are based on airliners of 14+ passengers, and do not include corporate jet and
+    military transport accidents.\r\n\r\nAir traffic figures are based on the number
+    of airliner flight departures (not the number of passengers) per year."
+data_file: Fatal aviation accidents & fatalties - Aviation Safety Network (ASN).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Fatal%20aviation%20accidents%20%26%20fatalties%20-%20Aviation%20Safety%20Network%20(ASN)/Fatal
+    aviation accidents & fatalties - Aviation Safety Network (ASN).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: fatal_accidents_from_commercial_and_non_commercial_airliners_asn
+    type: Float
+  - name: fatalities_from_commercial_and_non_commercial_airliners_asn
+    type: Float
+  - name: hijacking_incidents_asn
+    type: Float
+  - name: fatalties_from_hijaking_incidents_asn
+    type: Float
+  - name: fatal_accidents_from_commercial_airliners_asn
+    type: Float
+  - name: fatalities_from_commercial_airliners_asn
+    type: Float
+  - name: number_of_flight_departures_asn
+    type: Float
+  - name: fatal_accidents_from_passenger_only_commercial_airliners_asn
+    type: Float
+  - name: fatalities_from_passenger_only_commercial_airliners_asn
+    type: Float
+  - name: fatalities_per_million_flights_asn
+    type: Float
+  - name: fatal_accidents_per_million_commercial_flights_asn
+    type: Float
+  - name: million_flights_per_fatal_accident_asn
+    type: Float
+  - name: passengers_per_year_world_bank
+    type: Float
+  - name: fatalities_per_million_passengers_asn
+    type: Float
+  - name: million_passengers_per_fatality_asn
+    type: Float
+  - name: number_of_flight_departures
+    type: Float

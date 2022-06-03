@@ -1,0 +1,16 @@
+name: capital_city_population_un_urbanization_prospects_2018
+description: |-
+    Data represents the estimated population of a given country's capital city.
+
+    Where a country has multiple capital cities, here we have opted to show the population of the Administrative or Constitutional Capital (as opposed to the Seat of Government, or otherwise).
+data_file: Capital city population - UN Urbanization Prospects (2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Capital%20city%20population%20-%20UN%20Urbanization%20Prospects%20(2018)/Capital
+    city population - UN Urbanization Prospects (2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: capital_city_population_un_urbanization_prospects_2018
+    type: Float

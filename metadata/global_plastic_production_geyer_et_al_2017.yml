@@ -1,0 +1,16 @@
+name: global_plastic_production_geyer_et_al_2017
+description: Data denotes annual global polymer resin and fiber production (plastic
+    production), measured in metric tonnes.
+data_file: Global plastic production - Geyer et al. (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Global%20plastic%20production%20-%20Geyer%20et%20al.%20(2017)/Global
+    plastic production - Geyer et al. (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: global_plastics_production_million_tonnes
+    type: Float
+  - name: cumulative_global_plastics_production_million_tonnes
+    type: Float

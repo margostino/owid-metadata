@@ -1,0 +1,21 @@
+name: household_expenditure_on_housing_water_electricity_gas_and_other_fuels_as_a_share_of_gdp_un
+description: The UN collects National Accounts data from individual countries. Within
+    the 'Individual consumption expenditure of households, NPISHs, and general government
+    at current prices' tables, it provides a breakdown of household final expenditure
+    by purpose, according to the COICOP classification (Classification of Individual
+    Consumption According to Purpose). Category 4 relates to Housing, water, electricity,
+    gas and other fuels, which includes actual and imputed rent, as well expenditure
+    on the utilities indicated.
+data_file: Household expenditure on Housing, water, electricity, gas and other fuels
+    as a share of GDP - UN.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Household%20expenditure%20on%20Housing%2C%20water%2C%20electricity%2C%20gas%20and%20other%20fuels%20as%20a%20share%20of%20GDP%20-%20UN/Household
+    expenditure on Housing, water, electricity, gas and other fuels as a share of
+    GDP - UN.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: household_expenditure_on_housing_water_electricity_gas_and_other_fuels_as_a_share_of_gdp
+    type: Float

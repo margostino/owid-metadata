@@ -1,0 +1,22 @@
+name: hypothetical_meat_consumption_owid_based_on_fao_and_un
+description: "This is a hypothetical variable derived by Our World in Data which asks
+    the question: \"what would global meat production have to be if everyone in the
+    world was to consume the average per capita amount of a given country?\" e.g.
+    \"how much meat would we need if everyone in the world consumed the same amount
+    of meat as the average UK citizen?\".\n\nThis was derived by multiplying global
+    population figures from the UN Population Division (2017 Revision) by per capita
+    meat supply of a given, as published by the UN FAO. \n\nSources: \nUN FAO: http://www.fao.org/faostat/en/\n\nUN
+    Population Division (2017 Revision): United Nations, Department of Economic and
+    Social Affairs, Population Division (2017). World Population Prospects: The 2017
+    Revision, DVD Edition. Available at: https://esa.un.org/unpd/wpp/Download/Standard/Population/"
+data_file: Hypothetical meat consumption - OWID based on FAO & UN.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Hypothetical%20meat%20consumption%20-%20OWID%20based%20on%20FAO%20%26%20UN/Hypothetical
+    meat consumption - OWID based on FAO & UN.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: hypothetical_global_meat_consumption_owid_based_on_fao_and_un
+    type: Float

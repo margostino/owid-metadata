@@ -1,0 +1,19 @@
+name: global_child_mortality_since_1800_based_on_gapminder_and_world_bank_2019
+description: |-
+    More about the Gapminder estimates can be found here: http://www.gapminder.org/data/documentation/gd005/.
+
+    Due to data inconsistencies between previous (2016) World Bank child mortality series (which extended from 1960 to 2015) to most recent World Bank series (2019) extending only from 1990 to 2017, data for the year 1989 has been excluded as an observation.
+data_file: Global child mortality (since 1800) - based on Gapminder and World Bank
+    (2019).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Global%20child%20mortality%20(since%201800)%20-%20based%20on%20Gapminder%20and%20World%20Bank%20(2019)/Global
+    child mortality (since 1800) - based on Gapminder and World Bank (2019).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_dying_in_first_5_years_based_on_gapminder_and_world_bank_2019
+    type: Float
+  - name: share_surviving_first_5_years_of_life_based_on_gapminder_and_world_bank_2019
+    type: Float

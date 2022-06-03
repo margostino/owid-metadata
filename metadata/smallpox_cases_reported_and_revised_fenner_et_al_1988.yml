@@ -1,0 +1,15 @@
+name: smallpox_cases_reported_and_revised_fenner_et_al_1988
+description: ""
+data_file: Smallpox cases reported and revised - Fenner et al. (1988).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Smallpox%20cases%20reported%20and%20revised%20-%20Fenner%20et%20al.%20(1988)/Smallpox
+    cases reported and revised - Fenner et al. (1988).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: smallpox_cases_as_recorded_in_april_1967
+    type: Float
+  - name: smallpox_cases_as_revised_in_1987
+    type: Float

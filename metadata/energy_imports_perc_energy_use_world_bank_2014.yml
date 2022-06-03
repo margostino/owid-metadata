@@ -1,0 +1,18 @@
+name: energy_imports_perc_energy_use_world_bank_2014
+description: '"Net energy imports are estimated as energy use less production, both
+    measured in oil equivalents. A negative value indicates that the country is a
+    net exporter. Energy use refers to use of primary energy before transformation
+    to other end-use fuels, which is equal to indigenous production plus imports and
+    stock changes, minus exports and fuels supplied to ships and aircraft engaged
+    in international transport." (World Bank)'
+data_file: Energy imports (% energy use) - World Bank (2014).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Energy%20imports%20(%25%20energy%20use)%20-%20World%20Bank%20(2014)/Energy
+    imports (% energy use) - World Bank (2014).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: energy_imports_world_bank_2014
+    type: Float

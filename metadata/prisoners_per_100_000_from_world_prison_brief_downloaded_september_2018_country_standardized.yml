@@ -1,0 +1,13 @@
+name: prisoners_per_100_000_from_world_prison_brief_downloaded_september_2018_country_standardized
+description: ""
+data_file: Prisoners per 100 000 from World Prison Brief (downloaded September 2018)_country_standardized.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Prisoners%20per%20100%20000%20from%20World%20Prison%20Brief%20(downloaded%20September%202018)_country_standardized/Prisoners
+    per 100 000 from World Prison Brief (downloaded September 2018)_country_standardized.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: prison_population_rate_world_prison_brief_2018
+    type: Float

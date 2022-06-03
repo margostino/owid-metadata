@@ -1,0 +1,13 @@
+name: union_density_quality_of_government_qog_2017
+description: ""
+data_file: Union Density - Quality of Government (QoG) (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Union%20Density%20-%20Quality%20of%20Government%20(QoG)%20(2017)/Union
+    Density - Quality of Government (QoG) (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: union_density_rate_quality_of_government_qog_2017
+    type: Float

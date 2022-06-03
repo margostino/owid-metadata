@@ -1,0 +1,22 @@
+name: food_waste_in_the_european_union_europa_2010
+description: |-
+    Data is measured as total food waste per year, measured in mass terms (tonnes per year).
+
+    Food waste is disaggregated by wastage from manufacturing, households and 'other' categories. 'Other' is inclusive of all other sectors where food waste occurs, including agricultural production, distribution, retail and catering.
+data_file: Food waste in the European Union - Europa (2010).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Food%20waste%20in%20the%20European%20Union%20-%20Europa%20(2010)/Food
+    waste in the European Union - Europa (2010).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: manufacturing_europa_2010
+    type: Float
+  - name: households_europa_2010
+    type: Float
+  - name: other_europa_2010
+    type: Float
+  - name: total_food_waste_europa_2010
+    type: Float

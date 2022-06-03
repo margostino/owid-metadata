@@ -1,0 +1,27 @@
+name: violent_discipline_in_the_us_us_general_social_survey_2017
+description: 'The General Social Survey in the US asks: Do you strongly agree, agree,
+    disagree, or strongly disagree that it is sometimes necessary to discipline a
+    child with a good, hard spanking? '
+data_file: Violent discipline in the US (US General Social Survey (2017)).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Violent%20discipline%20in%20the%20US%20(US%20General%20Social%20Survey%20(2017))/Violent
+    discipline in the US (US General Social Survey (2017)).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: favor_spanking_to_discipline_child_strongly_agree_us_general_social_survey_2017
+    type: Float
+  - name: favor_spanking_to_discipline_child_agree_us_general_social_survey_2017
+    type: Float
+  - name: favor_spanking_to_discipline_child_disagree_us_general_social_survey_2017
+    type: Float
+  - name: favor_spanking_to_discipline_child_strongly_disagree_us_general_social_survey_2017
+    type: Float
+  - name: favor_spanking_to_discipline_child_dont_know_us_general_social_survey_2017
+    type: Float
+  - name: favor_spanking_to_discipline_child_no_answer_us_general_social_survey_2017
+    type: Float
+  - name: favor_spanking_to_discipline_child_not_applicable_us_general_social_survey_2017
+    type: Float

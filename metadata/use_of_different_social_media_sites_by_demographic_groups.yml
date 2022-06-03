@@ -1,0 +1,15 @@
+name: use_of_different_social_media_sites_by_demographic_groups
+description: Respondents who did not give an answer are excluded from the estimates.
+data_file: Use of different social media sites by demographic groups.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Use%20of%20different%20social%20media%20sites%20by%20demographic%20groups/Use
+    of different social media sites by demographic groups.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: social_media_use_among_men_in_the_us_perc
+    type: Float
+  - name: social_media_use_among_women_in_the_us_perc
+    type: Float

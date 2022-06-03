@@ -1,0 +1,44 @@
+name: urbanization_in_the_long_run_owid_based_on_the_un_world_urbanization_prospects_2018_and_others
+description: "To construct the long run urbanization series we began with the UN World
+    Urbanization Prospects database covering the period from 1950 to 2050. \n\nThen
+    we extended the series backwards using additional data sources including the US
+    Census Bureau, Bairoch (1988), Kuroda (1984), HYDE 3.1 (2010), and De Vries (1984)
+    to arrive at the longest single series possible for each country and region included.
+    For further information on the source used for particular observations by country-year,
+    see the following <a href=\"https://docs.google.com/spreadsheets/d/1tl3FmKTD_FaQ-i4VUlusS-OcZHOl30zkK7oIsuQPtJ4/edit?usp=sharing\"
+    rel=\"noopener\" target=\"_blank\">documentation</a>. \n\nTo calculate the absolute
+    rural and urban populations, we have multiplied the rural and urban percentages
+    by the historic population series published by Gapminder until 1949 and extended
+    using the UN Population Division data from 1950 to 2016. The long run 'Gapminder
+    + UN Population' population series is available <a href=\"https://ourworldindata.org/grapher/population-by-country-gapminder+un\"
+    rel=\"noopener\" target=\"_blank\">here</a>.  For absolute population estimates
+    before 1950 for the 'World', we used the <a href=\"https://ourworldindata.org/grapher/world-population-1750-2015-and-un-projection-until-2100\"
+    rel=\"noopener\" target=\"_blank\">'World Population over 12,000 years' series</a>.\n\nNote:
+    Urbanization data for Japan in 1900 has been excluded as the estimate (HYDE 3.1)
+    was inconsistent with figures for neighbouring years (Kuroda (1986))."
+data_file: Urbanization in the long run - OWID based on the UN World Urbanization
+    Prospects 2018 and others.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Urbanization%20in%20the%20long%20run%20-%20OWID%20based%20on%20the%20UN%20World%20Urbanization%20Prospects%202018%20and%20others/Urbanization
+    in the long run - OWID based on the UN World Urbanization Prospects 2018 and others.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: urban_population_perc_long_run_with_2050_projections_owid
+    type: Float
+  - name: rural_population_perc_long_run_with_2050_projections_owid
+    type: Float
+  - name: urban_population_long_run_with_2050_projections_owid
+    type: Float
+  - name: rural_population_long_run_with_2050_projections_owid
+    type: Float
+  - name: urban_population_perc_long_run_to_2016_owid
+    type: Float
+  - name: rural_population_perc_long_run_to_2016_owid
+    type: Float
+  - name: urban_population_long_run_to_2016_owid
+    type: Float
+  - name: rural_population_long_run_to_2016_owid
+    type: Float

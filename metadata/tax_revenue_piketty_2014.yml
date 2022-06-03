@@ -1,0 +1,18 @@
+name: tax_revenue_piketty_2014
+description: |-
+    Data on tax revenues include all taxes, fees, social contributions, and other payments that citizens mush pay under penalty of law.
+
+    Data on top marginal tax rates includes general income tax supplements, but excludes all other taxes and social contributions (e.g. NHS in the UK)
+data_file: Tax Revenue – Piketty (2014).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Tax%20Revenue%20%E2%80%93%20Piketty%20(2014)/Tax
+    Revenue – Piketty (2014).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: tax_revenue_piketty_2014
+    type: Float
+  - name: top_marignal_income_tax_rate_piketty_2014
+    type: Float

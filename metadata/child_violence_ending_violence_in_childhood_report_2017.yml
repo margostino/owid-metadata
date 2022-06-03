@@ -1,0 +1,25 @@
+name: child_violence_ending_violence_in_childhood_report_2017
+description: ""
+data_file: Child violence – Ending Violence in Childhood Report (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Child%20violence%20%E2%80%93%20Ending%20Violence%20in%20Childhood%20Report%20(2017)/Child
+    violence – Ending Violence in Childhood Report (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: children_1_14_who_experienced_any_violent_discipline
+    type: Float
+  - name: children_13_15_who_reported_being_bullied
+    type: Float
+  - name: children_13_15_who_reported_being_in_a_physical_fight_during_past_year
+    type: Float
+  - name: girls_15_19_who_experienced_any_physical_violence_since_age_15
+    type: Float
+  - name: girls_15_19_who_ever_experienced_forced_sexual_intercourse_or_any_other_forced_sexual_acts
+    type: Float
+  - name: number_of_homicide_victims_among_children_0_19_per_100_000_population
+    type: Float
+  - name: women_15_and_above_who_experienced_any_intimate_partner_physical_andor_sexual_violence_last_year
+    type: Float

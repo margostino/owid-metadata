@@ -1,0 +1,13 @@
+name: owid_country_to_who_regions
+description: ""
+data_file: OWID country to WHO regions.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/OWID%20country%20to%20WHO%20regions/OWID
+    country to WHO regions.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: who_region
+    type: Float

@@ -1,0 +1,22 @@
+name: consumer_expenditure_on_food_usda_2017
+description: |-
+    Data on the share of consumer expenditure spent on food, and on alcoholic beverages and tobacco are given as the percentage of total consumer expenditures per person.
+
+    Data on overall annual consumer expenditure, and that spend on food is given in US$ per year.
+data_file: Consumer expenditure on food - USDA (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Consumer%20expenditure%20on%20food%20-%20USDA%20(2017)/Consumer
+    expenditure on food - USDA (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_of_consumer_expenditure_on_food_usda_2017
+    type: Float
+  - name: share_of_consumer_expenditure_on_alcoholic_beverages_and_tobacco_usda_2017
+    type: Float
+  - name: consumer_expenditure_usda_2017
+    type: Float
+  - name: food_expenditure_usda_2017
+    type: Float

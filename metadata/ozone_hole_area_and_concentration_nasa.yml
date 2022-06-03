@@ -1,0 +1,22 @@
+name: ozone_hole_area_and_concentration_nasa
+description: |-
+    Annual maximum and Antarctic stratospheric ozone hole area, resultant from the emission of ozone-depleting substances.
+
+    Minimum and mean Southern Hemisphere daily ozone concentrations, measured in Dobson Units (DU).
+data_file: Ozone hole area and concentration - NASA.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Ozone%20hole%20area%20and%20concentration%20-%20NASA/Ozone
+    hole area and concentration - NASA.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: maximum_ozone_hole_area_nasa
+    type: Float
+  - name: mean_ozone_hole_area
+    type: Float
+  - name: minimum_daily_concentration_nasa
+    type: Float
+  - name: mean_daily_concentration_nasa
+    type: Float

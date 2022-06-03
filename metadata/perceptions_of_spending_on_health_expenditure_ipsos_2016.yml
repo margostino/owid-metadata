@@ -1,0 +1,19 @@
+name: perceptions_of_spending_on_health_expenditure_ipsos_2016
+description: "Ipsos MORI conducted 27,250 interviews across 50 countries between September-November
+    2016 via the Ipsos MORI Online Panel system. In the Czech Republic, Montenegro,
+    Netherlands, Norway and Serbia, interviews were carried out through a combination
+    of the online system and face-to-face methodologies.\r\n\r\nData are weighted
+    to match the profile of the population."
+data_file: Perceptions of spending on health expenditure - IPSOS (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Perceptions%20of%20spending%20on%20health%20expenditure%20-%20IPSOS%20(2016)/Perceptions
+    of spending on health expenditure - IPSOS (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: how_much_we_think_we_spend_on_health_expenditure_ipsos_2016
+    type: Float
+  - name: how_much_we_actually_spend_on_health_expenditure_ipsos_2016
+    type: Float

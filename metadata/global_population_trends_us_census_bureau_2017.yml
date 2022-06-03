@@ -1,0 +1,17 @@
+name: global_population_trends_us_census_bureau_2017
+description: "Population data is reported annually based on review of census data,
+    surveys, vital registration and administrative records from a variety of sources.\r\n\r\nPopulation
+    is recorded as 'de facto' meaning it includes all persons who are physically present
+    in the country at the reference date, whether or not they are usual and/or legal
+    residents."
+data_file: Global population trends - US Census Bureau (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Global%20population%20trends%20-%20US%20Census%20Bureau%20(2017)/Global
+    population trends - US Census Bureau (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: population_us_census_bureau_2017
+    type: Float

@@ -1,0 +1,20 @@
+name: relative_earnings_of_adults_by_educational_attainment_education_at_a_glance_2017_oecd_indicators
+description: "The year of reference is 2015 for all countries except: Denmark (2014),
+    Finland (2014), Belgium (2014), Italy (2013), Canada (2014), Netherlands (2014),
+    Japan (2012), Spain (2014), France (2013), Luxembourg (2014), Poland (2014), and
+    Lithuania (2014). \n\nEarnings are net of income tax only for: Latvia, Ireland,
+    and Mexico.\n\nFor further details, see Table A6.1 in the <a href=\"https://www.oecd-ilibrary.org/docserver/eag-2017-en.pdf?expires=1533729082&id=id&accname=guest&checksum=78D200C9AD96EA2A893AEC34BFB793F8\"
+    rel=\"noopener\" target=\"_blank\">Education at a Glance 2017</a> report."
+data_file: 'Relative earnings of adults, by educational attainment - Education at
+    a Glance 2017: OECD Indicators (2017).csv'
+data_base_url_file: 'https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Relative%20earnings%20of%20adults%2C%20by%20educational%20attainment%20-%20Education%20at%20a%20Glance%202017!%20OECD%20Indicators/Relative
+    earnings of adults, by educational attainment - Education at a Glance 2017: OECD
+    Indicators (2017).csv'
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: earnings_of_tertiary_educated_workers_relative_to_the_earnings_of_workers_with_upper_secondary_education_oecd_2017
+    type: Float

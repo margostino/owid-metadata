@@ -1,0 +1,29 @@
+name: job_search_methods_us_pew_research_center_2015
+description: "Among Americans who have looked for a new job in the last two years,
+    the percentage who say they used a certain method in their most recent search
+    for a job. \n\nNote: based on the 34% of Americans who have looked for a job in
+    the last two years. \n\nThe survey was conducted June 10 - July 12, 2015. Sample
+    size = 2,001."
+data_file: Job search methods US - Pew Research Center (2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Job%20search%20methods%20US%20-%20Pew%20Research%20Center%20(2015)/Job
+    search methods US - Pew Research Center (2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: percentage_who_used_online_resources_and_information
+    type: Float
+  - name: percentage_who_used_connections_with_close_friends_or_family
+    type: Float
+  - name: percentage_who_used_professional_or_work_connections
+    type: Float
+  - name: percentage_who_used_acquaintances_or_friends_of_friends
+    type: Float
+  - name: percentage_who_used_employment_agencies_government_or_private
+    type: Float
+  - name: percentage_who_used_ads_in_print_publications
+    type: Float
+  - name: percentage_who_used_job_fairs_conferences_and_other_events
+    type: Float

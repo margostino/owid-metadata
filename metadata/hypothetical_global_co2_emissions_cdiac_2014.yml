@@ -1,0 +1,21 @@
+name: hypothetical_global_co2_emissions_cdiac_2014
+description: "Data is based on the hypothetical scenario where the total global population
+    had the same carbon dioxide production footprint as the average citizen of a given
+    country.\r\n\r\nFigures were derived by multiplying the average per capita CO2
+    footprint (sourced from CDIAC, referenced below) in 2014, by the UN estimated
+    global population in 2014 of 7,265,786,000.\r\n\r\nReferences:\r\n\r\nCarbon Dioxide
+    Information Analysis Center (CDIAC). Available at: http://cdiac.ornl.gov/CO2_Emission/
+    (accessed 2017-05-06)\r\n\r\nWorld Population Prospects, the 2015 Revision. United
+    Nations Population Division. Available at: https://esa.un.org/unpd/wpp/ (accessed
+    2017-05-06)"
+data_file: Hypothetical global CO2 emissions - CDIAC (2014).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Hypothetical%20global%20CO2%20emissions%20-%20CDIAC%20(2014)/Hypothetical
+    global CO2 emissions - CDIAC (2014).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: hypothetical_global_emissions_cdiac_2014
+    type: Float

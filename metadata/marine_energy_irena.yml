@@ -1,0 +1,16 @@
+name: marine_energy_irena
+description: "Marine energy includes energy generation from both wave and tidal sources.
+    \r\n\r\n"
+data_file: Marine Energy - IRENA.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Marine%20Energy%20-%20IRENA/Marine
+    Energy - IRENA.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: installed_capacity
+    type: Float
+  - name: energy_production
+    type: Float

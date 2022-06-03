@@ -1,0 +1,18 @@
+name: urban_population_living_in_slums_wb_wdi
+description: |-
+    Data on the total size of urban populations living in slums was calculated by Our World in Data based on metrics published within the World Bank, World Development Indicators: 'Urban population (total)' and '% urban population living in slums'.
+
+    Population living in slums is the proportion of the urban population living in slum households. A slum household is defined as a group of individuals living under the same roof lacking one or more of the following conditions: access to improved water, access to improved sanitation, sufficient living area, and durability of housing.
+data_file: Urban population living in slums (WB WDI).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Urban%20population%20living%20in%20slums%20(WB%20WDI)/Urban
+    population living in slums (WB WDI).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: urban_population_living_in_slums
+    type: Float
+  - name: urban_population_not_living_in_slums
+    type: Float

@@ -1,0 +1,35 @@
+name: life_expectation_by_sex_at_ages_0_15_and_45_owid_based_on_hacker_2010_and_the_us_social_securi
+description: "The Hacker (2010) data is used for the period 1780 to 1890. The year
+    1790 refers to the period 1790-99; see Table 8: New Life Tables for the White
+    Population of the United States, 1780-1900 for the original data consulted for
+    this period. \n\nThe US Social Security Administration data is used from 1900
+    to today."
+data_file: Life expectation by sex at ages 0, 15, and 45 - OWID based on Hacker (2010)
+    and the US Social Security Administration (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Life%20expectation%20by%20sex%20at%20ages%200%2C%2015%2C%20and%2045%20-%20OWID%20based%20on%20Hacker%20(2010)%20and%20the%20US%20Social%20Securi/Life
+    expectation by sex at ages 0, 15, and 45 - OWID based on Hacker (2010) and the
+    US Social Security Administration (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: life_expectation_age_0_females_owid
+    type: Float
+  - name: life_expectation_age_0_males_owid
+    type: Float
+  - name: life_expectation_age_15_females_owid
+    type: Float
+  - name: life_expectation_age_15_males_owid
+    type: Float
+  - name: life_expectation_age_45_females_owid
+    type: Float
+  - name: life_expectation_age_45_males_owid
+    type: Float
+  - name: male_minus_female_life_expectation_age_0_owid
+    type: Float
+  - name: male_minus_female_life_expectation_age_15_owid
+    type: Float
+  - name: male_minus_female_life_expectation_age_45_owid
+    type: Float

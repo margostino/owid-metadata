@@ -1,0 +1,30 @@
+name: economic_losses_from_disasters_as_a_share_of_gdp_pielke_2018
+description: |
+    Data represents absolute global economic losses from disasters (total and weather-related) in 2017 US$ from two sources: Munich Re and Aon Benfield.
+
+    This has been normalized to economic losses from disasters as a share of global gross domestic product (GDP) based on global GDP data derived from the World Bank.
+data_file: Economic losses from disasters as a share of GDP (Pielke, 2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Economic%20losses%20from%20disasters%20as%20a%20share%20of%20GDP%20(Pielke%2C%202018)/Economic
+    losses from disasters as a share of GDP (Pielke, 2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: munich_re_overall_disaster_losses_in_2017_money
+    type: Float
+  - name: disaster_losses_as_perc_of_global_gdp_munich_re
+    type: Float
+  - name: aon_benfield_overall_disaster_losses_in_2017_money
+    type: Float
+  - name: disaster_losses_as_perc_of_global_gdp_aon_benfield
+    type: Float
+  - name: munich_re_weather_disaster_losses_in_2017_money
+    type: Float
+  - name: weather_disaster_losses_as_perc_of_global_gdp_munich_re
+    type: Float
+  - name: aon_benfield_weather_disaster_losses_in_2017_money
+    type: Float
+  - name: weather_disaster_losses_as_perc_of_global_gdp_aon_benfield
+    type: Float

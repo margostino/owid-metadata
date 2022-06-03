@@ -1,0 +1,18 @@
+name: number_of_observations_in_povcal_per_decade_owid_2017
+description: "This is the number of available surveys with data on poverty measures
+    in Povcal by decade. 2014 refers to the available surveys in the period 2005-2014;
+    2004 refers to 1995-2004; 1994 refers to 1985-1994.\r\n\r\nThe idea for this measure
+    is inspired by Serajuddin, Uematsu, Wieser, Yoshida, and Dabalen (2015) – ‘Data
+    deprivation: another deprivation to end’, World Bank Policy Research Working Paper
+    no. WPS 7252"
+data_file: Number of observations in Povcal per decade - OWID (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Number%20of%20observations%20in%20Povcal%20per%20decade%20-%20OWID%20(2017)/Number
+    of observations in Povcal per decade - OWID (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: observations_in_povcalnet_per_decade_owid_2017
+    type: Float

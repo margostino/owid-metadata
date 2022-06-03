@@ -1,0 +1,335 @@
+name: global_tuberculosis_report_case_notifications_who_2019
+description: "WHO has published a global TB report every year since 1997. The main
+    aim of the report is to provide a comprehensive and up-to-date assessment of the
+    TB epidemic, and of progress in prevention, diagnosis and treatment of the disease,
+    at global, regional and country levels. This is done in the context of recommended
+    global TB strategies and targets endorsed by WHO’s Member States, broader development
+    goals set by the United Nations (UN) and targets set in the political declaration
+    at the first UN high-level meeting on TB (held in September 2018) .\n\nThe 2019
+    edition of the global TB report was released on 17 October 2019. \nThe report
+    can be found at https://www.who.int/tb/publications/global_report/en/"
+data_file: 'Global Tuberculosis Report: Case notifications - WHO (2019).csv'
+data_base_url_file: 'https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Global%20Tuberculosis%20Report!%20Case%20notifications%20-%20WHO%20(2019)/Global
+    Tuberculosis Report: Case notifications - WHO (2019).csv'
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: number_of_laboratory_confirmed_xdr_tb_cases_identified_in_the_current_year_including_in_mdr_cases_diagnosed_in_previous_years_all_conf_xdr
+    type: Float
+  - name: total_of_new_and_relapse_cases_and_cases_with_unknown_previous_tb_treatment_history_c_newinc
+    type: Float
+  - name: number_of_laboratory_confirmed_mdr_tb_cases_identified_conf_mdr
+    type: Float
+  - name: number_of_laboratory_confirmed_mdr_tb_patients_who_started_treatment_for_mdr_tb_conf_mdr_tx
+    type: Float
+  - name: number_of_laboratory_confirmed_rr_tb_or_mdr_tb_cases_identified_conf_rrmdr
+    type: Float
+  - name: number_of_laboratory_confirmed_rifampicin_resistant_rr_tb_or_multidrug_resistant_tb_mdr_tb_patients_who_started_treatment_for_mdr_tb_conf_rrmdr_tx
+    type: Float
+  - name: number_of_laboratory_confirmed_xdr_tb_patients_who_started_treatment_for_xdr_tb_conf_xdr_tx
+    type: Float
+  - name: hiv_positive_tb_patients_started_or_continued_on_antiretroviral_therapy_art_hiv_art
+    type: Float
+  - name: hiv_positive_tb_patients_started_or_continued_on_co_trimoxazole_preventive_therapy_cpt_hiv_cpt
+    type: Float
+  - name: people_living_with_hiv_newly_enrolled_in_hiv_care_who_started_treatment_for_latent_tb_infection_hiv_ipt
+    type: Float
+  - name: people_living_with_hiv_currently_enrolled_in_hiv_care_who_started_treatment_for_latent_tb_infection_hiv_ipt_reg_all
+    type: Float
+  - name: total_number_of_people_registered_as_hiv_positive_regardless_of_year_of_diagnosis_total_number_of_adults_and_children_enrolled_in_hiv_care_includes_everyone_in_the_hiv_care_andor_art_register_hiv_reg
+    type: Float
+  - name: number_of_adults_and_children_newly_enrolled_in_hiv_care_during_the_year_hiv_reg_new
+    type: Float
+  - name: total_number_of_adults_and_children_newly_enrolled_in_pre_art_care_or_on_art_during_the_reporting_period_hiv_reg_new2
+    type: Float
+  - name: total_number_of_adults_and_children_newly_enrolled_in_hiv_care_who_are_diagnosed_as_having_active_tb_disease_during_the_reporting_period_hiv_tbdetect
+    type: Float
+  - name: number_of_adults_and_children_enrolled_in_hiv_care_who_had_their_tb_status_assessed_and_recorded_during_their_last_visit_hiv_tbscr
+    type: Float
+  - name: tb_patients_new_and_re_treatment_with_an_hiv_test_result_recorded_in_the_tb_register_hivtest
+    type: Float
+  - name: tb_patients_new_and_re_treatment_recorded_as_hiv_positive_hivtest_pos
+    type: Float
+  - name: number_of_patients_started_on_shorter_mdr_tb_treatment_regiments_during_the_reporting_year_mdr_shortreg_tx
+    type: Float
+  - name: had_any_patients_been_started_on_shorter_mdr_tb_treatment_regimens_by_the_end_of_the_reporting_year_mdr_shortreg_used
+    type: Float
+  - name: number_of_patients_actively_monitored_for_adverse_events_while_on_mdr_tb_treatment_in_the_reporting_year_mdr_tx_adsm
+    type: Float
+  - name: number_of_patients_on_mdr_tb_treatment_who_had_adverse_events_registered_in_the_reporting_year_mdr_tx_adverse_events
+    type: Float
+  - name: number_of_patients_started_on_bedaquiline_during_the_reporting_year_mdrxdr_bdq_tx
+    type: Float
+  - name: had_any_tb_patients_been_started_on_bedaquiline_for_the_treatment_of_mdr_xdr_tb_by_the_end_of_reporting_year_as_part_of_expanded_access_compassionate_use_or_under_normal_programmatic_use_whether_in_the_public_or_private_sector_mdrxdr_bdq_used
+    type: Float
+  - name: number_of_patients_started_on_delamanid_during_the_reporting_year_mdrxdr_dlm_tx
+    type: Float
+  - name: had_any_tb_patients_been_started_on_delamanid_for_the_treatment_of_mdr_xdr_tb_by_the_end_of_reporting_as_part_of_expanded_access_compassionate_use_or_under_normal_programmatic_use_whether_in_the_public_or_private_sector_mdrxdr_dlm_used
+    type: Float
+  - name: new_pulmonary_clinically_diagnosed_tb_cases_not_bacteriologically_confirmed_as_positive_for_tb_but_diagnosed_with_active_tb_by_a_clinician_or_another_medical_practitioner_who_has_decided_to_give_the_patient_a_full_course_of_tb_treatment_it_also_includes_pulmonary_clinically_diagnosed_cases_with_unknown_previous_tb_treatment_history_new_clindx
+    type: Float
+  - name: new_extrapulmonary_cases_bacteriologically_confirmed_or_clinically_diagnosed_as_of_2013_this_also_includes_extrapulmonary_cases_with_unknown_previous_tb_treatment_history_new_ep
+    type: Float
+  - name: new_extrapulmonary_cases_females_aged_0_14_years_not_used_after_2012_new_ep_f014
+    type: Float
+  - name: new_extrapulmonary_cases_females_aged_0_4_years_not_used_after_2012_new_ep_f04
+    type: Float
+  - name: new_extrapulmonary_cases_females_aged_15_24_years_not_used_after_2012_new_ep_f1524
+    type: Float
+  - name: new_extrapulmonary_cases_females_aged_15_years_and_over_not_used_after_2012_new_ep_f15plus
+    type: Float
+  - name: new_extrapulmonary_cases_females_aged_25_34_years_not_used_after_2012_new_ep_f2534
+    type: Float
+  - name: new_extrapulmonary_cases_females_aged_35_44_years_not_used_after_2012_new_ep_f3544
+    type: Float
+  - name: new_extrapulmonary_cases_females_aged_45_54_years_not_used_after_2012_new_ep_f4554
+    type: Float
+  - name: new_extrapulmonary_cases_females_aged_5_14_years_not_used_after_2012_new_ep_f514
+    type: Float
+  - name: new_extrapulmonary_cases_females_aged_55_64_years_not_used_after_2012_new_ep_f5564
+    type: Float
+  - name: new_extrapulmonary_cases_females_aged_65_years_and_over_not_used_after_2012_new_ep_f65
+    type: Float
+  - name: new_extrapulmonary_cases_females_age_unknown_not_used_after_2012_new_ep_fu
+    type: Float
+  - name: new_extrapulmonary_cases_males_aged_0_14_years_not_used_after_2012_new_ep_m014
+    type: Float
+  - name: new_extrapulmonary_cases_males_aged_0_4_years_not_used_after_2012_new_ep_m04
+    type: Float
+  - name: new_extrapulmonary_cases_males_aged_15_24_years_not_used_after_2012_new_ep_m1524
+    type: Float
+  - name: new_extrapulmonary_cases_males_aged_15_years_and_over_not_used_after_2012_new_ep_m15plus
+    type: Float
+  - name: new_extrapulmonary_cases_males_aged_25_34_years_not_used_after_2012_new_ep_m2534
+    type: Float
+  - name: new_extrapulmonary_cases_males_aged_35_44_years_not_used_after_2012_new_ep_m3544
+    type: Float
+  - name: new_extrapulmonary_cases_males_aged_45_54_years_not_used_after_2012_new_ep_m4554
+    type: Float
+  - name: new_extrapulmonary_cases_males_aged_5_14_years_not_used_after_2012_new_ep_m514
+    type: Float
+  - name: new_extrapulmonary_cases_males_aged_55_64_years_not_used_after_2012_new_ep_m5564
+    type: Float
+  - name: new_extrapulmonary_cases_males_aged_65_years_and_over_not_used_after_2012_new_ep_m65
+    type: Float
+  - name: new_extrapulmonary_cases_males_age_unknown_not_used_after_2012_new_ep_mu
+    type: Float
+  - name: new_extrapulmonary_cases_sex_unknown_aged_0_14_years_not_used_after_2012_new_ep_sexunk014
+    type: Float
+  - name: new_extrapulmonary_cases_sex_unknown_aged_0_4_years_not_used_after_2012_new_ep_sexunk04
+    type: Float
+  - name: new_extrapulmonary_cases_sex_unknown_aged_15_years_and_over_not_used_after_2012_new_ep_sexunk15plus
+    type: Float
+  - name: new_extrapulmonary_cases_sex_unknown_aged_5_14_years_not_used_after_2012_new_ep_sexunk514
+    type: Float
+  - name: new_extrapulmonary_cases_sex_unknown_age_unknown_not_used_after_2012_new_ep_sexunkageunk
+    type: Float
+  - name: new_pulmonary_bacteriologically_confirmed_tb_cases_smear_positive_or_culture_positive_or_positive_by_who_recommended_rapid_diagnostics_such_as_xpert_mtbrif_as_of_2013_this_also_includes_pulmonary_bacteriologically_confirmed_cases_with_unknown_previous_tb_treatment_history_new_labconf
+    type: Float
+  - name: other_new_cases_not_used_after_2012_new_oth
+    type: Float
+  - name: new_pulmonary_smear_negative_cases_not_used_after_2012_new_sn
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_females_aged_0_14_years_not_used_after_2012_new_sn_f014
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_females_aged_0_4_years_not_used_after_2012_new_sn_f04
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_females_aged_15_24_years_not_used_after_2012_new_sn_f1524
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_females_aged_15_years_and_over_not_used_after_2012_new_sn_f15plus
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_females_aged_25_34_years_not_used_after_2012_new_sn_f2534
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_females_aged_35_44_years_not_used_after_2012_new_sn_f3544
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_females_aged_45_54_years_not_used_after_2012_new_sn_f4554
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_females_aged_5_14_years_not_used_after_2012_new_sn_f514
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_females_aged_55_64_years_not_used_after_2012_new_sn_f5564
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_females_aged_65_years_and_over_not_used_after_2012_new_sn_f65
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_females_age_unknown_not_used_after_2012_new_sn_fu
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_males_aged_0_14_years_not_used_after_2012_new_sn_m014
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_males_aged_0_4_years_not_used_after_2012_new_sn_m04
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_males_aged_15_24_years_not_used_after_2012_new_sn_m1524
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_males_aged_15_years_and_above_not_used_after_2012_new_sn_m15plus
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_males_aged_25_34_years_not_used_after_2012_new_sn_m2534
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_males_aged_35_44_years_not_used_after_2012_new_sn_m3544
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_males_aged_45_54_years_not_used_after_2012_new_sn_m4554
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_males_aged_5_14_years_not_used_after_2012_new_sn_m514
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_males_aged_55_64_years_not_used_after_2012_new_sn_m5564
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_males_aged_65_years_and_over_not_used_after_2012_new_sn_m65
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_males_age_unknown_not_used_after_2012_new_sn_mu
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_sex_unknown_aged_0_14_years_not_used_after_2012_new_sn_sexunk014
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_sex_unknown_aged_0_4_years_not_used_after_2012_new_sn_sexunk04
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_sex_unknown_aged_15_years_and_over_not_used_after_2012_new_sn_sexunk15plus
+    type: Float
+  - name: new_pulmonary_smear_negativesmear_unknownsmear_not_done_cases_sex_unknown_aged_5_14_years_not_used_after_2012_new_sn_sexunk514
+    type: Float
+  - name: new_pulmonary_smear_positive_cases_not_used_after_2012_new_sp
+    type: Float
+  - name: new_pulmonary_smear_positive_cases_females_aged_0_14_years_not_used_after_2012_new_sp_f014
+    type: Float
+  - name: new_pulmonary_smear_positive_cases_females_aged_0_4_years_not_used_after_2012_new_sp_f04
+    type: Float
+  - name: new_pulmonary_smear_positive_cases_females_aged_15_24_years_not_used_after_2012_new_sp_f1524
+    type: Float
+  - name: new_pulmonary_smear_positive_cases_females_aged_25_34_years_not_used_after_2012_new_sp_f2534
+    type: Float
+  - name: new_pulmonary_smear_positive_cases_females_aged_35_44_years_not_used_after_2012_new_sp_f3544
+    type: Float
+  - name: new_pulmonary_smear_positive_cases_females_aged_45_54_years_not_used_after_2012_new_sp_f4554
+    type: Float
+  - name: new_pulmonary_smear_positive_cases_females_aged_5_14_years_not_used_after_2012_new_sp_f514
+    type: Float
+  - name: new_pulmonary_smear_positive_cases_females_aged_55_64_years_not_used_after_2012_new_sp_f5564
+    type: Float
+  - name: new_pulmonary_smear_positive_cases_females_aged_65_and_over_not_used_after_2012_new_sp_f65
+    type: Float
+  - name: new_pulmonary_smear_positive_cases_females_age_unknown_not_used_after_2012_new_sp_fu
+    type: Float
+  - name: new_pulmonary_smear_positive_cases_males_aged_0_14_years_not_used_after_2012_new_sp_m014
+    type: Float
+  - name: new_pulmonary_smear_positive_cases_males_aged_0_4_years_not_used_after_2012_new_sp_m04
+    type: Float
+  - name: new_pulmonary_smear_positive_cases_males_aged_15_24_years_not_used_after_2012_new_sp_m1524
+    type: Float
+  - name: new_pulmonary_smear_positive_cases_males_aged_25_34_years_not_used_after_2012_new_sp_m2534
+    type: Float
+  - name: new_pulmonary_smear_positive_cases_males_aged_35_44_years_not_used_after_2012_new_sp_m3544
+    type: Float
+  - name: new_pulmonary_smear_positive_cases_males_aged_45_54_years_not_used_after_2012_new_sp_m4554
+    type: Float
+  - name: new_pulmonary_smear_positive_cases_males_aged_5_14_years_not_used_after_2012_new_sp_m514
+    type: Float
+  - name: new_pulmonary_smear_positive_cases_males_aged_55_64_years_not_used_after_2012_new_sp_m5564
+    type: Float
+  - name: new_pulmonary_smear_positive_cases_males_aged_65_years_and_over_not_used_after_2012_new_sp_m65
+    type: Float
+  - name: new_pulmonary_smear_positive_cases_males_age_unknown_not_used_after_2012_new_sp_mu
+    type: Float
+  - name: new_pulmonary_smear_unknownnot_done_cases_new_su
+    type: Float
+  - name: if_rdx_data_available60_number_of_new_and_relapse_cases_notified_and_tested_using_a_who_recommended_rapid_diagnostic_for_example_xpert_mtbrif_at_the_time_of_tb_diagnosis_regardless_of_test_result_newinc_rdx
+    type: Float
+  - name: hiv_positive_new_and_relapse_or_all_if_newrel_tbhiv_flg_0_and_year_greater_2015_tb_patients_started_or_continued_on_antiretroviral_therapy_newrel_art
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_females_aged_0_14_years_newrel_f014
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_females_aged_0_4_years_newrel_f04
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_females_aged_15_24_years_newrel_f1524
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_females_aged_15_years_and_over_newrel_f15plus
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_females_aged_25_34_years_newrel_f2534
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_females_aged_35_44_years_newrel_f3544
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_females_aged_45_54_years_newrel_f4554
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_females_aged_5_14_years_newrel_f514
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_females_aged_55_64_years_newrel_f5564
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_females_aged_65_years_and_over_newrel_f65
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_females_age_unknown_newrel_fu
+    type: Float
+  - name: number_of_new_and_relapse_or_all_if_newrel_tbhiv_flg_0_and_year_greater_2015_tb_patients_recorded_as_hiv_positive_newrel_hivpos
+    type: Float
+  - name: number_of_new_and_relapse_or_all_if_newrel_tbhiv_flg_0_and_year_greater_2015_tb_patients_tested_for_hiv_at_the_time_of_tb_diagnosis_or_with_known_hiv_status_at_the_time_of_tb_diagnosis_newrel_hivtest
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_males_aged_0_14_years_newrel_m014
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_males_aged_0_4_years_newrel_m04
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_males_aged_15_24_years_newrel_m1524
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_males_aged_15_years_and_over_newrel_m15plus
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_males_aged_25_34_years_newrel_m2534
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_males_aged_35_44_years_newrel_m3544
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_males_aged_45_54_years_newrel_m4554
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_males_aged_5_14_years_newrel_m514
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_males_aged_55_64_years_newrel_m5564
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_males_aged_65_years_and_over_newrel_m65
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_males_age_unknown_newrel_mu
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_sex_unknown_aged_0_14_years_newrel_sexunk014
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_sex_unknown_aged_0_4_years_newrel_sexunk04
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_sex_unknown_aged_15_years_and_over_newrel_sexunk15plus
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_sex_unknown_aged_5_14_years_newrel_sexunk514
+    type: Float
+  - name: new_and_relapse_cases_but_only_new_cases_if_rel_in_agesex_flg_0_sex_unknown_age_unknown_newrel_sexunkageunk
+    type: Float
+  - name: are_data_on_hiv_testing_hiv_positivity_and_provision_of_antiretroviral_therapy_art_restricted_to_new_and_relapse_tb_cases_only_newrel_tbhiv_flg
+    type: Float
+  - name: other_cases_not_included_in_new_and_re_treatment_case_numbers_newret_oth
+    type: Float
+  - name: new_and_re_treatment_tb_cases_among_foreign_born_individuals_notif_foreign
+    type: Float
+  - name: number_of_tb_cases_pulmonary_or_extrapulmonary_tested_for_susceptibility_to_rifampicin_using_phenotypic_dst_or_who_recommended_rapid_molecular_diagnostics_eg_xpert_mtbrif_before_or_after_starting_treatment_new_cases_rdst_new
+    type: Float
+  - name: number_of_tb_cases_pulmonary_or_extrapulmonary_tested_for_susceptibility_to_rifampicin_using_phenotypic_dst_or_who_recommended_rapid_molecular_diagnostics_eg_xpert_mtbrif_before_or_after_starting_treatment_previously_treated_cases_rdst_ret
+    type: Float
+  - name: number_of_tb_cases_pulmonary_or_extrapulmonary_tested_for_susceptibility_to_rifampicin_using_phenotypic_dst_or_who_recommended_rapid_molecular_diagnostics_eg_xpert_mtbrif_before_or_after_starting_treatment_cases_with_unknown_previous_tb_treatment_history_rdst_unk
+    type: Float
+  - name: are_data_available_on_the_number_of_new_and_relapse_cases_tested_using_a_who_recommended_rapid_diagnostic_during_the_reporting_year_rdx_data_available
+    type: Float
+  - name: if_rdx_data_available61_number_of_new_and_relapse_cases_whose_medical_records_or_treatment_cards_were_included_in_the_survey_rdxsurvey_newinc
+    type: Float
+  - name: if_rdx_data_available61_among_the_cases_reported_in_rdxsurvey_newinc_the_number_tested_using_a_who_recommended_rapid_diagnostic_such_as_xpert_mtbrif_at_the_time_of_tb_diagnosis_regardless_of_test_result_rdxsurvey_newinc_rdx
+    type: Float
+  - name: are_all_relapse_cases_included_with_new_cases_in_the_disaggregations_by_age_and_sex_rel_in_agesex_flg
+    type: Float
+  - name: previously_treated_patients_excluding_relapse_cases_pulmonary_or_extrapulmonary_bacteriologically_confirmed_or_clinically_diagnosed_ret_nrel
+    type: Float
+  - name: other_re_treatment_cases_ret_oth
+    type: Float
+  - name: relapse_cases_ret_rel
+    type: Float
+  - name: relapse_pulmonary_clinically_diagnosed_tb_cases_not_bacteriologically_confirmed_as_positive_for_tb_but_diagnosed_with_active_tb_by_a_clinician_or_another_medical_practitioner_who_has_decided_to_give_the_patient_a_full_course_of_tb_treatment_ret_rel_clindx
+    type: Float
+  - name: relapse_extrapulmonary_cases_bacteriologically_confirmed_or_clinically_diagnosed_ret_rel_ep
+    type: Float
+  - name: relapse_pulmonary_bacteriologically_confirmed_tb_cases_smear_positive_or_culture_positive_or_positive_by_who_recommended_rapid_diagnostics_such_as_xpert_mtbrif_ret_rel_labconf
+    type: Float
+  - name: treatment_after_default_cases_ret_tad
+    type: Float
+  - name: treatment_after_failure_cases_ret_taf
+    type: Float
+  - name: number_of_laboratory_confirmed_rr_tb_or_mdr_tb_cases_tested_for_susceptibility_to_second_line_drugs_fluoroquinolones_and_second_line_injectable_agents_rr_sldst
+    type: Float
+  - name: number_of_mdr_tb_not_laboratory_confirmed_patients_who_started_treatment_for_mdr_tb_unconf_mdr_tx
+    type: Float
+  - name: number_of_patients_not_laboratory_confirmed_as_having_rifampicin_resistant_rr_tb_or_multidrg_resistant_tb_mdr_tb_who_started_treatment_for_mdr_tb_unconf_rrmdr_tx
+    type: Float

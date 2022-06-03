@@ -1,0 +1,13 @@
+name: labor_productivity_per_hour_hill_thomas_dimsdale_2016_bank_of_england
+description: Uses GDP at factor cost.  Great Britain growth rates prior to 1855.
+data_file: Labor productivity per hour (Hill, Thomas, Dimsdale (2016), Bank of England).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Labor%20productivity%20per%20hour%20(Hill%2C%20Thomas%2C%20Dimsdale%20(2016)%2C%20Bank%20of%20England)/Labor
+    productivity per hour (Hill, Thomas, Dimsdale (2016), Bank of England).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: labour_productivity_per_hour_2013100
+    type: Float

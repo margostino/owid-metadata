@@ -1,0 +1,46 @@
+name: human_capital_in_long_run_lee_lee_2016
+description: |-
+    Author's note: "We construct a complete data set of historical enrollment ratios, subdivided by education level and gender, for 111 countries from 1820 to 1945 (at five-year intervals) by using newly compiled census observations and information on the year of establishment of the oldest school in individual countries. Then, by utilizing these enrollment ratios, as well as available census data from 1945 onward on different age groups' educational attainment, we construct a data set of estimated educational attainment, disaggregated by gender and age group, and aggregate human capital stock that spans from 1870 to 2010."
+
+    For regional estimates, the authors classify the following countries as 'Advanced Economies': Australia, Austria, Belgium, Canada, Denmark, Finland, France, Germany, Greece, Iceland, Ireland, Italy, Japan, Luxembourg, Netherlands, New Zealand, Norway, Portugal, Spain, Sweden, Switzerland, Turkey, USA, United Kingdom. Further details on regional classifications are available in the source paper.
+data_file: Human Capital in Long-Run - Lee-Lee (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Human%20Capital%20in%20Long-Run%20-%20Lee-Lee%20(2016)/Human
+    Capital in Long-Run - Lee-Lee (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: primary_adjusted_enrolment_ratio_lee_lee_2016
+    type: Float
+  - name: secondary_adjusted_enrolment_ratio_lee_lee_2016
+    type: Float
+  - name: tertiary_adjusted_enrolment_ratio_lee_lee_2016
+    type: Float
+  - name: share_of_no_schooling_lee_lee_2016
+    type: Float
+  - name: share_of_primary_schooling_lee_lee_2016
+    type: Float
+  - name: share_of_secondary_schooling_lee_lee_2016
+    type: Float
+  - name: share_of_tertiary_schooling_lee_lee_2016
+    type: Float
+  - name: total_years_of_schooling_lee_lee_2016
+    type: Float
+  - name: years_of_primary_schooling_lee_lee_2016
+    type: Float
+  - name: years_of_secondary_schooling_lee_lee_2016
+    type: Float
+  - name: years_of_tertiary_schooling_lee_lee_2016
+    type: Float
+  - name: male_primary_adjusted_enrolment_lee_lee_2016
+    type: Float
+  - name: male_secondary_adjusted_enrolment_lee_lee_2016
+    type: Float
+  - name: male_tertiary_adjusted_enrolment_lee_lee_2016
+    type: Float
+  - name: female_to_male_years_schooling_lee_lee_2016
+    type: Float
+  - name: regional_female_to_male_years_schooling_lee_lee_2016
+    type: Float

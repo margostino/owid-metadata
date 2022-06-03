@@ -1,0 +1,36 @@
+name: wellcome_global_monitor_trust
+description: |-
+    The Wellcome Global Monitor is the world’s largest study into how people around the world think and feel about science and major health challenges. It surveys over 140,000 people from more than 140 countries.
+
+    Survey respondents were asked, "How much do you trust each of the following: other people in your neighborhood; your national government; scientists; journalists; doctors and nurses; people who work at non-governmental or non-profit organizations; healers? Do you trust them a lot, some, not much, or not at all?"
+
+    The "share of people who trust" is the sum of those who responded "a lot", and "some".
+data_file: Wellcome Global Monitor - Trust.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Wellcome%20Global%20Monitor%20-%20Trust/Wellcome
+    Global Monitor - Trust.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: trust_people_in_neighborhood
+    type: Float
+  - name: trust_the_national_government_in_this_country
+    type: Float
+  - name: trust_scientists_in_this_country
+    type: Float
+  - name: trust_journalists_in_this_country
+    type: Float
+  - name: trust_doctors_and_nurses_in_this_country
+    type: Float
+  - name: trust_people_who_work_at_charitable_organizations_or_ngos_in_this_country
+    type: Float
+  - name: trust_traditional_healers_in_this_country
+    type: Float
+  - name: trust_science
+    type: Float
+  - name: trust_scientists_to_find_accurate_information_about_the_world
+    type: Float
+  - name: trust_scientists_to_do_work_with_intention_of_benefiting_public
+    type: Float

@@ -1,0 +1,27 @@
+name: investment_in_renewables_by_technology_irena_2017
+description: "Renewable investment figures are measured in billion USD per year. Investment
+    adjusts for re-invested equity, and includes estimates for undisclosed deals.\r\n\r\nFigures
+    excludes investments in large hydropower schemes."
+data_file: Investment in renewables by technology - IRENA (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Investment%20in%20renewables%20by%20technology%20-%20IRENA%20(2017)/Investment
+    in renewables by technology - IRENA (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: solar_energy
+    type: Float
+  - name: wind_energy
+    type: Float
+  - name: biomass_and_waste_to_energy
+    type: Float
+  - name: liquid_biofuels
+    type: Float
+  - name: small_hydropower
+    type: Float
+  - name: geothermal_energy
+    type: Float
+  - name: marine_energy
+    type: Float

@@ -1,0 +1,18 @@
+name: incidence_of_child_labor_england_italy_us_world_cunningham_and_viazzo_1996_and_others
+description: |-
+    Incidence of child labour in datasets for England and Italy is based on the percentage of children (aged 10-14) recorded as working at least one hour of work per week (thus defined as "children in employment"). Data for the United States is for children aged 10-13 only. Figures for the US have been calculated as the weighted-average of gender-specific incidences of labour, based on the male:female ratio (10-13 year-olds) from reported population figures.
+
+    Data for the global level is based on the definition of full-time child labour (which excludes children participating in light part-time work). World ILO-EPEAP data from 1950-1995 is based on children aged 10-14. World ILO-IPEC data from 2000-2012 broadens this definition to those aged 5-17. Estimates are based on census and national survey data.
+data_file: Incidence of child labor (England, Italy, US, World) - Cunningham and Viazzo
+    (1996) and others.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Incidence%20of%20child%20labor%20(England%2C%20Italy%2C%20US%2C%20World)%20-%20Cunningham%20and%20Viazzo%20(1996)%20and%20others/Incidence
+    of child labor (England, Italy, US, World) - Cunningham and Viazzo (1996) and
+    others.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: child_labor_perc_children_recorded_as_working_cunningham_and_viazzo_1996_and_others
+    type: Float

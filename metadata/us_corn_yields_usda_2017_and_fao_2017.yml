@@ -1,0 +1,22 @@
+name: us_corn_yields_usda_2017_and_fao_2017
+description: |-
+    This dataset comprises of a combination of two datasets: one from the United States Department of Agriculture (USDA) and the UN Food and Agricultural Organization (FAO).
+
+    Data for the years 1866-1960 has been taken from the USDA-NASS database. This reports survey data on corn yields in bushels per acre. To convert these values to tonnes per hectare, we have used a conversion factor of 0.06725.
+
+    Data from 1961 onwards has been sourced from the UN FAOstats database. Here, corn yields are termed 'maize'. The FAO yields are reported in 100g per hectare. To convert to tonnes per hectare, we applied a conversion factor of 0.0001.
+
+    Full USDA reference:
+
+    USDA-NASS (2017). Quick Stats. United States Dept. of Agr - Nat'l Ag. Statistics Service, Washington, D.C. Available at: https://quickstats.nass.usda.gov [accessed 3rd August 2017].
+data_file: US Corn Yields - USDA (2017) & FAO (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/US%20Corn%20Yields%20-%20USDA%20(2017)%20%26%20FAO%20(2017)/US
+    Corn Yields - USDA (2017) & FAO (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: corn_yield_usda_2017_and_fao_2017
+    type: Float

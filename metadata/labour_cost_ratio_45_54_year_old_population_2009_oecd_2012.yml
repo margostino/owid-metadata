@@ -1,0 +1,14 @@
+name: labour_cost_ratio_45_54_year_old_population_2009_oecd_2012
+description: OECD Indicators is the authoritative source for accurate and relevant
+    information on the state of education around the world
+data_file: Labour cost ratio (45-54 year-old population) 2009 - OECD (2012).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Labour%20cost%20ratio%20(45-54%20year-old%20population)%202009%20-%20OECD%20(2012)/Labour
+    cost ratio (45-54 year-old population) 2009 - OECD (2012).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: labour_cost_ratio_45_54_year_old_population_2009_oecd_2012
+    type: Float

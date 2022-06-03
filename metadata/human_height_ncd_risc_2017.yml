@@ -1,0 +1,26 @@
+name: human_height_ncd_risc_2017
+description: 'Mean heights of men and women aged 18 or older by birth year, extending
+    from 1896 to 1996. '
+data_file: Human Height - NCD RisC (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Human%20Height%20-%20NCD%20RisC%20(2017)/Human
+    Height - NCD RisC (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: mean_male_height_cm
+    type: Float
+  - name: mean_female_height_cm
+    type: Float
+  - name: male_to_female_height_ratio
+    type: Float
+  - name: change_in_male_height_cm
+    type: Float
+  - name: change_in_female_height_cm
+    type: Float
+  - name: change_in_male_height_perc
+    type: Float
+  - name: change_in_female_height_perc
+    type: Float

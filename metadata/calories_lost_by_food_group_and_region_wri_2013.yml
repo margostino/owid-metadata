@@ -1,0 +1,24 @@
+name: calories_lost_by_food_group_and_region_wri_2013
+description: |-
+    Data on food losses and waste includes all supply chain stages, from (and including) on-farm harvesting through to final food waste.
+
+    Figures are based only on food intended for direct human consumption: this means crops diverted for animal feed or industrial uses are not included as losses.
+
+    The original authors of this study – Lipinski et al. (2013) of the World Resources Institute – calculate these figures based on the regional percentage losses expressed in the landmark UN FAO report on food losses: FAO (2011). Global food losses and food waste – Extent, causes and prevention. Rome.
+
+    This data is expressed for the year 2009 due to poor data availability and updated estimates since then. It is likely that, especially when expressed in relative terms (each region or food group's contribution to food losses) remains similar today.
+data_file: Calories lost by food group and region (WRI, 2013).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Calories%20lost%20by%20food%20group%20and%20region%20(WRI%2C%202013)/Calories
+    lost by food group and region (WRI, 2013).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_of_calories_lost_or_wasted_by_food_group_wri_2013
+    type: Float
+  - name: share_of_global_food_loss_and_waste_by_region_wri_2013
+    type: Float
+  - name: per_capita_food_loss_or_waste_kcal_per_daywri_2013
+    type: Float

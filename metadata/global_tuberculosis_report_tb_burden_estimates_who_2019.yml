@@ -1,0 +1,107 @@
+name: global_tuberculosis_report_tb_burden_estimates_who_2019
+description: "WHO has published a global TB report every year since 1997. The main
+    aim of the report is to provide a comprehensive and up-to-date assessment of the
+    TB epidemic, and of progress in prevention, diagnosis and treatment of the disease,
+    at global, regional and country levels. This is done in the context of recommended
+    global TB strategies and targets endorsed by WHO’s Member States, broader development
+    goals set by the United Nations (UN) and targets set in the political declaration
+    at the first UN high-level meeting on TB (held in September 2018) .\n\nThe 2019
+    edition of the global TB report was released on 17 October 2019. \nThe report
+    can be found at https://www.who.int/tb/publications/global_report/en/"
+data_file: 'Global Tuberculosis Report: TB burden estimates - WHO (2019).csv'
+data_base_url_file: 'https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Global%20Tuberculosis%20Report!%20TB%20burden%20estimates%20-%20WHO%20(2019)/Global
+    Tuberculosis Report: TB burden estimates - WHO (2019).csv'
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: case_detection_rate_all_forms_also_known_as_tb_treatment_coverage_percent_c_cdr
+    type: Float
+  - name: case_detection_rate_all_forms_also_known_as_tb_treatment_coverage_percent_high_bound_c_cdr_hi
+    type: Float
+  - name: case_detection_rate_all_forms_also_known_as_tb_treatment_coverage_percent_low_bound_c_cdr_lo
+    type: Float
+  - name: case_notification_rate_which_is_the_total_of_new_and_relapse_cases_and_cases_with_unknown_previous_tb_treatment_history_per_100_000_population_calculated_c_newinc_100k
+    type: Float
+  - name: estimated_tb_case_fatality_ratio_cfr
+    type: Float
+  - name: estimated_tb_case_fatality_ratio_high_bound_cfr_hi
+    type: Float
+  - name: estimated_tb_case_fatality_ratio_low_bound_cfr_lo
+    type: Float
+  - name: estimated_tb_case_fatality_ratio_expressed_as_a_percentage_cfr_pct
+    type: Float
+  - name: estimated_tb_case_fatality_ratio_high_bound_expressed_as_a_percentage_cfr_pct_hi
+    type: Float
+  - name: estimated_tb_case_fatality_ratio_low_bound_expressed_as_a_percentage_cfr_pct_lo
+    type: Float
+  - name: estimated_incidence_all_forms_per_100_000_population_e_inc_100k
+    type: Float
+  - name: estimated_incidence_all_forms_per_100_000_population_high_bound_e_inc_100k_hi
+    type: Float
+  - name: estimated_incidence_all_forms_per_100_000_population_low_bound_e_inc_100k_lo
+    type: Float
+  - name: estimated_number_of_incident_cases_all_forms_e_inc_num
+    type: Float
+  - name: estimated_number_of_incident_cases_all_forms_high_bound_e_inc_num_hi
+    type: Float
+  - name: estimated_number_of_incident_cases_all_forms_e_inc_num_lo
+    type: Float
+  - name: estimated_incidence_of_tb_cases_who_are_hiv_positive_per_100_000_population_e_inc_tbhiv_100k
+    type: Float
+  - name: estimated_incidence_of_tb_cases_who_are_hiv_positive_per_100_000_population_high_bound_e_inc_tbhiv_100k_hi
+    type: Float
+  - name: estimated_incidence_of_tb_cases_who_are_hiv_positive_per_100_000_population_low_bound_e_inc_tbhiv_100k_lo
+    type: Float
+  - name: estimated_incidence_of_tb_cases_who_are_hiv_positive_e_inc_tbhiv_num
+    type: Float
+  - name: estimated_incidence_of_tb_cases_who_are_hiv_positive_high_bound_e_inc_tbhiv_num_hi
+    type: Float
+  - name: estimated_incidence_of_tb_cases_who_are_hiv_positive_low_bound_e_inc_tbhiv_num_lo
+    type: Float
+  - name: estimated_mortality_of_tb_cases_all_forms_per_100_000_population_e_mort_100k
+    type: Float
+  - name: estimated_mortality_of_tb_cases_all_forms_per_100_000_population_high_bound_e_mort_100k_hi
+    type: Float
+  - name: estimated_mortality_of_tb_cases_all_forms_per_100_000_population_low_bound_e_mort_100k_lo
+    type: Float
+  - name: estimated_mortality_of_tb_cases_all_forms_excluding_hiv_per_100_000_population_e_mort_exc_tbhiv_100k
+    type: Float
+  - name: estimated_mortality_of_tb_cases_all_forms_excluding_hiv_per_100_000_population_high_bound_e_mort_exc_tbhiv_100k_hi
+    type: Float
+  - name: estimated_mortality_of_tb_cases_all_forms_excluding_hiv_per_100_000_population_low_bound_e_mort_exc_tbhiv_100k_lo
+    type: Float
+  - name: estimated_number_of_deaths_from_tb_all_forms_excluding_hiv_e_mort_exc_tbhiv_num
+    type: Float
+  - name: estimated_number_of_deaths_from_tb_all_forms_excluding_hiv_high_bound_e_mort_exc_tbhiv_num_hi
+    type: Float
+  - name: estimated_number_of_deaths_from_tb_all_forms_excluding_hiv_low_bound_e_mort_exc_tbhiv_num_lo
+    type: Float
+  - name: estimated_number_of_deaths_from_tb_all_forms_e_mort_num
+    type: Float
+  - name: estimated_number_of_deaths_from_tb_all_forms_high_bound_e_mort_num_hi
+    type: Float
+  - name: estimated_number_of_deaths_from_tb_all_forms_low_bound_e_mort_num_lo
+    type: Float
+  - name: estimated_mortality_of_tb_cases_who_are_hiv_positive_per_100_000_population_e_mort_tbhiv_100k
+    type: Float
+  - name: estimated_mortality_of_tb_cases_who_are_hiv_positive_per_100_000_population_high_bound_e_mort_tbhiv_100k_hi
+    type: Float
+  - name: estimated_mortality_of_tb_cases_who_are_hiv_positive_per_100_000_population_low_bound_e_mort_tbhiv_100k_lo
+    type: Float
+  - name: estimated_number_of_deaths_from_tb_in_people_who_are_hiv_positive_e_mort_tbhiv_num
+    type: Float
+  - name: estimated_number_of_deaths_from_tb_in_people_who_are_hiv_positive_high_bound_e_mort_tbhiv_num_hi
+    type: Float
+  - name: estimated_number_of_deaths_from_tb_in_people_who_are_hiv_positive_low_bound_e_mort_tbhiv_num_lo
+    type: Float
+  - name: estimated_total_population_number_e_pop_num
+    type: Float
+  - name: estimated_hiv_in_incident_tb_percent_e_tbhiv_prct
+    type: Float
+  - name: estimated_hiv_in_incident_tb_percent_high_bound_e_tbhiv_prct_hi
+    type: Float
+  - name: estimated_hiv_in_incident_tb_percent_low_bound_e_tbhiv_prct_lo
+    type: Float

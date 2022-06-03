@@ -1,0 +1,16 @@
+name: gender_inequality_index_human_development_report_2015
+description: All observations for 1995 use 'share of seats in parliament' that refers
+    to 1997.
+data_file: Gender Inequality Index - Human Development Report (2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Gender%20Inequality%20Index%20-%20Human%20Development%20Report%20(2015)/Gender
+    Inequality Index - Human Development Report (2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: gender_inequality_index_human_development_report_2015
+    type: Float
+  - name: hdi_2015_ranking_human_development_report_2015
+    type: Float

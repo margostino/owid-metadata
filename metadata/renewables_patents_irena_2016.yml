@@ -1,0 +1,43 @@
+name: renewables_patents_irena_2016
+description: "Data reports the annual number of new patents filed under the category
+    of each renewable technology.\r\nAnnual number of patents by technology for the
+    years 2014-2016 was calculated by OWID based on IRENA's cumulative number of patents
+    for each technology in these years (i.e. annual number in 2014 = cumulative total
+    in 2015 minus cumulative total in 2014).\r\n\r\nNote that figures for 2014-16
+    may be subject to a time lag; processing times of patent applications vary and
+    some patents submitted over this period may not yet be recorded in statistics.
+    These figures will be updated with time if additional patent applications are
+    recorded.\r\n\r\n"
+data_file: Renewables Patents - IRENA (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Renewables%20Patents%20-%20IRENA%20(2016)/Renewables
+    Patents - IRENA (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: wind
+    type: Float
+  - name: solar_pv
+    type: Float
+  - name: solar_thermal
+    type: Float
+  - name: solar_pv_thermal_hybrid
+    type: Float
+  - name: total_solar_technologies
+    type: Float
+  - name: bioenergy
+    type: Float
+  - name: geothermal
+    type: Float
+  - name: hydropower
+    type: Float
+  - name: marine
+    type: Float
+  - name: other
+    type: Float
+  - name: total_patents
+    type: Float
+  - name: cumulative_patents
+    type: Float

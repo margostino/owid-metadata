@@ -1,0 +1,13 @@
+name: price_for_light_fouquet
+description: ""
+data_file: Price for Light – Fouquet.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Price%20for%20Light%20%E2%80%93%20Fouquet/Price
+    for Light – Fouquet.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: price_for_light_fouquet_and_pearson_2012
+    type: Float

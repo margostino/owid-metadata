@@ -1,0 +1,17 @@
+name: child_deaths_united_nations_population_division_2015
+description: "– The original data is presented in 1,000s live births. Here it was
+    multiplied by 1,000 for this reason.\r\n\r\n– Importantly data refer to 5 year
+    intervals around the indicated year. E.g. 1952 refers to 1950-1954 in the original
+    dataset. Here the value for the 5 year interval is divided by 5 and attributed
+    to the mid-year of the interval."
+data_file: Child deaths – United Nations Population Division (2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Child%20deaths%20%E2%80%93%20United%20Nations%20Population%20Division%20(2015)/Child
+    deaths – United Nations Population Division (2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: child_deaths_united_nations_population_division_2015
+    type: Float

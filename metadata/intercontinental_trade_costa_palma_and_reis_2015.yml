@@ -1,0 +1,15 @@
+name: intercontinental_trade_costa_palma_and_reis_2015
+description: 'Citation: Costa, Palma and Reis (2015). The Great Escape? The Contribution
+    of the Empire to Portugal''s Economic Growth, 1500-1800. European Review of Economic
+    History (2015) 19 (1): 1-22'
+data_file: Intercontinental Trade - Costa, Palma and Reis (2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Intercontinental%20Trade%20-%20Costa%2C%20Palma%20and%20Reis%20(2015)/Intercontinental
+    Trade - Costa, Palma and Reis (2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: intercontinental_trade_1500_1800_costa_palma_and_reis_2015
+    type: Float

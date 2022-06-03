@@ -1,0 +1,16 @@
+name: nitrogen_fertilizer_production_fao_2017
+description: |-
+    Data combines two UN FAO datasets related to nitrogen fertilizer production: "Nitrogen Fertilizers - Production Quantity" which extends from 2003-2014 and "Fertilizers Archive - Nitrogenous Fertilizers - Production Quantity", which extends from 1961-2002.
+
+    Data is measured in tonnes of nitrogen production.
+data_file: Nitrogen fertilizer production - FAO (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Nitrogen%20fertilizer%20production%20-%20FAO%20(2017)/Nitrogen
+    fertilizer production - FAO (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: nitrogen_fertilizer_production_fao_2017
+    type: Float

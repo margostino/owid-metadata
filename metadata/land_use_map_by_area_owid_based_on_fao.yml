@@ -1,0 +1,20 @@
+name: land_use_map_by_area_owid_based_on_fao
+description: |-
+    Data on global land use breakdown was developed based on land cover figures published by the UN Food and Agricultural Organization (FAO), available at its statistical database: http://www.fao.org/faostat/en/#home [accessed 10th October 2017].
+
+    Global land use breakdown data has also been visualised and published at: https://ourworldindata.org/yields-and-land-use-in-agriculture/#breakdown-of-global-land-area-today
+
+    Here, we have attempted to visualise the extent of global land surface area equivalent to each land cover category using World Bank country area figures.
+
+    For example, the surface of North America, Latin America and the Caribbean combined is approximately equivalent to the areal extent of global forests.
+data_file: Land Use Map by Area - OWID based on FAO.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Land%20Use%20Map%20by%20Area%20-%20OWID%20based%20on%20FAO/Land
+    Use Map by Area - OWID based on FAO.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: land_use
+    type: Float

@@ -1,0 +1,38 @@
+name: drivers_of_forest_loss_in_brazil_legal_amazon_tyukavina_et_al_2017
+description: |-
+    The study quantifies types of forest disturbance and loss in the Brazilian Legal Amazon (BLA) using a sample-based approach from remotely sensed data.
+
+    This quantifies not only complete deforestation drivers, but also temporary forest loss from natural disturbances, wildfires, flooding etc.
+data_file: Drivers of forest loss in Brazil Legal Amazon (Tyukavina et al. 2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Drivers%20of%20forest%20loss%20in%20Brazil%20Legal%20Amazon%20(Tyukavina%20et%20al.%202017)/Drivers
+    of forest loss in Brazil Legal Amazon (Tyukavina et al. 2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: commercial_crops
+    type: Float
+  - name: tree_plantations_including_palm
+    type: Float
+  - name: pasture
+    type: Float
+  - name: small_scale_clearing
+    type: Float
+  - name: roads
+    type: Float
+  - name: other_infrastructure
+    type: Float
+  - name: flooding_due_to_dams
+    type: Float
+  - name: mining
+    type: Float
+  - name: selective_logging
+    type: Float
+  - name: fire
+    type: Float
+  - name: natural_disturbances
+    type: Float
+  - name: total_forest_loss
+    type: Float

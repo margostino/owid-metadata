@@ -1,0 +1,17 @@
+name: disability_adjusted_life_years_who_2015
+description: "Communicable diseases, as defined by the WHO in their Global Health
+    Observatory data repository includes: HIV/AIDS, tuberculosis, malaria, Neglected
+    tropical diseases, cholera, influenza, meningitis, other vaccine-preventable communicable
+    diseases, and sexually transmitted infections. \n\nData is available at the WHO's
+    Global Health Observatory data repository: http://apps.who.int/gho/data/node.home"
+data_file: Disability Adjusted Life Years - WHO (2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Disability%20Adjusted%20Life%20Years%20-%20WHO%20(2015)/Disability
+    Adjusted Life Years - WHO (2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: all_causes_disability_adjusted_life_years_who_2015
+    type: Float

@@ -1,0 +1,47 @@
+name: mdg_final_evaluation_un_mdg_report
+description: |-
+    Data is based on the UN's final evaluation of the Millennium Development Goals (MDGs) and sourced from its final report (http://www.un.org/millenniumgoals/2015_MDG_Report/pdf/MDG%202015%20rev%20(July%201).pdf) and Statistical Database (http://mdgs.un.org/unsd/mdg/Resources/Static/Products/Progress2015/StatAnnex.pdf).
+
+    The specific Targets with data here are:
+    MDG1.A: halve share of people living in extreme poverty (defined as living on less than $1.25 per day - the historical poverty line).
+
+    MDG1.B: achieve full and productive employment, as well as decent work for all, including young people and women.
+
+    MDG1.C: halve the proportion of individuals suffering from hunger.
+
+    MDG2: ensure that children universally – including both boys and girls – will be able to complete a full course of primary education by 2015.
+
+    MDG3.A: eliminate gender disparity in primary and secondary education, preferably by 2005, and in all levels of education no later than 2015.
+
+    MDG4.A: reduce the under-five mortality rate by two-thirds in the period between 1990 and 2015.
+
+    MDG5.A: reduce the maternal mortality ratio by 75 percent.
+
+    MDG5.B: achieve universal access to reproductive health.
+data_file: MDG Final Evaluation (UN MDG Report).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/MDG%20Final%20Evaluation%20(UN%20MDG%20Report)/MDG
+    Final Evaluation (UN MDG Report).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: mdg1a_share_in_extreme_poverty_money125_per_day
+    type: Float
+  - name: mdg1b_share_in_productive_employment
+    type: Float
+  - name: mdg1c_share_undernourished
+    type: Float
+  - name: mdg2a_universal_primary_education
+    type: Float
+  - name: mdg3a_gender_parity_index
+    type: Float
+  - name: mdg4a_child_mortality_rate
+    type: Float
+  - name: mdg5a_maternal_mortality_rate
+    type: Float
+  - name: mdg5b_share_of_pregnant_women_receiving_antenatal_care
+    type: Float
+  - name: mdg5b_share_of_married_women_using_contraceptives
+    type: Float

@@ -1,0 +1,26 @@
+name: reported_guinea_worm_cases_who_2021
+description: |-
+    Data sources:
+
+    1986-2017: https://apps.who.int/dracunculiasis/dradata/html/report_Countries_i2.html
+    2018: Table 1a https://apps.who.int/iris/rest/bitstreams/1230660/retrieve
+    2019: Table 1a https://apps.who.int/iris/rest/bitstreams/1277901/retrieve
+    2020: Table 1a https://apps.who.int/iris/rest/bitstreams/1349256/retrieve
+    2021*: https://www.cartercenter.org/resources/gallery/images/highres/guinea-worm-current-case-count-by-country-chart.pdf
+
+    *Figures are considered provisional until officially confirmed.
+data_file: Reported guinea worm cases - WHO (2021).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Reported%20guinea%20worm%20cases%20-%20WHO%20(2021)/Reported
+    guinea worm cases - WHO (2021).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: guinea_worm_reported_cases
+    type: Float
+  - name: year_certified_guinea_worm_free
+    type: Float
+  - name: certifcation
+    type: Float

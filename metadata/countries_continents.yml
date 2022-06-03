@@ -1,0 +1,13 @@
+name: countries_continents
+description: ""
+data_file: Countries Continents.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Countries%20Continents/Countries
+    Continents.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: countries_continents
+    type: Float

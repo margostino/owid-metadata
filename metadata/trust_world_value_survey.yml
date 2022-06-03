@@ -1,0 +1,13 @@
+name: trust_world_value_survey
+description: ""
+data_file: Trust – World Value Survey.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Trust%20%E2%80%93%20World%20Value%20Survey/Trust
+    – World Value Survey.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: trust_in_others_world_values_survey_2014
+    type: Float

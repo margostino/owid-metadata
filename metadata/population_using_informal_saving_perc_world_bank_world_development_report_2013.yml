@@ -1,0 +1,15 @@
+name: population_using_informal_saving_perc_world_bank_world_development_report_2013
+description: 'Underlying source: World Bank, Global Financial Inclusion Database,
+    at http://data.worldbank.org/data-catalog/financial_inclusion'
+data_file: Population using informal saving (%) - World Bank World Development Report
+    (2013).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Population%20using%20informal%20saving%20(%25)%20-%20World%20Bank%20World%20Development%20Report%20(2013)/Population
+    using informal saving (%) - World Bank World Development Report (2013).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: population_using_informal_saving_perc_world_bank_world_development_report_2013
+    type: Float

@@ -1,0 +1,19 @@
+name: corporal_punishment_in_schools_longitudinal_evidence_from_ethiopia_india_peru_and_vietnam_unice
+description: 'The data in this chart comes from Figure 2 in the source paper, where
+    there are also estimates of children''s self-reports of teacher’s use of physical
+    punishment on other children: https://ourworldindata.org/wp-content/uploads/2017/11/Teacher-violence-UNICEF-2015.png'
+data_file: Corporal Punishment in Schools - Longitudinal Evidence from Ethiopia, India,
+    Peru and Vietnam (UNICEF 2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Corporal%20Punishment%20in%20Schools%20-%20Longitudinal%20Evidence%20from%20Ethiopia%2C%20India%2C%20Peru%20and%20Vietnam%20(UNICE/Corporal
+    Punishment in Schools - Longitudinal Evidence from Ethiopia, India, Peru and Vietnam
+    (UNICEF 2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: children_age_8_who_report_physical_punishment_by_teachers
+    type: Float
+  - name: children_age_15_who_report_physical_punishment_by_teachers
+    type: Float

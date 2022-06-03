@@ -1,0 +1,21 @@
+name: people_experiencing_homelessness_in_the_usa_pit_by_sheltering_status_hud_2016
+description: "HUD's description of the report:\r\n\r\n\"This report outlines the key
+    findings of the 2016 Point-In-Time (PIT) count and Housing Inventory Count (HIC)
+    conducted in January 2016. Specifically, this report provides 2016 national, state,
+    and CoC-level PIT and HIC estimates of homelessness, as well as estimates of chronically
+    homeless persons, homeless veterans, and homeless children and youth\".\r\n\r\nAll
+    HUD reports are available at https://www.hudexchange.info/programs/hdx/guides/ahar/#reports"
+data_file: People experiencing homelessness in the USA (PIT) by sheltering status
+    - HUD (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/People%20experiencing%20homelessness%20in%20the%20USA%20(PIT)%20by%20sheltering%20status%20-%20HUD%20(2016)/People
+    experiencing homelessness in the USA (PIT) by sheltering status - HUD (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: sheltered_homeless_hud_2016
+    type: Float
+  - name: unsheltered_homeless_hud_2016
+    type: Float

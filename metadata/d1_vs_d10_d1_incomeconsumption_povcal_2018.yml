@@ -1,0 +1,19 @@
+name: d1_vs_d10_d1_incomeconsumption_povcal_2018
+description: ""
+data_file: D1 vs D10-D1 income/consumption – Povcal (2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/D1%20vs%20D10-D1%20income!consumption%20%E2%80%93%20Povcal%20(2018)/D1
+    vs D10-D1 income/consumption – Povcal (2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: bottom_decile_incomeconsumption_per_day
+    type: Float
+  - name: difference_between_top_and_bottom_decile_incomeconsumption_per_day
+    type: Float
+  - name: world_bank_region_including_advanced_industrialized_category
+    type: Float
+  - name: pop
+    type: Float

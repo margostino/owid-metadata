@@ -1,0 +1,20 @@
+name: inheritance_for_women_how_was_life_2014
+description: "Gendered inheritance practices for immovables in 1920 are obtained from
+    the Murdock data, while 1980 and 2000 are from the World Bank.\n\nInformation
+    on inheritance practices at the start of the 20th century comes from George Murdock’s
+    Ethnographic Atlas (1969).  To compare Murdock's figures to contemporary data
+    available from the World Bank’s Fifty Years of Women’s Legal Rights database,
+    a dichotomous scheme had to be used where 0 indicates inequality and 1 equality.\n\nFor
+    further information of these data, see the link above from page 221, under the
+    heading \"Historical sources\". "
+data_file: Inheritance for women - How Was Life? (2014).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Inheritance%20for%20women%20-%20How%20Was%20Life!%20(2014)/Inheritance
+    for women - How Was Life? (2014).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: gender_equal_inheritance_for_women_how_was_life_2014
+    type: Float

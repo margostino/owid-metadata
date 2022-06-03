@@ -1,0 +1,13 @@
+name: annual_world_population_growth_rate_owid
+description: ""
+data_file: Annual world population growth rate - OWID.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Annual%20world%20population%20growth%20rate%20-%20OWID/Annual
+    world population growth rate - OWID.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: annual_population_growth_rate_owid
+    type: Float

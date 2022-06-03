@@ -1,0 +1,92 @@
+name: real_commodity_price_index_since_1850_jacks_2016
+description: Commodity prices are given as a price index relative to real prices in
+    1900, where 1900 = 100.
+data_file: Real Commodity Price Index since 1850 - Jacks (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Real%20Commodity%20Price%20Index%20since%201850%20-%20Jacks%20(2016)/Real
+    Commodity Price Index since 1850 - Jacks (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: beef
+    type: Float
+  - name: hides
+    type: Float
+  - name: lamb
+    type: Float
+  - name: pork
+    type: Float
+  - name: coal
+    type: Float
+  - name: natural_gas
+    type: Float
+  - name: petroleum
+    type: Float
+  - name: barley
+    type: Float
+  - name: corn
+    type: Float
+  - name: rice
+    type: Float
+  - name: rye
+    type: Float
+  - name: wheat
+    type: Float
+  - name: aluminum
+    type: Float
+  - name: chromium
+    type: Float
+  - name: copper
+    type: Float
+  - name: lead
+    type: Float
+  - name: manganese
+    type: Float
+  - name: nickel
+    type: Float
+  - name: steel
+    type: Float
+  - name: tin
+    type: Float
+  - name: zinc
+    type: Float
+  - name: bauxite
+    type: Float
+  - name: iron_ore
+    type: Float
+  - name: phosphate
+    type: Float
+  - name: potash
+    type: Float
+  - name: sulfur
+    type: Float
+  - name: gold
+    type: Float
+  - name: platinum
+    type: Float
+  - name: silver
+    type: Float
+  - name: cocoa
+    type: Float
+  - name: coffee
+    type: Float
+  - name: cotton
+    type: Float
+  - name: cottonseed
+    type: Float
+  - name: palm_oil
+    type: Float
+  - name: peanuts
+    type: Float
+  - name: rubber
+    type: Float
+  - name: sugar
+    type: Float
+  - name: tea
+    type: Float
+  - name: tobacco
+    type: Float
+  - name: wool
+    type: Float

@@ -1,0 +1,48 @@
+name: usa_consumer_price_index_goods_and_services_1997_2017_us_bureau_of_labor_statistics_2017
+description: "The Bureau of Labor Statistics report on the monthly Consumer Price
+    Index (CPI) of individual goods and services for urban consumers at a national,
+    city and state level.\r\n\r\nData used in this sequence are based on the USA national
+    average of urban consumers, relative to December 1997 (which has been given the
+    value of zero). CPI is presented on an annual basis, which we have derived as
+    the average of the monthly CPIs in a given year."
+data_file: USA Consumer Price Index Goods and Services 1997-2017 - US Bureau of Labor
+    Statistics (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/USA%20Consumer%20Price%20Index%20Goods%20and%20Services%201997-2017%20-%20US%20Bureau%20of%20Labor%20Statistics%20(2017)/USA
+    Consumer Price Index Goods and Services 1997-2017 - US Bureau of Labor Statistics
+    (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: household_furnishings_us_bureau_of_labor_statistics_2017
+    type: Float
+  - name: household_energy_us_bureau_of_labor_statistics_2017
+    type: Float
+  - name: childcare_us_bureau_of_labor_statistics_2017
+    type: Float
+  - name: college_tuition_fees_us_bureau_of_labor_statistics_2017
+    type: Float
+  - name: education_us_bureau_of_labor_statistics_2017
+    type: Float
+  - name: toys_us_bureau_of_labor_statistics_2017
+    type: Float
+  - name: food_and_beverages_us_bureau_of_labor_statistics_2017
+    type: Float
+  - name: housing_us_bureau_of_labor_statistics_2017
+    type: Float
+  - name: medical_care_us_bureau_of_labor_statistics_2017
+    type: Float
+  - name: new_cars_us_bureau_of_labor_statistics_2017
+    type: Float
+  - name: clothing_us_bureau_of_labor_statistics_2017
+    type: Float
+  - name: tvs_us_bureau_of_labor_statistics_2017
+    type: Float
+  - name: software_us_bureau_of_labor_statistics_2017
+    type: Float
+  - name: all_items_us_bureau_of_labor_statistics_2017
+    type: Float
+  - name: public_transportation_us_bureau_of_labor_statistics_2017
+    type: Float

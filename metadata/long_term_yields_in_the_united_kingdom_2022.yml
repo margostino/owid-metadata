@@ -1,0 +1,37 @@
+name: long_term_yields_in_the_united_kingdom_2022
+description: "This dataset on agricultural yields in the United Kingdom was constructed
+    from yield data from three key sources.\n\n– Data from 1270 - 1870 was taken from
+    Broadberry et al (2015), made available by Bank of England. This comprises crop
+    yield estimates only for England. For this dataset, we have assumed that yields
+    in England are also representative of average UK yields. \n\n– Data from 1870
+    to 1960 is taken from Brassley (2000. This is provided over 5-year periods. We
+    have assumed these figures for the first year in each 5-year set.\n\n– Data from
+    1961 onwards is sourced from the Food and Agriculture Organization of the United
+    Nations.\n\nReferences:\nBroadberry, S., Campbell, B. M., Klein, A., Overton,
+    M., & Van Leeuwen, B. (2015). British economic growth, 1270–1870. Cambridge University
+    Press.\n\nBrassley, P. (2000). Output and technical change in twentieth-century
+    British agriculture. The Agricultural History Review, 60-84.\n\nFood and Agriculture
+    Organization of the United Nations. Available at: https://www.fao.org/faostat/en/#data/QCL"
+data_file: Long-term yields in the United Kingdom (2022).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Long-term%20yields%20in%20the%20United%20Kingdom%20(2022)/Long-term
+    yields in the United Kingdom (2022).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: wheat_owid_2017
+    type: Float
+  - name: barley_owid_2017
+    type: Float
+  - name: oats_owid_2017
+    type: Float
+  - name: potatoes_owid_2017
+    type: Float
+  - name: sugar_beet_owid_2017
+    type: Float
+  - name: rye_owid_2017
+    type: Float
+  - name: pulses_owid_2017
+    type: Float

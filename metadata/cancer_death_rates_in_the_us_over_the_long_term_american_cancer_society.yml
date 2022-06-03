@@ -1,0 +1,42 @@
+name: cancer_death_rates_in_the_us_over_the_long_term_american_cancer_society
+description: Figures are based on long-term death rates from various cancer types
+    (since 1930) in the United States for males and females. These death rates are
+    age-standardized to the US population structure for males and females in the year
+    2000. Death rates are measured per 100,000 individuals.
+data_file: Cancer death rates in the US over the long-term - American Cancer Society.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Cancer%20death%20rates%20in%20the%20US%20over%20the%20long-term%20-%20American%20Cancer%20Society/Cancer
+    death rates in the US over the long-term - American Cancer Society.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: stomach_male
+    type: Float
+  - name: colon_and_rectum_male
+    type: Float
+  - name: liver_male
+    type: Float
+  - name: pancreas_male
+    type: Float
+  - name: lung_and_bronchus_male
+    type: Float
+  - name: prostate_male
+    type: Float
+  - name: leukemia_male
+    type: Float
+  - name: stomach_female
+    type: Float
+  - name: colon_and_rectum_female
+    type: Float
+  - name: pancreas_female
+    type: Float
+  - name: lung_and_bronchus_female
+    type: Float
+  - name: breast_female
+    type: Float
+  - name: uterus_female
+    type: Float
+  - name: liver_female
+    type: Float

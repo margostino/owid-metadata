@@ -1,0 +1,165 @@
+name: energy_mix_from_bp_2020
+description: |-
+    Raw data on energy consumption is sourced from the BP Statistical Review of World Energy. Available at: http://www.bp.com/statisticalreview
+
+    Primary energy in exajoules (EJ) has been converted to TWh by Our World in Data based on a conversion factor of 277.778.
+
+    Each source's share of energy based on the "substitution method" were calculated by Our World in Data by taking all energy sources' energy normalised to EJ – this takes account of the inefficiencies in fossil fuel production and is a better approximation of "final energy" consumption.
+
+    Additional metrics have been calculated by Our World in Data:
+    – Annual change in energy consumption by source: this is calculated as the difference from the previous year
+    – % of total primary energy: calculated as each source's share of primary energy from all sources
+    – Per capita energy by source: calculated as primary energy consumption by source, divided by population (source from the UN Population Division)
+data_file: Energy mix from BP (2020).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Energy%20mix%20from%20BP%20(2020)/Energy
+    mix from BP (2020).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: primary_energy_twh
+    type: Float
+  - name: fossil_fuels_twh
+    type: Float
+  - name: low_carbon_energy_twh
+    type: Float
+  - name: coal_perc_primary_direct_energy
+    type: Float
+  - name: gas_perc_primary_direct_energy
+    type: Float
+  - name: oil_perc_primary_direct_energy
+    type: Float
+  - name: nuclear_perc_primary_direct_energy
+    type: Float
+  - name: hydro_perc_primary_direct_energy
+    type: Float
+  - name: renewables_perc_primary_direct_energy
+    type: Float
+  - name: solar_perc_primary_direct_energy
+    type: Float
+  - name: wind_perc_primary_direct_energy
+    type: Float
+  - name: other_renewables_perc_primary_direct_energy
+    type: Float
+  - name: coal_perc_sub_energy
+    type: Float
+  - name: gas_perc_sub_energy
+    type: Float
+  - name: oil_perc_sub_energy
+    type: Float
+  - name: nuclear_perc_sub_energy
+    type: Float
+  - name: hydro_perc_sub_energy
+    type: Float
+  - name: renewables_perc_sub_energy
+    type: Float
+  - name: solar_perc_sub_energy
+    type: Float
+  - name: wind_perc_sub_energy
+    type: Float
+  - name: other_renewables_perc_sub_energy
+    type: Float
+  - name: fossil_fuels_perc_sub_energy
+    type: Float
+  - name: low_carbon_energy_perc_sub_energy
+    type: Float
+  - name: coal_perc_growth
+    type: Float
+  - name: coal_twh_growth_sub_method
+    type: Float
+  - name: gas_perc_growth
+    type: Float
+  - name: gas_twh_growth_sub_method
+    type: Float
+  - name: oil_perc_growth
+    type: Float
+  - name: oil_twh_growth_sub_method
+    type: Float
+  - name: nuclear_perc_growth
+    type: Float
+  - name: nuclear_twh_growth_sub_method
+    type: Float
+  - name: hydro_perc_growth
+    type: Float
+  - name: hydro_twh_growth_sub_method
+    type: Float
+  - name: solar_perc_growth
+    type: Float
+  - name: solar_twh_growth_sub_method
+    type: Float
+  - name: wind_perc_growth
+    type: Float
+  - name: wind_twh_growth_sub_method
+    type: Float
+  - name: other_renewables_perc_growth
+    type: Float
+  - name: other_renewables_twh_growth_sub_method
+    type: Float
+  - name: renewables_perc_growth
+    type: Float
+  - name: renewables_twh_growth_sub_method
+    type: Float
+  - name: fossil_fuels_perc_growth
+    type: Float
+  - name: fossil_fuels_twh_growth_sub_method
+    type: Float
+  - name: low_carbon_energy_perc_growth
+    type: Float
+  - name: low_carbon_energy_twh_growth_sub_method
+    type: Float
+  - name: fossil_fuels_perc_primary_direct_energy
+    type: Float
+  - name: low_carbon_energy_perc_primary_direct_energy
+    type: Float
+  - name: coal_per_capita_kwh
+    type: Float
+  - name: oil_per_capita_kwh
+    type: Float
+  - name: gas_per_capita_kwh
+    type: Float
+  - name: nuclear_per_capita_kwh
+    type: Float
+  - name: solar_per_capita_kwh
+    type: Float
+  - name: wind_per_capita_kwh
+    type: Float
+  - name: hydro_per_capita_kwh
+    type: Float
+  - name: renewables_per_capita_kwh
+    type: Float
+  - name: fossil_fuels_per_capita_kwh
+    type: Float
+  - name: low_carbon_energy_per_capitakwh
+    type: Float
+  - name: other_renewables_per_capita_kwh
+    type: Float
+  - name: hydro_twh_sub_method
+    type: Float
+  - name: nuclear_twh_sub_method
+    type: Float
+  - name: renewables_twh_sub_method
+    type: Float
+  - name: solar_twh_sub_method
+    type: Float
+  - name: wind_twh_sub_method
+    type: Float
+  - name: other_renewables_twh_sub_method
+    type: Float
+  - name: low_carbon_energy_twh_sub_method
+    type: Float
+  - name: primary_energy_direct_twh
+    type: Float
+  - name: biofuels_twh
+    type: Float
+  - name: biofuels_perc_primary_direct_energy
+    type: Float
+  - name: biofuels_perc_sub_energy
+    type: Float
+  - name: biofuels_perc_growth
+    type: Float
+  - name: biofuels_twh_growth_sub_method
+    type: Float
+  - name: biofuels_per_capita_kwh
+    type: Float

@@ -1,0 +1,17 @@
+name: co2_intensity_of_transport_by_mode_uk_beis
+description: ""
+data_file: CO2 intensity of transport by mode (UK BEIS).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/CO2%20intensity%20of%20transport%20by%20mode%20(UK%20BEIS)/CO2
+    intensity of transport by mode (UK BEIS).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: ghg_emissions_gco2ekm
+    type: Float
+  - name: co2_emissions_gco2km
+    type: Float
+  - name: non_co2_emissions_gco2ekm
+    type: Float

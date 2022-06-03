@@ -1,0 +1,28 @@
+name: olympic_competing_nations_and_athletes_olympic_database
+description: Number of nations and athletes competing in each Olympic and Paralympic
+    games. This is noted separately for the Summer and Winter games.
+data_file: Olympic competing nations and athletes (Olympic Database).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Olympic%20competing%20nations%20and%20athletes%20(Olympic%20Database)/Olympic
+    competing nations and athletes (Olympic Database).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: nations_participating_in_summer_olympics
+    type: Float
+  - name: athletes_participating_in_summer_olympics
+    type: Float
+  - name: nations_participating_in_winter_olympics
+    type: Float
+  - name: athletes_participating_in_winter_olympics
+    type: Float
+  - name: nations_participating_in_summer_paralympics
+    type: Float
+  - name: athletes_participating_in_summer_paralympics
+    type: Float
+  - name: nations_participating_in_winter_paralympics
+    type: Float
+  - name: athletes_participating_in_winter_paralympics
+    type: Float

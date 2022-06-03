@@ -1,0 +1,25 @@
+name: heights_of_early_europeans_based_on_hermanussen_2003_and_the_ncd_risc_2017
+description: |-
+    This series combines figures from two published datasets.
+
+    Data on human heights in Early Europeans in the Eastern Mediterranean region was sourced from Stature of Early Europeans - Hermanussen (2013). These heights are provided for specific historical periods: where values are provided over a time range (for example, 10000-8000 BC), we have have allocated a date in the middle of this range (9000 BC, in this example).
+
+    To compare how historical heights have evolved into the 19th and 20th century, we have combined this series with data for Europe and Central Asia in the period 1896-1996 from the NCD RisC.
+
+    References:
+
+    Hermanussen, M. (2003). Stature of early Europeans. HORMONES-ATHENS-, 2, 175-178.
+data_file: Heights of Early Europeans - based on Hermanussen (2003) and the NCD RisC
+    (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Heights%20of%20Early%20Europeans%20-%20based%20on%20Hermanussen%20(2003)%20and%20the%20NCD%20RisC%20(2017)/Heights
+    of Early Europeans - based on Hermanussen (2003) and the NCD RisC (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: males_hermanussen_2003_and_ncd_risc_2017
+    type: Float
+  - name: females_hermanussen_2003_and_ncd_risc_2017
+    type: Float

@@ -1,0 +1,18 @@
+name: number_of_deaths_in_england_and_wales_by_age_ons
+description: Total annual number of deaths by age group in England and Wales across
+    all causes. Data for infants <1 years old are not included.
+data_file: Number of deaths in England and Wales by age - ONS.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Number%20of%20deaths%20in%20England%20and%20Wales%20by%20age%20-%20ONS/Number
+    of deaths in England and Wales by age - ONS.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: male_number_of_deaths
+    type: Float
+  - name: female_number_of_deaths
+    type: Float
+  - name: both_sexes_number_of_deaths
+    type: Float

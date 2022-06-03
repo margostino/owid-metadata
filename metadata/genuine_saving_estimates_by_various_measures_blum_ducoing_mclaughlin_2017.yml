@@ -1,0 +1,24 @@
+name: genuine_saving_estimates_by_various_measures_blum_ducoing_mclaughlin_2017
+description: ""
+data_file: Genuine saving estimates by various measures - Blum, Ducoing, McLaughlin
+    (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Genuine%20saving%20estimates%20by%20various%20measures%20-%20Blum%2C%20Ducoing%2C%20McLaughlin%20(2017)/Genuine
+    saving estimates by various measures - Blum, Ducoing, McLaughlin (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: net_investment_blum_ducoing_mclaughlin_2017
+    type: Float
+  - name: green_investment_blum_ducoing_mclaughlin_2017
+    type: Float
+  - name: genuine_saving_blum_ducoing_mclaughlin_2017
+    type: Float
+  - name: gstfp_blum_ducoing_mclaughlin_2017
+    type: Float
+  - name: gdp_blum_ducoing_mclaughlin_2017
+    type: Float
+  - name: green_carbon_blum_ducoing_mclaughlin_2017
+    type: Float

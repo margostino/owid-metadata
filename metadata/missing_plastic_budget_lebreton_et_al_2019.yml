@@ -1,0 +1,23 @@
+name: missing_plastic_budget_lebreton_et_al_2019
+description: |-
+    Data describes modelled and projected ocean plastic under three 'plastic emissions' scenarios.
+
+    Given is the modelled global accumulation of buoyant macroplastics (>0.5 cm) in the ocean. And the accumulation of microplastics (<0.5 cm), which is degraded plastic material from the ocean surface layer.
+
+    This is given under three scenarios:
+    (1) Emissions of plastic to the world's oceans stopped by 2020;
+    (2) Emissions stagnated at 2020 levels;
+    (3) Increasing emissions of plastic until 2050 in line with the average growth rate of global plastic production from 2005-2015.
+data_file: Missing plastic budget (Lebreton et al. 2019).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Missing%20plastic%20budget%20(Lebreton%20et%20al.%202019)/Missing
+    plastic budget (Lebreton et al. 2019).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: accumulated_ocean_plastic_macroplastics_greater05cm
+    type: Float
+  - name: accumulated_ocean_plastic_microplastics_less05cm
+    type: Float

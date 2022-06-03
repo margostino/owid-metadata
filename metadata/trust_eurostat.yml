@@ -1,0 +1,15 @@
+name: trust_eurostat
+description: ""
+data_file: Trust – Eurostat.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Trust%20%E2%80%93%20Eurostat/Trust
+    – Eurostat.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: trust_in_others_eurostat_2015
+    type: Float
+  - name: trust_in_police_eurostat_2015
+    type: Float

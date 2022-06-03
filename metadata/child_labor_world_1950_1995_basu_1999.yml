@@ -1,0 +1,13 @@
+name: child_labor_world_1950_1995_basu_1999
+description: ""
+data_file: Child Labor (World 1950-1995) - Basu (1999).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Child%20Labor%20(World%201950-1995)%20-%20Basu%20(1999)/Child
+    Labor (World 1950-1995) - Basu (1999).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: child_labor_world_ilo_epeap_1950_1995
+    type: Float

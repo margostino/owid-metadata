@@ -1,0 +1,27 @@
+name: population_by_age_group_to_2100_based_on_unwpp_2017_medium_scenario
+description: "Dataset was compiled by Our World in Data by combining historical estimates
+    (1950-2015) published by the UN World Population Prospects (2017) Revision, and
+    its medium scenario projected to 2100. \n\n"
+data_file: Population by age group to 2100 (based on UNWPP, 2017 medium scenario).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Population%20by%20age%20group%20to%202100%20(based%20on%20UNWPP%2C%202017%20medium%20scenario)/Population
+    by age group to 2100 (based on UNWPP, 2017 medium scenario).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: under_15_years_old_unwpp_2017
+    type: Float
+  - name: working_age_15_64_years_old_unwpp_2017
+    type: Float
+  - name: o65_years_old_unwpp_2017
+    type: Float
+  - name: under_5_years_old_unwpp_2017
+    type: Float
+  - name: o5_14_years_old_unwpp_2017
+    type: Float
+  - name: o15_24_years_old_unwpp_2017
+    type: Float
+  - name: o25_64_years_old_unwpp_2017
+    type: Float

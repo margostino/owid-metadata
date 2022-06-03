@@ -1,0 +1,22 @@
+name: urban_and_rural_populations_in_the_united_states_us_census_bureau_2010
+description: 'For further information on the US Census Bureau''s urban and rural classifications
+    see: https://www.census.gov/geo/reference/ua/uafaq.html or https://www.census.gov/geo/reference/ua/urban-rural-2010.html'
+data_file: Urban and rural populations in the United States - US Census Bureau (2010).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Urban%20and%20rural%20populations%20in%20the%20United%20States%20-%20US%20Census%20Bureau%20(2010)/Urban
+    and rural populations in the United States - US Census Bureau (2010).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: urban_population_us_census_bureau_2010
+    type: Float
+  - name: rural_population_us_census_bureau_2010
+    type: Float
+  - name: total_population_us_census_bureau_2010
+    type: Float
+  - name: percentage_of_the_population_in_urban_areas_us_census_bureau_2010
+    type: Float
+  - name: percentage_of_the_population_in_rural_areas_us_census_bureau_2010
+    type: Float

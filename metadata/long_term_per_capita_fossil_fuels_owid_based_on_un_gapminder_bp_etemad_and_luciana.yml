@@ -1,0 +1,36 @@
+name: long_term_per_capita_fossil_fuels_owid_based_on_un_gapminder_bp_etemad_and_luciana
+description: "Average per capita fossil fuel production - for coal, oil and gas -
+    was calculated by OWID based on published population and national fossil fuel
+    production data.\r\n\r\nPer capita fossil fuel production was calculated by dividing
+    national production of coal, oil or gas by the total population in any given year.\r\n\r\nPopulation
+    data was sourced from a combination of Gapminder sources (for data pre-1950),
+    and from 1950 onwards was sourced from the UN Population Division's 2017 Revision.\r\n\r\nFossil
+    fuel production data was sourced from a combination of sources.\r\n\r\nGlobal
+    data from 1800-1965 was sourced from Vaclav Smil's Updated and Revised Edition
+    of his book, 'Energy Transitions: Global and National Perspectives' (2017). This
+    book can be found on Smil's website at: http://vaclavsmil.com/2016/12/14/energy-transitions-global-and-national-perspectives-second-expanded-and-updated-edition/.\r\n\r\nGlobal
+    data from 1965 onwards was sourced from BP Statistical Review of Global Energy.
+    Available at: http://www.bp.com/statisticalreview [accessed 18th October 2017].\r\n\r\nData
+    at the national and regional level is sourced from The SHIFT Project Data Portal,
+    who draws upon Etemad & Luciana and US IEA Historical Statistics. Available at:
+    http://www.tsp-data-portal.org/ [accessed 18th October 2017].\r\n\r\nLong-run
+    data on UK coal output was sourced from the UK's Department for Energy and Climate
+    Change (DECC). Historical coal data: coal production, availability and consumption
+    1853 to 2016. Available at: https://www.gov.uk/government/statistical-data-sets/historical-coal-data-coal-production-availability-and-consumption-1853-to-2011
+    [accessed 18th October 2017]."
+data_file: Long-term per capita fossil fuels - OWID based on UN, Gapminder, BP, Etemad
+    & Luciana.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Long-term%20per%20capita%20fossil%20fuels%20-%20OWID%20based%20on%20UN%2C%20Gapminder%2C%20BP%2C%20Etemad%20%26%20Luciana/Long-term
+    per capita fossil fuels - OWID based on UN, Gapminder, BP, Etemad & Luciana.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: coal_production_per_capita
+    type: Float
+  - name: oil_production_per_capita
+    type: Float
+  - name: gas_production_per_capita
+    type: Float

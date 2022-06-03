@@ -1,0 +1,17 @@
+name: global_average_temperature_anomaly_hadley_centre
+description: "The temperature anomaly is measured relative to the 1961-1990 global
+    average temperature. Temperatures at this baseline represent an increase of 0.3-0.4
+    degrees celcius since pre-Industrial (1850) global average temperatures.\r\n\r\nThe
+    data presented here is a combined land-surface air temperature and sea-surface
+    temperature series. Upper and lower bounds represent the 95% confidence intervals."
+data_file: Global average temperature anomaly - Hadley Centre.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Global%20average%20temperature%20anomaly%20-%20Hadley%20Centre/Global
+    average temperature anomaly - Hadley Centre.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: global_average_temperature_anomaly_hadley_centre
+    type: Float

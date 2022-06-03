@@ -1,0 +1,13 @@
+name: infant_mortality_rate_ihme_2017
+description: Number of infants (less than one year old) dying per 100,000.
+data_file: Infant mortality rate (IHME - 2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Infant%20mortality%20rate%20(IHME%20-%202017)/Infant
+    mortality rate (IHME - 2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: infant_mortality_rate
+    type: Float

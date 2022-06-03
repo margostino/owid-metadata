@@ -1,0 +1,15 @@
+name: airline_hijacking_aviation_safety_network
+description: Number of hijackings, fatalities of hijacking
+data_file: Airline hijacking - Aviation Safety Network.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Airline%20hijacking%20-%20Aviation%20Safety%20Network/Airline
+    hijacking - Aviation Safety Network.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: number_of_airline_hijackings_aviation_safety_network
+    type: Float
+  - name: fatalities_due_to_airline_hijacking_aviation_safety_network
+    type: Float

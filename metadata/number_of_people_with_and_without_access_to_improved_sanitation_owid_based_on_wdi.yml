@@ -1,0 +1,19 @@
+name: number_of_people_with_and_without_access_to_improved_sanitation_owid_based_on_wdi
+description: |-
+    The absolute number of people with and without access to improved sanitation facilities has been calculated by OurWorldinData based on data of the share of the population with access, and the total population: both of these datasets sourced from the World Bank, World Development Indicators.
+
+    The World Bank note: "Improved sanitation facilities are likely to ensure hygienic separation of human excreta from human contact. They include flush/pour flush (to piped sewer system, septic tank, pit latrine), ventilated improved pit (VIP) latrine, pit latrine with slab, and composting toilet."
+data_file: Number of people with and without access to improved sanitation - OWID
+    based on WDI.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Number%20of%20people%20with%20and%20without%20access%20to%20improved%20sanitation%20-%20OWID%20based%20on%20WDI/Number
+    of people with and without access to improved sanitation - OWID based on WDI.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: population_with_access_to_improved_sanitation
+    type: Float
+  - name: population_without_access_to_improved_sanitation
+    type: Float

@@ -1,0 +1,17 @@
+name: oecd_education_pisa_test_scores_pisa_2015
+description: |-
+    PISA education test scores (reading, mathematics, and science)
+    OECD PISA average variable is the mean average taken over the mathematics, reading and sciences scores to create an overall ranking. Note also that a problem solving test was included in 2003 and also used to calculate the average. Data is missing for US Reading in 2006 as it was disqualified. Method of averaging over different tests is not endorsed by OECD
+data_file: 'OECD Education: PISA Test Scores - PISA (2015).csv'
+data_base_url_file: 'https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/OECD%20Education!%20PISA%20Test%20Scores%20-%20PISA%20(2015)/OECD
+    Education: PISA Test Scores - PISA (2015).csv'
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: oecd_pisa_education_score_pisa_2015
+    type: Float
+  - name: oecd_pisa_reading_score_2000_2012_pisa_2015
+    type: Float

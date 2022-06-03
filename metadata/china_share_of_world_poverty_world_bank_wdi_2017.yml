@@ -1,0 +1,21 @@
+name: china_share_of_world_poverty_world_bank_wdi_2017
+description: "Definitions: \r\n\r\nOur definition of poverty is defined using World
+    Bank's poverty headcount. People are considered poor if they live with less than
+    1.90$ per day (2011 int $ PPP). For more information on how the OurWorldInData
+    team defines poverty following the World Bank's definitions see our entry on \"Global
+    Extreme Poverty\"."
+data_file: China share of World Poverty - World Bank (WDI) (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/China%20share%20of%20World%20Poverty%20-%20World%20Bank%20(WDI)%20(2017)/China
+    share of World Poverty - World Bank (WDI) (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: world_world_bank_wdi_2017
+    type: Float
+  - name: china_world_bank_wdi_2017
+    type: Float
+  - name: world_not_including_china_world_bank_wdi_2017
+    type: Float

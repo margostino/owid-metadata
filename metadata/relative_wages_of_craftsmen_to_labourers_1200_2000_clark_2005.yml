@@ -1,0 +1,13 @@
+name: relative_wages_of_craftsmen_to_labourers_1200_2000_clark_2005
+description: Data taken from Table A2.
+data_file: Relative wages of craftsmen to labourers, 1200-2000 - Clark (2005).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Relative%20wages%20of%20craftsmen%20to%20labourers%2C%201200-2000%20-%20Clark%20(2005)/Relative
+    wages of craftsmen to labourers, 1200-2000 - Clark (2005).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: relative_wages_of_craftsmen_to_labourers_1200_2000_clark_2005
+    type: Float

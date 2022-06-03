@@ -1,0 +1,16 @@
+name: market_share_of_iodized_salt_in_european_countries_european_commission_2006
+description: Data represents the share of household salt sold on the market which
+    has been fortified with iodine (the most efficient solution to iodine deficiency).
+    This data is available across select European countries.
+data_file: Market share of iodized salt in European countries - European Commission
+    (2006).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Market%20share%20of%20iodized%20salt%20in%20European%20countries%20-%20European%20Commission%20(2006)/Market
+    share of iodized salt in European countries - European Commission (2006).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: market_share_of_iodized_salt_european_commission_2006
+    type: Float

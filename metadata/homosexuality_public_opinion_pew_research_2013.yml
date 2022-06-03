@@ -1,0 +1,18 @@
+name: homosexuality_public_opinion_pew_research_2013
+description: |4-
+
+    <strong>Notes </strong>
+    The full question asked: <em>Which one of these comes closest to your opinion, number 1 or number 2?...</br> #1 - Homosexuality should be accepted by society; or</br> #2 - Homosexuality should not be accepted by society </em>
+
+    For some countries the survey is not representative at the national level.
+data_file: Homosexuality public opinion – Pew Research (2013).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Homosexuality%20public%20opinion%20%E2%80%93%20Pew%20Research%20(2013)/Homosexuality
+    public opinion – Pew Research (2013).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_who_think_homosexuality_should_not_be_accepted_by_society
+    type: Float

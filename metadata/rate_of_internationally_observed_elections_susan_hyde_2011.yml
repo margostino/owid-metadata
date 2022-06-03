@@ -1,0 +1,28 @@
+name: rate_of_internationally_observed_elections_susan_hyde_2011
+description: "International election monitoring can be defined as the observation
+    of an election by one or more independent parties, typically from another country
+    or non-governmental organization (NGO). Election observers primarily assess the
+    conduct of elections and factors influencing the prevailing electoral environment.
+    As Hyde (2011) notes \"nearly 80 percent of all national elections are now monitored\".
+    For further background information see Hyde's 2011 paper referenced above.\n\nThe
+    percent of observed and criticized elections was calculated as:\n\n% observed
+    and criticized elections = (no.of criticized elections/ total no. of elections)
+    * 100\n\nThe percent of observed and not criticized elections was calculated as:\n\n%
+    observed and not criticized elections = [(no. of observed elections - no. of criticized
+    elections)/total number of elections] * 100\n \nCountries excluded from the analysis
+    are microstates and the five independent states that did not hold any direct national
+    elections between 1960 and 2006: China, Eritrea, Qatar, Saudi Arabia, and the
+    United Arab Emirates."
+data_file: Rate of internationally observed elections - Susan Hyde (2011).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Rate%20of%20internationally%20observed%20elections%20-%20Susan%20Hyde%20(2011)/Rate
+    of internationally observed elections - Susan Hyde (2011).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: percent_of_elections_observed_and_criticized_hyde_2011
+    type: Float
+  - name: percent_of_elections_observed_and_not_criticized_hyde_2011
+    type: Float

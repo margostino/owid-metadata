@@ -1,0 +1,74 @@
+name: suicide_rates_by_sex_and_age_ihme_2019
+description: |-
+    Death rates from suicide are measured as the number of suicide deaths measured per 100,000 individuals in a given demographic group.
+
+    The male-female suicide ratio is calculated by Our World in Data by dividing the male age-standardized suicide rate by the female age-standardized rate.
+data_file: Suicide rates by sex and age (IHME, 2019).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Suicide%20rates%20by%20sex%20and%20age%20(IHME%2C%202019)/Suicide
+    rates by sex and age (IHME, 2019).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: male_suicide_rate_age_standardized
+    type: Float
+  - name: female_suicide_rate_age_standardized
+    type: Float
+  - name: malefemale_suicide_ratio
+    type: Float
+  - name: suicide_rate_15_19_years_male
+    type: Float
+  - name: suicide_rate_15_19_years_female
+    type: Float
+  - name: suicide_rate_15_19_years_both_sexes
+    type: Float
+  - name: suicide_rate_20_24_years_male
+    type: Float
+  - name: suicide_rate_20_24_years_female
+    type: Float
+  - name: suicide_rate_20_24_years_both_sexes
+    type: Float
+  - name: suicide_rate_25_29_years_male
+    type: Float
+  - name: suicide_rate_25_29_years_female
+    type: Float
+  - name: suicide_rate_25_29_years_both_sexes
+    type: Float
+  - name: suicide_rate_30_34_years_male
+    type: Float
+  - name: suicide_rate_30_34_years_female
+    type: Float
+  - name: suicide_rate_30_34_years_both_sexes
+    type: Float
+  - name: suicide_rate_35_39_years_male
+    type: Float
+  - name: suicide_rate_35_39_years_female
+    type: Float
+  - name: suicide_rate_35_39_years_both_sexes
+    type: Float
+  - name: suicide_rate_40_44_years_male
+    type: Float
+  - name: suicide_rate_40_44_years_female
+    type: Float
+  - name: suicide_rate_40_44_years_both_sexes
+    type: Float
+  - name: suicide_rate_45_49_years_male
+    type: Float
+  - name: suicide_rate_45_49_years_female
+    type: Float
+  - name: suicide_rate_45_49_years_both_sexes
+    type: Float
+  - name: suicide_rate_50_69_years_male
+    type: Float
+  - name: suicide_rate_50_69_years_female
+    type: Float
+  - name: suicide_rate_50_69_years_both_sexes
+    type: Float
+  - name: suicide_rate_70_years_male
+    type: Float
+  - name: suicide_rate_70_years_female
+    type: Float
+  - name: suicide_rate_70_years_both_sexes
+    type: Float

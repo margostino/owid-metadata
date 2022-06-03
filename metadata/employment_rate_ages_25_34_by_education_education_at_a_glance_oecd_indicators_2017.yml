@@ -1,0 +1,31 @@
+name: employment_rate_ages_25_34_by_education_education_at_a_glance_oecd_indicators_2017
+description: "The year of reference is 2016 for all countries except for: Argentina
+    (2014), Russia (2015), Brazil (2015), Chile (2015), Ireland (2015), Indonesia
+    (2015), South Africa (2015), and Saudi Arabia (2014). \n\nData on Argentina should
+    be used with caution. Data below 30 persons in the denominator are generally considered
+    unreliable. Data below 5 persons in the numerator have been omitted due to confidentiality
+    reasons. For further details on national data sources and reliability thresholds,
+    see Table 3 in <a href=\"http://www.oecd.org/education/skills-beyond-school/EAG2017-Annex-3.pdf\"
+    rel=\"noopener\" target=\"_blank\">Annex 3: Sources, methods and technical notes</a>\n\nNote:
+    for the United Kingdom the OECD specifies \"Data for upper secondary attainment
+    include completion of a sufficient volume and standard of programmes that would
+    be classified individually as completion of intermediate upper secondary programmes
+    (16% of the adults aged 25-64 are in this group).\""
+data_file: 'Employment rate, ages 25-34, by education - Education at a Glance: OECD
+    Indicators (2017).csv'
+data_base_url_file: 'https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Employment%20rate%2C%20ages%2025-34%2C%20by%20education%20-%20Education%20at%20a%20Glance!%20OECD%20Indicators%20(2017)/Employment
+    rate, ages 25-34, by education - Education at a Glance: OECD Indicators (2017).csv'
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: employment_rate_ages_25_34_below_upper_secondary_education_oecd_2017
+    type: Float
+  - name: employment_rate_ages_25_34_upper_secondary_or_post_secondary_non_tertiary_vocational_education_oecd_2017
+    type: Float
+  - name: employment_rate_ages_25_34_upper_secondary_or_post_secondary_non_tertiary_general_or_no_distinction_education_oecd_2017
+    type: Float
+  - name: employment_rate_ages_25_34_tertiary_education_oecd_2017
+    type: Float

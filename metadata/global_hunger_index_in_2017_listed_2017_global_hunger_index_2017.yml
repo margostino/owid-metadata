@@ -1,0 +1,13 @@
+name: global_hunger_index_in_2017_listed_2017_global_hunger_index_2017
+description: ""
+data_file: Global Hunger Index in 2017 (listed 2017) (Global Hunger Index 2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Global%20Hunger%20Index%20in%202017%20(listed%202017)%20(Global%20Hunger%20Index%202017)/Global
+    Hunger Index in 2017 (listed 2017) (Global Hunger Index 2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: global_hunger_index_in_2017_global_hunger_index_2017
+    type: Float

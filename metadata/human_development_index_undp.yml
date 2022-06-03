@@ -1,0 +1,13 @@
+name: human_development_index_undp
+description: ""
+data_file: Human Development Index - UNDP.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Human%20Development%20Index%20-%20UNDP/Human
+    Development Index - UNDP.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: human_development_index_undp
+    type: Float

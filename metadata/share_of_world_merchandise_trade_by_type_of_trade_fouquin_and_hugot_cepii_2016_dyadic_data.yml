@@ -1,0 +1,32 @@
+name: share_of_world_merchandise_trade_by_type_of_trade_fouquin_and_hugot_cepii_2016_dyadic_data
+description: |-
+    'Non-rich' countries are all countries in the world except: Australia, Austria, Belgium, Canada, Cyprus, Denmark, Finland, France, Germany, Greece, Iceland,Ireland, Israel, Italy, Japan, Luxembourg, Netherlands, Norway, Portugal, Spain, Sweden, Switzerland, United Kingdom, United States.
+
+    Calculations use Fouquin and Hugot (CEPII 2016) dyadic trade data.
+data_file: Share of world merchandise trade by type of trade - Fouquin and Hugot (CEPII
+    2016, Dyadic data).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Share%20of%20world%20merchandise%20trade%20by%20type%20of%20trade%20-%20Fouquin%20and%20Hugot%20(CEPII%202016%2C%20Dyadic%20data)/Share
+    of world merchandise trade by type of trade - Fouquin and Hugot (CEPII 2016, Dyadic
+    data).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: value_of_world_merchandise_trade_rich_to_rich_fouquin_and_hugot_cepii_2016_dyadic_data
+    type: Float
+  - name: value_of_world_merchandise_trade_rich_to_non_rich_fouquin_and_hugot_cepii_2016_dyadic_data
+    type: Float
+  - name: value_of_world_merchandise_trade_non_rich_to_rich_fouquin_and_hugot_cepii_2016_dyadic_data
+    type: Float
+  - name: value_of_world_merchandise_trade_non_rich_to_non_rich_fouquin_and_hugot_cepii_2016_dyadic_data
+    type: Float
+  - name: share_of_world_merchandise_trade_rich_to_rich_fouquin_and_hugot_cepii_2016_dyadic_data
+    type: Float
+  - name: share_of_world_merchandise_trade_rich_to_non_rich_fouquin_and_hugot_cepii_2016_dyadic_data
+    type: Float
+  - name: share_of_world_merchandise_trade_non_rich_to_rich_fouquin_and_hugot_cepii_2016_dyadic_data
+    type: Float
+  - name: share_of_world_merchandise_trade_non_rich_to_non_rich_fouquin_and_hugot_cepii_2016_dyadic_data
+    type: Float

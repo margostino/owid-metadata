@@ -1,0 +1,26 @@
+name: long_term_productivity_bergeaud_cette_and_lecat_2016
+description: "The Long-Term Productivity database was created as a project at the
+    Bank of France in 2013 by Antonin Bergeaud, Gilbert Cette and Remy Lecat. This
+    database covers productivity relevant statistics, at least for the period 1890
+    to present, and includes 17 countries in the latest version (2016).\n\nThe starting
+    database used was built by Cette, Kocoglu and Mairesse (2009) on the United States,
+    Japan, France and the United Kingdom over the 1890-2006 period. "
+data_file: Long term productivity - Bergeaud, Cette, and Lecat (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Long%20term%20productivity%20-%20Bergeaud%2C%20Cette%2C%20and%20Lecat%20(2016)/Long
+    term productivity - Bergeaud, Cette, and Lecat (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: capital_intensity_bergeaud_cette_and_lecat_2016
+    type: Float
+  - name: age_of_capital_stock_bergeaud_cette_and_lecat_2016
+    type: Float
+  - name: labor_productivity_bergeaud_cette_and_lecat_2016
+    type: Float
+  - name: total_factor_productivity_tfp_bergeaud_cette_and_lecat_2016
+    type: Float
+  - name: gdp_per_capita_bergeaud_cette_and_lecat_2016
+    type: Float

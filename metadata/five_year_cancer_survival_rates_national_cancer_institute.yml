@@ -1,0 +1,50 @@
+name: five_year_cancer_survival_rates_national_cancer_institute
+description: "Five-year cancer survival rate, measured as the percentage of people
+    who survive at least five years since diagnosis. \n\nData is given as a single
+    year, but denotes the average over a given period as follows:\n1963: 1960-1963\n1973:
+    1970-1973\n1977: 1975-1977\n1980: 1978-1980\n1983: 1981-1983\n1986: 1984-1986\n1989:
+    1987-1989\n1992: 1989-1992\n1995: 1992-1995\n1998: 1996-1998\n2001: 1999-2001\n2006:
+    2002-2006\n2013: 2007-2013"
+data_file: Five-year cancer survival rates - National Cancer Institute.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Five-year%20cancer%20survival%20rates%20-%20National%20Cancer%20Institute/Five-year
+    cancer survival rates - National Cancer Institute.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: all_cancers
+    type: Float
+  - name: brain_and_nervous_system
+    type: Float
+  - name: breast_cancer
+    type: Float
+  - name: cervix_uteri_cancer
+    type: Float
+  - name: colon_and_rectum_cancer
+    type: Float
+  - name: esophagal_cancer
+    type: Float
+  - name: leukemia
+    type: Float
+  - name: lung_and_bronchus_cancer
+    type: Float
+  - name: liver_cancer
+    type: Float
+  - name: myeloma
+    type: Float
+  - name: pancreatic_cancer
+    type: Float
+  - name: prostate_cancer
+    type: Float
+  - name: stomach_cancer
+    type: Float
+  - name: thyroid_cancer
+    type: Float
+  - name: bladder_cancer
+    type: Float
+  - name: ovarian_cancer
+    type: Float
+  - name: skin_cancer
+    type: Float

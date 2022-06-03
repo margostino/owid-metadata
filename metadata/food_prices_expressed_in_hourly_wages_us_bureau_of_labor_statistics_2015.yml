@@ -1,0 +1,14 @@
+name: food_prices_expressed_in_hourly_wages_us_bureau_of_labor_statistics_2015
+description: ""
+data_file: Food Prices expressed in hourly wages - U.S. Bureau of Labor Statistics
+    (2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Food%20Prices%20expressed%20in%20hourly%20wages%20-%20U.S.%20Bureau%20of%20Labor%20Statistics%20(2015)/Food
+    Prices expressed in hourly wages - U.S. Bureau of Labor Statistics (2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: food_prices_expressed_in_hourly_wages_us_bureau_of_labor_statistics_2015
+    type: Float

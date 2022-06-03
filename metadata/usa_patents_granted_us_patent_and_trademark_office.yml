@@ -1,0 +1,37 @@
+name: usa_patents_granted_us_patent_and_trademark_office
+description: "Total patents granted from 1790-1839, as well as 2015 is based on the
+    US Patent and Trademark Office's reported \"Utility Patents\" which refers to
+    \"patents for inventions\". Available at: https://www.uspto.gov/web/offices/ac/ido/oeip/taf/h_counts.htm\n\n'Chemical'
+    patents includes those from agriculture, food, textiles, coatings, gas, organic
+    compounds, and resins.\n\n'Computers & communications' includes those from communications,
+    computer hardware and software, peripherals, information storage, electronic business
+    methods and software.\n\n'Medical' includes drugs, surgery, medical instruments
+    and biotechnology. \n\n'Electrical & electronics' includes electrical devices,
+    electrical lighting, measuring, testing, nuclear, x-rays, power systems, and semiconductor
+    devices.\n\n'Mechanical' includes materials processing & handling, metal working,
+    motors, engines, parts, optics and transportation.\n\n'Others' includes agriculture,
+    husbandry, food, amusement devices, apparel & textile, earth working & wells,
+    furniture, house fixtures, heating, pipes & joints, and receptacles."
+data_file: USA patents granted - US Patent & Trademark Office.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/USA%20patents%20granted%20-%20US%20Patent%20%26%20Trademark%20Office/USA
+    patents granted - US Patent & Trademark Office.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: total_patents_granted
+    type: Float
+  - name: chemical
+    type: Float
+  - name: computers_and_communications
+    type: Float
+  - name: medical
+    type: Float
+  - name: electronics
+    type: Float
+  - name: mechanical
+    type: Float
+  - name: other
+    type: Float

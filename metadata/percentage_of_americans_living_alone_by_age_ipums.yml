@@ -1,0 +1,32 @@
+name: percentage_of_americans_living_alone_by_age_ipums
+description: "Samples of the decennial Census (1900-2000) and the 2018 ACS from IPUMS-USA
+    has been used to construct variables on the percentage of Americans living alone,
+    by age and sex. \n\nWe include only those people who are reported to be living
+    in a one-person household and who do not live in group quarters. \n\nThe IPUMS
+    defines group quarters as \"largely institutions and other group living arrangements,
+    such as rooming houses and military barracks. The definitions vary from year to
+    year, but the pre-1940 samples have generally used a definition of group quarters
+    that includes units with 10 or more individuals unrelated to the householder.\"\n\nWe
+    have excluded those recorded to be living in institutions, other group quarters,
+    and additional households under the 2000 definition."
+data_file: Percentage of Americans living alone, by age - IPUMS.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Percentage%20of%20Americans%20living%20alone%2C%20by%20age%20-%20IPUMS/Percentage
+    of Americans living alone, by age - IPUMS.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: percentage_of_americans_living_alone_by_year_total_ipums
+    type: Float
+  - name: percentage_of_americans_living_alone_by_year_male_ipums
+    type: Float
+  - name: percentage_of_americans_living_alone_by_year_female_ipums
+    type: Float
+  - name: percentage_of_americans_living_alone_by_age_total_ipums
+    type: Float
+  - name: percentage_of_americans_living_alone_by_age_male_ipums
+    type: Float
+  - name: percentage_of_americans_living_alone_by_age_female_ipums
+    type: Float

@@ -1,0 +1,31 @@
+name: population_dynamics_and_global_human_capital_iiasa_2015
+description: The data on past and projected rates of educational attainment comes
+    from the International Institute for Applied Systems Analysis (IIASA) and can
+    be found here. These projections are constructed using current Global Economic
+    Trends (GET). There are other scenarios available, including a best and worst
+    case.
+data_file: Population Dynamics and Global Human Capital - IIASA (2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Population%20Dynamics%20and%20Global%20Human%20Capital%20-%20IIASA%20(2015)/Population
+    Dynamics and Global Human Capital - IIASA (2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: iiasa_rates_of_no_education_projections_iiasa_2015
+    type: Float
+  - name: total_number_of_people_aged_15_with_no_education_millions_iiasa_2015
+    type: Float
+  - name: no_education_1970_2050_iiasa_2015
+    type: Float
+  - name: primary_education_1970_2050_iiasa_2015
+    type: Float
+  - name: secondary_education_1970_2050_iiasa_2015
+    type: Float
+  - name: tertiary_education_1970_2050_iiasa_2015
+    type: Float
+  - name: aged_0_14_1970_2050_iiasa_2015
+    type: Float
+  - name: tertiary_education_for_those_aged_15_proportion_1970_2050_iiasa_2015
+    type: Float

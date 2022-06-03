@@ -1,0 +1,16 @@
+name: number_of_internet_users_owid_based_on_wb_and_unwpp
+description: |-
+    The number of internet users is calculated by Our World in Data based on internet access figures as a share of the total population, published in the World Bank, World Development Indicators (http://data.worldbank.org/data-catalog/world-development-indicators) and total population figures from the UN World Population Prospects (2017) (https://esa.un.org/unpd/wpp/Download/Standard/Population/).
+
+    The World Bank defines internet users as: "Internet users are individuals who have used the Internet (from any location) in the last 3 months. The Internet can be used via a computer, mobile phone, personal digital assistant, games machine, digital TV etc."
+data_file: Number of internet users (OWID based on WB & UNWPP).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Number%20of%20internet%20users%20(OWID%20based%20on%20WB%20%26%20UNWPP)/Number
+    of internet users (OWID based on WB & UNWPP).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: number_of_internet_users_owid_based_on_wb_and_un
+    type: Float

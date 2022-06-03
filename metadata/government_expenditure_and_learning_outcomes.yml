@@ -1,0 +1,26 @@
+name: government_expenditure_and_learning_outcomes
+description: "This dataset was compiled to compare the government expenditure per
+    primary student ($PPP) with learning outcomes. Because of the patchy nature of
+    the government expenditure data as obtained from the World Bank EdStats Dataset,
+    the most recent available expenditure data were used while 2006 was used as a
+    cut-off point. \n\nThe measure of learning outcome used is the share of students
+    either achieving or not achieving a minimum proficiency benchmark. Achievement
+    outcomes come from standardized, psychometrically-robust international and regional
+    tests. In order to maximize coverage by country, tests have been harmonized and
+    pooled across subjects (math, reading, science) and levels (primary and secondary
+    education). Higher proficiency benchmarks that represent the missing share of
+    100% are students that reached intermediate or advanced proficiency levels. See
+    source for details on proficiency benchmarks. "
+data_file: Government expenditure and learning outcomes.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Government%20expenditure%20and%20learning%20outcomes/Government
+    expenditure and learning outcomes.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: government_expenditure_per_primary_student_pppmoney_2006_2014
+    type: Float
+  - name: share_of_students_reaching_no_or_minimum_achievement_only_2005_2015
+    type: Float

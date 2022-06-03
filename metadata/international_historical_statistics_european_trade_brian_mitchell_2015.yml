@@ -1,0 +1,14 @@
+name: international_historical_statistics_european_trade_brian_mitchell_2015
+description: National accounts and trade (GDP, imports and exports). The ratio is
+    computed as the sum of imports and exports divided by GDP.
+data_file: 'International Historical Statistics: European trade - Brian Mitchell (2015).csv'
+data_base_url_file: 'https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/International%20Historical%20Statistics!%20European%20trade%20-%20Brian%20Mitchell%20(2015)/International
+    Historical Statistics: European trade - Brian Mitchell (2015).csv'
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: historical_european_trade_brian_mitchell_2015
+    type: Float

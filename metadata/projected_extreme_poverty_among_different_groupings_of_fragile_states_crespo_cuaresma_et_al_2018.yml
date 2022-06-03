@@ -1,0 +1,32 @@
+name: projected_extreme_poverty_among_different_groupings_of_fragile_states_crespo_cuaresma_et_al_2018
+description: |-
+    The poverty projections are based on the Shared Socioeconomic Pathways framework developed at IIASA. In particular these figures relate to SSP2, the baseline scenario employed by Crespo Cuaresma et al. (2018). Population projections from UN World Population Prospects: The 2017 Revision.
+
+    The sources of the fragile states lists are as follows:
+    OECD States of Fragility, 2018
+    OECD Resource Flows to Fragile and Conflict-Affected States: Annual Report 2008
+    World Bank 2019 – FY19 List of fragile situations
+    World Bank 2009 – FY09 Fragile States list
+data_file: Projected extreme poverty among different groupings of fragile states (Crespo
+    Cuaresma et al, 2018; OECD; World Bank).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Projected%20extreme%20poverty%20among%20different%20groupings%20of%20fragile%20states%20(Crespo%20Cuaresma%20et%20al%2C%202018%3B%20/Projected
+    extreme poverty among different groupings of fragile states (Crespo Cuaresma et
+    al, 2018; OECD; World Bank).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: projected_global_extreme_poverty_rate
+    type: Float
+  - name: projected_extreme_poor_in_fragile_states
+    type: Float
+  - name: projected_share_of_global_extreme_poor_living_in_fragile_states
+    type: Float
+  - name: projected_share_of_world_population_living_in_fragile_states
+    type: Float
+  - name: projected_extreme_poverty_rate_amongst_fragile_states
+    type: Float
+  - name: projected_extreme_poor_not_in_fragile_states
+    type: Float

@@ -1,0 +1,96 @@
+name: political_regimes_owid_based_on_boix_et_al_2013
+description: |-
+    This dataset provides information on political regimes, using data from Boix et al. (2013).
+
+    We slightly expand the countries and years covered.
+
+    You can download the code and complete dataset, including supplementary variables, from GitHub: https://github.com/owid/notebooks/tree/main/BastianHerre/political_regimes
+data_file: Political regimes - OWID based on Boix et al. (2013).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Political%20regimes%20-%20OWID%20based%20on%20Boix%20et%20al.%20(2013)/Political
+    regimes - OWID based on Boix et al. (2013).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: regime_bmr_owid
+    type: Float
+  - name: dem_age_bmr_owid
+    type: Float
+  - name: dem_age_group_bmr_owid
+    type: Float
+  - name: regime_womsuffr_bmr_owid
+    type: Float
+  - name: dem_ws_age_bmr_owid
+    type: Float
+  - name: dem_ws_age_group_bmr_owid
+    type: Float
+  - name: regime_imputed_bmr_owid
+    type: Float
+  - name: regime_imputed_country_bmr_owid
+    type: Float
+  - name: dem_exp_bmr_owid
+    type: Float
+  - name: dem_ws_exp_bmr_owid
+    type: Float
+  - name: number_nondem_bmr_owid
+    type: Float
+  - name: number_dem_bmr_owid
+    type: Float
+  - name: number_nondem_womsuffr_bmr_owid
+    type: Float
+  - name: number_dem_womsuffr_bmr_owid
+    type: Float
+  - name: number_dem_18_bmr_owid
+    type: Float
+  - name: number_dem_30_bmr_owid
+    type: Float
+  - name: number_dem_60_bmr_owid
+    type: Float
+  - name: number_dem_90_bmr_owid
+    type: Float
+  - name: number_dem_91plus_bmr_owid
+    type: Float
+  - name: number_dem_ws_18_bmr_owid
+    type: Float
+  - name: number_dem_ws_30_bmr_owid
+    type: Float
+  - name: number_dem_ws_60_bmr_owid
+    type: Float
+  - name: number_dem_ws_90_bmr_owid
+    type: Float
+  - name: number_dem_ws_91plus_bmr_owid
+    type: Float
+  - name: pop_nondem_bmr_owid
+    type: Float
+  - name: pop_dem_bmr_owid
+    type: Float
+  - name: pop_missreg_bmr_owid
+    type: Float
+  - name: pop_nondem_womsuffr_bmr_owid
+    type: Float
+  - name: pop_dem_womsuffr_bmr_owid
+    type: Float
+  - name: pop_dem_18_bmr_owid
+    type: Float
+  - name: pop_dem_30_bmr_owid
+    type: Float
+  - name: pop_dem_60_bmr_owid
+    type: Float
+  - name: pop_dem_90_bmr_owid
+    type: Float
+  - name: pop_dem_91plus_bmr_owid
+    type: Float
+  - name: pop_dem_ws_18_bmr_owid
+    type: Float
+  - name: pop_dem_ws_30_bmr_owid
+    type: Float
+  - name: pop_dem_ws_60_bmr_owid
+    type: Float
+  - name: pop_dem_ws_90_bmr_owid
+    type: Float
+  - name: pop_dem_ws_91plus_bmr_owid
+    type: Float
+  - name: region
+    type: Float

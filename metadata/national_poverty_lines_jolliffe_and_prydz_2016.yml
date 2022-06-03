@@ -1,0 +1,13 @@
+name: national_poverty_lines_jolliffe_and_prydz_2016
+description: ""
+data_file: National Poverty Lines - Jolliffe and Prydz (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/National%20Poverty%20Lines%20-%20Jolliffe%20and%20Prydz%20(2016)/National
+    Poverty Lines - Jolliffe and Prydz (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: national_poverty_lines_jolliffe_and_prydz_2016
+    type: Float

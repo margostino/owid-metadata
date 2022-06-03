@@ -1,0 +1,33 @@
+name: co2_gdp_coupling_owid_based_on_world_bank
+description: ""
+data_file: CO2-GDP Coupling - OWID based on World Bank.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/CO2-GDP%20Coupling%20-%20OWID%20based%20on%20World%20Bank/CO2-GDP
+    Coupling - OWID based on World Bank.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: gdp_per_capita_owid_based_on_world_bank
+    type: Float
+  - name: gdp_owid_based_on_world_bank
+    type: Float
+  - name: population_owid_based_on_world_bank
+    type: Float
+  - name: co2_emissions_owid_based_on_world_bank
+    type: Float
+  - name: co2_emissions_per_capita_owid_based_on_world_bank
+    type: Float
+  - name: methane_emissions_owid_based_on_world_bank
+    type: Float
+  - name: methane_emissions_per_capita_owid_based_on_world_bank
+    type: Float
+  - name: nitrous_oxide_emissions_owid_based_on_world_bank
+    type: Float
+  - name: nitrous_oxide_per_capita_owid_based_on_world_bank
+    type: Float
+  - name: energy_use_per_capita_owid_based_on_world_bank
+    type: Float
+  - name: energy_use_owid_based_on_world_bank
+    type: Float

@@ -1,0 +1,37 @@
+name: who_americans_spend_time_with_american_time_use_survey_2009_2019
+description: |-
+    These estimates are based on a classification of time spent on various activities while being in company of others, and the presentation of the data was inspired by earlier work from Henrik Lindberg.
+
+    The time-use data comes from the American Time Use Survey (ATUS), and the classification of activities and relationships relies on the code from Henrik Lindberg, available from <a href="https://gist.github.com/halhen/d969234077c9b70df4c4b8dd902bea38">Lindberg's GitHub Repo</a>. All estimates correspond to pooled data for the period 2009-2019, using population weights.
+
+    Estimates rely on the ATUS "Who File". This is a file that indicates who was present during each activity recorded. People can be counted twice, which means that attending a party with friends and your spouse, for example, would count for both categories. Sleeping is excluded.
+
+    <b> Further notes </b>
+
+    - Some of the original "Who Codes" have be re-coded and grouped (e.g. 'roommate' has been coded as 'friend')
+    - In the ATUS "Who File" there is one record for each person reported present. Therefore, there will be one record for activities done alone and multiple records for activities with multiple people present. For some activities, no “who” codes are collected (such as sleeping and grooming).
+data_file: Who Americans spend time with - American Time Use Survey (2009-2019).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Who%20Americans%20spend%20time%20with%20-%20American%20Time%20Use%20Survey%20(2009-2019)/Who
+    Americans spend time with - American Time Use Survey (2009-2019).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: time_spent_alone_by_age_of_respondent_united_states
+    type: Float
+  - name: time_spent_with_children_by_age_of_respondent_united_states
+    type: Float
+  - name: time_spent_with_coworkers_by_age_of_respondent_united_states
+    type: Float
+  - name: time_spent_with_family_by_age_of_respondent_united_states
+    type: Float
+  - name: time_spent_with_friends_by_age_of_respondent_united_states
+    type: Float
+  - name: time_spent_with_other_people_by_age_of_respondent_united_states
+    type: Float
+  - name: time_spent_with_partner_by_age_of_respondent_united_states
+    type: Float
+  - name: time_spent_with_other_unclassified_people_by_age_of_respondent_united_states
+    type: Float

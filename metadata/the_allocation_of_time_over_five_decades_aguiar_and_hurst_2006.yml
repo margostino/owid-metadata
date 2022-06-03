@@ -1,0 +1,17 @@
+name: the_allocation_of_time_over_five_decades_aguiar_and_hurst_2006
+description: ""
+data_file: The allocation of time over five decades - Aguiar and Hurst (2006).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/The%20allocation%20of%20time%20over%20five%20decades%20-%20Aguiar%20and%20Hurst%20(2006)/The
+    allocation of time over five decades - Aguiar and Hurst (2006).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: hours_per_week_spent_in_market_and_non_market_work_aguiar_and_hurst_2006
+    type: Float
+  - name: hours_per_week_spent_on_child_care_aguiar_and_hurst_2006
+    type: Float
+  - name: hours_per_week_spent_in_leisure_aguiar_and_hurst_2006
+    type: Float

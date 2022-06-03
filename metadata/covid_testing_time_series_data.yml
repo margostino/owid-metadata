@@ -1,0 +1,42 @@
+name: covid_testing_time_series_data
+description: |-
+    Data on COVID-19 testing. Comparisons between countries are compromised for several reasons.
+
+    You can download the full dataset, alongside detailed source descriptions here: https://github.com/owid/covid-19-data/tree/master/public/data/
+data_file: COVID testing time series data.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/COVID%20testing%20time%20series%20data/COVID
+    testing time series data.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: total_tests
+    type: Float
+  - name: new_tests
+    type: Float
+  - name: total_tests_per_thousand
+    type: Float
+  - name: new_tests_per_thousand
+    type: Float
+  - name: annotation
+    type: Float
+  - name: cumulative_tests_per_case
+    type: Float
+  - name: cumulative_positivity_rate
+    type: Float
+  - name: testing_observations
+    type: Float
+  - name: days_since_observation
+    type: Float
+  - name: observations_found
+    type: Float
+  - name: new_tests_7day_smoothed
+    type: Float
+  - name: new_tests_per_thousand_7day_smoothed
+    type: Float
+  - name: short_term_tests_per_case
+    type: Float
+  - name: short_term_positivity_rate
+    type: Float

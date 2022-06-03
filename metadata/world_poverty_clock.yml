@@ -1,0 +1,17 @@
+name: world_poverty_clock
+description: 'For the years prior to 2020, the values for January were taken. '
+data_file: World Poverty Clock.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/World%20Poverty%20Clock/World
+    Poverty Clock.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_of_population_in_extreme_poverty_world_data_lab_2018
+    type: Float
+  - name: number_of_people_in_extreme_poverty_world_data_lab_2018
+    type: Float
+  - name: population_world_data_lab_2018
+    type: Float

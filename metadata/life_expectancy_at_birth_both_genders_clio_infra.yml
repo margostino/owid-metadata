@@ -1,0 +1,14 @@
+name: life_expectancy_at_birth_both_genders_clio_infra
+description: The data are from Clio Infra and the author of the data set is Richard
+    Zijdeman.
+data_file: Life Expectancy at Birth (both genders) – Clio Infra.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Life%20Expectancy%20at%20Birth%20(both%20genders)%20%E2%80%93%20Clio%20Infra/Life
+    Expectancy at Birth (both genders) – Clio Infra.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: life_expectancy_at_birth_both_genders_clio_infra
+    type: Float

@@ -1,0 +1,40 @@
+name: metal_production_clio_infra_and_usgs
+description: "Data on metal production is based on the combination of two sources.\r\n\r\nHistorical
+    data from 1850-2011 is sourced from the ClioInfra database, available at: https://www.clio-infra.eu/
+    [accessed 9th September 2017].\r\n\r\nThis has been combined with recent data
+    from the USGS Mineral Statistics from 2012 onwards. Available at: https://minerals.usgs.gov/minerals/pubs/commodity/aluminum/
+    [accessed 9th September 2017].\r\n\r\nBoth sources report primary production in
+    thousand metric tonnes.\r\nNote: Gold production is measured in metric tons. "
+data_file: Metal production - Clio Infra & USGS.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Metal%20production%20-%20Clio%20Infra%20%26%20USGS/Metal
+    production - Clio Infra & USGS.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: nickel_production_clio_infra_and_usgs
+    type: Float
+  - name: tungsten_production_clio_infra_and_usgs
+    type: Float
+  - name: zinc_production_clio_infra_and_usgs
+    type: Float
+  - name: silver_production_clio_infra_and_usgs
+    type: Float
+  - name: bauxite_production_clio_infra_and_usgs
+    type: Float
+  - name: iron_ore_production_clio_infra_and_usgs
+    type: Float
+  - name: gold_production_clio_infra_and_usgs
+    type: Float
+  - name: tin_production_clio_infra_and_usgs
+    type: Float
+  - name: lead_production_clio_infra_and_usgs
+    type: Float
+  - name: copper_production_clio_infra_and_usgs
+    type: Float
+  - name: aluminium_production_clio_infra_and_usgs
+    type: Float
+  - name: manganese_production_clio_infra_and_usgs
+    type: Float

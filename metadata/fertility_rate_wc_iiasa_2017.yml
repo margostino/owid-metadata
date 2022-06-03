@@ -1,0 +1,19 @@
+name: fertility_rate_wc_iiasa_2017
+description: In the original data the fertility rate refer to 5 year windows. Here
+    the mid year for each window is taken. For example 1978 here refers to the period
+    1975-1980.
+data_file: Fertility Rate - WC-IIASA (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Fertility%20Rate%20-%20WC-IIASA%20(2017)/Fertility
+    Rate - WC-IIASA (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: fertility_rate_ssp2_get_scenario_wc_iiasa
+    type: Float
+  - name: fertility_rate_ssp2_cer_scenario_wc_iiasa
+    type: Float
+  - name: fertility_rate_ssp2_ft_scenario_wc_iiasa
+    type: Float

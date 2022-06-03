@@ -1,0 +1,13 @@
+name: guinea_worm_who_certification_status_who_2018
+description: ""
+data_file: Guinea worm WHO certification status - WHO 2018.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Guinea%20worm%20WHO%20certification%20status%20-%20WHO%202018/Guinea
+    worm WHO certification status - WHO 2018.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: guinea_worm_certification_status_who_2018
+    type: Float

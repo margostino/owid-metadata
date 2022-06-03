@@ -1,0 +1,20 @@
+name: length_of_the_work_day_from_1890s_to_1991_costa_2000
+description: |-
+    See Table 5 and 6 for original data.
+
+    *The surveys that are used are from California in 1892; Kansas in 1895, 1896, 1897, and 1899; Main in 1890; Michigan stoneworkers in 1888; Michigan railway workers in 1893; Wisconsin in 1895; and women in Indianapolis in 1893
+data_file: 'Length of the work day: from 1890s to 1991 - Costa (2000).csv'
+data_base_url_file: 'https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Length%20of%20the%20work%20day!%20from%201890s%20to%201991%20-%20Costa%20(2000)/Length
+    of the work day: from 1890s to 1991 - Costa (2000).csv'
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: percentage_of_men_in_each_industry_group_costa_2000
+    type: Float
+  - name: average_daily_hours_of_work_by_industry_men_costa_2000
+    type: Float
+  - name: average_daily_hours_of_work_by_occupation_men_costa_2000
+    type: Float

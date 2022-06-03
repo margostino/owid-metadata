@@ -1,0 +1,19 @@
+name: tax_composition_arroyo_abad_and_p_lindert_2016
+description: ""
+data_file: "Tax composition – \tArroyo Abad  and P. Lindert (2016).csv"
+data_base_url_file: "https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Tax%20composition%20%E2%80%93%20!Arroyo%20Abad%20%20and%20P.%20Lindert%20(2016)/Tax
+    composition – \tArroyo Abad  and P. Lindert (2016).csv"
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: income_and_wealth_arroyo_abad_and_lindert_2016
+    type: Float
+  - name: consumption_arroyo_abad_and_lindert_2016
+    type: Float
+  - name: trade_arroyo_abad_and_lindert_2016
+    type: Float
+  - name: resources_arroyo_abad_and_lindert_2016
+    type: Float

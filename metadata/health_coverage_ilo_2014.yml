@@ -1,0 +1,24 @@
+name: health_coverage_ilo_2014
+description: |-
+    Share of population covered by health insurance:
+
+    Estimate of health coverage as a percentage of total population. Coverage includes affiliated members of health insurance or estimation of the population having free access to health care services provided by the State. Consult detailed data and sources available from the original tables (http://www.social-protection.org/gimi/gess/RessourceDownload.action?ressource.ressourceId=37218) and the discussion paper (https://www.ilo.org/wcmsp5/groups/public/---ed_protect/---soc_sec/documents/publication/wcms_305947.pdf)
+
+    ---
+
+    Total health care coverage:
+
+    This dataset combines observations for OECD countries from the 1960s, with observations for non-OECD countries from the 2000s. If you are interested in complete series please visit the underlying sources.
+
+    Estimate of health coverage as a percentage of total population. Coverage includes affiliated members of health insurance or estimation of the population having free access to health care services provided by the State. Consult detailed data and sources available from the original tables (http://www.social-protection.org/gimi/gess/RessourceDownload.action?ressource.ressourceId=37218) and the discussion paper (https://www.ilo.org/wcmsp5/groups/public/---ed_protect/---soc_sec/documents/publication/wcms_305947.pdf)
+data_file: Health Coverage – ILO (2014).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Health%20Coverage%20%E2%80%93%20ILO%20(2014)/Health
+    Coverage – ILO (2014).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_of_population_covered_by_health_insurance_ilo_2014
+    type: Float

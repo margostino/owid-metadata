@@ -1,0 +1,27 @@
+name: new_estimates_of_hours_of_work_per_week_1900_1957_jones_1963
+description: ""
+data_file: New estimates of hours of work per week, 1900-1957 - Jones (1963).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/New%20estimates%20of%20hours%20of%20work%20per%20week%2C%201900-1957%20-%20Jones%20(1963)/New
+    estimates of hours of work per week, 1900-1957 - Jones (1963).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: average_hours_per_week_worked_in_manufacturing_bls
+    type: Float
+  - name: average_hours_per_week_worked_in_manufacturing_jones
+    type: Float
+  - name: average_hours_of_work_per_week_on_railroads_bls
+    type: Float
+  - name: average_hours_of_work_per_week_on_railroads_jones
+    type: Float
+  - name: average_hours_of_work_per_week_in_bituminous_coal_bls
+    type: Float
+  - name: average_hours_of_work_per_week_in_bituminous_coal_jones
+    type: Float
+  - name: average_hours_of_work_per_week_in_anthracite_coal_bls
+    type: Float
+  - name: average_hours_of_work_per_week_in_anthracite_coal_jones
+    type: Float

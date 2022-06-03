@@ -1,0 +1,13 @@
+name: malaria_deaths_ihme_2016
+description: ""
+data_file: Malaria deaths - IHME (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Malaria%20deaths%20-%20IHME%20(2016)/Malaria
+    deaths - IHME (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: deaths_from_malaria_ihme_2016
+    type: Float

@@ -1,0 +1,17 @@
+name: education_data_deprivation_gem_report_201718_uis_2017
+description: ""
+data_file: Education data deprivation (GEM Report (2017/18), UIS (2017)).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Education%20data%20deprivation%20(GEM%20Report%20(2017!18)%2C%20UIS%20(2017))/Education
+    data deprivation (GEM Report (2017/18), UIS (2017)).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: primary_enrolment_data_available_at_last_cutoff_gem_report_201718
+    type: Float
+  - name: existence_of_nationally_representative_learning_assessment_in_grades_2_or_3_of_primary_education_gem_report_201718
+    type: Float
+  - name: existence_of_nationally_representative_learning_assessment_at_the_end_of_primary_education_gem_report_201718
+    type: Float

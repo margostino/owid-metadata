@@ -1,0 +1,20 @@
+name: crude_birth_and_death_rates_per_1_000_england_and_wales_1541_2015_wrigley_and_schofield_mitche
+description: '*Note: Our World In Data compiled the data from the above sources as
+    follows: for the years 1541-1861: Wrigley and Schofield (1981); for the years
+    1862-2003: Brian Mitchell (2010); for the years 2004-2015: UK Office for National
+    Statistics (2016).'
+data_file: Crude Birth and Death Rates (per 1,000), England and Wales 1541-2015 -
+    Wrigley and Schofield, Mitchell, UK ONS.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Crude%20Birth%20and%20Death%20Rates%20(per%201%2C000)%2C%20England%20and%20Wales%201541-2015%20-%20Wrigley%20and%20Schofield%2C%20Mitche/Crude
+    Birth and Death Rates (per 1,000), England and Wales 1541-2015 - Wrigley and Schofield,
+    Mitchell, UK ONS.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: crude_birth_rate_owid_based_on_wrigley_and_schofield_1981_mitchell_2010_and_uk_ons_2016
+    type: Float
+  - name: crude_death_rate_owid_based_on_wrigley_and_schofield_1981_mitchell_2010_and_uk_ons_2016
+    type: Float

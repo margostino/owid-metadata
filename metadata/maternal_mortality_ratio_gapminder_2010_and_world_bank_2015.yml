@@ -1,0 +1,22 @@
+name: maternal_mortality_ratio_gapminder_2010_and_world_bank_2015
+description: "Claudia Hanson has reconstructed the historical estimates for Gapminder
+    in 2010. The work is documented here: https://www.gapminder.org/documentation/documentation/gapdoc010.pdf
+    and can be accessed here: https://docs.google.com/spreadsheets/d/14ZtQy9kd0pMRKWg_zKsTg3qKHoGtflj-Ekal9gIPZ4A/pub#\r\nGapminder
+    has reconstructed the historical data for the following 13 countries: Australia,
+    Belgium, Denmark, Finland, Germany, Ireland, Japan, Malaysia, Netherlands, Sri
+    Lanka, Sweden, the United Kingdom, and the United States. \r\n\r\nThe original
+    source of the World Bank data is: WHO, UNICEF, UNFPA, World Bank Group, and the
+    United Nations Population Division. Trends in Maternal Mortality: 1990 to 2015.
+    Geneva, World Health Organization, 2015 \r\n\r\nThe two datasets were combined
+    without any adjustments."
+data_file: Maternal Mortality Ratio - Gapminder (2010) and World Bank (2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Maternal%20Mortality%20Ratio%20-%20Gapminder%20(2010)%20and%20World%20Bank%20(2015)/Maternal
+    Mortality Ratio - Gapminder (2010) and World Bank (2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: maternal_mortality_ratio_gapminder_2010_and_world_bank_2015
+    type: Float

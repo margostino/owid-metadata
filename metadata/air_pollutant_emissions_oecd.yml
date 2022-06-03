@@ -1,0 +1,39 @@
+name: air_pollutant_emissions_oecd
+description: "Air pollutant emissions reported for OECD countries, where data is available,
+    measured in tonnes per year. \n\nIndexed figures relate to changes since the year
+    1990 (1990 is assumed equal to 100). A figure lower than 100 indicates a reduction
+    in emissions (e.g. 40 indicates a 60% reduction since 1990). Indexed figures are
+    only available for countries with data extending to 1990."
+data_file: Air Pollutant Emissions - OECD.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Air%20Pollutant%20Emissions%20-%20OECD/Air
+    Pollutant Emissions - OECD.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: carbon_monoxide
+    type: Float
+  - name: nox
+    type: Float
+  - name: non_methane_volatile_organic_compounds_vocs
+    type: Float
+  - name: pm10
+    type: Float
+  - name: pm25
+    type: Float
+  - name: so2
+    type: Float
+  - name: carbon_monoxide_index
+    type: Float
+  - name: nox_index
+    type: Float
+  - name: non_methane_volatile_organic_compounds_vocs_index
+    type: Float
+  - name: pm10_index
+    type: Float
+  - name: pm25_index
+    type: Float
+  - name: so2_index
+    type: Float

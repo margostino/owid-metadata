@@ -1,0 +1,29 @@
+name: smoking_cigarette_sales_international_smoking_statistics_2017
+description: "Total cigarettes include both manufactured and hand-rolled cigarettes.
+    For Latvia, total cigarettes comprise of manufactured cigarettes and Papyrosi
+    cigarettes. \n\nIn some countries the original data reports 0 for a specific year,
+    with otherwise large reported values for the years before and after. In these
+    cases we treat 0 as a mistake and report missing data for that year.\n\nThe 'number
+    of cigarettes smoked per person per day' for both males and females has been averaged
+    across all years in which multiple estimates were provided in the ISS dataset
+    for the United States, to arrive at one estimate for each year.\n\nThe time series
+    for Germany includes West Germany cigarette sales for the 1948-1989 period ."
+data_file: Smoking cigarette sales (International Smoking Statistics (2017)) .csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Smoking%20cigarette%20sales%20(International%20Smoking%20Statistics%20(2017))%20/Smoking
+    cigarette sales (International Smoking Statistics (2017)) .csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: sales_of_cigarettes_per_adult_per_day_international_smoking_statistics_2017
+    type: Float
+  - name: number_of_cigarettes_smoked_per_smoker_per_day_females_iss_2017
+    type: Float
+  - name: number_of_cigarettes_smoked_per_smoker_per_day_males_iss_2017
+    type: Float
+  - name: prevalence_of_smoking_females_iss_2017
+    type: Float
+  - name: prevalence_of_smoking_males_iss_2017
+    type: Float

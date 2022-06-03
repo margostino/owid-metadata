@@ -1,0 +1,27 @@
+name: plastic_ocean_pollution_meijer_et_al_2021
+description: ""
+data_file: Plastic ocean pollution (Meijer et al. 2021).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Plastic%20ocean%20pollution%20(Meijer%20et%20al.%202021)/Plastic
+    ocean pollution (Meijer et al. 2021).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: probability_of_plastic_being_emitted_to_ocean
+    type: Float
+  - name: mismanaged_plastic_waste_metric_tons_year_1
+    type: Float
+  - name: mismanaged_waste_emitted_to_the_ocean_metric_tons_year_1
+    type: Float
+  - name: share_of_mismanaged_plastic_waste_emitted_to_ocean
+    type: Float
+  - name: share_of_global_mismanaged_plastic_waste
+    type: Float
+  - name: share_of_global_plastics_emitted_to_ocean
+    type: Float
+  - name: mismanaged_plastic_waste_per_capita_kg_per_year
+    type: Float
+  - name: mismanaged_plastic_waste_to_ocean_per_capita_kg_per_year
+    type: Float

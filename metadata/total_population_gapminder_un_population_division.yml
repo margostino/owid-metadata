@@ -1,0 +1,15 @@
+name: total_population_gapminder_un_population_division
+description: Gapminder's total population estimates are used until 1949; the UN Population
+    Division's estimates are used from 1950-2015; and the UN's population projections
+    are used to extend the series to 2016.
+data_file: Total population - Gapminder, UN Population Division.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Total%20population%20-%20Gapminder%2C%20UN%20Population%20Division/Total
+    population - Gapminder, UN Population Division.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: total_population_gapminder_un_population_division
+    type: Float

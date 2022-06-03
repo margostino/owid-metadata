@@ -1,0 +1,66 @@
+name: ghg_emissions_by_country_and_sector_cait_2020
+description: |-
+    Total greenhouse gas emissions are measured in tonnes of carbon dioxide equivalents (CO₂e), based on 100-year global warming potential factors for non-CO₂ gases.
+
+    This data is published by country and sector from the CAIT Climate Data Explorer, and downloaded from the Climate Watch Portal. Available here: https://www.climatewatchdata.org/data-explorer/historical-emissions
+data_file: GHG Emissions by Country and Sector (CAIT, 2020).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/GHG%20Emissions%20by%20Country%20and%20Sector%20(CAIT%2C%202020)/GHG
+    Emissions by Country and Sector (CAIT, 2020).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: agriculture_ghg_emissions_cait
+    type: Float
+  - name: bunker_fuels_ghg_emissions_cait
+    type: Float
+  - name: energy_ghg_emissions_cait
+    type: Float
+  - name: industry_ghg_emissions_cait
+    type: Float
+  - name: land_use_change_and_forestry_ghg_emissions_cait
+    type: Float
+  - name: total_ghg_emissions_including_lucf_cait
+    type: Float
+  - name: waste_ghg_emissions_cait
+    type: Float
+  - name: total_ghg_emissions_excluding_lucf_cait
+    type: Float
+  - name: buildings_ghg_emissions_cait
+    type: Float
+  - name: electricity_and_heat_ghg_emissions_cait
+    type: Float
+  - name: fugitive_from_energy_production_ghg_emissions_cait
+    type: Float
+  - name: manufacturingconstruction_energy_ghg_emissions_cait
+    type: Float
+  - name: other_fuel_combustion_ghg_emissions_cait
+    type: Float
+  - name: transport_ghg_emissions_cait
+    type: Float
+  - name: agriculture_per_capita_ghg_emissions_cait
+    type: Float
+  - name: buildings_per_capita_ghg_emissions_cait
+    type: Float
+  - name: electricity_and_heat_per_capita_ghg_emissions_cait
+    type: Float
+  - name: fugitive_emissions_per_capita_ghg_emissions_cait
+    type: Float
+  - name: industry_per_capita_ghg_emissions_cait
+    type: Float
+  - name: international_aviation_and_shipping_per_capita_ghg_emissions_cait
+    type: Float
+  - name: land_use_change_and_forestry_per_capita_ghg_emissions_cait
+    type: Float
+  - name: manufacturing_and_construction_per_capita_ghg_emissions_cait
+    type: Float
+  - name: total_excluding_lucf_per_capita_ghg_emissions_cait
+    type: Float
+  - name: total_including_lucf_per_capita_ghg_emissions_cait
+    type: Float
+  - name: transport_per_capita_ghg_emissions_cait
+    type: Float
+  - name: waste_per_capita_ghg_emissions_cait
+    type: Float

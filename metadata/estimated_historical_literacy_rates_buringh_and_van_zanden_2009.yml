@@ -1,0 +1,13 @@
+name: estimated_historical_literacy_rates_buringh_and_van_zanden_2009
+description: See Table 9 (pg 434) for the original estimates.
+data_file: Estimated historical literacy rates - Buringh and Van Zanden (2009).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Estimated%20historical%20literacy%20rates%20-%20Buringh%20and%20Van%20Zanden%20(2009)/Estimated
+    historical literacy rates - Buringh and Van Zanden (2009).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: estimated_literacy_rates_buringh_and_van_zanden_2009
+    type: Float

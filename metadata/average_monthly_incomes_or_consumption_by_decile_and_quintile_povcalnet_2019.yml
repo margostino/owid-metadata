@@ -1,0 +1,50 @@
+name: average_monthly_incomes_or_consumption_by_decile_and_quintile_povcalnet_2019
+description: ""
+data_file: Average monthly incomes or consumption by decile and quintile – PovcalNet
+    (2019).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Average%20monthly%20incomes%20or%20consumption%20by%20decile%20and%20quintile%20%E2%80%93%20PovcalNet%20(2019)/Average
+    monthly incomes or consumption by decile and quintile – PovcalNet (2019).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: welfare
+    type: Float
+  - name: mean
+    type: Float
+  - name: pop
+    type: Float
+  - name: d1avgincome
+    type: Float
+  - name: d2avgincome
+    type: Float
+  - name: d3avgincome
+    type: Float
+  - name: d4avgincome
+    type: Float
+  - name: d5avgincome
+    type: Float
+  - name: d6avgincome
+    type: Float
+  - name: d7avgincome
+    type: Float
+  - name: d8avgincome
+    type: Float
+  - name: d9avgincome
+    type: Float
+  - name: d10avgincome
+    type: Float
+  - name: q1avgincome
+    type: Float
+  - name: q2avgincome
+    type: Float
+  - name: q3avgincome
+    type: Float
+  - name: q4avgincome
+    type: Float
+  - name: q5avgincome
+    type: Float
+  - name: flag
+    type: Float

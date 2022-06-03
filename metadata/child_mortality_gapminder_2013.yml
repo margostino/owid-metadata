@@ -1,0 +1,13 @@
+name: child_mortality_gapminder_2013
+description: Gapminder dataset. Available online at http://www.gapminder.org/.
+data_file: Child mortality - Gapminder (2013).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Child%20mortality%20-%20Gapminder%20(2013)/Child
+    mortality - Gapminder (2013).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: child_mortality_gapminder_2013
+    type: Float

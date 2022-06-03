@@ -1,0 +1,232 @@
+name: yougov_imperial_covid_19_behavior_tracker
+description: |-
+    YouGov has partnered with the Institute of Global Health Innovation (IGHI) at Imperial College London to gather global insights on people’s behaviors in response to COVID-19. The research will cover 29 countries, interviewing around 21,000 people each week.
+
+    It is designed to provide behavioral analysis on how different populations are responding to the pandemic, helping public health bodies in their efforts to limit the impact of the disease. Anonymized respondent level data will be available for all public health and academic institutions globally.
+
+    The questions in the survey, led by IGHI, cover data on testing, symptoms, self-isolating in response to symptoms and the ability and willingness to self-isolate if needed. It also looks at behaviors, including going outdoors, working outside the home, contact with others, handwashing and the extent of compliance with 20 common preventative measures.
+data_file: YouGov-Imperial COVID-19 Behavior Tracker.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/YouGov-Imperial%20COVID-19%20Behavior%20Tracker/YouGov-Imperial
+    COVID-19 Behavior Tracker.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: household_members_contact
+    type: Float
+  - name: people_contact_outside_household
+    type: Float
+  - name: times_left_home_yesterday
+    type: Float
+  - name: handwashing_yesterday
+    type: Float
+  - name: willingness_isolate_if_symptoms
+    type: Float
+  - name: difficult_to_isolate
+    type: Float
+  - name: willingness_isolate_if_advised
+    type: Float
+  - name: mask_outside_home
+    type: Float
+  - name: washed_hands
+    type: Float
+  - name: hand_sanitiser
+    type: Float
+  - name: covered_mouth_sneeze
+    type: Float
+  - name: avoided_people_with_symptoms
+    type: Float
+  - name: avoided_going_out
+    type: Float
+  - name: avoided_healthcare_settings
+    type: Float
+  - name: avoided_public_transport
+    type: Float
+  - name: avoided_working_outside_home
+    type: Float
+  - name: children_avoided_school
+    type: Float
+  - name: avoided_guests_at_home
+    type: Float
+  - name: avoided_small_gatherings
+    type: Float
+  - name: avoided_medium_gatherings
+    type: Float
+  - name: avoided_large_gatherings
+    type: Float
+  - name: avoided_crowded_areas
+    type: Float
+  - name: avoided_shops
+    type: Float
+  - name: slept_separate_bedrooms
+    type: Float
+  - name: eaten_separately
+    type: Float
+  - name: cleaned_surfaces_home
+    type: Float
+  - name: avoided_objects_public
+    type: Float
+  - name: scared_contracting_covid
+    type: Float
+  - name: happier_two_weeks_ago
+    type: Float
+  - name: government_responded_well
+    type: Float
+  - name: mask_at_home
+    type: Float
+  - name: mask_grocery_store
+    type: Float
+  - name: mask_clothing_store
+    type: Float
+  - name: mask_at_work
+    type: Float
+  - name: mask_public_transport
+    type: Float
+  - name: covid_dangerous_to_me
+    type: Float
+  - name: likely_get_covid_future
+    type: Float
+  - name: mask_protect_me
+    type: Float
+  - name: mask_protect_others
+    type: Float
+  - name: mask_not_possible
+    type: Float
+  - name: activities_improve_health
+    type: Float
+  - name: life_greatly_affected
+    type: Float
+  - name: avoided_public_events
+    type: Float
+  - name: activities_improve_health_num_responses
+    type: Float
+  - name: avoided_crowded_areas_num_responses
+    type: Float
+  - name: avoided_going_out_num_responses
+    type: Float
+  - name: avoided_guests_at_home_num_responses
+    type: Float
+  - name: avoided_healthcare_settings_num_responses
+    type: Float
+  - name: avoided_large_gatherings_num_responses
+    type: Float
+  - name: avoided_medium_gatherings_num_responses
+    type: Float
+  - name: avoided_objects_public_num_responses
+    type: Float
+  - name: avoided_people_with_symptoms_num_responses
+    type: Float
+  - name: avoided_public_events_num_responses
+    type: Float
+  - name: avoided_public_transport_num_responses
+    type: Float
+  - name: avoided_shops_num_responses
+    type: Float
+  - name: avoided_small_gatherings_num_responses
+    type: Float
+  - name: avoided_working_outside_home_num_responses
+    type: Float
+  - name: children_avoided_school_num_responses
+    type: Float
+  - name: cleaned_surfaces_home_num_responses
+    type: Float
+  - name: covered_mouth_sneeze_num_responses
+    type: Float
+  - name: covid_dangerous_to_me_num_responses
+    type: Float
+  - name: covid_vaccine_important_health
+    type: Float
+  - name: covid_vaccine_important_health_num_responses
+    type: Float
+  - name: covid_vaccine_will_prevent_transmission
+    type: Float
+  - name: covid_vaccine_will_prevent_transmission_num_responses
+    type: Float
+  - name: covid_vaccine_will_protect_health
+    type: Float
+  - name: covid_vaccine_will_protect_health_num_responses
+    type: Float
+  - name: difficult_to_isolate_num_responses
+    type: Float
+  - name: eaten_separately_num_responses
+    type: Float
+  - name: government_responded_well_num_responses
+    type: Float
+  - name: govt_will_provide_effective_covid_vaccine
+    type: Float
+  - name: govt_will_provide_effective_covid_vaccine_num_responses
+    type: Float
+  - name: hand_sanitiser_num_responses
+    type: Float
+  - name: handwashing_yesterday_num_responses
+    type: Float
+  - name: happier_two_weeks_ago_num_responses
+    type: Float
+  - name: household_members_contact_num_responses
+    type: Float
+  - name: life_greatly_affected_num_responses
+    type: Float
+  - name: likely_get_covid_future_num_responses
+    type: Float
+  - name: mask_at_home_num_responses
+    type: Float
+  - name: mask_at_work_num_responses
+    type: Float
+  - name: mask_clothing_store_num_responses
+    type: Float
+  - name: mask_grocery_store_num_responses
+    type: Float
+  - name: mask_not_possible_num_responses
+    type: Float
+  - name: mask_outside_home_num_responses
+    type: Float
+  - name: mask_protect_me_num_responses
+    type: Float
+  - name: mask_protect_others_num_responses
+    type: Float
+  - name: mask_public_transport_num_responses
+    type: Float
+  - name: people_contact_outside_household_num_responses
+    type: Float
+  - name: scared_contracting_covid_num_responses
+    type: Float
+  - name: slept_separate_bedrooms_num_responses
+    type: Float
+  - name: times_left_home_yesterday_num_responses
+    type: Float
+  - name: trust_covid_vaccines
+    type: Float
+  - name: trust_covid_vaccines_num_responses
+    type: Float
+  - name: washed_hands_num_responses
+    type: Float
+  - name: willingness_covid_vaccinate_this_week
+    type: Float
+  - name: willingness_covid_vaccinate_this_week_num_responses
+    type: Float
+  - name: willingness_isolate_if_advised_num_responses
+    type: Float
+  - name: willingness_isolate_if_symptoms_num_responses
+    type: Float
+  - name: worried_covid_vaccine_side_effects
+    type: Float
+  - name: worried_covid_vaccine_side_effects_num_responses
+    type: Float
+  - name: covid_vaccinated_or_willing
+    type: Float
+  - name: covid_vaccinated_or_willing_num_responses
+    type: Float
+  - name: covid_vaccine_received_one_or_two_doses
+    type: Float
+  - name: covid_vaccine_received_one_or_two_doses_num_responses
+    type: Float
+  - name: unwillingness_covid_vaccinate_this_week
+    type: Float
+  - name: uncertain_covid_vaccinate_this_week
+    type: Float
+  - name: unwillingness_covid_vaccinate_this_week_num_responses
+    type: Float
+  - name: uncertain_covid_vaccinate_this_week_num_responses
+    type: Float

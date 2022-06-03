@@ -1,0 +1,33 @@
+name: unemployment_rate_ages_25_54_by_education_ilostat_2017
+description: "The unemployment rate is the number of persons who are unemployed as
+    a percent of the total number of employed and unemployed persons (i.e., the labour
+    force). Data by level of education are provided on the highest level of education
+    completed.\n\nAccording to the ISCED-11 classification, a 'less than basic education'
+    may refer to no schooling, or early childhood education.  'Basic education' includes
+    primary or lower secondary education; 'Intermediate education' to upper secondary
+    or post-secondary non-tertiary education; 'Advanced education' can refer to short-cycle
+    tertiary education, Bachelor's or equivalent level, Master's or equivalent level,
+    or Doctoral or equivalent level, while 'level not stated' is an education level
+    not elsewhere classified. \n\nFor more information see the ILOSTAT's <a href=\"https://www.ilo.org/ilostat-files/Documents/description_EDU_EN.pdf\"
+    rel=\"noopener\" target=_blank\">'Employment by education' document</a>. "
+data_file: Unemployment rate, ages 25-54, by education - ILOSTAT (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Unemployment%20rate%2C%20ages%2025-54%2C%20by%20education%20-%20ILOSTAT%20(2017)/Unemployment
+    rate, ages 25-54, by education - ILOSTAT (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: unemployment_rate_ages_25_54_advanced_education
+    type: Float
+  - name: unemployment_rate_ages_25_54_basic_education
+    type: Float
+  - name: unemployment_rate_ages_25_54_less_than_basic_education
+    type: Float
+  - name: unemployment_rate_ages_25_54_all_levels_of_education
+    type: Float
+  - name: unemployment_rate_ages_25_54_intermediate_education
+    type: Float
+  - name: unemployment_rate_ages_25_54_education_level_not_stated
+    type: Float

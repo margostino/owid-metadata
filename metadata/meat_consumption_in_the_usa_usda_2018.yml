@@ -1,0 +1,26 @@
+name: meat_consumption_in_the_usa_usda_2018
+description: |-
+    Per capita meat availability in the United States. Per capita meat availability is typically used as an estimate for meat consumption, although it does not correct for consumption-level waste (households and retail). Actual meat intake will therefore be slightly lower but close to meat availability.
+
+    Figures are given in lbs and kilograms per person per year. Conversion from lbs to kilograms using a factor of 0.453592 (1 lbs = 0.453592 kilograms).
+
+    'Red meat' is the sum of beef, pork, sheep and veal, excluding offals.
+data_file: Meat consumption in the USA (USDA, 2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Meat%20consumption%20in%20the%20USA%20(USDA%2C%202018)/Meat
+    consumption in the USA (USDA, 2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: per_capita_beef_consumption
+    type: Float
+  - name: per_capita_pork_consumption
+    type: Float
+  - name: per_capita_red_meat_consumption
+    type: Float
+  - name: per_capita_poultry_consumption
+    type: Float
+  - name: per_capita_total_meat_consumption
+    type: Float

@@ -1,0 +1,19 @@
+name: us_revenue_public_schools_us_bureau_of_the_census_and_nces_2017
+description: ""
+data_file: US Revenue Public Schools - US Bureau of the Census and NCES (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/US%20Revenue%20Public%20Schools%20-%20US%20Bureau%20of%20the%20Census%20and%20NCES%20(2017)/US
+    Revenue Public Schools - US Bureau of the Census and NCES (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: total_us_bureau_of_the_census_and_nces_2017
+    type: Float
+  - name: federalunassigned_us_bureau_of_the_census_and_nces_2017
+    type: Float
+  - name: state_us_bureau_of_the_census_and_nces_2017
+    type: Float
+  - name: local_us_bureau_of_the_census_and_nces_2017
+    type: Float

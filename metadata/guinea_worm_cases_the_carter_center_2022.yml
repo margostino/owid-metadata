@@ -1,0 +1,20 @@
+name: guinea_worm_cases_the_carter_center_2022
+description: "Up to date data is available at the Carter Center:\nhttp://www.cartercenter.org/resources/gallery/images/highres/guinea-worm-current-case-count-chart.pdf\n\nFor
+    1986-2018: \nhttp://www.cartercenter.org/resources/pdfs/news/health_publications/guinea_worm/guinea-worm-cases-by-year-from-1989.pdf\n\nFor
+    2019-2021:\n - 2019 (second half table 4) -https://www.cartercenter.org/resources/pdfs/news/health_publications/guinea_worm/wrap-up/273.pdf\n
+    - 2020 (second table on page 9) - https://www.cartercenter.org/resources/pdfs/news/health_publications/guinea_worm/wrap-up/283.pdf\n
+    - 2021 (second table on page 9) - https://www.cartercenter.org/resources/pdfs/news/health_publications/guinea_worm/wrap-up/284.pdf\n\nThis
+    dataset should be next updated by the source in March 2023. We will update it
+    on Our World in Data soon after the new version is published. At the link above
+    you can directly access the source page and see the latest available data."
+data_file: Guinea Worm Cases - The Carter Center (2022).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Guinea%20Worm%20Cases%20-%20The%20Carter%20Center%20(2022)/Guinea
+    Worm Cases - The Carter Center (2022).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: guinea_worm_cases_the_carter_center_2022
+    type: Float

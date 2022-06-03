@@ -1,0 +1,22 @@
+name: distribution_of_bilateral_and_unilateral_trade_partnerships_fouquin_and_hugot_cepii_2016
+description: 'To construct this chart we started from a dataset with dyadic trade
+    estimates. For each year we took all country pairs with data and classified them
+    as follows: "Non-trading" (pairs in which countries do not trade with one another);
+    "Bilateral" (pairs in which both countries export to one another); and "Unilateral"
+    (pairs in which only one country exports to the other).'
+data_file: Distribution of bilateral and unilateral trade partnerships - Fouquin and
+    Hugot (CEPII 2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Distribution%20of%20bilateral%20and%20unilateral%20trade%20partnerships%20-%20Fouquin%20and%20Hugot%20(CEPII%202016)/Distribution
+    of bilateral and unilateral trade partnerships - Fouquin and Hugot (CEPII 2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: non_trading_fouquin_and_hugot_cepii_2016
+    type: Float
+  - name: unilateral_trade_partnerships_fouquin_and_hugot_cepii_2016
+    type: Float
+  - name: bilateral_trade_partnerships_fouquin_and_hugot_cepii_2016
+    type: Float

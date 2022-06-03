@@ -1,0 +1,203 @@
+name: ukraine_russia_global_food_based_on_un_fao
+description: ""
+data_file: Ukraine-Russia (Global food based on UN FAO).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Ukraine-Russia%20(Global%20food%20based%20on%20UN%20FAO)/Ukraine-Russia
+    (Global food based on UN FAO).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: wheat_domestic_supply
+    type: Float
+  - name: wheat_exports
+    type: Float
+  - name: wheat_imports
+    type: Float
+  - name: wheat_stocks
+    type: Float
+  - name: wheat_imports_share_domestic_supply
+    type: Float
+  - name: wheat_stocks_share_domestic_supply
+    type: Float
+  - name: wheat_exports_capita
+    type: Float
+  - name: wheat_imports_capita
+    type: Float
+  - name: wheat_stocks_capita
+    type: Float
+  - name: wheat_supply_capita
+    type: Float
+  - name: ukraine_wheat_imports
+    type: Float
+  - name: russia_wheat_imports
+    type: Float
+  - name: ukraine_russia_wheat_imports
+    type: Float
+  - name: ukraine_wheat_imports_per_capita
+    type: Float
+  - name: russia_wheat_imports_per_capita
+    type: Float
+  - name: ukraine_russia_wheat_imports_per_capita
+    type: Float
+  - name: ukraine_wheat_share_all_imports
+    type: Float
+  - name: russia_wheat_share_all_imports
+    type: Float
+  - name: ukraine_russia_wheat_share_all_imports
+    type: Float
+  - name: ukraine_wheat_share_domestic_supply
+    type: Float
+  - name: russia_wheat_share_domestic_supply
+    type: Float
+  - name: ukraine_russia_wheat_share_domestic_supply
+    type: Float
+  - name: maize_domestic_supply
+    type: Float
+  - name: maize_exports
+    type: Float
+  - name: maize_imports
+    type: Float
+  - name: maize_stocks
+    type: Float
+  - name: maize_imports_share_domestic_supply
+    type: Float
+  - name: maize_stocks_share_domestic_supply
+    type: Float
+  - name: maize_exports_capita
+    type: Float
+  - name: maize_imports_capita
+    type: Float
+  - name: maize_stocks_capita
+    type: Float
+  - name: maize_supply_capita
+    type: Float
+  - name: ukraine_maize_imports
+    type: Float
+  - name: russia_maize_imports
+    type: Float
+  - name: ukraine_russia_maize_imports
+    type: Float
+  - name: ukraine_maize_imports_per_capita
+    type: Float
+  - name: russia_maize_imports_per_capita
+    type: Float
+  - name: ukraine_russia_maize_imports_per_capita
+    type: Float
+  - name: ukraine_maize_share_all_imports
+    type: Float
+  - name: russia_maize_share_all_imports
+    type: Float
+  - name: ukraine_russia_maize_share_all_imports
+    type: Float
+  - name: ukraine_maize_share_domestic_supply
+    type: Float
+  - name: russia_maize_share_domestic_supply
+    type: Float
+  - name: ukraine_russia_maize_share_domestic_supply
+    type: Float
+  - name: barley_domestic_supply
+    type: Float
+  - name: barley_exports
+    type: Float
+  - name: barley_imports
+    type: Float
+  - name: barley_stocks
+    type: Float
+  - name: barley_imports_share_domestic_supply
+    type: Float
+  - name: barley_stocks_share_domestic_supply
+    type: Float
+  - name: barley_exports_capita
+    type: Float
+  - name: barley_imports_capita
+    type: Float
+  - name: barley_stocks_capita
+    type: Float
+  - name: barley_supply_capita
+    type: Float
+  - name: sunfloweroil_domestic_supply
+    type: Float
+  - name: sunfloweroil_exports
+    type: Float
+  - name: sunfloweroil_imports
+    type: Float
+  - name: sunfloweroil_stocks
+    type: Float
+  - name: sunfloweroil_imports_share_domestic_supply
+    type: Float
+  - name: sunfloweroil_stocks_share_domestic_supply
+    type: Float
+  - name: sunfloweroil_exports_capita
+    type: Float
+  - name: sunfloweroil_imports_capita
+    type: Float
+  - name: sunfloweroil_stocks_capita
+    type: Float
+  - name: sunfloweroil_supply_capita
+    type: Float
+  - name: wheat_net_imports
+    type: Float
+  - name: wheat_net_imports_capita
+    type: Float
+  - name: maize_net_imports
+    type: Float
+  - name: maize_net_imports_capita
+    type: Float
+  - name: barley_net_imports
+    type: Float
+  - name: barley_net_imports_capita
+    type: Float
+  - name: ukraine_barley_imports
+    type: Float
+  - name: russia_barley_imports
+    type: Float
+  - name: ukraine_russia_barley_imports
+    type: Float
+  - name: ukraine_barley_imports_per_capita
+    type: Float
+  - name: russia_barley_imports_per_capita
+    type: Float
+  - name: ukraine_russia_barley_imports_per_capita
+    type: Float
+  - name: ukraine_barley_share_all_imports
+    type: Float
+  - name: russia_barley_share_all_imports
+    type: Float
+  - name: ukraine_russia_barley_share_all_imports
+    type: Float
+  - name: ukraine_barley_share_domestic_supply
+    type: Float
+  - name: russia_barley_share_domestic_supply
+    type: Float
+  - name: ukraine_russia_barley_share_domestic_supply
+    type: Float
+  - name: sunfloweroil_net_imports
+    type: Float
+  - name: sunfloweroil_net_imports_capita
+    type: Float
+  - name: ukraine_sunfloweroil_imports
+    type: Float
+  - name: russia_sunfloweroil_imports
+    type: Float
+  - name: ukraine_russia_sunfloweroil_imports
+    type: Float
+  - name: ukraine_sunfloweroil_imports_per_capita
+    type: Float
+  - name: russia_sunfloweroil_imports_per_capita
+    type: Float
+  - name: ukraine_russia_sunfloweroil_imports_per_capita
+    type: Float
+  - name: ukraine_sunfloweroil_share_all_imports
+    type: Float
+  - name: russia_sunfloweroil_share_all_imports
+    type: Float
+  - name: ukraine_russia_sunfloweroil_share_all_imports
+    type: Float
+  - name: ukraine_sunfloweroil_share_domestic_supply
+    type: Float
+  - name: russia_sunfloweroil_share_domestic_supply
+    type: Float
+  - name: ukraine_russia_sunfloweroil_share_domestic_supply
+    type: Float

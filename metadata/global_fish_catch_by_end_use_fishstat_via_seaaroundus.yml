@@ -1,0 +1,54 @@
+name: global_fish_catch_by_end_use_fishstat_via_seaaroundus
+description: |-
+    This data is sourced from the Sea Around Us database published by Pauly, Zeller and Palomares, available at: http://www.seaaroundus.org/.
+
+    This project relies on multiple sources but primarily the FishStat database published by the Food and Agriculture Organization of the United Nations. This is available here: http://www.fao.org/fishery/statistics/software/fishstatj/en.
+data_file: Global fish catch by end use (FishStat via SeaAroundUs).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Global%20fish%20catch%20by%20end%20use%20(FishStat%20via%20SeaAroundUs)/Global
+    fish catch by end use (FishStat via SeaAroundUs).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: fish_catch_direct_consumption
+    type: Float
+  - name: fishmeal_and_fish_oil
+    type: Float
+  - name: fish_other_uses
+    type: Float
+  - name: total_fish_catch
+    type: Float
+  - name: bottom_trawl
+    type: Float
+  - name: gillnet
+    type: Float
+  - name: longline
+    type: Float
+  - name: other_gear
+    type: Float
+  - name: pelagic_trawl
+    type: Float
+  - name: purse_seine
+    type: Float
+  - name: small_scale
+    type: Float
+  - name: unknown_gear
+    type: Float
+  - name: artisanal
+    type: Float
+  - name: industrial
+    type: Float
+  - name: recreational
+    type: Float
+  - name: subsistence
+    type: Float
+  - name: discards
+    type: Float
+  - name: landings
+    type: Float
+  - name: reported_landings
+    type: Float
+  - name: unreported_landings
+    type: Float

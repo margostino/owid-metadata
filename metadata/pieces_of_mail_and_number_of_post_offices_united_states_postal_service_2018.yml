@@ -1,0 +1,18 @@
+name: pieces_of_mail_and_number_of_post_offices_united_states_postal_service_2018
+description: ""
+data_file: Pieces of mail and number of post offices - United States Postal Service
+    (2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Pieces%20of%20mail%20and%20number%20of%20post%20offices%20-%20United%20States%20Postal%20Service%20(2018)/Pieces
+    of mail and number of post offices - United States Postal Service (2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: pieces_of_mail_handled_un_postal_service_2018
+    type: Float
+  - name: number_of_post_offices_un_postal_service_2018
+    type: Float
+  - name: mail_handled_per_post_office_un_postal_service_2018
+    type: Float

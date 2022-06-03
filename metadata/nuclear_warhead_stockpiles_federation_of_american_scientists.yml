@@ -1,0 +1,15 @@
+name: nuclear_warhead_stockpiles_federation_of_american_scientists
+description: This dataset provides information on the number of stockpiled nuclear
+    warheads by the nuclear powers, using data from the Federation of American Scientists,
+    prepared by Hans M. Kristensen, Matt Korda, and Robert Norris.
+data_file: Nuclear warhead stockpiles – Federation of American Scientists.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Nuclear%20warhead%20stockpiles%20%E2%80%93%20Federation%20of%20American%20Scientists/Nuclear
+    warhead stockpiles – Federation of American Scientists.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: nuclear_weapons_stockpile
+    type: Float

@@ -1,0 +1,17 @@
+name: books_buringh_and_van_zanden_2009
+description: ""
+data_file: Books - Buringh and Van Zanden (2009).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Books%20-%20Buringh%20and%20Van%20Zanden%20(2009)/Books
+    - Buringh and Van Zanden (2009).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: manuscript_production_per_century
+    type: Float
+  - name: production_of_printed_books_per_half_century
+    type: Float
+  - name: annual_per_capita_consumption_of_books
+    type: Float

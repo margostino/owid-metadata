@@ -1,0 +1,19 @@
+name: co2_emissions_by_city_c40_cities_2018
+description: ""
+data_file: CO2 emissions by city - C40 Cities (2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/CO2%20emissions%20by%20city%20-%20C40%20Cities%20(2018)/CO2
+    emissions by city - C40 Cities (2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: population_density
+    type: Float
+  - name: co2_emissions_per_capita
+    type: Float
+  - name: transport_emissions_per_capita_tco2
+    type: Float
+  - name: waste_emissions_per_capita
+    type: Float

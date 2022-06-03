@@ -1,0 +1,15 @@
+name: revenue_shares_from_tax_flora_1983_and_ictd_2016
+description: 'Data from the ICTD corresponds to estimates from OECD. More details
+    in Prichard, W. (2016). Reassessing Tax and Development Research: A New Dataset,
+    New Findings, and Lessons for Research. World Development, 80, 48-60.'
+data_file: Revenue shares from tax – Flora (1983) and ICTD (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Revenue%20shares%20from%20tax%20%E2%80%93%20Flora%20(1983)%20and%20ICTD%20(2016)/Revenue
+    shares from tax – Flora (1983) and ICTD (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_of_revenue_from_income_tax_flora_1983_and_ictd_2016
+    type: Float

@@ -1,0 +1,16 @@
+name: co2_emission_factors_ipcc_2006
+description: "Figures represent the carbon dioxide emission factors as used in offical
+    greenhouse gas reporting methodologies, defined by the Intergovernmental Panel
+    on Climate Change (IPCC).\r\n\r\nData has been converted from kilograms per terajoule
+    to kilograms per MWh (kg/MWh) using a conversion factor of 277.778."
+data_file: CO2 emission factors - IPCC (2006).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/CO2%20emission%20factors%20-%20IPCC%20(2006)/CO2
+    emission factors - IPCC (2006).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: co2_emissions_factor_ipcc_2006
+    type: Float

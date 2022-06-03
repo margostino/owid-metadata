@@ -1,0 +1,13 @@
+name: top_income_shares_world_wealth_and_income_database_2018
+description: ""
+data_file: Top income shares – World Wealth and Income Database (2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Top%20income%20shares%20%E2%80%93%20World%20Wealth%20and%20Income%20Database%20(2018)/Top
+    income shares – World Wealth and Income Database (2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_of_top_1perc_in_pre_tax_national_income
+    type: Float

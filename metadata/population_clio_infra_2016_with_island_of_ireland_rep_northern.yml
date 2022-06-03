@@ -1,0 +1,18 @@
+name: population_clio_infra_2016_with_island_of_ireland_rep_northern
+description: 'Prior to 1921 (partition of Ireland) the Clio-infra series is used.
+    After 1921 this series presents the Clio-infra data (which represents only the
+    Republic of Ireland) added to the population of Northern Ireland as given in the
+    closest census year to the reference year. For 1930, the population figure for
+    Northern Ireland used is that of the 1926 census. That of 1940, the 1937 census.
+    From 1950 onwards, decadal census figures from 1951, 1961, etc are used. '
+data_file: Population (Clio-infra (2016)), with Island of Ireland (Rep. + Northern).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Population%20(Clio-infra%20(2016))%2C%20with%20Island%20of%20Ireland%20(Rep.%20%2B%20Northern)/Population
+    (Clio-infra (2016)), with Island of Ireland (Rep. + Northern).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: population_clio_infra_2016_with_island_of_ireland_figures
+    type: Float

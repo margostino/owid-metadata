@@ -1,0 +1,18 @@
+name: urban_definition_population_threshold_un_2018
+description: |-
+    Data was assessed by Our World in Data based on UN documentation of its Urbanization Prospects (2018). The Urbanization Prospects presents data on the number and share of the population residing in urban areas for each country from 1950 with projections to 2050.
+
+    There is no consistent definition of what constitutes an 'urban area'. This is highly variable across countries. This data presents a given country's minimum threshold of inhabitants needed for it to be defined an 'urban area'. For many countries, there is no defined threshold based on inhabitants; other metrics such as population density, infrastructure, or even pre-defined cities may be used.
+
+    Note that some countries with minimum inhabitant thresholds noted here also include additional qualities (such as population density) to be met.
+data_file: Urban definition - population threshold (UN; 2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Urban%20definition%20-%20population%20threshold%20(UN%3B%202018)/Urban
+    definition - population threshold (UN; 2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: minimum_population_threshold_for_urban_area_un_2018
+    type: Float

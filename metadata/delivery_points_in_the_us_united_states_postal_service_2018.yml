@@ -1,0 +1,24 @@
+name: delivery_points_in_the_us_united_states_postal_service_2018
+description: |-
+    Source notes: In 2004, the Postal Service refined its reporting of addresses on rural and highway contract routes by no longer
+    counting vacant addresses (unoccupied for more than 90 days) and addresses of customers who received mail solely
+    via Post Office box. Numbers may not add up due to rounding.
+data_file: Delivery points in the US - United States Postal Service (2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Delivery%20points%20in%20the%20US%20-%20United%20States%20Postal%20Service%20(2018)/Delivery
+    points in the US - United States Postal Service (2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: number_of_delivery_points_to_city_addresses_us_postal_service_2018
+    type: Float
+  - name: number_of_delivery_points_to_rural_addresses_us_postal_service_2018
+    type: Float
+  - name: number_of_delivery_points_to_po_box_addresses_us_postal_service_2018
+    type: Float
+  - name: number_of_delivery_points_to_highway_contract_route_addresses_us_postal_service_2018
+    type: Float
+  - name: number_of_total_delivery_points_us_postal_service_2018
+    type: Float

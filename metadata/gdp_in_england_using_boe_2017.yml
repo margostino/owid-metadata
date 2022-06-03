@@ -1,0 +1,20 @@
+name: gdp_in_england_using_boe_2017
+description: This dataset is produced using ‘A1. Headline Series’ sheet of the BoE
+    dataset. The variables Real GDP (at market prices) and Population are taken directly
+    from BoE. Real GDP per capita is, however, calculated by dividing Real GDP with
+    Population. 
+data_file: GDP in England (using BoE, 2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/GDP%20in%20England%20(using%20BoE%2C%202017)/GDP
+    in England (using BoE, 2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: population_boe_2017
+    type: Float
+  - name: real_gdp_per_capita_boe_2017
+    type: Float
+  - name: real_gdp_at_market_prices_boe_2017
+    type: Float

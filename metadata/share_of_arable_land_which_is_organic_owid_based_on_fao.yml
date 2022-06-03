@@ -1,0 +1,19 @@
+name: share_of_arable_land_which_is_organic_owid_based_on_fao
+description: "Share of arable land which is organic is derived by Our World in Data
+    based on UN Food and Agriculture Organization (FAO) Statistics on total arable
+    land area, and organic arable land area. The share is calculated as: total arable
+    area (ha) / organic arable land area (ha).\n\nOrganic arable land area is the
+    sum of the area certified as organic by official standards, and land area in the
+    conversion process to organic (which is assumed by the FAO as a two-year period
+    prior to certification). "
+data_file: Share of arable land which is organic - OWID based on FAO.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Share%20of%20arable%20land%20which%20is%20organic%20-%20OWID%20based%20on%20FAO/Share
+    of arable land which is organic - OWID based on FAO.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_of_arable_land_which_is_organic
+    type: Float

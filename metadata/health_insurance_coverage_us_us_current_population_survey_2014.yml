@@ -1,0 +1,25 @@
+name: health_insurance_coverage_us_us_current_population_survey_2014
+description: "Health Insurance plans are not mutually exclusive – individuals may
+    be simultaneously covered by private and government programs. \r\n\r\nMeasurement
+    methodology of insurance coverage changed in 1999. For more details see the report
+    Income, Poverty, and Health Insurance Coverage in the United States: 2008, available
+    online at  https://www.census.gov/prod/2009pubs/p60-236.pdf \r\n\r\nData for the
+    period 1987-2008 was taken from the report Income, Poverty, and Health Insurance
+    Coverage in the United States: 2008. Data thereafter taken from  the  Current
+    Population Survey's Annual Social and Economic Supplement available at https://www.census.gov/hhes/www/hlthins/data/historical/HIB_tables.html
+    \r\n\r\n"
+data_file: Health Insurance Coverage (US) - US Current Population Survey (2014).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Health%20Insurance%20Coverage%20(US)%20-%20US%20Current%20Population%20Survey%20(2014)/Health
+    Insurance Coverage (US) - US Current Population Survey (2014).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: health_insurance_coverage_us_any_plan_us_current_population_survey_2014
+    type: Float
+  - name: health_insurance_coverage_us_govt_plan_us_current_population_survey_2014
+    type: Float
+  - name: health_insurance_coverage_us_private_plan_us_current_population_survey_2014
+    type: Float

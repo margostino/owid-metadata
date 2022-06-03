@@ -1,0 +1,48 @@
+name: death_rate_by_age_group_in_england_and_wales_ons
+description: Death rates in England and Wales by age group, measured as the number
+    of deaths from all causes per 1,000 individuals per age bracket.
+data_file: Death rate by age group in England and Wales - ONS.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Death%20rate%20by%20age%20group%20in%20England%20and%20Wales%20-%20ONS/Death
+    rate by age group in England and Wales - ONS.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: less1_year_old
+    type: Float
+  - name: o1_4_years_old
+    type: Float
+  - name: o5_9_years_old
+    type: Float
+  - name: o10_14_years_old
+    type: Float
+  - name: o15_19_years_old
+    type: Float
+  - name: o20_24_years_old
+    type: Float
+  - name: o25_29_years_old
+    type: Float
+  - name: o30_34_years_old
+    type: Float
+  - name: o35_39_years_old
+    type: Float
+  - name: o40_44_years_old
+    type: Float
+  - name: o45_49_years_old
+    type: Float
+  - name: o50_54_years_old
+    type: Float
+  - name: o55_59_years_old
+    type: Float
+  - name: o60_64_years_old
+    type: Float
+  - name: o65_69_years_old
+    type: Float
+  - name: o70_74_years_old
+    type: Float
+  - name: o75_79_years_old
+    type: Float
+  - name: o80_years_old
+    type: Float

@@ -1,0 +1,13 @@
+name: so2_emissions_by_country_1850_2000_clio_infra
+description: ""
+data_file: SO2 emissions by country (1850-2000) - Clio Infra.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/SO2%20emissions%20by%20country%20(1850-2000)%20-%20Clio%20Infra/SO2
+    emissions by country (1850-2000) - Clio Infra.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: so2_emissions_by_country_1850_2000_clio_infra
+    type: Float

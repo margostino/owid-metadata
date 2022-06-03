@@ -1,0 +1,19 @@
+name: global_year_of_last_polio_case_plus_certification_status_gpei_2017
+description: "The definition of WHO Regions can be found here: http://www.who.int/about/regions/en/
+    \n\nBecause the certification of being polio-free is done by the WHO by region
+    and not by country (and only three years after the last case of polio was recorded),
+    you see three polio statuses: endemic, polio-free (WHO Region not yet certified)
+    and polio-free with the WHO Region of the country also certified polio-free."
+data_file: Global year of last polio case plus certification status - GPEI (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Global%20year%20of%20last%20polio%20case%20plus%20certification%20status%20-%20GPEI%20(2017)/Global
+    year of last polio case plus certification status - GPEI (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: who_region_gpei_2017
+    type: Float
+  - name: polio_status_gpei_2017
+    type: Float

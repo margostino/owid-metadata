@@ -1,0 +1,41 @@
+name: population_estimates_and_projection_wittgenstein_centre_for_demography_and_global_human_capital
+description: The new set of projections by levels of educational attainment was produced
+    by a large team of researchers at the Wittgenstein Centre for Demography and Global
+    Human Capital and at other institutions. It also includes population projections
+    developed for the 5th assessment report of the Intergovernmental Panel on Climate
+    Change (IPCC) according to a set of Shared Socioeconomic Pathways (SSP) scenarios.
+data_file: Population Estimates and Projection - Wittgenstein Centre for Demography
+    and Global Human Capital.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Population%20Estimates%20and%20Projection%20-%20Wittgenstein%20Centre%20for%20Demography%20and%20Global%20Human%20Capital/Population
+    Estimates and Projection - Wittgenstein Centre for Demography and Global Human
+    Capital.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: population_total
+    type: Float
+  - name: population_younger_than_5
+    type: Float
+  - name: population_younger_than_15
+    type: Float
+  - name: populationtotal_ssp2
+    type: Float
+  - name: populationunder5_ssp2
+    type: Float
+  - name: populationunder15_ssp2
+    type: Float
+  - name: populationtotal_ssp2_ft
+    type: Float
+  - name: populationunder5_ssp2_ft
+    type: Float
+  - name: populationunder15_ssp2_ft
+    type: Float
+  - name: populationtotal_ssp2_cer
+    type: Float
+  - name: populationunder5_ssp2_cer
+    type: Float
+  - name: populationunder15_ssp2_cer
+    type: Float

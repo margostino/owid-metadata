@@ -1,0 +1,15 @@
+name: share_of_people_who_report_having_intentions_to_start_business_global_entrepreneurship_monitor
+description: ""
+data_file: Share of people who report having intentions to start business - Global
+    Entrepreneurship Monitor.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Share%20of%20people%20who%20report%20having%20intentions%20to%20start%20business%20-%20Global%20Entrepreneurship%20Monitor/Share
+    of people who report having intentions to start business - Global Entrepreneurship
+    Monitor.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_of_people_who_report_having_intentions_to_start_business_global_entrepreneurship_monitor
+    type: Float

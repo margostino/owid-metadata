@@ -1,0 +1,36 @@
+name: road_deaths_and_injuries_oecd
+description: |-
+    The majority of series data is sourced from the OECD Statistics.
+
+    For particular countries, longer series have been sourced from specific national records as referenced below.
+
+    Germany: Statistisches Bundesamt (https://www.destatis.de/EN/FactsFigures/EconomicSectors/TransportTraffic/TrafficAccidents/Tables_/RoadTrafficAccidents.html)
+
+    New Zealand: http://www.transport.govt.nz/research/roadtoll/annualroadtollhistoricalinformation/
+
+    Australia: https://bitre.gov.au/publications/ongoing/road_deaths_australia_annual_summaries.aspx and https://infrastructure.gov.au/roads/safety/publications/2008/pdf/Ann_Stats_2007.pdf
+
+    Scotland: https://www.transport.gov.scot/media/39307/sct05174402361.pdf
+
+    Northern Ireland: https://www.psni.police.uk/inside-psni/Statistics/road-traffic-collision-statistics/
+
+    United States: https://www.bts.gov/content/transportation-fatalities-mode
+data_file: Road deaths and injuries - OECD.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Road%20deaths%20and%20injuries%20-%20OECD/Road
+    deaths and injuries - OECD.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: accidents_involving_casualties
+    type: Float
+  - name: deaths
+    type: Float
+  - name: deaths_per_million_vehicles
+    type: Float
+  - name: injuries
+    type: Float
+  - name: road_deaths_per_100_million_vehicle_kilometres
+    type: Float

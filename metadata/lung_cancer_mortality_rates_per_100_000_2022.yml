@@ -1,0 +1,26 @@
+name: lung_cancer_mortality_rates_per_100_000_2022
+description: |-
+    Age-standardized mortality rates (per 100,000 people) due to lung, bronchus or trachea cancer. The data is from the WHO Mortality database: https://platform.who.int/mortality
+
+    This dataset should be next updated by the source by May 2023. We will update it on Our World in Data soon after the new version is published. At the link above you can directly access the source page and see the latest available data.
+data_file: Lung cancer mortality rates (per 100,000) (2022).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Lung%20cancer%20mortality%20rates%20(per%20100%2C000)%20(2022)/Lung
+    cancer mortality rates (per 100,000) (2022).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: age_standardized_death_rate_per_100k_both_sexes
+    type: Float
+  - name: age_standardized_death_rate_per_100k_female
+    type: Float
+  - name: age_standardized_death_rate_per_100k_male
+    type: Float
+  - name: crude_death_rate_per_100k_both_sexes
+    type: Float
+  - name: crude_death_rate_per_100k_female
+    type: Float
+  - name: crude_death_rate_per_100k_male
+    type: Float

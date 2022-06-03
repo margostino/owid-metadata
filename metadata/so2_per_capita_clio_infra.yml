@@ -1,0 +1,13 @@
+name: so2_per_capita_clio_infra
+description: ""
+data_file: SO2 per capita - Clio Infra.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/SO2%20per%20capita%20-%20Clio%20Infra/SO2
+    per capita - Clio Infra.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: so2_emissions_per_capita_clio_infra
+    type: Float

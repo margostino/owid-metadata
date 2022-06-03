@@ -1,0 +1,68 @@
+name: european_vehicle_passenger_sales_icct_2021
+description: |-
+    Vehicle registrations data by type across specific European countries is sourced from the International Council on Clean Transport (ICCT): http://eupocketbook.org/
+
+    European aggregate figures is sourced from the European Environment Agency: https://www.eea.europa.eu/data-and-maps/indicators/proportion-of-vehicle-fleet-meeting-5/assessment. Here 'Europe' refers to the sum of the EU-27, Iceland, Norway and United Kingdom.
+data_file: European vehicle passenger sales (ICCT, 2021).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/European%20vehicle%20passenger%20sales%20(ICCT%2C%202021)/European
+    vehicle passenger sales (ICCT, 2021).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: total_passenger_vehicle_sales
+    type: Float
+  - name: share_european_car_sales
+    type: Float
+  - name: vehicle_price_eur
+    type: Float
+  - name: diesel_share
+    type: Float
+  - name: gas_share
+    type: Float
+  - name: full_hybrid_share
+    type: Float
+  - name: plugin_hybrid_share
+    type: Float
+  - name: mild_hybrid_share
+    type: Float
+  - name: battery_electric_share
+    type: Float
+  - name: petrol_share
+    type: Float
+  - name: co2_per_km
+    type: Float
+  - name: fuel_efficiency_per_km
+    type: Float
+  - name: diesel_number
+    type: Float
+  - name: gas_number
+    type: Float
+  - name: full_hybrid_number
+    type: Float
+  - name: plugin_hybrid_number
+    type: Float
+  - name: mild_hybrid_number
+    type: Float
+  - name: battery_electric_number
+    type: Float
+  - name: petrol_number
+    type: Float
+  - name: all_hybrid_share
+    type: Float
+  - name: all_hybrid_number
+    type: Float
+  - name: full_mild_hybrid_share
+    type: Float
+  - name: diesel_gas_share
+    type: Float
+  - name: full_mild_hybrid_number
+    type: Float
+  - name: diesel_gas_number
+    type: Float
+  - name: battery_plugin_electric_share
+    type: Float
+  - name: battery_plugin_electric_number
+    type: Float

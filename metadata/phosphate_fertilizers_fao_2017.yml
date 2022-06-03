@@ -1,0 +1,22 @@
+name: phosphate_fertilizers_fao_2017
+description: |-
+    Data combines UN FAO datasets related to phosphate fertilizer production and consumption:
+
+    For production figures: "Phosphate Fertilizers - Production Quantity" which extends from 2003-2014 and "Fertilizers Archive - Phosphate Fertilizers - Production Quantity", which extends from 1961-2002.
+
+    For consumption figures: "Phosphate Fertilizers - Consumption" which extends from 2003-2014 and "Fertilizers Archive - Phosphate Fertilizers - Consumption", which extends from 1961-2002.
+
+    Data is measured in tonnes of total nutrient production or consumption.
+data_file: Phosphate fertilizers - FAO (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Phosphate%20fertilizers%20-%20FAO%20(2017)/Phosphate
+    fertilizers - FAO (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: phosphate_production_fao_2017
+    type: Float
+  - name: phosphate_consumption_fao_2017
+    type: Float

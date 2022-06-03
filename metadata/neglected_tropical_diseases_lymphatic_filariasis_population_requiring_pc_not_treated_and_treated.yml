@@ -1,0 +1,17 @@
+name: neglected_tropical_diseases_lymphatic_filariasis_population_requiring_pc_not_treated_and_treated
+description: ""
+data_file: Neglected Tropical Diseases (Lymphatic Filariasis) Population requiring
+    PC not-treated and treated - Enric Jané (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Neglected%20Tropical%20Diseases%20(Lymphatic%20Filariasis)%20Population%20requiring%20PC%20not-treated%20and%20treated%20-/Neglected
+    Tropical Diseases (Lymphatic Filariasis) Population requiring PC not-treated and
+    treated - Enric Jané (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: reported_number_of_people_treated_enric_jane_2016
+    type: Float
+  - name: population_requiring_pc_for_lf_but_not_treated_enric_jane_2016
+    type: Float

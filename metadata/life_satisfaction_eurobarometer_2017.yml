@@ -1,0 +1,15 @@
+name: life_satisfaction_eurobarometer_2017
+description: The Eurobarometer provides estimates for dated surveys. In some years,
+    there are some countries with multiple surveys. In those cases, we provide yearly
+    averages.
+data_file: Life satisfaction – Eurobarometer (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Life%20satisfaction%20%E2%80%93%20Eurobarometer%20(2017)/Life
+    satisfaction – Eurobarometer (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_of_people_who_are_happy_eurobarometer_2017
+    type: Float

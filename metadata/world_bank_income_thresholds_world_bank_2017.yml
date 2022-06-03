@@ -1,0 +1,20 @@
+name: world_bank_income_thresholds_world_bank_2017
+description: The Atlas methodology is used to reduce the impact of exchange rate fluctuations
+    in the cross-country comparison of national incomes.
+data_file: World Bank Income Thresholds - World Bank (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/World%20Bank%20Income%20Thresholds%20-%20World%20Bank%20(2017)/World
+    Bank Income Thresholds - World Bank (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: low_income_world_bank_2017
+    type: Float
+  - name: lower_middle_income_world_bank_2017
+    type: Float
+  - name: upper_middle_income_world_bank_2017
+    type: Float
+  - name: high_income_world_bank_2017
+    type: Float

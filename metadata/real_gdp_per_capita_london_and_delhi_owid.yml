@@ -1,0 +1,19 @@
+name: real_gdp_per_capita_london_and_delhi_owid
+description: "The data presented here from 1990 onwards is from the World Bank. It
+    is GDP per capita in 2011 international-$ as published here: http://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD
+    (accessed on April 16, 2017).\r\n\r\nData earlier than 1990 is backwards extended
+    from the World Bank observation for 1990 based on the growth rates implied by
+    Maddison data. The Maddison data is published here: http://www.ggdc.net/maddison/maddison-project/data.htm\r\n\r\nHere
+    we have assumed GDP per capita for the UK and India is a proxy for London and
+    Delhi, respectively."
+data_file: Real GDP per capita, London and Delhi - OWID.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Real%20GDP%20per%20capita%2C%20London%20and%20Delhi%20-%20OWID/Real
+    GDP per capita, London and Delhi - OWID.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: real_gdp_per_capita_owid
+    type: Float

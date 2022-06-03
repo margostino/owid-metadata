@@ -1,0 +1,15 @@
+name: globalization_over_5_centuries_pwt_90_klasing_and_milionis_2014_and_estevadeordal_frantz_and
+description: ""
+data_file: Globalization over 5 centuries - PWT 9.0, Klasing & Milionis (2014), and
+    Estevadeordal, Frantz, and Taylor (2003).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Globalization%20over%205%20centuries%20-%20PWT%209.0%2C%20Klasing%20%26%20Milionis%20(2014)%2C%20and%20Estevadeordal%2C%20Frantz%2C%20and%20/Globalization
+    over 5 centuries - PWT 9.0, Klasing & Milionis (2014), and Estevadeordal, Frantz,
+    and Taylor (2003).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: world_trade_perc_of_gdp_pwt_90
+    type: Float

@@ -1,0 +1,19 @@
+name: arable_land_per_crop_output_pin_fao_2019
+description: "This metric measures the index of arable land needed to produce a fixed
+    quantity of crops (where values in 1961 are equal to 1.0). \n\nThis is calculated
+    as arable land divided by the crop production index (PIN). The crop production
+    index (PIN) here is the sum of crop commodities produced (after deductions of
+    quantities used as seed and feed). It is weighted by the commodity prices. \n\nValues
+    for arable land use and the crop production index (PIN) is sourced from the UN
+    Food and Agriculture Organization (FAO). "
+data_file: Arable land per crop output (PIN) (FAO, 2019).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Arable%20land%20per%20crop%20output%20(PIN)%20(FAO%2C%202019)/Arable
+    land per crop output (PIN) (FAO, 2019).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: arable_land_per_crop_output_pin_fao_2019
+    type: Float

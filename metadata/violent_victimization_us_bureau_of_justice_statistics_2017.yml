@@ -1,0 +1,13 @@
+name: violent_victimization_us_bureau_of_justice_statistics_2017
+description: ""
+data_file: Violent Victimization - US Bureau of Justice Statistics (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Violent%20Victimization%20-%20US%20Bureau%20of%20Justice%20Statistics%20(2017)/Violent
+    Victimization - US Bureau of Justice Statistics (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: us_violent_victimization_at_school_rates_per_1000_people_12_us_bureau_of_justice_statistics_2017
+    type: Float

@@ -1,0 +1,18 @@
+name: population_density_world_bank_gapminder_hyde_and_un
+description: |-
+    Our World in Data builds and maintains a long-run dataset on population by country, region, and for the world, based on three key sources: HYDE, Gapminder, and the UN World Population Prospects. This combines historical population estimates with median scenario projections to 2100. You can find more information on these sources and how our time series is constructed on this page: <a href="https://ourworldindata.org/population-sources">What sources do we rely on for population estimates?</a>
+
+    We combine this population dataset with the <a href="https://ourworldindata.org/grapher/land-area-km">land area estimates published by the World Bank</a>, to produce a long-run dataset of population density.
+
+    In all sources that we rely on, population estimates and land area estimates are based on today’s geographical borders.
+data_file: Population density (World Bank, Gapminder, HYDE & UN).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Population%20density%20(World%20Bank%2C%20Gapminder%2C%20HYDE%20%26%20UN)/Population
+    density (World Bank, Gapminder, HYDE & UN).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: population_density
+    type: Float

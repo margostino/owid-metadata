@@ -1,0 +1,13 @@
+name: deaths_by_world_region_who_2016
+description: The original dataset is published with confidence intervals.
+data_file: Deaths by World Region - WHO (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Deaths%20by%20World%20Region%20-%20WHO%20(2016)/Deaths
+    by World Region - WHO (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: malaria_deaths_by_world_region_who_2016
+    type: Float

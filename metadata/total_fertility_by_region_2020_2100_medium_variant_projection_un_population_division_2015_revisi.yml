@@ -1,0 +1,15 @@
+name: total_fertility_by_region_2020_2100_medium_variant_projection_un_population_division_2015_revisi
+description: ""
+data_file: Total fertility by region, 2020-2100 medium variant projection - UN Population
+    Division (2015 revision).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Total%20fertility%20by%20region%2C%202020-2100%20medium%20variant%20projection%20-%20UN%20Population%20Division%20(2015%20revisi/Total
+    fertility by region, 2020-2100 medium variant projection - UN Population Division
+    (2015 revision).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: projected_fertility_rate_un_population_division_2015_revision
+    type: Float

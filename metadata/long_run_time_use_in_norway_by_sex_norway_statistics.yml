@@ -1,0 +1,49 @@
+name: long_run_time_use_in_norway_by_sex_norway_statistics
+description: 'Note: Data are normalized to 1440 minutes per day. In other words, for
+    those countries for which the time use does not sum up to 1440 minutes, the missing
+    minutes are equally distributed across all activities. '
+data_file: Long run time use in Norway, by sex - Norway Statistics.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Long%20run%20time%20use%20in%20Norway%2C%20by%20sex%20-%20Norway%20Statistics/Long
+    run time use in Norway, by sex - Norway Statistics.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: time_spent_on_education_all_statistics_norway
+    type: Float
+  - name: time_spent_on_education_female_statistics_norway
+    type: Float
+  - name: time_spent_on_education_male_statistics_norway
+    type: Float
+  - name: time_spent_on_household_work_all_statistics_norway
+    type: Float
+  - name: time_spent_on_household_work_female_statistics_norway
+    type: Float
+  - name: time_spent_on_household_work_male_statistics_norway
+    type: Float
+  - name: time_spent_on_income_producing_work_all_statistics_norway
+    type: Float
+  - name: time_spent_on_income_producing_work_female_statistics_norway
+    type: Float
+  - name: time_spent_on_income_producing_work_male_statistics_norway
+    type: Float
+  - name: time_spent_on_leisure_all_statistics_norway
+    type: Float
+  - name: time_spent_on_leisure_female_statistics_norway
+    type: Float
+  - name: time_spent_on_leisure_male_statistics_norway
+    type: Float
+  - name: time_spent_on_other_activities_all_statistics_norway
+    type: Float
+  - name: time_spent_on_other_activities_females_statistics_norway
+    type: Float
+  - name: time_spent_on_other_activities_males_statistics_norway
+    type: Float
+  - name: time_spent_on_personal_needs_all_statistics_norway
+    type: Float
+  - name: time_spent_on_personal_needs_females_statistics_norway
+    type: Float
+  - name: time_spent_on_personal_needs_males_statistics_norway
+    type: Float

@@ -1,0 +1,30 @@
+name: regime_populations_owid_based_on_luhrmann_et_al_2018_v_dem_v12_owid_2021_gapminder_v6
+description: |-
+    This dataset provides information on the size of populations living under different political systems.
+
+    Population data comes from our own calculations based on Gapminder (v6), HYDE (v3.2), and UN (2019).
+
+    Political regimes are identified using the Regimes of the World classification from Lührmann et al. (2018), data from the Varieties of Democracy Project (v12), and expanding the data and refining the classification ourselves.
+
+    The classification distinguishes between closed autocracies, electoral autocracies, electoral democracies, and liberal democracies.
+data_file: Regime populations - OWID based on Lührmann et al. (2018), V-Dem (v12),
+    OWID (2021), Gapminder (v6), HYDE (v3.2), and UN (2019).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Regime%20populations%20-%20OWID%20based%20on%20L%C3%BChrmann%20et%20al.%20(2018)%2C%20V-Dem%20(v12)%2C%20OWID%20(2021)%2C%20Gapminder%20(v6)%2C/Regime
+    populations - OWID based on Lührmann et al. (2018), V-Dem (v12), OWID (2021),
+    Gapminder (v6), HYDE (v3.2), and UN (2019).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: population_closed_aut
+    type: Float
+  - name: population_electoral_aut
+    type: Float
+  - name: population_electoral_dem
+    type: Float
+  - name: population_liberal_dem
+    type: Float
+  - name: population_missing_data
+    type: Float

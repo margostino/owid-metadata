@@ -1,0 +1,38 @@
+name: livestock_counts_hyde_and_fao_2017
+description: |-
+    This dataset on livestock counts has been compiled by OWID based on the combination of data from the HYDE database and UN Food and Agricultural Organization (FAO) statistics.
+
+    Data for all livestock from 1890-1950 is sourced from the HYDE Database (History Database of the Global Environment), published by the PBL Netherlands Environmental Assessment Agency. Available at: http://themasites.pbl.nl/tridion/en/themasites/hyde/landusedata/livestock/index-2.html [accessed 12th October 2017].
+
+    Data from 1961 onwards is sources from the UN Food and Agricultural Organization (FAO) statistics. Available at: http://www.fao.org/faostat/en/#data/QA [accessed 12th October 2017].
+data_file: Livestock counts - HYDE & FAO (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Livestock%20counts%20-%20HYDE%20%26%20FAO%20(2017)/Livestock
+    counts - HYDE & FAO (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: asses_hyde_and_fao_2017
+    type: Float
+  - name: buffalo_hyde_and_fao_2017
+    type: Float
+  - name: cattle_hyde_and_fao_2017
+    type: Float
+  - name: goats_hyde_and_fao_2017
+    type: Float
+  - name: horses_hyde_and_fao_2017
+    type: Float
+  - name: mules_hyde_and_fao_2017
+    type: Float
+  - name: pigs_hyde_and_fao_2017
+    type: Float
+  - name: sheep_hyde_and_fao_2017
+    type: Float
+  - name: chickens_hyde_and_fao_2017
+    type: Float
+  - name: turkeys_hyde_and_fao_2017
+    type: Float
+  - name: poultry_hyde_and_fao_2017
+    type: Float

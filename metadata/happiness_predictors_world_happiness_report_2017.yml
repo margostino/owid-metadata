@@ -1,0 +1,28 @@
+name: happiness_predictors_world_happiness_report_2017
+description: The variables have been dated 2017 in our dataset, in order to be consistent
+    with the date of publication. However, the underlying data comes from various
+    survey waves, varying by country. The online appendix in the original article
+    provides details regarding actual dates of data collection.
+data_file: Happiness predictors – World Happiness Report (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Happiness%20predictors%20%E2%80%93%20World%20Happiness%20Report%20(2017)/Happiness
+    predictors – World Happiness Report (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: happiness_and_log_income_partial_correlation_clark_et_al_in_world_happiness_report_2017
+    type: Float
+  - name: happiness_and_years_of_education_partial_correlation_clark_et_al_in_world_happiness_report_2017
+    type: Float
+  - name: happiness_and_not_unemployed_partial_correlation_clark_et_al_in_world_happiness_report_2017
+    type: Float
+  - name: happiness_and_partnered_partial_correlation_clark_et_al_in_world_happiness_report_2017
+    type: Float
+  - name: happiness_and_physical_illness_partial_correlation_clark_et_al_in_world_happiness_report_2017
+    type: Float
+  - name: happiness_and_mental_illness_partial_correlation_clark_et_al_in_world_happiness_report_2017
+    type: Float
+  - name: happiness_and_gender_partial_correlation_with_female_clark_et_al_in_world_happiness_report_2017
+    type: Float

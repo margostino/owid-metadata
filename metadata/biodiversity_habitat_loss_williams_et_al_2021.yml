@@ -1,0 +1,130 @@
+name: biodiversity_habitat_loss_williams_et_al_2021
+description: |-
+    Projected species' habitat loss is projected to 2050 under a business-as-usual, plus five intervention scenarios with changes to diets or agricultural production.
+
+    Business-as-usual: This assumes population growth from UN medium projections; crop yield increases in line with historical rates of improvement; and dietary changes in line with projected rises in income.
+
+    Closing yield gaps: Yields increase linearly from current yields to 80% of the estimated maximum potential by 2050. Increasing yields above 80% is rarely achieved over large areas.
+
+    Halve food waste: consumer food waste and food losses in supply chains are reduced by 25% by 2030 and 50% by 2050.
+
+    Healthier diets: Diets transition to the EAT-Lancet diet which is in line with healthy calorie and nutritional requirements. For richer countries this would mean a reduction (but not elimination) of meat consumption. For poorer countries, this would mean an increase.
+
+    Optimize trade: agricultural production and trade is optimized to produce food in the locations with the least risk of habitat loss. Agricultural production shifts from the 25 countries projected to have the greatest mean losses of suitable habitat across all species to countries where less than 10% of species are threatened with extinction.
+
+    Combined: all four interventions are combined.
+data_file: Biodiversity habitat loss (Williams et al. 2021).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Biodiversity%20habitat%20loss%20(Williams%20et%20al.%202021)/Biodiversity
+    habitat loss (Williams et al. 2021).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: all_species_number
+    type: Float
+  - name: bau_habitat_loss_all
+    type: Float
+  - name: combined_habitat_loss_all
+    type: Float
+  - name: diets_habitat_loss_all
+    type: Float
+  - name: waste_habitat_loss_all
+    type: Float
+  - name: trade_habitat_loss_all
+    type: Float
+  - name: yields_habitat_loss_all
+    type: Float
+  - name: amphibian_species_number
+    type: Float
+  - name: bau_habitat_loss_amphibians
+    type: Float
+  - name: combined_habitat_loss_amphibians
+    type: Float
+  - name: diets_habitat_loss_amphibians
+    type: Float
+  - name: waste_habitat_loss_amphibians
+    type: Float
+  - name: trade_habitat_loss_amphibians
+    type: Float
+  - name: yields_habitat_loss_amphibians
+    type: Float
+  - name: bird_species_number
+    type: Float
+  - name: bau_habitat_loss_birds
+    type: Float
+  - name: combined_habitat_loss_birds
+    type: Float
+  - name: diets_habitat_loss_birds
+    type: Float
+  - name: waste_habitat_loss_birds
+    type: Float
+  - name: trade_habitat_loss_birds
+    type: Float
+  - name: yields_habitat_loss_birds
+    type: Float
+  - name: mammal_species_number
+    type: Float
+  - name: bau_habitat_loss_mammals
+    type: Float
+  - name: combined_habitat_loss_mammals
+    type: Float
+  - name: diets_habitat_loss_mammals
+    type: Float
+  - name: waste_habitat_loss_mammals
+    type: Float
+  - name: trade_habitat_loss_mammals
+    type: Float
+  - name: yields_habitat_loss_mammals
+    type: Float
+  - name: bau_change_cropland_km2
+    type: Float
+  - name: combined_change_cropland_km2
+    type: Float
+  - name: diets_change_cropland_km2
+    type: Float
+  - name: yields_change_cropland_km2
+    type: Float
+  - name: waste_change_cropland_km2
+    type: Float
+  - name: trade_change_cropland_km2
+    type: Float
+  - name: countries_losing_25_species
+    type: Float
+  - name: bau_change_pct
+    type: Float
+  - name: combined_change_pct
+    type: Float
+  - name: diets_change_pct
+    type: Float
+  - name: yields_change_pct
+    type: Float
+  - name: waste_change_pct
+    type: Float
+  - name: trade_change_pct
+    type: Float
+  - name: species_losing_more_25pct
+    type: Float
+  - name: species_losing_more_50pct
+    type: Float
+  - name: species_losing_more_75pct
+    type: Float
+  - name: species_losing_more_90pct
+    type: Float
+  - name: species_losing_more_25pct_yields
+    type: Float
+  - name: species_losing_more_50pct_yields
+    type: Float
+  - name: species_losing_more_75pct_yields
+    type: Float
+  - name: species_losing_more_90pct_yields
+    type: Float
+  - name: species_losing_more_25pct_combined
+    type: Float
+  - name: species_losing_more_50pct_combined
+    type: Float
+  - name: species_losing_more_75pct_combined
+    type: Float
+  - name: species_losing_more_90pct_combined
+    type: Float

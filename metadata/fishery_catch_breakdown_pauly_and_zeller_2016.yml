@@ -1,0 +1,24 @@
+name: fishery_catch_breakdown_pauly_and_zeller_2016
+description: |-
+    Data from the Pauly and Zeller (2016) paper is available at the Dryad Digital Repository:
+
+    Pauly D, Zeller D (2016) Data from: Catch reconstructions reveal that global marine fisheries catches are higher than reported and declining. Dryad Digital Repository. https://doi.org/10.5061/dryad.4s4t1
+data_file: Fishery catch breakdown - Pauly and Zeller (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Fishery%20catch%20breakdown%20-%20Pauly%20and%20Zeller%20(2016)/Fishery
+    catch breakdown - Pauly and Zeller (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: industrial_large_scale_commercial
+    type: Float
+  - name: artisanal_small_scale_commercial
+    type: Float
+  - name: discards
+    type: Float
+  - name: subsistence
+    type: Float
+  - name: recreational
+    type: Float

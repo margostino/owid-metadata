@@ -1,0 +1,33 @@
+name: violent_deaths_in_conflicts_and_one_sided_violence_since_1989_by_region_and_type_of_violence_ucdp
+description: "This data counts civilian and military deaths in conflicts and one-sided
+    violence. The data counts only direct violent deaths (i.e. excluding deaths from
+    disease or famine).\n\nIt is based on the UCDP Georeferenced Event Dataset (GED)
+    Global version 21.1. This presents deaths estimates for individual events. We
+    aggregate deaths across years, broken down by conflict/violence type and by region.\n\n\n\n "
+data_file: Violent deaths in conflicts and one-sided violence since 1989, by region
+    and type of violence (UCDP 2022).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Violent%20deaths%20in%20conflicts%20and%20one-sided%20violence%20since%201989%2C%20by%20region%20and%20type%20of%20violence%20(UCDP%20/Violent
+    deaths in conflicts and one-sided violence since 1989, by region and type of violence
+    (UCDP 2022).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: deaths_in_state_based_conflict
+    type: Float
+  - name: deaths_in_non_state_conflict
+    type: Float
+  - name: deaths_in_one_sided_violence
+    type: Float
+  - name: deaths_in_all_types_of_conflict
+    type: Float
+  - name: deaths_in_state_based_conflict_per_100_000
+    type: Float
+  - name: deaths_in_non_state_conflict_per_100_000
+    type: Float
+  - name: deaths_in_one_sided_violence_per_100_000
+    type: Float
+  - name: deaths_in_all_types_of_conflict_per_100_000
+    type: Float

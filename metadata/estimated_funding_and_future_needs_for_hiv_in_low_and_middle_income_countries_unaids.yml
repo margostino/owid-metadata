@@ -1,0 +1,19 @@
+name: estimated_funding_and_future_needs_for_hiv_in_low_and_middle_income_countries_unaids
+description: Estimated funding to addressing HIV in low-to-middle income countries
+    by region until the year 2016. Also provided by UNAIDS are estimates of resource
+    requirements from 2018-2030 in low-to-middle income countries to meet fast-track
+    HIV targets by 2030.
+data_file: Estimated funding and future needs for HIV in low and middle income countries
+    - UNAIDS.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Estimated%20funding%20and%20future%20needs%20for%20HIV%20in%20low%20and%20middle%20income%20countries%20-%20UNAIDS/Estimated
+    funding and future needs for HIV in low and middle income countries - UNAIDS.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: estimated_hiv_resource_availability_for_low_and_middle_income_countries_million_usmoney
+    type: Float
+  - name: estimated_resource_needs_for_fast_track_targets_million_usmoney
+    type: Float

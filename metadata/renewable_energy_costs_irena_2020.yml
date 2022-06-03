@@ -1,0 +1,75 @@
+name: renewable_energy_costs_irena_2020
+description: ""
+data_file: Renewable energy costs (IRENA, 2020).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Renewable%20energy%20costs%20(IRENA%2C%202020)/Renewable
+    energy costs (IRENA, 2020).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: onshore_wind_turbine_nameplate_capacity_mw
+    type: Float
+  - name: onshore_turbine_rotor_diameter_m
+    type: Float
+  - name: total_installed_cost_onshore_wind_2019_usdkw
+    type: Float
+  - name: onshore_wind_capacity_factor
+    type: Float
+  - name: onshore_wind_lcoe_2019_usdkwh
+    type: Float
+  - name: total_installed_solar_cost_2019_usdkw
+    type: Float
+  - name: solar_lcoe_2019_usdkwh
+    type: Float
+  - name: total_installed_solar_cost_residential
+    type: Float
+  - name: total_installed_solar_cost_commercial
+    type: Float
+  - name: solar_capacity_factor
+    type: Float
+  - name: solar_lcoe_residential_usdkw
+    type: Float
+  - name: solar_lcoe_commercial_usdkw
+    type: Float
+  - name: solar_pv_module_price_2019_usdw
+    type: Float
+  - name: offshore_wind_average_turbine_rating_mw
+    type: Float
+  - name: offshore_wind_average_project_capacity_mw
+    type: Float
+  - name: offshore_wind_total_installed_costs_2019_usdkw
+    type: Float
+  - name: offshore_wind_capacity_factor
+    type: Float
+  - name: offshore_wind_lcoe_2019_usdkwh
+    type: Float
+  - name: hydro_total_installed_costs_2018_usdkw
+    type: Float
+  - name: hydro_total_installed_costs_large
+    type: Float
+  - name: hydro_total_installed_costs_small
+    type: Float
+  - name: hydro_capacity_factor
+    type: Float
+  - name: hydro_lcoe_219_usdkwh
+    type: Float
+  - name: geothermal_total_installed_costs_2018_usdkw
+    type: Float
+  - name: geothermal_capacity_factor
+    type: Float
+  - name: geothermal_lcoe_219_usdkwh
+    type: Float
+  - name: bioenergy_total_installed_costs_2018_usdkw
+    type: Float
+  - name: bioenergy_capacity_factor
+    type: Float
+  - name: bioenergy_lcoe_2019_usdkwh
+    type: Float
+  - name: csp_total_installed_costs_2019_usdkw
+    type: Float
+  - name: csp_capacity_factor
+    type: Float
+  - name: csp_lcoe_2019_usdkwh
+    type: Float

@@ -1,0 +1,18 @@
+name: onshore_wind_lcoe_irena_cost_database_2018
+description: |-
+    The weighted average levelised cost of electricity (LCOE) of commissioned onshore wind projects; this is given as the global average and for select countries where data is available.
+
+    The LCOE is given in 2016 USD per kWh.
+
+    This data is published in IRENA's report 'Renewable Power Generation Costs in 2017'. Available at: http://www.irena.org/publications/2018/Jan/Renewable-power-generation-costs-in-2017. IRENA retains copyright of the underlying data.
+data_file: Onshore wind LCOE (IRENA Cost Database, 2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Onshore%20wind%20LCOE%20(IRENA%20Cost%20Database%2C%202018)/Onshore
+    wind LCOE (IRENA Cost Database, 2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: onshore_wind_lcoe_2016moneykwh
+    type: Float

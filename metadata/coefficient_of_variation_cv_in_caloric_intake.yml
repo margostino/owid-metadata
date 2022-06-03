@@ -1,0 +1,18 @@
+name: coefficient_of_variation_cv_in_caloric_intake
+description: |-
+    The coefficient variation (CV) measures the inequality of caloric intake across a given population. It represents a statistical measure of the data spread around the mean caloric intake. Higher CV values represent larger levels of dietary inequality.
+
+    Where data is sufficiently available, the FAO estimate the CV based on household survey data. Where unavailable, it is calculated based on regression analysis from Gini coefficient, income and food price data.
+
+    The CV of caloric intake is reported only for developing countries within the Food Security Indicators.
+data_file: Coefficient of Variation (CV) in caloric intake.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Coefficient%20of%20Variation%20(CV)%20in%20caloric%20intake/Coefficient
+    of Variation (CV) in caloric intake.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: caloric_coefficient_variation_cv_fao_food_security_indicators_2017
+    type: Float

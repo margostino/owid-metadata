@@ -1,0 +1,19 @@
+name: global_precipitation_anomaly_noaa
+description: "Data shows global precipitation patterns, based on rainfall and snowfall
+    measurements from land-based weather stations worldwide. \n\nThis indicator shows
+    annual anomalies, or differences, compared with the average precipitation from
+    1901 to 2000. At each weather station, annual precipitation anomalies were calculated
+    from total annual precipitation in inches. Global anomalies have been determined
+    by dividing the world into a grid, averaging the data for each cell of the grid,
+    and then averaging the grid cells together."
+data_file: Global precipitation anomaly (NOAA).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Global%20precipitation%20anomaly%20(NOAA)/Global
+    precipitation anomaly (NOAA).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: global_precipitation_anomaly_inches
+    type: Float

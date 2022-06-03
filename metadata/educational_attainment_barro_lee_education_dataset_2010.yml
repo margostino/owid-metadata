@@ -1,0 +1,15 @@
+name: educational_attainment_barro_lee_education_dataset_2010
+description: Christopher Farris kindly provided this dataset and shared it with Max
+    Roser via email. It shows average years of schooling of the population aged 15
+    and over.
+data_file: Educational Attainment - Barro Lee Education Dataset (2010) .csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Educational%20Attainment%20-%20Barro%20Lee%20Education%20Dataset%20(2010)%20/Educational
+    Attainment - Barro Lee Education Dataset (2010) .csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: educational_attainment_average_years_of_total_education_barro_lee_education_dataset_2010
+    type: Float

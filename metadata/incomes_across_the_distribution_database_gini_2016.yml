@@ -1,0 +1,15 @@
+name: incomes_across_the_distribution_database_gini_2016
+description: ""
+data_file: Incomes across the Distribution Database, Gini (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Incomes%20across%20the%20Distribution%20Database%2C%20Gini%20(2016)/Incomes
+    across the Distribution Database, Gini (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: gini_equivalised_disposable_household_income_entire_pop_incomes_across_the_distribution_database_2016
+    type: Float
+  - name: gini_equivalised_market_household_income_entire_pop_incomes_across_the_distribution_database_2016
+    type: Float

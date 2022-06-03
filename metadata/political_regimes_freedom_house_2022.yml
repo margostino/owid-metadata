@@ -1,0 +1,56 @@
+name: political_regimes_freedom_house_2022
+description: |-
+    This dataset provides information on political regimes, using data from Freedom House's Freedom in the World (2022).
+
+    You can download the code and complete dataset, including supplementary variables, from GitHub: https://github.com/owid/notebooks/tree/main/BastianHerre/democracy
+data_file: Political regimes - Freedom House (2022).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Political%20regimes%20-%20Freedom%20House%20(2022)/Political
+    regimes - Freedom House (2022).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: regime_fh
+    type: Float
+  - name: polrights_fh
+    type: Float
+  - name: civlibs_fh
+    type: Float
+  - name: electdem_fh
+    type: Float
+  - name: polrights_score_fh
+    type: Float
+  - name: civlibs_score_fh
+    type: Float
+  - name: country_fh
+    type: Float
+  - name: number_notfree_fh
+    type: Float
+  - name: number_partlyfree_fh
+    type: Float
+  - name: number_free_fh
+    type: Float
+  - name: number_nonelectdem_fh
+    type: Float
+  - name: number_electdem_fh
+    type: Float
+  - name: pop_notfree_fh
+    type: Float
+  - name: pop_partlyfree_fh
+    type: Float
+  - name: pop_free_fh
+    type: Float
+  - name: pop_missreg_fh
+    type: Float
+  - name: pop_nonelectdem_fh
+    type: Float
+  - name: pop_electdem_fh
+    type: Float
+  - name: pop_missdem_fh
+    type: Float
+  - name: region
+    type: Float
+  - name: electprocess_fh
+    type: Float

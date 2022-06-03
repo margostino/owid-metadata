@@ -1,0 +1,45 @@
+name: hurricane_forecasting_error_nhc_2019
+description: Data on intensity and track forecast errors for tropical cyclones in
+    the Atlantic basin and the Eastern North Pacific Basin, published by the National
+    Hurricane Centre to show changes in the accuracy and skill of its forecasts.
+data_file: Hurricane Forecasting Error, NHC (2019).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Hurricane%20Forecasting%20Error%2C%20NHC%20(2019)/Hurricane
+    Forecasting Error, NHC (2019).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: track_error_0h_n_mi
+    type: Float
+  - name: track_error_12h_n_mi
+    type: Float
+  - name: track_error_24h_n_mi
+    type: Float
+  - name: track_error_36h_n_mi
+    type: Float
+  - name: track_error_48h_n_mi
+    type: Float
+  - name: track_error_72h_n_mi
+    type: Float
+  - name: track_error_96h_n_mi
+    type: Float
+  - name: track_error_120h_n_mi
+    type: Float
+  - name: intensity_error_0h_kt
+    type: Float
+  - name: intensity_error_12h_kt
+    type: Float
+  - name: intensity_error_24h_kt
+    type: Float
+  - name: intensity_error_36h_kt
+    type: Float
+  - name: intensity_error_48h_kt
+    type: Float
+  - name: intensity_error_72h_kt
+    type: Float
+  - name: intensity_error_96h_kt
+    type: Float
+  - name: intensity_error_120h_kt
+    type: Float

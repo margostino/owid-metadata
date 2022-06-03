@@ -1,0 +1,24 @@
+name: median_un_population_projections_global_vs_africa_owid_based_on_un
+description: |-
+    Population data is based on the Medium UN projection (2017 Edition) from 2015-2100. This is presented in thousands.
+
+    Our World in Data have derived the age category "12-24 years old" based on the sum of the UN age cohorts "12-14" and "15-24" years old. OWID have also derived a value for all non-African countries, using the global projection minus the population projection for Africa.
+data_file: Median UN Population Projections - Global vs Africa (OWID based on UN).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Median%20UN%20Population%20Projections%20-%20Global%20vs%20Africa%20(OWID%20based%20on%20UN)/Median
+    UN Population Projections - Global vs Africa (OWID based on UN).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: o65_years_population_un_median_projections
+    type: Float
+  - name: under_5_years_population_un_median_projections
+    type: Float
+  - name: o25_64_years_population_un_median_projections
+    type: Float
+  - name: o6_11_years_population_un_median_projections
+    type: Float
+  - name: o12_24_years_population_un_median_projections
+    type: Float

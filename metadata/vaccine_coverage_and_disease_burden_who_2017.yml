@@ -1,0 +1,35 @@
+name: vaccine_coverage_and_disease_burden_who_2017
+description: ""
+data_file: Vaccine Coverage and Disease Burden - WHO (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Vaccine%20Coverage%20and%20Disease%20Burden%20-%20WHO%20(2017)/Vaccine
+    Coverage and Disease Burden - WHO (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: bcg_immunization_coverage_among_1_year_olds_who_2017
+    type: Float
+  - name: hepatitis_b_hepb3_immunization_coverage_among_1_year_olds_who_2017
+    type: Float
+  - name: dtp3_immunization_coverage_among_1_year_olds_who_2017
+    type: Float
+  - name: polio_pol3_immunization_coverage_among_1_year_olds_who_2017
+    type: Float
+  - name: measles_mcv_immunization_coverage_among_1_year_olds_who_2017
+    type: Float
+  - name: number_of_confirmed_tetanus_cases_who_2017
+    type: Float
+  - name: number_confirmed_polio_cases_who_2017
+    type: Float
+  - name: number_of_confirmed_pertussis_cases_who_2017
+    type: Float
+  - name: number_of_confirmed_measles_cases_who_2017
+    type: Float
+  - name: number_of_confirmed_diphtheria_cases_who_2017
+    type: Float
+  - name: estimated_deaths_due_to_tuberculosis_per_100_000_population_excluding_hiv_who_2017
+    type: Float
+  - name: estimated_number_of_deaths_due_to_tuberculosis_excluding_hiv_who_2017
+    type: Float

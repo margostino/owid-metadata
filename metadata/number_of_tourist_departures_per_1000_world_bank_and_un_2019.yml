@@ -1,0 +1,18 @@
+name: number_of_tourist_departures_per_1000_world_bank_and_un_2019
+description: |-
+    Number of tourist departures per 1000 was derived based on the number of departures per year, divided by population figures from the World Bank's World Development Indicators (WDI).
+
+    Number of tourist departures sourced from the World Bank's World Development Indicators (WDI). Available at: https://data.worldbank.org/indicator/ST.INT.DPRT.
+
+    Population data sourced from the World Bank's World Development Indicators (WDI); figures were divided by 1000. Available at: https://databank.worldbank.org/indicator/SP.POP.TOTL/1ff4a498/Popular-Indicators.
+data_file: Number of tourist departures per 1000 - World Bank & UN (2019).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Number%20of%20tourist%20departures%20per%201000%20-%20World%20Bank%20%26%20UN%20(2019)/Number
+    of tourist departures per 1000 - World Bank & UN (2019).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: number_of_departures_per_1000_people
+    type: Float

@@ -1,0 +1,16 @@
+name: wages_in_the_manufacturing_sector_vs_several_food_prices_in_the_us_us_bureau_of_labor_statistic
+description: Wages in the Manufacturing Sector vs. Several Food Prices USA  – BLS
+    Data
+data_file: Wages in the manufacturing sector vs. several food prices in the US – U.S.
+    Bureau of Labor Statistics (2013).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Wages%20in%20the%20manufacturing%20sector%20vs.%20several%20food%20prices%20in%20the%20US%20%E2%80%93%20U.S.%20Bureau%20of%20Labor%20Statistic/Wages
+    in the manufacturing sector vs. several food prices in the US – U.S. Bureau of
+    Labor Statistics (2013).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: wage_and_food_prices_us_bureau_of_labor_statistics_2013
+    type: Float

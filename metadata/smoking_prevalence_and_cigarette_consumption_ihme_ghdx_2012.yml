@@ -1,0 +1,58 @@
+name: smoking_prevalence_and_cigarette_consumption_ihme_ghdx_2012
+description: "Consumption per smoker per day refers to all ages and both sexes. The
+    unit of measurement is in cigarettes.\r\n\r\nDaily smoking prevalence for male,
+    female, and both (male and female) also refers to all ages of each particular
+    category. Daily male smoking prevalence is interpreted as the percentage of men,
+    across all ages, who smoke daily. \r\n\r\nThe number of daily male smokers refers
+    to the number of men, by country, who smoke cigarettes at least daily. "
+data_file: Smoking prevalence and cigarette consumption (IHME, GHDx (2012)).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Smoking%20prevalence%20and%20cigarette%20consumption%20(IHME%2C%20GHDx%20(2012))/Smoking
+    prevalence and cigarette consumption (IHME, GHDx (2012)).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: cigarette_consumption_per_smoker_per_day_ihme_ghdx_2012
+    type: Float
+  - name: consumption_per_smoker_per_day_lower_bound_ihme_ghdx_2012
+    type: Float
+  - name: consumption_per_smoker_per_day_upper_bound_ihme_ghdx_2012
+    type: Float
+  - name: lower_bound_for_daily_smoking_prevalence_both_ihme_ghdx_2012
+    type: Float
+  - name: upper_bound_for_daily_smoking_prevalence_both_ihme_ghdx_2012
+    type: Float
+  - name: daily_smoking_prevalence_both_ihme_ghdx_2012
+    type: Float
+  - name: lower_bound_for_daily_smoking_prevalence_male_ihme_ghdx_2012
+    type: Float
+  - name: upper_bound_for_daily_smoking_prevalence_male_ihme_ghdx_2012
+    type: Float
+  - name: daily_smoking_prevalence_male_ihme_ghdx_2012
+    type: Float
+  - name: lower_bound_for_daily_smoking_prevalence_female_ihme_ghdx_2012
+    type: Float
+  - name: upper_bound_for_daily_smoking_prevalence_female_ihme_ghdx_2012
+    type: Float
+  - name: daily_smoking_prevalence_female_ihme_ghdx_2012
+    type: Float
+  - name: number_of_daily_smokers_both_ihme_ghdx_2012
+    type: Float
+  - name: lower_bound_for_number_of_daily_smokers_both_ihme_ghdx_2012
+    type: Float
+  - name: upper_bound_for_number_of_daily_smokers_both_ihme_ghdx_2012
+    type: Float
+  - name: number_of_daily_female_smokers_ihme_ghdx_2012
+    type: Float
+  - name: lower_bound_for_number_of_female_daily_smokers_ihme_ghdx_2012
+    type: Float
+  - name: upper_bound_for_number_of_female_daily_smokers_ihme_ghdx_2012
+    type: Float
+  - name: number_of_daily_male_smokers_ihme_ghdx_2012
+    type: Float
+  - name: lower_bound_for_number_of_daily_male_smokers_ihme_ghdx_2012
+    type: Float
+  - name: upper_bound_for_number_of_daily_male_smokers_ihme_ghdx_2012
+    type: Float

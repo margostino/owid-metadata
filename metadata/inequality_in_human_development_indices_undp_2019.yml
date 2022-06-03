@@ -1,0 +1,15 @@
+name: inequality_in_human_development_indices_undp_2019
+description: ""
+data_file: Inequality in human development indices - UNDP (2019).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Inequality%20in%20human%20development%20indices%20-%20UNDP%20(2019)/Inequality
+    in human development indices - UNDP (2019).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: inequality_in_life_expectancy_2015_2020
+    type: Float
+  - name: inequality_in_education_2017
+    type: Float

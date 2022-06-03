@@ -1,0 +1,13 @@
+name: poverty_rate_50perc_of_median_lis_key_figures_2018
+description: ""
+data_file: Poverty rate (<50% of median) (LIS Key Figures, 2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Poverty%20rate%20(!50%25%20of%20median)%20(LIS%20Key%20Figures%2C%202018)/Poverty
+    rate (<50% of median) (LIS Key Figures, 2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: poverty_rate_less50perc_of_median_lis_key_figures_2018
+    type: Float

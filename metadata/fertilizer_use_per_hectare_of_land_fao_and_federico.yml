@@ -1,0 +1,25 @@
+name: fertilizer_use_per_hectare_of_land_fao_and_federico
+description: "This data on fertilizer consumption rates combines two data sources.
+    Data for all countries from 2002 onwards is sourced from the World Bank World
+    Development Indicators (WDI). Available at: https://data.worldbank.org/ [accessed
+    13th September 2017]. \n\nLong-term data for select countries from 1880 is taken
+    from Table 6.3 in Giovanni Federico (2008) – Feeding the World: An Economic History
+    of Agriculture, 1800-2000. Princeton University Press. The original data sources
+    cited by the author are: 1890-1957: Germany: (1880, 1910, 1920, 1940, and I960)
+    Historical Statistics 1975, series K193 and J53 (assuming an average content of
+    nutrients 17.5%); Japan: (1898-1902, 1908-12, 1918-22, 1933-37, and 1958-62) Hayami
+    and Yamada 1991, table A5. Belgium: (1895,1910, 1929, and 1960-61) Blomme 1992,
+    table 48. Year 1937 is referred to as 1937-38 in the original source; likewise
+    1957 refers to 1957-58, and 1999 to 1998-00.\n\nAll data is measured in kilograms
+    of nutrient per hecatre of arable land."
+data_file: Fertilizer use per hectare of land -FAO & Federico.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Fertilizer%20use%20per%20hectare%20of%20land%20-FAO%20%26%20Federico/Fertilizer
+    use per hectare of land -FAO & Federico.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: fertilizer_consumption_fao_2017_and_federico_2008
+    type: Float

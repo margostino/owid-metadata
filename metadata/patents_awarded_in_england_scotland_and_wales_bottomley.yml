@@ -1,0 +1,15 @@
+name: patents_awarded_in_england_scotland_and_wales_bottomley
+description: 'The annual number of patents awarded across all industries and sectors
+    in England, Scotland and Ireland across the period of the Industrial Revolution
+    (1700-1852). '
+data_file: Patents awarded in England, Scotland and Wales - Bottomley.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Patents%20awarded%20in%20England%2C%20Scotland%20and%20Wales%20-%20Bottomley/Patents
+    awarded in England, Scotland and Wales - Bottomley.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: number_of_patents_awarded
+    type: Float

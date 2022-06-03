@@ -1,0 +1,23 @@
+name: land_use_since_10000bc_ellis_et_al_2020
+description: |-
+    The authors produce a global reconstruction and mapping of anthropogenic land use from 10,000 BCE to 2015 CE; the Anthromes 12K dataset. Anthromes were mapped using gridded global estimates of human population density and land use from the History of the Global Environment database (HYDE version 3.2) by a classification procedure similar to that used for prior anthrome maps.
+
+    Our World in Data has also provided aggregated land use categories based on the Ellis et al. (2020) results, where categories were grouped in the following way:
+    – Urban: "Urban" + "Mixed settlements"
+    – Villages: "Rice villages" + "Irrigated villages" + "Rainfed villages" + "Pastoral villages"
+    – Croplands: "Residential irrigated croplands" + "Residential rainfed croplands" + "Populated rainfed croplands" + "Remote croplands"
+    – Pasture : "Residential rangelands" + "Populated rangelands" + "Remote rangelands"
+    – Semi-natural land: "Residential woodlands" + "Populated woodlands" + "Remote woodlands"
+data_file: Land use since 10000BC (Ellis et al. (2020)).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Land%20use%20since%2010000BC%20(Ellis%20et%20al.%20(2020))/Land
+    use since 10000BC (Ellis et al. (2020)).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: area_disaggregated_categories
+    type: Float
+  - name: area_aggregated_categories
+    type: Float

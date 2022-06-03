@@ -1,0 +1,17 @@
+name: child_labor_italy_historic_toniolo_g_and_vecchi_g_2007
+description: ""
+data_file: Child Labor Italy (historic) - Toniolo, G., & Vecchi, G. (2007).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Child%20Labor%20Italy%20(historic)%20-%20Toniolo%2C%20G.%2C%20%26%20Vecchi%2C%20G.%20(2007)/Child
+    Labor Italy (historic) - Toniolo, G., & Vecchi, G. (2007).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: child_labor_italy_all_historic_toniolo_g_and_vecchi_g_2007
+    type: Float
+  - name: child_labor_italy_boys_historic_toniolo_g_and_vecchi_g_2007
+    type: Float
+  - name: child_labor_italy_girls_historic_toniolo_g_and_vecchi_g_2007
+    type: Float

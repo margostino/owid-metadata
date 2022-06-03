@@ -1,0 +1,16 @@
+name: us_opinion_on_wives_working_1936_1998_owid_compilation
+description: The question asked in the Fogli and Veldkamp data varies slightly, see
+    their appendix (B.2 Survey data) for more detail. GSS survey respondents answered
+    the question "Do you approve or disapprove of a married woman earning money in
+    business or industry if she has a husband capable of supporting her?"
+data_file: US Opinion on wives working 1936-1998 - OWID compilation.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/US%20Opinion%20on%20wives%20working%201936-1998%20-%20OWID%20compilation/US
+    Opinion on wives working 1936-1998 - OWID compilation.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: perc_approve_of_wife_working_if_husband_can_support_owid_2017
+    type: Float

@@ -1,0 +1,21 @@
+name: year_of_last_recorded_wild_poliomyelitis_virus_who_gpei_2017
+description: "In three countries polio remains endemic today: Afghanistan, Nigeria
+    and Pakistan. \n\nSwitzerland's data point was missing in the original dataset
+    and was obtained from the WHO (2017) time series dataset \"Reported Cases of Selected
+    Vaccine Preventable Diseases (VPDs)\" which can be found under point \"3.1 Reported
+    incidence time series\" here: http://www.who.int/immunization/monitoring_surveillance/data/en/
+    \n\nSomalia was listed twice in the GPEI table, so again the WHO (2017) dataset
+    cited above was consulted to make out which year was in fact the correct information.
+    \n\nTimor's datapoint originally read \"pre 1985\" and was replaced with 1985
+    for this visualization."
+data_file: Year of last recorded wild poliomyelitis virus - WHO (GPEI) (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Year%20of%20last%20recorded%20wild%20poliomyelitis%20virus%20-%20WHO%20(GPEI)%20(2017)/Year
+    of last recorded wild poliomyelitis virus - WHO (GPEI) (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: year_of_last_polio_case_who_gpei_2017
+    type: Float

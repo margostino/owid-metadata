@@ -1,0 +1,47 @@
+name: mental_and_substance_use_disorder_disaggregated_ihme
+description: ""
+data_file: Mental and substance use disorder disaggregated - IHME.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Mental%20and%20substance%20use%20disorder%20disaggregated%20-%20IHME/Mental
+    and substance use disorder disaggregated - IHME.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: prevalence_mental_health_disorders_both_age_standardized_percent
+    type: Float
+  - name: prevalence_mental_health_disorders_male_age_standardized_percent
+    type: Float
+  - name: prevalence_mental_health_disorders_female_age_standardized_percent
+    type: Float
+  - name: prevalence_mental_health_disorders_both_number
+    type: Float
+  - name: prevalence_mental_health_disorders_male_number
+    type: Float
+  - name: prevalence_mental_health_disorders_female_number
+    type: Float
+  - name: prevalence_alcohol_and_substance_use_disorders_both_age_standardized_percent
+    type: Float
+  - name: prevalence_alcohol_and_substance_use_disorders_male_age_standardized_percent
+    type: Float
+  - name: prevalence_alcohol_and_substance_use_disorders_female_age_standardized_percent
+    type: Float
+  - name: prevalence_alcohol_and_substance_use_disorders_both_number
+    type: Float
+  - name: prevalence_alcohol_and_substance_use_disorders_male_number
+    type: Float
+  - name: prevalence_alcohol_and_substance_use_disorders_female_number
+    type: Float
+  - name: deaths_alcohol_and_substance_use_disorders
+    type: Float
+  - name: deaths_alcohol_and_substance_use_disorders_age_standardized_rate
+    type: Float
+  - name: dalys_disability_adjusted_life_years_alcohol_and_substance_use_disorders_age_standardized_percent
+    type: Float
+  - name: dalys_disability_adjusted_life_years_mental_health_disorders_age_standardized_percent
+    type: Float
+  - name: dalys_disability_adjusted_life_years_alcohol_and_substance_use_disorders_age_standardized_rate
+    type: Float
+  - name: dalys_disability_adjusted_life_years_mental_health_disorders_age_standardized_rate
+    type: Float

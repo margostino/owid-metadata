@@ -1,0 +1,33 @@
+name: aviation_accidents_and_fatalities_by_flight_phase_asn_2019
+description: The total number of aviation accidents and fatalities by flight phase
+    (take-off, climbing, en-route, approach and landing). The figures include corporate
+    jet and military transport accidents.
+data_file: Aviation accidents and fatalities by flight phase (ASN, 2019).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Aviation%20accidents%20and%20fatalities%20by%20flight%20phase%20(ASN%2C%202019)/Aviation
+    accidents and fatalities by flight phase (ASN, 2019).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: en_route_accidents
+    type: Float
+  - name: en_route_casualties
+    type: Float
+  - name: take_off_accidents
+    type: Float
+  - name: take_off_casualties
+    type: Float
+  - name: initial_climb_accidents
+    type: Float
+  - name: initial_climb_casualties
+    type: Float
+  - name: approach_accidents
+    type: Float
+  - name: approach_fatalities
+    type: Float
+  - name: landing_accidents
+    type: Float
+  - name: landing_fatalities
+    type: Float

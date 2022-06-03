@@ -1,0 +1,40 @@
+name: sex_ratio_by_age_owid_based_on_unwpp_2017
+description: |-
+    Sex ratio is here defined as the number of males per 100 females. Data is given at different life stages: one-year olds, 5-year olds, 10-year olds, 15-year olds, 20-year olds and each decade thereafter (to 100 year olds).
+
+    This was calculated by Our World in Data based on male and female population estimates published in the United Nations World Population Prospects (2017 Revision).
+data_file: Sex ratio by age (OWID based on UNWPP, 2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Sex%20ratio%20by%20age%20(OWID%20based%20on%20UNWPP%2C%202017)/Sex
+    ratio by age (OWID based on UNWPP, 2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: sex_ratio_by_age_one_year_olds
+    type: Float
+  - name: sex_ratio_by_age_five_year_olds
+    type: Float
+  - name: sex_ratio_by_age_10_year_olds
+    type: Float
+  - name: sex_ratio_by_age_15_year_olds
+    type: Float
+  - name: sex_ratio_by_age_20_year_olds
+    type: Float
+  - name: sex_ratio_by_age_30_year_olds
+    type: Float
+  - name: sex_ratio_by_age_40_year_olds
+    type: Float
+  - name: sex_ratio_by_age_50_year_olds
+    type: Float
+  - name: sex_ratio_by_age_60_year_olds
+    type: Float
+  - name: sex_ratio_by_age_70_year_olds
+    type: Float
+  - name: sex_ratio_by_age_80_year_olds
+    type: Float
+  - name: sex_ratio_by_age_90_year_olds
+    type: Float
+  - name: sex_ratio_by_age_100_year_olds
+    type: Float

@@ -1,0 +1,17 @@
+name: homosexuality_laws_owid_based_on_kenny_and_patel_2017
+description: |4-
+
+    Estimates are based on Figure 2 in <em>Kenny, C., & Patel, D. (2017). Norms and Reform: Legalizing Homosexuality Improves Attitudes. Center for Global Development Working Paper, (465).</em>
+
+    We updated the classification for those countries where same-sex sexual activity was decriminalized after 2017, namely: Angola (2019), Botswana (2019), Micronesia (2018), India (2018) and Trinidad & Tobago (2018).
+data_file: Homosexuality Laws – OWID based on Kenny & Patel (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Homosexuality%20Laws%20%E2%80%93%20OWID%20based%20on%20Kenny%20%26%20Patel%20(2017)/Homosexuality
+    Laws – OWID based on Kenny & Patel (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: year_when_homosexuality_became_legal
+    type: Float

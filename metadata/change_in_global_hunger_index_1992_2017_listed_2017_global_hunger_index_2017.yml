@@ -1,0 +1,14 @@
+name: change_in_global_hunger_index_1992_2017_listed_2017_global_hunger_index_2017
+description: ""
+data_file: Change in Global Hunger Index, 1992-2017 (listed 2017) (Global Hunger Index
+    2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Change%20in%20Global%20Hunger%20Index%2C%201992-2017%20(listed%202017)%20(Global%20Hunger%20Index%202017)/Change
+    in Global Hunger Index, 1992-2017 (listed 2017) (Global Hunger Index 2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: change_in_global_hunger_index_1992_2017_global_hunger_index_2017
+    type: Float

@@ -1,0 +1,57 @@
+name: deaths_attributed_to_air_pollution_lelieveld_et_al_2019
+description: "Lelieveld et al. (2019) quantify excess mortality and years of life
+    lost (YLL) from air pollution. \n\nThey do this by applying an atmospheric chemistry–general
+    circulation model to calculate the impacts of air pollution on climate and public
+    health. This model includes concentrations of ozone (O3) and particulate matter,
+    including PM2.5. These concentrations are then used to convert to health burden
+    based on the Global Burden of Disease methodology.\n\n– Air pollution deaths from
+    all sources includes pollution from all anthropogenic sources (fossil fuels, agriculture,
+    residential energy use, and non-fossil industrial emissions) and natural emissions
+    from sources such as desert dust.\n– Air pollution deaths from fossil fuels includes
+    local air pollution generated from the burning of coal, oil and gas.\n– Air pollution
+    deaths from all anthropogenic sources includes pollution from fossil fuels plus
+    agriculture, residential energy use, and non-fossil industrial emissions.\n\nOur
+    World in Data has also converted these mortality and YLL metrics into rates based
+    on the population figures included in the study's Supplemental material.\n\nOur
+    World in Data has also calculated fossil fuel and total anthropogenic pollution
+    deaths as a share of total air pollution deaths based on the paper's original
+    data."
+data_file: Deaths attributed to air pollution (Lelieveld et al. 2019).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Deaths%20attributed%20to%20air%20pollution%20(Lelieveld%20et%20al.%202019)/Deaths
+    attributed to air pollution (Lelieveld et al. 2019).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: excess_mortality_from_air_pollution_all_sources
+    type: Float
+  - name: excess_mortality_from_fossil_fuels
+    type: Float
+  - name: excess_mortality_from_all_anthropogenic_pollution
+    type: Float
+  - name: total_years_life_lost_from_air_pollution_all_sources
+    type: Float
+  - name: total_years_life_lost_from_fossil_fuels
+    type: Float
+  - name: total_years_life_lost_from_all_anthropogenic_pollution
+    type: Float
+  - name: death_rates_from_all_air_pollution_per_100_000
+    type: Float
+  - name: death_rates_from_air_pollution_from_fossil_fuels_per_100_000
+    type: Float
+  - name: death_rates_from_all_anthropogenic_air_pollution_per_100_000
+    type: Float
+  - name: yll_rates_from_all_air_pollution_per_100_000
+    type: Float
+  - name: yll_rates_from_air_pollution_from_fossil_fuels_per_100_000
+    type: Float
+  - name: yll_rates_from_anthropogenic_air_pollution_per_100_000
+    type: Float
+  - name: deaths_from_fossil_pollution_as_a_share_of_total_air_pollution_deaths
+    type: Float
+  - name: deaths_from_fossil_pollution_as_a_share_of_total_anthropogenic_air_pollution_deaths
+    type: Float
+  - name: deaths_from_anthropogenic_pollution_as_a_share_of_total_air_pollution_deaths
+    type: Float

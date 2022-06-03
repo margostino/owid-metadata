@@ -1,0 +1,118 @@
+name: political_regimes_skaaning_et_al_2015
+description: |-
+    This dataset provides information on political regimes, using data from Skaaning et al. (2015).
+
+    You can download the code and complete dataset, including supplementary variables, from GitHub: https://github.com/owid/notebooks/tree/main/BastianHerre/democracy
+data_file: Political regimes - Skaaning et al. (2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Political%20regimes%20-%20Skaaning%20et%20al.%20(2015)/Political
+    regimes - Skaaning et al. (2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: regime_lied
+    type: Float
+  - name: exelec_lied
+    type: Float
+  - name: legelec_lied
+    type: Float
+  - name: opposition_lied
+    type: Float
+  - name: competition_lied
+    type: Float
+  - name: male_suffrage_lied
+    type: Float
+  - name: female_suffrage_lied
+    type: Float
+  - name: electdem_age_lied
+    type: Float
+  - name: electdem_age_group_lied
+    type: Float
+  - name: polyarchy_age_lied
+    type: Float
+  - name: polyarchy_age_group_lied
+    type: Float
+  - name: poliberties_lied
+    type: Float
+  - name: electdem_exp_lied
+    type: Float
+  - name: polyarchy_exp_lied
+    type: Float
+  - name: number_nonelectaut_lied
+    type: Float
+  - name: number_onepaut_lied
+    type: Float
+  - name: number_multipautne_lied
+    type: Float
+  - name: number_multipaut_lied
+    type: Float
+  - name: number_excldem_lied
+    type: Float
+  - name: number_maledem_lied
+    type: Float
+  - name: number_electdem_lied
+    type: Float
+  - name: number_poly_lied
+    type: Float
+  - name: number_electdem_18_lied
+    type: Float
+  - name: number_electdem_30_lied
+    type: Float
+  - name: number_electdem_60_lied
+    type: Float
+  - name: number_electdem_90_lied
+    type: Float
+  - name: number_electdem_91plus_lied
+    type: Float
+  - name: number_poly_18_lied
+    type: Float
+  - name: number_poly_30_lied
+    type: Float
+  - name: number_poly_60_lied
+    type: Float
+  - name: number_poly_90_lied
+    type: Float
+  - name: number_poly_91plus_lied
+    type: Float
+  - name: pop_nonelectaut_lied
+    type: Float
+  - name: pop_onepaut_lied
+    type: Float
+  - name: pop_multipautne_lied
+    type: Float
+  - name: pop_multipaut_lied
+    type: Float
+  - name: pop_excldem_lied
+    type: Float
+  - name: pop_maledem_lied
+    type: Float
+  - name: pop_electdem_lied
+    type: Float
+  - name: pop_poly_lied
+    type: Float
+  - name: pop_missreg_lied
+    type: Float
+  - name: pop_electdem_18_lied
+    type: Float
+  - name: pop_electdem_30_lied
+    type: Float
+  - name: pop_electdem_60_lied
+    type: Float
+  - name: pop_electdem_90_lied
+    type: Float
+  - name: pop_electdem_91plus_lied
+    type: Float
+  - name: pop_poly_18_lied
+    type: Float
+  - name: pop_poly_30_lied
+    type: Float
+  - name: pop_poly_60_lied
+    type: Float
+  - name: pop_poly_90_lied
+    type: Float
+  - name: pop_poly_91plus_lied
+    type: Float
+  - name: region
+    type: Float

@@ -1,0 +1,23 @@
+name: solar_pv_systems_costs_barbose_and_darghouth_2016
+description: "Data is based on median residential solar photovolatic (PV) prices in
+    the United States only.\r\n\r\nInstalled non-module prices include hardware costs,
+    such as inverters and racking equipment; and the wide assortment of soft costs,
+    including such things as marketing and customer acquisition, system design, installation
+    labor, permitting and inspection costs, and installer margins.\r\n\r\nNon-module
+    costs have been assumed to be the total solar PV system price minus the solar
+    module price."
+data_file: Solar PV Systems Costs - Barbose & Darghouth (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Solar%20PV%20Systems%20Costs%20-%20Barbose%20%26%20Darghouth%20(2016)/Solar
+    PV Systems Costs - Barbose & Darghouth (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: total_installed_price_barbose_and_darghouth_2016
+    type: Float
+  - name: module_price_barbose_and_darghouth_2016
+    type: Float
+  - name: non_module_costs_barbose_and_darghouth_2016
+    type: Float

@@ -1,0 +1,13 @@
+name: deaths_from_smallpox_per_million_population_edwardes_1902
+description: ""
+data_file: Deaths from smallpox per million population (Edwardes, 1902).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Deaths%20from%20smallpox%20per%20million%20population%20(Edwardes%2C%201902)/Deaths
+    from smallpox per million population (Edwardes, 1902).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: number_of_deaths_from_smallpox_per_1_000_population_edwardes_1902
+    type: Float

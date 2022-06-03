@@ -1,0 +1,53 @@
+name: technology_adoption_isard_1942_and_others
+description: |-
+    Roads - Historical Statistics of the United States, Colonial Times to 1970, Volume 1 and 2. Bureau of the Census, Washington D.C. see Chapter Q - Transportation, Q50-63. Link: https://www2.census.gov/library/publications/1975/compendia/hist_stats_colonial-1970/hist_stats_colonial-1970p2-chQ.pdf;
+    Diesel locomotives - Historical Statistics of the United States, Colonial Times to 1970, Volume 1 and 2. Bureau of the Census, Washington D.C. see Chapter Q - Transportation, Series Q284-312: Railroad mileage, equipment, and passenger traffic and revenue: 1890 to 1970. Link: https://www2.census.gov/library/publications/1975/compendia/hist_stats_colonial-1970/hist_stats_colonial-1970p2-chQ.pdf;
+    Agricultural tractor, ATM, Aviation passenger-km, Credit and debit payments, Card payments, MRI units, Newspapers, Retail locations accepting card, Rail passenger-km, Steamships (tons), Crude steel production (blast oxygen furnaces)/(electric furnaces), Synthetic (non-cellulosic) fibres, Commercial vehicles - Comin and Hobijn (2004). Link: http://www.nber.org/data/chat/;
+    Mail and telegrams - Mitchell (1998) International Historical Statistics: the Americas, 1970-2000, 5th Ed
+data_file: Technology Adoption - Isard (1942) and others.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Technology%20Adoption%20-%20Isard%20(1942)%20and%20others/Technology
+    Adoption - Isard (1942) and others.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: canals_isard_1942
+    type: Float
+  - name: roads_us_census_bureau_2017
+    type: Float
+  - name: diesel_locomotives_in_service_us_census_bureau_2017
+    type: Float
+  - name: agricultural_tractor_comin_and_hobijn_2004
+    type: Float
+  - name: atm_comin_and_hobijn_2004
+    type: Float
+  - name: aviation_passenger_km_comin_and_hobijn_2004
+    type: Float
+  - name: credit_and_debit_payments_comin_and_hobijn_2004
+    type: Float
+  - name: card_payments_comin_and_hobijn_2004
+    type: Float
+  - name: mail_mitchell_1998
+    type: Float
+  - name: mri_units_comin_and_hobijn_2004
+    type: Float
+  - name: newspapers_comin_and_hobijn_2004
+    type: Float
+  - name: retail_locations_accepting_card_comin_and_hobijn_2004
+    type: Float
+  - name: rail_passenger_km_comin_and_hobijn_2004
+    type: Float
+  - name: steamships_tons_comin_and_hobijn_2004
+    type: Float
+  - name: crude_steel_production_blast_oxygen_furnaces_comin_and_hobijn_2004
+    type: Float
+  - name: crude_steel_production_electric_furnaces_comin_and_hobijn_2004
+    type: Float
+  - name: telegrams_mitchell_1998
+    type: Float
+  - name: synthetic_non_cellulosic_fibres_comin_and_hobijn_2004
+    type: Float
+  - name: commercial_vehicles_comin_and_hobijn_2004
+    type: Float

@@ -1,0 +1,21 @@
+name: crude_oil_consumption_vs_price_bp_statistics_2016
+description: "Oil consumption data is based on reported global consumption measured
+    in barrels daily. This includes crude oil, shale oil, oil sands and Natural Gas
+    Liquids (the gas component of which is treated separately and not included).\r\n\r\nOil
+    prices are based on average crude oil prices as the Arabian Light series from
+    1965-1983 and Brent dated series from 1984-2015. This is reported in 2015 US$
+    per barrel (deflated by BP Energy Review using the Consumer Price Index for the
+    US)."
+data_file: Crude Oil Consumption vs. Price - BP Statistics (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Crude%20Oil%20Consumption%20vs.%20Price%20-%20BP%20Statistics%20(2016)/Crude
+    Oil Consumption vs. Price - BP Statistics (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: oil_consumption_bp_statistics_2016
+    type: Float
+  - name: crude_oil_price_bp_statistics_2016
+    type: Float

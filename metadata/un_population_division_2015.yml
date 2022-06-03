@@ -1,0 +1,13 @@
+name: un_population_division_2015
+description: ""
+data_file: UN Population Division (2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/UN%20Population%20Division%20(2015)/UN
+    Population Division (2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: population_growth_rate_un_population_division_2015
+    type: Float

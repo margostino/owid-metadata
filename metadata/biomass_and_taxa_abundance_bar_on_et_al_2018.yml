@@ -1,0 +1,18 @@
+name: biomass_and_taxa_abundance_bar_on_et_al_2018
+description: |-
+    Estimates of the global biomass (measured in tonnes of carbon) and abundance (number of individuals) of different taxonomic groups.
+
+    Due to large uncertainty for some groups, these are used as order-of-magnitude estimates and come with notable error margins.
+data_file: Biomass and taxa abundance (Bar-On et al. 2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Biomass%20and%20taxa%20abundance%20(Bar-On%20et%20al.%202018)/Biomass
+    and taxa abundance (Bar-On et al. 2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: global_biomass
+    type: Float
+  - name: abundance_of_organisms
+    type: Float

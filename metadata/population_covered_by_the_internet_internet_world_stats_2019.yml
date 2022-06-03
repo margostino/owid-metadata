@@ -1,0 +1,14 @@
+name: population_covered_by_the_internet_internet_world_stats_2019
+description: The numbers were obtained by dividing each country's number of internet
+    users by its population (both data points provided by Internet World Stats).
+data_file: Population covered by the internet - Internet World Stats (2019).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Population%20covered%20by%20the%20internet%20-%20Internet%20World%20Stats%20(2019)/Population
+    covered by the internet - Internet World Stats (2019).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_of_population_covered_by_the_internet_in_perc
+    type: Float

@@ -1,0 +1,19 @@
+name: supercomputer_power_flops_top500_database
+description: "Data on supercomputer power is sourced from the TOP500 database, which
+    tracks and reports the 500 largest supercomputers on a bi-annual basis. \n\nSupercomputer
+    power is measured in Floating-Point Operations per Second (FLOPS), a measure of
+    calculations per second for floating-point operations. Floating-point operations
+    are needed for very large or very small real numbers, or computations that require
+    a large dynamic range. It is therefore a more accurate measured than simply instructions
+    per second."
+data_file: Supercomputer power (FLOPS) – TOP500 Database.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Supercomputer%20power%20(FLOPS)%20%E2%80%93%20TOP500%20Database/Supercomputer
+    power (FLOPS) – TOP500 Database.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: floating_point_operations_per_second
+    type: Float

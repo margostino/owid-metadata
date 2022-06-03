@@ -1,0 +1,56 @@
+name: diet_compositions_by_commodity_categories_fao_2017
+description: |-
+    Data represents the average daily per capita supply of calories from the full range of commodities, grouped by food categories. Note that these figures do not correct for waste at the household/consumption level so may not directly reflect the quantity of food finally consumed by a given individual.
+
+    Figures for Former Soviet Union states have been allocated the average food supply figures of the USSR for the period 1961-1991, then their respective national values from there onwards.
+
+    Specific food commodities have been grouped into higher-level categories. The presented categories include the following FAO items:
+
+    Cereals and grains: wheat, rice, maize, barley, oats, millet, sorghum, rye, cereals (other) and all derivative products
+
+    Pulses: pulses, total
+
+    Starchy roots: starchy roots, total
+
+    Fruits and vegetables: fruits - excluding wine, vegetables
+
+    Oils & fats: vegetable oils, animal fats, oilcrops, treenuts
+
+    Sugar: sugar & sweeteners, sugar crops
+
+    Meat: bovine meat, poultry, pigmeat, mutton & goat meat, meat (other), fish and seafood (total)
+
+    Dairy & eggs: Milk - excluding butter
+
+    Alcoholic beverages: Alcohol, not including Alcohol (non-food)
+
+    Other: additional categories including infant food, spices, and miscellaneous
+data_file: Diet compositions by commodity categories - FAO (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Diet%20compositions%20by%20commodity%20categories%20-%20FAO%20(2017)/Diet
+    compositions by commodity categories - FAO (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: cereals_and_grains_fao_2017_kilocalories_per_person_per_day
+    type: Float
+  - name: pulses_fao_2017_kilocalories_per_person_per_day
+    type: Float
+  - name: starchy_roots_fao_2017_kilocalories_per_person_per_day
+    type: Float
+  - name: sugar_fao_2017_kilocalories_per_person_per_day
+    type: Float
+  - name: oils_and_fats_fao_2017_kilocalories_per_person_per_day
+    type: Float
+  - name: meat_fao_2017_kilocalories_per_person_per_day
+    type: Float
+  - name: dairy_and_eggs_fao_2017_kilocalories_per_person_per_day
+    type: Float
+  - name: fruit_and_vegetables_fao_2017_kilocalories_per_person_per_day
+    type: Float
+  - name: other_fao_2017_kilocalories_per_person_per_day
+    type: Float
+  - name: alcoholic_beverages_fao_2017_kilocalories_per_person_per_day
+    type: Float

@@ -1,0 +1,26 @@
+name: postage_rates_united_states_postal_service_2018
+description: "Postage rate refers to 1/2 ounces for 1863 and 1883. 1885 onward postage
+    rates refer to 1 ounce letters. Two observations were reported for 1981, the average
+    of the two observations is reported.\n\nThe real postage rates were calculated:
+    \n\nReal postage rate = Nominal postage rate / ( Price Index / 100 )\n\nReal rates
+    for stamped cards and postcards, and domestic letters were calculated using the
+    annual consumer price index for the United States, available at: https://www.measuringworth.com/datasets/uscpi/\nFull
+    reference: Samuel H. Williamson, \"The Annual Consumer Price Index for the United
+    States, 1774-Present,\" MeasuringWorth, 2018. "
+data_file: Postage rates - United States Postal Service (2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Postage%20rates%20-%20United%20States%20Postal%20Service%20(2018)/Postage
+    rates - United States Postal Service (2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: nominal_rates_for_domestic_letters_united_states_postal_service_2018
+    type: Float
+  - name: nominal_rates_for_stamped_cards_and_postcards_united_states_postal_service_2018
+    type: Float
+  - name: real_rates_for_stamped_cards_and_postcards_united_states_postal_service_2018
+    type: Float
+  - name: real_rates_for_domestic_letters_united_states_postal_service_2018
+    type: Float

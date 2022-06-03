@@ -1,0 +1,43 @@
+name: plastic_waste_jambeck_et_al_2015
+description: |-
+    Jambeck et al. quantified municipal and plastic waste streams from coastal populations in 2010 with projections to the year 2025.
+
+    The authors' definition of a coastal population is based on those who live within 50km of a coastal water. Such populations are those for which plastic waste is at risk of leading to ocean debris. Sources further inland are significantly less likely to end up as ocean debris.
+
+    The authors define mismanaged and inadequately managed waste as follows: "mismanaged waste is material that is either littered or inadequately disposed. Inadequately disposed waste is not formally managed and includes disposal in dumps or open, uncontrolled landfills, where it is not fully contained. Mismanaged waste could eventually enter the ocean via inland waterways,
+    wastewater outflows, and transport by wind or tides."
+
+    In October 2019, per capita plastic waste figures for Trinidad and Tobago were updated from 3.6kg to 0.29kg per person per day. This change was the result of error in the original waste figures published by the World Bank, which have since been revised and amended.
+data_file: Plastic Waste - Jambeck et al. (2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Plastic%20Waste%20-%20Jambeck%20et%20al.%20(2015)/Plastic
+    Waste - Jambeck et al. (2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: coastal_population
+    type: Float
+  - name: per_capita_waste_generation_rate
+    type: Float
+  - name: share_of_plastics_in_waste_stream
+    type: Float
+  - name: share_of_plastic_inadequately_managed
+    type: Float
+  - name: municipal_waste_generated
+    type: Float
+  - name: plastic_waste_generated
+    type: Float
+  - name: inadequately_managed_plastic_waste
+    type: Float
+  - name: plastic_waste_littered
+    type: Float
+  - name: per_capita_mismanaged_plastic_waste
+    type: Float
+  - name: total_mismanaged_plastic_waste_in_2010
+    type: Float
+  - name: total_mismanaged_plastic_waste_in_2025
+    type: Float
+  - name: per_capita_plastic_waste_kgpersonday
+    type: Float

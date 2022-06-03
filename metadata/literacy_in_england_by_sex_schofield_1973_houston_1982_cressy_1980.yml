@@ -1,0 +1,18 @@
+name: literacy_in_england_by_sex_schofield_1973_houston_1982_cressy_1980
+description: 'See Table 1 (pg 204) for original figures. Table 1 provides the percentage
+    who are illiterate. To arrive at current estimates: % who are literate = 100 -
+    (% who are illiterate)'
+data_file: Literacy in England, by sex - Schofield (1973), Houston (1982), Cressy
+    (1980) .csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Literacy%20in%20England%2C%20by%20sex%20-%20Schofield%20(1973)%2C%20Houston%20(1982)%2C%20Cressy%20(1980)%20/Literacy
+    in England, by sex - Schofield (1973), Houston (1982), Cressy (1980) .csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: male_literacy_rate_houston_1982
+    type: Float
+  - name: female_literacy_rate_houston_1982
+    type: Float

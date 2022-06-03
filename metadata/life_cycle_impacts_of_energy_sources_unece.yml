@@ -1,0 +1,53 @@
+name: life_cycle_impacts_of_energy_sources_unece
+description: ""
+data_file: Life-cycle impacts of energy sources (UNECE).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Life-cycle%20impacts%20of%20energy%20sources%20(UNECE)/Life-cycle
+    impacts of energy sources (UNECE).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: ghg_emissions
+    type: Float
+  - name: freshwater_eutrophication
+    type: Float
+  - name: ionising_radiation
+    type: Float
+  - name: water_use
+    type: Float
+  - name: metal_mineral_use
+    type: Float
+  - name: noncarcinogenic_toxicity
+    type: Float
+  - name: carcinogenic_toxicity
+    type: Float
+  - name: agricutural_land_use_energy
+    type: Float
+  - name: urban_land_use_energy
+    type: Float
+  - name: land_use_energy
+    type: Float
+  - name: aluminium_use
+    type: Float
+  - name: chromium_use
+    type: Float
+  - name: cobalt_use
+    type: Float
+  - name: copper_use
+    type: Float
+  - name: manganese_use
+    type: Float
+  - name: molybdenum_use
+    type: Float
+  - name: nickel_use
+    type: Float
+  - name: silicon_use
+    type: Float
+  - name: zinc_use
+    type: Float
+  - name: uranium_use
+    type: Float
+  - name: deaths_per_twh
+    type: Float

@@ -1,0 +1,14 @@
+name: number_of_children_who_are_stunted_owid_based_on_unicefwho
+description: This dataset multiplies the stunting prevalence figures from UNICEF/WHO
+    by the under 5 population (UN Population Division 2017)
+data_file: Number of children who are stunted (OWID based on UNICEF/WHO).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Number%20of%20children%20who%20are%20stunted%20(OWID%20based%20on%20UNICEF!WHO)/Number
+    of children who are stunted (OWID based on UNICEF/WHO).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: number_of_children_who_are_stunted
+    type: Float

@@ -1,0 +1,17 @@
+name: womens_weekly_earnings_as_a_percentage_of_mens_bureau_of_labor_statistics_2017
+description: 'Full citation: Bureau of Labor Statistics, U.S. Department of Labor,
+    The Economics Daily, Women’s earnings as a percentage of men’s, 1979-2005 on the
+    Internet at https://www.bls.gov/opub/ted/2006/oct/wk1/art02.htm (visited December
+    05, 2017).'
+data_file: Women's weekly earnings as a percentage of men's - Bureau of Labor Statistics
+    (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Women's%20weekly%20earnings%20as%20a%20percentage%20of%20men's%20-%20Bureau%20of%20Labor%20Statistics%20(2017)/Women's
+    weekly earnings as a percentage of men's - Bureau of Labor Statistics (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: womens_weekly_earnings_as_a_percentage_of_mens_by_age_bureau_of_labor_statistics_2017
+    type: Float

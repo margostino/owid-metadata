@@ -1,0 +1,15 @@
+name: un_population_division_median_age_2017
+description: Median age is the age that divides the population in two parts of equal
+    size, that is, there are as many persons with ages above the median as there are
+    with ages below the median. It is expressed as years.
+data_file: UN Population Division (Median Age) (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/UN%20Population%20Division%20(Median%20Age)%20(2017)/UN
+    Population Division (Median Age) (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: un_population_division_median_age_2017
+    type: Float

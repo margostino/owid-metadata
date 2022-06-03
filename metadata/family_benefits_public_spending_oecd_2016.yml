@@ -1,0 +1,13 @@
+name: family_benefits_public_spending_oecd_2016
+description: ""
+data_file: Family Benefits Public Spending - OECD (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Family%20Benefits%20Public%20Spending%20-%20OECD%20(2016)/Family
+    Benefits Public Spending - OECD (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: family_benefits_public_spending_perc_gdp_oecd_2016
+    type: Float

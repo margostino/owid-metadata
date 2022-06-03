@@ -1,0 +1,32 @@
+name: taxes_ictd_grd_2021
+description: "This data comes from the 'merged' dataset provided by ICTD, after excluding
+    observations flagged as unreliable. Specifically, we excluded the observations
+    where the ICTD indicated concerns about their quality, accuracy or comparability.
+    Details regarding these flags, as well as the dataset more generally, are available
+    Prichard, W. (2016). Reassessing Tax and Development Research: A New Dataset,
+    New Findings, and Lessons for Research. World Development, 80, 48-60.\n\nThe August
+    2021 release differs from the previous release with the inclusion of new data
+    up until 2019/2020, where data is available. For more details on the Government
+    Revenue Dataset see its <a href=\"https://www.wider.unu.edu/about-grd\">update
+    history</a>. \n\nUNU-WIDER Government Revenue Dataset. Version 2021. https://doi.org/10.35188/UNU-WIDER/GRD-2021"
+data_file: Taxes – ICTD GRD (2021).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Taxes%20%E2%80%93%20ICTD%20GRD%20(2021)/Taxes
+    – ICTD GRD (2021).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: total_tax_revenue_perc_of_gdp_ictd_2019
+    type: Float
+  - name: total_taxes_on_goods_and_services_perc_of_gdp_ictd_2019
+    type: Float
+  - name: total_taxes_on_income_profits_and_capital_gains_perc_of_gdp_ictd_2019
+    type: Float
+  - name: total_taxes_on_payroll_and_workforce_perc_of_gdp_ictd_2019
+    type: Float
+  - name: other_taxes_perc_of_gdp_ictd_2019
+    type: Float
+  - name: social_contributions_perc_of_gdp_ictd_2019
+    type: Float

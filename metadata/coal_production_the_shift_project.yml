@@ -1,0 +1,16 @@
+name: coal_production_the_shift_project
+description: |-
+    Data from 1900-1980 is sourced from Bouda Etemad and Jean Luciani, World Energy Production 1800 – 1985, ISBN 2-600-56007-6.
+
+    Data from 1980 onwards is source from U.S. Energy Information Administration, International Energy Statistics.
+data_file: Coal production - The SHIFT Project.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Coal%20production%20-%20The%20SHIFT%20Project/Coal
+    production - The SHIFT Project.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: coal_production_the_shift_project
+    type: Float

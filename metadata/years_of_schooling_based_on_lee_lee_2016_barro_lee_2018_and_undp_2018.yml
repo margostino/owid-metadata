@@ -1,0 +1,19 @@
+name: years_of_schooling_based_on_lee_lee_2016_barro_lee_2018_and_undp_2018
+description: "This series combines figures from three published datasets.\n\nFor the
+    period 1870-1949 inclusive, the estimates correspond to population aged 25-64,
+    and are taken from Lee-Lee (2016). For the period 1950-1990 inclusive, the estimates
+    correspond to population aged 25+, and are taken from Barro-Lee (2018). For the
+    period 1991-2017 inclusive, the estimated correspond to population 25+, and are
+    taken from the UNDP, HDR (2018). "
+data_file: Years of Schooling - based on Lee-Lee (2016), Barro-Lee (2018) and UNDP
+    (2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Years%20of%20Schooling%20-%20based%20on%20Lee-Lee%20(2016)%2C%20Barro-Lee%20(2018)%20and%20UNDP%20(2018)/Years
+    of Schooling - based on Lee-Lee (2016), Barro-Lee (2018) and UNDP (2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: average_total_years_of_schooling_for_adult_population_lee_lee_2016_barro_lee_2018_and_undp_2018
+    type: Float

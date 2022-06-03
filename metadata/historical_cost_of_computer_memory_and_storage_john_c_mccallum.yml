@@ -1,0 +1,19 @@
+name: historical_cost_of_computer_memory_and_storage_john_c_mccallum
+description: ""
+data_file: Historical cost of computer memory and storage - John C. McCallum.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Historical%20cost%20of%20computer%20memory%20and%20storage%20-%20John%20C.%20McCallum/Historical
+    cost of computer memory and storage - John C. McCallum.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: memory
+    type: Float
+  - name: disk_drives
+    type: Float
+  - name: ssd
+    type: Float
+  - name: flash
+    type: Float

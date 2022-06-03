@@ -1,0 +1,17 @@
+name: unadjusted_female_male_hourly_wage_ratios_by_percentile_blau_kahn_2017
+description: ""
+data_file: Unadjusted female-male hourly wage ratios by percentile – Blau, Kahn (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Unadjusted%20female-male%20hourly%20wage%20ratios%20by%20percentile%20%E2%80%93%20Blau%2C%20Kahn%20(2017)/Unadjusted
+    female-male hourly wage ratios by percentile – Blau, Kahn (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: tenth_percentile_blau_kahn_2017
+    type: Float
+  - name: fiftieth_percentile_blau_kahn_2017
+    type: Float
+  - name: ninetieth_percentile_blau_kahn_2017
+    type: Float

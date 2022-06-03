@@ -1,0 +1,16 @@
+name: extreme_income_poverty_in_europe_bradshaw_and_mayhew_2011
+description: Estimates correspond to individuals living in households with per capita
+    disposable income below the corresponding poverty line.
+data_file: Extreme income poverty in Europe - Bradshaw and Mayhew (2011).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Extreme%20income%20poverty%20in%20Europe%20-%20Bradshaw%20and%20Mayhew%20(2011)/Extreme
+    income poverty in Europe - Bradshaw and Mayhew (2011).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: money1_poverty_rate_bradshaw_and_mayhew_2011
+    type: Float
+  - name: money215_poverty_rate_bradshaw_and_mayhew_2011
+    type: Float

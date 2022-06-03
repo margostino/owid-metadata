@@ -1,0 +1,48 @@
+name: number_of_parties_to_multilateral_environmental_agreements_unctad
+description: "Data represents the number of parties signed into international, multilateral
+    environmental agreements.\n\nAcronyms:\n\nCBD: Convention on Biological Diversity.
+    \nCMS: Convention on the Conservation of Migratory Species of Wild Animals \nUNCCD:
+    United Nations Convention to Combat Desertification \nUNCLOS: United Nations Convention
+    on the Law of the Sea \nUNFCCC: United Nations Framework Convention on Climate
+    Change \nStockholm: Stockholm Convention on Persistent Organic Pollutants \nCartagena:
+    Cartagena Protocol on Biosafety \nCITES: Convention on International Trade in
+    Endangered Species of Wild Fauna and Flora \nHeritage: World Heritage Convention.
+    Kyoto: Kyoto Protocol \nOzone: Ozone Vienna Convention \nRamsar: Ramsar Convention
+    \nRotterdam: Rotterdam Convention."
+data_file: Number of parties to multilateral environmental agreements - UNCTAD.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Number%20of%20parties%20to%20multilateral%20environmental%20agreements%20-%20UNCTAD/Number
+    of parties to multilateral environmental agreements - UNCTAD.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: cartagena_protocol_on_biosafety
+    type: Float
+  - name: convention_on_biological_diversity_cbd
+    type: Float
+  - name: cites_convention_on_international_trade_in_endangered_species_of_wild_fauna_nad_flora
+    type: Float
+  - name: convention_on_the_conservation_of_migratory_species_of_wild_animals
+    type: Float
+  - name: world_heritage_convention
+    type: Float
+  - name: kyoto_protocol
+    type: Float
+  - name: vienna_convention_ozone
+    type: Float
+  - name: ramsar_convention
+    type: Float
+  - name: rotterdam_convention
+    type: Float
+  - name: stockholm_convention_on_persistent_organic_pollutants
+    type: Float
+  - name: un_convention_to_combat_desertification_unccd
+    type: Float
+  - name: un_convention_on_the_law_of_the_sea_unclos
+    type: Float
+  - name: un_framework_convention_on_climate_change_unfccc
+    type: Float
+  - name: cites_convention_on_international_trade_in_endangered_species_of_wild_fauna_and_flora
+    type: Float

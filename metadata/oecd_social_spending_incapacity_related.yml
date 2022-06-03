@@ -1,0 +1,14 @@
+name: oecd_social_spending_incapacity_related
+description: Dimension of social spending given as the percentage of a country's gross
+    domestic product (%GDP)
+data_file: OECD Social Spending- Incapacity related.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/OECD%20Social%20Spending-%20Incapacity%20related/OECD
+    Social Spending- Incapacity related.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: incapacity_related
+    type: Float

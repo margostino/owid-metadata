@@ -1,0 +1,43 @@
+name: estimated_average_age_at_marriage_by_gender_un_and_oecd
+description: "\n<strong>Definition and sources by country</strong></br>\nFor OECD
+    countries, figures correspond to mean age at first marriage from the OECD Family
+    Database. For other countries, figures correspond to Singulate Mean Age at Marriage
+    from the UN World Marriage Data 2019.  \n\nThe Singulate Mean Age at Marriage
+    (SMAM) is an indirect estimate of the average age at first marriage, and is calculated
+    from survey data on marital status by age.\n\nTo calculate the SMAM, the UN World
+    Marriage Database combines multiple sources for each country, including both census
+    and survey estimates. For comparability, we have chosen to report only one source
+    per country, favouring the source that provides the longest time series for each
+    country. \n\nThe following is a list of sources underlying our UN estimates, from
+    most to least coverage: UNSD, DHS_STATcompiler, National Statistics, MICS, the
+    US Census Bureau, INED, Eurostat, and IPUMS. \n\nA full breakdown of the source
+    used for each observation in this dataset can be found <a href=\"https://owid.cloud/app/uploads/2020/01/oecd-un-mix-final-metadata-stand.csv\">here</a>.\n\n<strong>Further
+    notes on Singulate Mean Age at Marriage</strong></br>\nThe Singulate Mean Age
+    at Marriage is derived from the proportion of single persons of each sex in successive
+    age groups. The main assumption involved in this computation is that change in
+    the proportion single from age x to x+1 is a measure of the proportion of a birth
+    cohort who married at age x. The methodology enables computation of mean age at
+    marriage of persons (male or female) aged 15 years and above before they attain
+    the age of 50. In other words, it provides an estimate of the average number of
+    years lived in the never married status by those who marry before the age of 50.\n\n<strong>OECD
+    country series notes</strong></br>\n- Estimates for Australia, New Zealand and
+    the United States provide the median, rather than mean age at first marriage\n-
+    For Mexico, data refer to all marriages and not only first marriage\n- For Canada,
+    data include the legal union of two persons of the same sex in some provinces
+    and territories from 2003 onwards, and in all of Canada from 2005 onwards.\n-
+    For New Zealand data include civil unions. From 2007 onwards, data include those
+    who transferred their civil union to a marriage. \n- From 2014 onwards, data for
+    the United Kingdom include marriages between same-sex partners."
+data_file: Estimated average age at marriage, by gender (UN and OECD).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Estimated%20average%20age%20at%20marriage%2C%20by%20gender%20(UN%20and%20OECD)/Estimated
+    average age at marriage, by gender (UN and OECD).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: estimated_average_age_at_marriage_women
+    type: Float
+  - name: estimated_average_age_at_marriage_men
+    type: Float

@@ -1,0 +1,16 @@
+name: child_mortality_estimates_cme_info_2018
+description: "The UN Inter-agency Group for Child Mortality Estimation (IGME). \r\nThe
+    IGME, led by the United Nations Children's Fund (UNICEF) and the World Health
+    Organization (WHO), also includes the World Bank and the United Nations Population
+    Division of the Department of Economic and Social Affairs as full members."
+data_file: Child Mortality Estimates - CME Info (2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Child%20Mortality%20Estimates%20-%20CME%20Info%20(2018)/Child
+    Mortality Estimates - CME Info (2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: child_mortality_estimates_cme_info_2016
+    type: Float

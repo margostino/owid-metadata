@@ -1,0 +1,23 @@
+name: child_deaths_by_life_stage_owid_based_on_un_igme
+description: "Data represents the total number of deaths of children (under 5 years
+    old) by life stage. \n\nThis is split into three categories: \n- the first 28
+    days of life; \n- 29 days to 1 year; \n- 1-4 years.\n\nThis was calculated by
+    Our World in Data based on data on neonatal, infant and under-5 deaths published
+    by the World Bank (based on the UN IGME).\n\n- The first 28 days of life are equally
+    to neonatal deaths;\n- 29 days to 1 year are calculated as infant minus neonatal
+    deaths;\n- 1-4 years calculated as under-5s minus infant deaths."
+data_file: Child deaths by life stage (OWID based on UN IGME).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Child%20deaths%20by%20life%20stage%20(OWID%20based%20on%20UN%20IGME)/Child
+    deaths by life stage (OWID based on UN IGME).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: first_28_days_number_of_deaths
+    type: Float
+  - name: o29_days_1_year_number_of_deaths
+    type: Float
+  - name: o1_4_years_number_of_deaths
+    type: Float

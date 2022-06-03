@@ -1,0 +1,18 @@
+name: rate_of_natural_population_increase_un_population_division_2015
+description: "The Rate of Natural Population Increase is the crude birth rate minus
+    the crude death rate. Represents the portion of population growth (or decline)
+    determined exclusively by births and deaths.\r\n\r\n The data refers to the 5
+    year interval preceding the shown year (e.g. 1955 is '1950 to 1955')\r\n\r\nIn
+    the original dataset it is expressed per 1,000 population annually. Here it is
+    expressed in percentage terms (original value divided by 10)."
+data_file: Rate of Natural Population Increase – UN Population Division (2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Rate%20of%20Natural%20Population%20Increase%20%E2%80%93%20UN%20Population%20Division%20(2015)/Rate
+    of Natural Population Increase – UN Population Division (2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: rate_of_natural_population_increase_un_population_division_2015
+    type: Float

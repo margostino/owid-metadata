@@ -1,0 +1,13 @@
+name: number_of_neonatal_deaths_ihme_2017
+description: Number of newborns dying before reaching 28 days of age.
+data_file: Number of neonatal deaths (IHME - 2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Number%20of%20neonatal%20deaths%20(IHME%20-%202017)/Number
+    of neonatal deaths (IHME - 2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: number_of_neonatal_deaths_ihme_2017
+    type: Float

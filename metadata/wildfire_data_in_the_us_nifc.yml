@@ -1,0 +1,31 @@
+name: wildfire_data_in_the_us_nifc
+description: "The National Interagency Coordination Center at NIFC compiles annual
+    wildland fire statistics for federal and state agencies. This information is provided
+    through Situation Reports, which have been in use for several decades. \n\n**Prior
+    to 1983, sources of these figures are not known, or cannot be confirmed, and were
+    not derived from the current situation reporting process. As a result the figures
+    prior to 1983 should not be compared to later data.\n\nThe average acres burned
+    per wildfire has been calculated by Our World in Data by dividing the total number
+    of acres burned by the number of wildfires in a given year. Note this simplifies
+    and does not account for the distribution of wildfire extents."
+data_file: Wildfire data in the US (NIFC).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Wildfire%20data%20in%20the%20US%20(NIFC)/Wildfire
+    data in the US (NIFC).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: number_of_wildfires_comparable_data_nifc
+    type: Float
+  - name: acres_burned_comparable_data_nifc
+    type: Float
+  - name: number_of_wildfires_full_series_nifc
+    type: Float
+  - name: acres_burned_full_series_nifc
+    type: Float
+  - name: acres_burned_per_fire_comparable_data_nifc
+    type: Float
+  - name: acres_burned_per_fire_full_series_nifc
+    type: Float

@@ -1,0 +1,15 @@
+name: gini_coefficient_equivalized_income_after_tax_and_transfers_chartbook_of_economic_inequality_201
+description: ""
+data_file: Gini Coefficient, Equivalized Income After Tax and Transfers – Chartbook
+    of Economic Inequality (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Gini%20Coefficient%2C%20Equivalized%20Income%20After%20Tax%20and%20Transfers%20%E2%80%93%20Chartbook%20of%20Economic%20Inequality%20(201/Gini
+    Coefficient, Equivalized Income After Tax and Transfers – Chartbook of Economic
+    Inequality (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: gini_coefficient_equivalized_income_after_tax_and_transfers
+    type: Float

@@ -1,0 +1,25 @@
+name: global_projection_medium_ssp2_iiasa_2016
+description: This is Medium (SSP2) scenario.
+data_file: Global Projection, Medium SSP2 - IIASA (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Global%20Projection%2C%20Medium%20SSP2%20-%20IIASA%20(2016)/Global
+    Projection, Medium SSP2 - IIASA (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: under_15_iiasa_2016
+    type: Float
+  - name: no_education_iiasa_2016
+    type: Float
+  - name: incomplete_primary_iiasa_2016
+    type: Float
+  - name: primary_iiasa_2016
+    type: Float
+  - name: lower_secondary_iiasa_2016
+    type: Float
+  - name: upper_secondary_iiasa_2016
+    type: Float
+  - name: post_secondary_iiasa_2016
+    type: Float

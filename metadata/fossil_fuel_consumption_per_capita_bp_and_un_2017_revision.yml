@@ -1,0 +1,26 @@
+name: fossil_fuel_consumption_per_capita_bp_and_un_2017_revision
+description: "Per capita trends in fossil fuel consumption were calculated by OWID
+    based on population data from the UN Population Division, and national fossil
+    fuel data - coal, oil, and natural gas - from BP's Statistical Review of Global
+    Energy.\r\n\r\nPer capita consumption was calculated by dividing total population
+    in any given year by a country or region's coal, oil or gas consumption.\r\n\r\nPopulation
+    data was sourced from the UN Population Division (2017 Revision). Available at:
+    https://esa.un.org/unpd/wpp/DataQuery/ [accessed 17th October 2017].\r\n\r\nFossil
+    fuel consumption data was sourced from the BP's Statistical Review of Global Energy.
+    Available at: https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html
+    [accessed 17th October 2017]."
+data_file: Fossil fuel consumption per capita - BP & UN (2017 revision).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Fossil%20fuel%20consumption%20per%20capita%20-%20BP%20%26%20UN%20(2017%20revision)/Fossil
+    fuel consumption per capita - BP & UN (2017 revision).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: oil_consumption_per_capita_bp_and_un_2017_revision
+    type: Float
+  - name: coal_consumption_per_capita_bp_and_un_2017_revision
+    type: Float
+  - name: gas_consumption_per_capita_bp_and_un_2017_revision
+    type: Float

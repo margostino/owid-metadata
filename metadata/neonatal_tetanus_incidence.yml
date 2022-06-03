@@ -1,0 +1,13 @@
+name: neonatal_tetanus_incidence
+description: ""
+data_file: Neonatal tetanus incidence.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Neonatal%20tetanus%20incidence/Neonatal
+    tetanus incidence.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: year_of_maternal_neonatal_tetanus_mnt_elimination
+    type: Float

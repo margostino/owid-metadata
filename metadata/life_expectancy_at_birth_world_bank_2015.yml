@@ -1,0 +1,21 @@
+name: life_expectancy_at_birth_world_bank_2015
+description: "Life expectancy at birth indicates the number of years a newborn infant
+    would live if prevailing patterns of mortality at the time of its birth were to
+    stay the same throughout its life.\r\n\r\nThe source notes that male and female
+    life expectancy at birth is from sources such as: (1) United Nations Population
+    Division. World Population Prospects, (2) United Nations Statistical Division.
+    Population and Vital Statistics Report (various years), (3) Census reports and
+    other statistical publications from national statistical offices, (4) Eurostat:
+    Demographic Statistics, (5) Secretariat of the Pacific Community: Statistics and
+    Demography Programme, and (6) U.S. Census Bureau: International Database."
+data_file: Life Expectancy (at birth) - World Bank (2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Life%20Expectancy%20(at%20birth)%20-%20World%20Bank%20(2015)/Life
+    Expectancy (at birth) - World Bank (2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: life_expectancy_at_birth_world_bank_2015
+    type: Float

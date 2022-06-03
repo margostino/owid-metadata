@@ -1,0 +1,28 @@
+name: oil_spills_itopf_2021
+description: |-
+    The International Tanker Owners Pollution Federation (ITOPF) publishes annual data on the number and quantities of oil spilt from tankers globally.
+
+    The latest report from the ITOPF is published here: https://www.itopf.org/fileadmin/uploads/itopf/data/Documents/Company_Lit/Oil_Spill_Stats_2021.pdf
+
+    We have extracted the data from the published tables of annual statistics.
+
+    Decadal figures are given as the total, or annual average over the ten years starting at the decadal base year: for example, the figures for the 1990s is the 10 years from 1990 (inclusive) to 1999.
+data_file: Oil Spills (ITOPF, 2021).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Oil%20Spills%20(ITOPF%2C%202021)/Oil
+    Spills (ITOPF, 2021).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: number_oil_spills
+    type: Float
+  - name: quantity_oil_spilt
+    type: Float
+  - name: number_oil_spills_decadal_average
+    type: Float
+  - name: quantity_oil_spilt_decadal
+    type: Float
+  - name: quantity_oil_spilt_decadal_average
+    type: Float

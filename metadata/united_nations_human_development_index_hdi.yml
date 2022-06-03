@@ -1,0 +1,13 @@
+name: united_nations_human_development_index_hdi
+description: ""
+data_file: 'United Nations: Human Development Index (HDI).csv'
+data_base_url_file: 'https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/United%20Nations!%20Human%20Development%20Index%20(HDI)/United
+    Nations: Human Development Index (HDI).csv'
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: human_development_index_hdi_1980_2014_un
+    type: Float

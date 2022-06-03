@@ -1,0 +1,60 @@
+name: land_use_data_hyde_2017
+description: |-
+    The authors of the database provide the following definition clarifications for land use categories:
+
+    'Cropland' refers to the same FAO category titled 'arable land and permanent crops'.
+
+    'Grazing' refers to the FAO category titled 'permanent meadows and pastures'.
+
+    'Pastureland' refers to "Grazing land with an aridity index > 0.5, assumed to be more intensively managed".
+
+    'Rangeland' refers to "Grazing land with an aridity index > 0.5, assumed to be less or not managed".
+
+    Area values have been converted from square kilometres to hectares by multiplying by 100.
+
+    Full reference: Klein Goldewijk et al., 20xx (in prep). Or in full: Klein Goldewijk, K., A. Beusen, J.Doelman and E. Stehfest, New anthropogenic land use estimates for the Holocene; HYDE 3.2, in prep.
+data_file: Land Use Data - HYDE (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Land%20Use%20Data%20-%20HYDE%20(2017)/Land
+    Use Data - HYDE (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: cropland_hyde_2017
+    type: Float
+  - name: grazing_hyde_2017
+    type: Float
+  - name: total_irrigated_area_hyde_2017
+    type: Float
+  - name: irrigated_non_rice_crops_hyde_2017
+    type: Float
+  - name: irrigated_rice_hyde_2017
+    type: Float
+  - name: pastureland_hyde_2017
+    type: Float
+  - name: rangeland_hyde_2017
+    type: Float
+  - name: total_rainfed_area_hyde_2017
+    type: Float
+  - name: rainfed_non_rice_crops_hyde_2017
+    type: Float
+  - name: total_rice_area_hyde_2017
+    type: Float
+  - name: built_up_area_hyde_2017
+    type: Float
+  - name: total_population_hyde_2017
+    type: Float
+  - name: urban_population_hyde_2017
+    type: Float
+  - name: rural_population_hyde_2017
+    type: Float
+  - name: agricultural_area_crops_and_grazing_hyde_2017
+    type: Float
+  - name: cropland_per_capita_hyde_2017
+    type: Float
+  - name: grazing_land_per_capita_hyde_2017
+    type: Float
+  - name: agricultural_land_per_capita_hyde_2017
+    type: Float

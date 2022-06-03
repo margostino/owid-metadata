@@ -1,0 +1,48 @@
+name: affordability_of_diets_sofi_2021
+description: |-
+    This data is sourced from the work of Hereforth et al. (2020), which is a background paper for the UN FAO State of Food Security and Nutrition in the World report. It is based on data on prices for locally available food items from the World Bank's International Comparison Program (ICP) (https://icp.worldbank.org/) atched to other data on food composition and dietary requirements.
+
+    The nutritional requirements used in this study are in line with the WHO's recommendations for the median woman of reproductive age. The authors note two key two reasons for this:
+
+    (1) Requirements fall roughly at the median of the entire population distribution, in the sense that least-cost diets to meet energy and nutrient requirements for people in this reference group approximate the median level of least costs for all sex-age groups over the entire life cycle. This reference group is therefore a good representation of the population as a whole.
+
+    (2) Women of reproductive age are typically a nutritionally vulnerable population group, as seen in their increased risk of dietary inadequacies (due to social practices and norms that often disadvantage them in terms of access to food), which have important consequences for themselves and their children. Previous studies have also based their analyses on this reference group.
+data_file: Affordability of diets (SOFI, 2021).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Affordability%20of%20diets%20(SOFI%2C%202021)/Affordability
+    of diets (SOFI, 2021).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: cost_of_calorie_sufficient_diet_2017_usd_per_day
+    type: Float
+  - name: cost_of_nutrient_adequate_diet_2017_usd_per_day
+    type: Float
+  - name: cost_of_healthy_diet_2017_usd_per_day
+    type: Float
+  - name: calorie_sufficient_diet_cost_perc_of_money120_poverty_line
+    type: Float
+  - name: nutrient_adequate_diet_cost_perc_of_money120_poverty_line
+    type: Float
+  - name: healthy_diet_cost_perc_of_money120_poverty_line
+    type: Float
+  - name: calorie_sufficient_diet_cost_perc_of_average_food_expenditure
+    type: Float
+  - name: nutrient_adequate_diet_cost_perc_of_average_food_expenditure
+    type: Float
+  - name: healthy_diet_cost_perc_of_average_food_expenditure
+    type: Float
+  - name: calorie_sufficient_diet_cost_perc_cannot_afford
+    type: Float
+  - name: nutrient_adequate_diet_cost_perc_cannot_afford
+    type: Float
+  - name: healthy_diet_cost_perc_cannot_afford
+    type: Float
+  - name: calorie_sufficient_diet_cost_number_cannot_afford
+    type: Float
+  - name: nutrient_adequate_diet_cost_number_cannot_afford
+    type: Float
+  - name: healthy_diet_cost_number_cannot_afford
+    type: Float

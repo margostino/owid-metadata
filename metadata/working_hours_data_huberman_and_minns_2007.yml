@@ -1,0 +1,19 @@
+name: working_hours_data_huberman_and_minns_2007
+description: ""
+data_file: Working Hours Data - Huberman & Minns (2007).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Working%20Hours%20Data%20-%20Huberman%20%26%20Minns%20(2007)/Working
+    Hours Data - Huberman & Minns (2007).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: full_time_production_workers_male_and_female_in_non_agricultural_activities_weekly_work_hours_huberman_and_minns_2007
+    type: Float
+  - name: full_time_production_workers_male_and_female_in_non_agricultural_activities_annual_work_hours_huberman_and_minns_2007
+    type: Float
+  - name: weeks_worked
+    type: Float
+  - name: days_of_vacation_and_holidays
+    type: Float

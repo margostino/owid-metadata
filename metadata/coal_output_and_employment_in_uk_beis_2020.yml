@@ -1,0 +1,48 @@
+name: coal_output_and_employment_in_uk_beis_2020
+description: |-
+    Data originally published by the UK's Department for Energy and Climate Change (DECC) in 2013. Updated in 2018 by the UK's Department for Business, Energy & Industrial Strategy (BEIS).
+
+    Employment figures in the coal industry include contractors, and are sourced by DECC from The Coal Authority.
+
+    Coal production per worker was calculated by dividing total UK coal output by the number employed in any given year.
+
+    The share of the total workforce employed in the coal industry was calculated by dividing by total UK workforce figures available in 'A millennium of macroeconomic data' by the Bank of England. Available at: http://www.bankofengland.co.uk/research/Pages/datasets/default.aspx [accessed 5th October 2017].
+data_file: Coal output and employment in UK - BEIS (2020).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Coal%20output%20and%20employment%20in%20UK%20-%20BEIS%20(2020)/Coal
+    output and employment in UK - BEIS (2020).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: coal_output_decc_2018
+    type: Float
+  - name: employment_in_coal_industry_decc_2018
+    type: Float
+  - name: coal_production_per_worker_decc_2018
+    type: Float
+  - name: percentage_of_workforce_in_coal_industry_decc_2018
+    type: Float
+  - name: coal_imports_decc_2018
+    type: Float
+  - name: deepmined_coal_output_decc_2018
+    type: Float
+  - name: opencast_coal_output_decc_2018
+    type: Float
+  - name: coal_by_end_use_collieries
+    type: Float
+  - name: coal_by_end_use_electricity
+    type: Float
+  - name: coal_by_end_use_gas
+    type: Float
+  - name: coal_by_end_use_coke_ovens_and_solid_fuels
+    type: Float
+  - name: coal_by_end_use_railways
+    type: Float
+  - name: coal_by_end_use_domestic
+    type: Float
+  - name: coal_by_end_use_industry
+    type: Float
+  - name: coal_by_end_use_miscellaneous
+    type: Float

@@ -1,0 +1,58 @@
+name: cancer_deaths_grouped_owid_based_on_ihme
+description: "Total annual number of deaths from cancers (termed 'Neoplasms' within
+    the IHME, Global Burden of Disease Study). This measures cancer deaths across
+    both sexes and all ages.\r\n\r\nSmaller categories of cancer types have been grouped
+    by Our World in Data into a collective category 'Other cancers'. This grouping
+    was set based on cancer types with global annual deaths in 2016 under 100,000.
+    This includes testicular, Hodgkin lymphoma, mesothelioma, thyroid, non-melanoma
+    skin cancer, nasopharynx, malignant skin melanoma, uterine cancer, and multiple
+    myeloma."
+data_file: Cancer deaths grouped - OWID based on IHME.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Cancer%20deaths%20grouped%20-%20OWID%20based%20on%20IHME/Cancer
+    deaths grouped - OWID based on IHME.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: lip_and_oral_cavity_cancer_deaths
+    type: Float
+  - name: other_pharynx_cancer_deaths
+    type: Float
+  - name: esophageal_cancer_deaths
+    type: Float
+  - name: stomach_cancer_deaths
+    type: Float
+  - name: colon_and_rectum_cancer_deaths
+    type: Float
+  - name: liver_cancer_deaths
+    type: Float
+  - name: gallbladder_cancer_deaths
+    type: Float
+  - name: pancreatic_cancer_deaths
+    type: Float
+  - name: larynx_cancer_deaths
+    type: Float
+  - name: tracheal_bronchus_and_lung_cancer_deaths
+    type: Float
+  - name: breast_cancer_deaths
+    type: Float
+  - name: cervical_cancer_deaths
+    type: Float
+  - name: ovarian_cancer_deaths
+    type: Float
+  - name: prostate_cancer_deaths
+    type: Float
+  - name: kidney_cancer_deaths
+    type: Float
+  - name: bladder_cancer_deaths
+    type: Float
+  - name: brain_and_nervous_system_cancer_deaths
+    type: Float
+  - name: non_hodgkin_lymphoma_deaths
+    type: Float
+  - name: leukemia_deaths
+    type: Float
+  - name: other_cancers_deaths
+    type: Float

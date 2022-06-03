@@ -1,0 +1,13 @@
+name: absolute_deaths_from_ambient_pm25_air_pollution_state_of_global_air
+description: ""
+data_file: Absolute deaths from ambient PM2.5 air pollution- State of Global Air.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Absolute%20deaths%20from%20ambient%20PM2.5%20air%20pollution-%20State%20of%20Global%20Air/Absolute
+    deaths from ambient PM2.5 air pollution- State of Global Air.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: absolute_deaths_from_ambient_pm25_air_pollution_state_of_global_air
+    type: Float

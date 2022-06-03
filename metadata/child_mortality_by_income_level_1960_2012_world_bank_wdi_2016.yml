@@ -1,0 +1,13 @@
+name: child_mortality_by_income_level_1960_2012_world_bank_wdi_2016
+description: ""
+data_file: Child mortality by income level (1960-2012) - World Bank (WDI) (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Child%20mortality%20by%20income%20level%20(1960-2012)%20-%20World%20Bank%20(WDI)%20(2016)/Child
+    mortality by income level (1960-2012) - World Bank (WDI) (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: child_mortality_by_income_level_1960_2012_world_bank_wdi_2016
+    type: Float

@@ -1,0 +1,13 @@
+name: clark_fleche_and_senik_happiness_inequality
+description: ""
+data_file: Clark, Flèche & Senik – Happiness Inequality.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Clark%2C%20Fle%CC%80che%20%26%20Senik%20%E2%80%93%20Happiness%20Inequality/Clark,
+    Flèche & Senik – Happiness Inequality.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: standard_deviation_of_life_satisfaction
+    type: Float

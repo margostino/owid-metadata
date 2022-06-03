@@ -1,0 +1,20 @@
+name: ozone_depleting_emissions_since_1960_scientific_assessment_2014
+description: "Figures represent emissions of ozone-depleting substances, with substances
+    weighted by their potential to destroy ozone (their ozone-depleting potential).
+    This gives a total value of emissions normalised to their CFC11-equivalents. \n\nTotal
+    emissions is inclusive of naturally-occurring and man-made emissions.\n\nData
+    is based on those in Q0-1 in 'Twenty questions and answers about the ozone layer:
+    2014 update', published as the 2014 edition of the Scientific Assessment Panel
+    of the Montreal Protocol.\n\nData was extracted from the static figure, Q0-1,
+    using the extraction tool WebPlotDigitizer (https://apps.automeris.io/wpd/).\n"
+data_file: Ozone depleting emissions since 1960 (Scientific Assessment 2014).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Ozone%20depleting%20emissions%20since%201960%20(Scientific%20Assessment%202014)/Ozone
+    depleting emissions since 1960 (Scientific Assessment 2014).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: ozone_depleting_substance_emissions_scientific_assessment_2014
+    type: Float

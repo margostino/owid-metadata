@@ -1,0 +1,26 @@
+name: total_population_by_broad_age_group_both_sexes_1950_2100_un_population_division_2015
+description: The data file used is called “Annual Population by Age Groups - Both
+    Sexes” on the website given. This original data file divides the population into
+    5-year age groups. These columns were added together to create the broad age groups
+    in this file.
+data_file: Total population by broad age group, both sexes, 1950-2100 - UN Population
+    Division (2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Total%20population%20by%20broad%20age%20group%2C%20both%20sexes%2C%201950-2100%20-%20UN%20Population%20Division%20(2015)/Total
+    population by broad age group, both sexes, 1950-2100 - UN Population Division
+    (2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: o0_to_4_un_population_division_2015
+    type: Float
+  - name: o5_to_14_un_population_division_2015
+    type: Float
+  - name: o15_to_24_un_population_division_2015
+    type: Float
+  - name: o25_to_60_un_population_division_2015
+    type: Float
+  - name: o70_un_population_division_2015
+    type: Float

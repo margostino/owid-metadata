@@ -1,0 +1,17 @@
+name: us_maternal_mortality_and_flfp_index_owid_2017
+description: |-
+    The maternal mortality index was calculated by OWID based on maternal mortality data compiled from Gapminder (historical data) and the World Bank (recent data). The original data shows maternal death per 100,000 live births.
+
+    For more detail see: https://ourworldindata.org/grapher/maternal-mortality.
+    The index measures maternal mortality as an index to 1900. This was calculated by dividing maternal mortality in each year by maternal mortality in 1900 (therefore 1900 = 100). Values less than 100 indicate a decrease in maternal mortality relative to 1900; values greater than 100 indicate an increase in maternal mortality relative to 1900.
+data_file: US Maternal Mortality and FLFP Index - OWID (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/US%20Maternal%20Mortality%20and%20FLFP%20Index%20-%20OWID%20(2017)/US
+    Maternal Mortality and FLFP Index - OWID (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: maternal_mortality_index_owid_2017
+    type: Float

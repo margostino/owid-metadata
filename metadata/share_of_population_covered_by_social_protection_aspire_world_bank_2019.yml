@@ -1,0 +1,13 @@
+name: share_of_population_covered_by_social_protection_aspire_world_bank_2019
+description: ""
+data_file: Share of population covered by social protection - ASPIRE World Bank (2019).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Share%20of%20population%20covered%20by%20social%20protection%20-%20ASPIRE%20World%20Bank%20(2019)/Share
+    of population covered by social protection - ASPIRE World Bank (2019).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_of_population_covered_by_social_protection_in_perc
+    type: Float

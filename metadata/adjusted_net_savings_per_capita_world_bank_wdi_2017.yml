@@ -1,0 +1,14 @@
+name: adjusted_net_savings_per_capita_world_bank_wdi_2017
+description: 'To calculate adjusted net savings per capita, adjusted net savings was
+    divided by the World Bank''s population, total. '
+data_file: Adjusted net savings per capita (World Bank WDI (2017)).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Adjusted%20net%20savings%20per%20capita%20(World%20Bank%20WDI%20(2017))/Adjusted
+    net savings per capita (World Bank WDI (2017)).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: adjusted_net_savings_per_capita_world_bank_2017
+    type: Float

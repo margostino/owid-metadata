@@ -1,0 +1,16 @@
+name: year_of_last_rinderpest_case_oie_2018
+description: |-
+    Mauritania and Pakistan's values were obtained from the 2003 Archives of the OIE that can be accessed here: http://web.oie.int/hs2/sit_mald_cont.asp?c_mald=5&c_cont=6&annee=2003
+
+    China's value was obtained from page 109 in Roeder, P. L., Taylor, W. P. & Rweyemamu, M. M. (2006) Rinderpest in the twentieth and twenty-first centuries. Academic Press. Abstract available online here: https://www.sciencedirect.com/science/article/pii/B9780120883851500368
+data_file: Year of last Rinderpest case - OIE (2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Year%20of%20last%20Rinderpest%20case%20-%20OIE%20(2018)/Year
+    of last Rinderpest case - OIE (2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: year_of_the_last_reported_rinderpest_case
+    type: Float

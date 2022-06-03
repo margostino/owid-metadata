@@ -1,0 +1,14 @@
+name: proportion_of_45_54_year_olds_with_tertiary_education_2009_oecd_2012
+description: 'Education at a Glance: OECD Indicators is the authoritative source for
+    accurate and relevant information on the state of education around the world.'
+data_file: Proportion of 45-54 year-olds with tertiary education 2009 - OECD (2012).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Proportion%20of%2045-54%20year-olds%20with%20tertiary%20education%202009%20-%20OECD%20(2012)/Proportion
+    of 45-54 year-olds with tertiary education 2009 - OECD (2012).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: proportion_of_45_54_year_olds_with_tertiary_education_2009_oecd_2012
+    type: Float

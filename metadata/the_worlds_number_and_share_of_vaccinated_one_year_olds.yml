@@ -1,0 +1,33 @@
+name: the_worlds_number_and_share_of_vaccinated_one_year_olds
+description: ""
+data_file: The world's number and share of vaccinated one-year-olds .csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/The%20world's%20number%20and%20share%20of%20vaccinated%20one-year-olds%20/The
+    world's number and share of vaccinated one-year-olds .csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: number_of_one_year_olds_un_population_division_2017
+    type: Float
+  - name: share_of_one_year_olds_with_bcg_tuberculosis_immunization_who_2017
+    type: Float
+  - name: share_of_one_year_olds_with_hepatitis_b3_immunization_who_2017
+    type: Float
+  - name: share_of_one_year_olds_with_diphtheria_pertussis_and_tetanus_immunization_who_2017
+    type: Float
+  - name: share_of_one_year_olds_with_polio_immunization_who_2017
+    type: Float
+  - name: share_of_one_year_olds_with_measles_immunization_who_2017
+    type: Float
+  - name: number_of_one_year_olds_with_bcg_tuberculosis_immunization_who_2017
+    type: Float
+  - name: number_of_one_year_olds_with_hepatitis_b3_immunization_who_2017
+    type: Float
+  - name: number_of_one_year_olds_with_diphteria_pertussis_and_tetanus_immunization_who_2017
+    type: Float
+  - name: number_of_one_year_olds_with_polio_immunization_who_2017
+    type: Float
+  - name: number_of_one_year_olds_with_measles_immunization_who_2017
+    type: Float

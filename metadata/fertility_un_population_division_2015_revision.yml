@@ -1,0 +1,14 @@
+name: fertility_un_population_division_2015_revision
+description: The data for a particular refers to the 5 years preceding that year.
+    E.g. 2015 refers to 2010-2015 in the original data.
+data_file: Fertility - UN Population Division (2015 revision).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Fertility%20-%20UN%20Population%20Division%20(2015%20revision)/Fertility
+    - UN Population Division (2015 revision).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: fertility_un_population_division_2015_revision
+    type: Float

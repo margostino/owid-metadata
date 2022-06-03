@@ -1,0 +1,28 @@
+name: length_of_the_workday_in_1880_atack_and_bateman_1992
+description: |-
+    See Table 3 and Table 4 for original data.
+
+    Estimates of seasonality are derived from the six winter months (November to May) and the six summer months (May to November).
+data_file: Length of the workday in 1880 - Atack and Bateman (1992).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Length%20of%20the%20workday%20in%201880%20-%20Atack%20and%20Bateman%20(1992)/Length
+    of the workday in 1880 - Atack and Bateman (1992).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: average_daily_minutes_of_work_in_summer_weighted_by_firm_atack_and_bateman_1992
+    type: Float
+  - name: average_daily_minutes_of_work_in_winter_weighted_by_firm_atack_and_bateman_1992
+    type: Float
+  - name: mean_absolute_difference_in_minutes_of_work_between_summer_and_winter_weighted_by_firm_atack_and_bateman_1992
+    type: Float
+  - name: average_daily_minutes_of_work_in_summer_weighted_by_employees_atack_and_bateman_1992
+    type: Float
+  - name: average_daily_minutes_of_work_in_winter_weighted_by_employees_atack_and_bateman_1992
+    type: Float
+  - name: mean_absolute_difference_in_minutes_of_work_between_summer_and_winter_weighted_by_employees_atack_and_bateman_1992
+    type: Float
+  - name: average_scheduled_minutes_of_work_per_day_atack_and_bateman_1992
+    type: Float

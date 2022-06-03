@@ -1,0 +1,41 @@
+name: how_europeans_spend_their_time_european_commission_2004
+description: "Ten European countries, Belgium, Germany, Estonia, France, Hungary,
+    Slovenia, Finland, Sweden, the United Kingdom, and Norway are included because
+    the survey methods used closely followed the <a href=\"http://ec.europa.eu/eurostat/ramon/statmanuals/files/KS-RA-08-014-EN.pdf\"
+    rel=\"noopener\" target=\"_blank\">Guidelines on Harmonised European Time Use
+    Surveys</a> published in September 2000. Therefore, results are considered to
+    be comparable. \n\nA representative sample of individuals completed a diary during
+    one weekday and one weekend day distributed over the whole year. "
+data_file: How Europeans spend their time - European Commission (2004).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/How%20Europeans%20spend%20their%20time%20-%20European%20Commission%20(2004)/How
+    Europeans spend their time - European Commission (2004).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: free_time_women_european_commission_2004
+    type: Float
+  - name: meals_personal_care_women_european_commission_2004
+    type: Float
+  - name: sleep_women_european_commission_2004
+    type: Float
+  - name: travel_women_european_commission_2004
+    type: Float
+  - name: domestic_work_women_european_commission_2004
+    type: Float
+  - name: gainful_work_study_women_european_commission_2004
+    type: Float
+  - name: free_time_men_european_commission_2004
+    type: Float
+  - name: meals_personal_care_men_european_commission_2004
+    type: Float
+  - name: sleep_men_european_commission_2004
+    type: Float
+  - name: travel_men_european_commission_2004
+    type: Float
+  - name: domestic_work_men_european_commission_2004
+    type: Float
+  - name: gainful_work_study_men_european_commission_2004
+    type: Float

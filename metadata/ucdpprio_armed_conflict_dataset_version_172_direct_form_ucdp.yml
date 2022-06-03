@@ -1,0 +1,13 @@
+name: ucdpprio_armed_conflict_dataset_version_172_direct_form_ucdp
+description: ""
+data_file: UCDP/PRIO Armed Conflict Dataset version 17.2 (direct form UCDP).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/UCDP!PRIO%20Armed%20Conflict%20Dataset%20version%2017.2%20(direct%20form%20UCDP)/UCDP/PRIO
+    Armed Conflict Dataset version 17.2 (direct form UCDP).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: number_of_conflicts_and_incidences_of_one_sided_violence
+    type: Float

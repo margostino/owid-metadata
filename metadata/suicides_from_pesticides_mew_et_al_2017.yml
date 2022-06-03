@@ -1,0 +1,19 @@
+name: suicides_from_pesticides_mew_et_al_2017
+description: |-
+    Mew et al. (2017) estimated the share and number of suicide deaths globally and regionally which resulted from pesticide poisoning.
+
+    The authors did so using:
+    "WHO method-specific suicide data were supplemented by a systematic review of the literature between 2006 and 2015, including searches of thirteen electronic databases and Google, citation searching and a review of reference lists and personal collections. Our primary outcome was the proportion of total suicides due to pesticide poisoning. Weighted estimates were calculated for seven WHO regional and income strata."
+data_file: Suicides from pesticides (Mew et al., 2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Suicides%20from%20pesticides%20(Mew%20et%20al.%2C%202017)/Suicides
+    from pesticides (Mew et al., 2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_of_suicide_deaths_from_pesticides_mew_et_al_2017
+    type: Float
+  - name: annual_suicide_deaths_from_pesticides_mew_et_al_2017
+    type: Float

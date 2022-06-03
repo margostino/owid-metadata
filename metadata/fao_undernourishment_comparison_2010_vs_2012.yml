@@ -1,0 +1,20 @@
+name: fao_undernourishment_comparison_2010_vs_2012
+description: |-
+    The original sources:
+
+    FAO, IFAD & WFP (2010) – The State of Food Insecurity in the World 2013 – Addressing food insecurity in protracted crises, Food and Agriculture Organization of the United Nations (FAO), the International Fund for Agricultural Development (IFAD) or of the World Food Programme (WFP), FAO, Rome, 2013. http://www.fao.org/docrep/013/i1683e/i1683e.pdf
+
+    FAO, IFAD & WFP (2013) – The State of Food Insecurity in the World 2013 – The multiple dimensions of food security, Food and Agriculture Organization of the United Nations (FAO), the International Fund for Agricultural Development (IFAD) or of the World Food Programme (WFP), FAO, Rome, 2013. http://www.fao.org/docrep/018/i3434e/i3434e.pdf
+data_file: FAO Undernourishment Comparison 2010 vs. 2012.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/FAO%20Undernourishment%20Comparison%202010%20vs.%202012/FAO
+    Undernourishment Comparison 2010 vs. 2012.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: o2012_report
+    type: Float
+  - name: o2010_report
+    type: Float

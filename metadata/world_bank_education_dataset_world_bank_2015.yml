@@ -1,0 +1,17 @@
+name: world_bank_education_dataset_world_bank_2015
+description: Educational attainment, enrolment and expenditure data
+data_file: 'World Bank: Education Dataset - World Bank (2015).csv'
+data_base_url_file: 'https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/World%20Bank!%20Education%20Dataset%20-%20World%20Bank%20(2015)/World
+    Bank: Education Dataset - World Bank (2015).csv'
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: total_government_expenditure_on_education_world_bank_2015
+    type: Float
+  - name: share_of_education_in_government_expenditure_world_bank_2015
+    type: Float
+  - name: expenditure_on_primary_as_perc_of_government_expenditure_on_education_world_bank_2015
+    type: Float

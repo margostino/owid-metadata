@@ -1,0 +1,22 @@
+name: potash_fertilizers_fao_2017
+description: |-
+    Data combines UN FAO datasets related to potash fertilizer production and consumption:
+
+    For production figures: "Potash Fertilizers - Production Quantity" which extends from 2003-2014 and "Fertilizers Archive - Potash Fertilizers - Production Quantity", which extends from 1961-2002.
+
+    For consumption figures: "Potash Fertilizers - Consumption" which extends from 2003-2014 and "Fertilizers Archive - Potash Fertilizers - Consumption", which extends from 1961-2002.
+
+    Data is measured in tonnes of total nutrient production or consumption.
+data_file: Potash fertilizers - FAO (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Potash%20fertilizers%20-%20FAO%20(2017)/Potash
+    fertilizers - FAO (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: potash_production_fao_2017
+    type: Float
+  - name: potash_consumption_fao_2017
+    type: Float

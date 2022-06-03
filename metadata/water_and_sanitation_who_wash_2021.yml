@@ -1,0 +1,243 @@
+name: water_and_sanitation_who_wash_2021
+description: ""
+data_file: Water and Sanitation (WHO WASH, 2021).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Water%20and%20Sanitation%20(WHO%20WASH%2C%202021)/Water
+    and Sanitation (WHO WASH, 2021).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: wat_imp
+    type: Float
+  - name: wat_bas
+    type: Float
+  - name: wat_lim
+    type: Float
+  - name: wat_unimp
+    type: Float
+  - name: wat_sur
+    type: Float
+  - name: wat_sm
+    type: Float
+  - name: san_imp
+    type: Float
+  - name: san_bas
+    type: Float
+  - name: san_lim
+    type: Float
+  - name: san_unimp
+    type: Float
+  - name: san_od
+    type: Float
+  - name: san_sm
+    type: Float
+  - name: hyg_bas
+    type: Float
+  - name: hyg_lim
+    type: Float
+  - name: hyg_nfac
+    type: Float
+  - name: wat_imp_number
+    type: Float
+  - name: wat_bas_number
+    type: Float
+  - name: wat_lim_number
+    type: Float
+  - name: wat_unimp_number
+    type: Float
+  - name: wat_sur_number
+    type: Float
+  - name: wat_sm_number
+    type: Float
+  - name: san_imp_number
+    type: Float
+  - name: san_bas_number
+    type: Float
+  - name: san_lim_number
+    type: Float
+  - name: san_unimp_number
+    type: Float
+  - name: san_od_number
+    type: Float
+  - name: san_sm_number
+    type: Float
+  - name: hyg_bas_number
+    type: Float
+  - name: hyg_lim_number
+    type: Float
+  - name: hyg_nfac_number
+    type: Float
+  - name: wat_imp_rural
+    type: Float
+  - name: wat_bas_rural
+    type: Float
+  - name: wat_lim_rural
+    type: Float
+  - name: wat_unimp_rural
+    type: Float
+  - name: wat_sur_rural
+    type: Float
+  - name: wat_sm_rural
+    type: Float
+  - name: san_imp_rural
+    type: Float
+  - name: san_bas_rural
+    type: Float
+  - name: san_lim_rural
+    type: Float
+  - name: san_unimp_rural
+    type: Float
+  - name: san_od_rural
+    type: Float
+  - name: san_sm_rural
+    type: Float
+  - name: hyg_bas_rural
+    type: Float
+  - name: hyg_lim_rural
+    type: Float
+  - name: hyg_nfac_rural
+    type: Float
+  - name: wat_imp_number_rural
+    type: Float
+  - name: wat_bas_number_rural
+    type: Float
+  - name: wat_lim_number_rural
+    type: Float
+  - name: wat_unimp_number_rural
+    type: Float
+  - name: wat_sur_number_rural
+    type: Float
+  - name: wat_sm_number_rural
+    type: Float
+  - name: san_imp_number_rural
+    type: Float
+  - name: san_bas_number_rural
+    type: Float
+  - name: san_lim_number_rural
+    type: Float
+  - name: san_unimp_number_rural
+    type: Float
+  - name: san_od_number_rural
+    type: Float
+  - name: san_sm_number_rural
+    type: Float
+  - name: hyg_bas_number_rural
+    type: Float
+  - name: hyg_lim_number_rural
+    type: Float
+  - name: hyg_nfac_number_rural
+    type: Float
+  - name: wat_lim_urban
+    type: Float
+  - name: wat_imp_urban
+    type: Float
+  - name: wat_bas_urban
+    type: Float
+  - name: wat_unimp_urban
+    type: Float
+  - name: wat_sur_urban
+    type: Float
+  - name: wat_sm_urban
+    type: Float
+  - name: san_imp_urban
+    type: Float
+  - name: san_bas_urban
+    type: Float
+  - name: san_lim_urban
+    type: Float
+  - name: san_unimp_urban
+    type: Float
+  - name: san_od_urban
+    type: Float
+  - name: san_sm_urban
+    type: Float
+  - name: hyg_bas_urban
+    type: Float
+  - name: hyg_lim_urban
+    type: Float
+  - name: hyg_nfac_urban
+    type: Float
+  - name: wat_imp_number_urban
+    type: Float
+  - name: wat_bas_number_urban
+    type: Float
+  - name: wat_lim_number_urban
+    type: Float
+  - name: wat_unimp_number_urban
+    type: Float
+  - name: wat_sur_number_urban
+    type: Float
+  - name: wat_sm_number_urban
+    type: Float
+  - name: san_imp_number_urban
+    type: Float
+  - name: san_bas_number_urban
+    type: Float
+  - name: san_lim_number_urban
+    type: Float
+  - name: san_unimp_number_urban
+    type: Float
+  - name: san_od_number_urban
+    type: Float
+  - name: san_sm_number_urban
+    type: Float
+  - name: hyg_bas_number_urban
+    type: Float
+  - name: hyg_lim_number_urban
+    type: Float
+  - name: hyg_nfac_number_urban
+    type: Float
+  - name: wat_bas_minus_sm
+    type: Float
+  - name: wat_bas_minus_sm_number
+    type: Float
+  - name: san_bas_minus_sm
+    type: Float
+  - name: san_bas_minus_sm_number
+    type: Float
+  - name: wat_bas_minus_sm_rural
+    type: Float
+  - name: wat_bas_minus_sm_number_rural
+    type: Float
+  - name: san_bas_minus_sm_rural
+    type: Float
+  - name: san_bas_minus_sm_number_rural
+    type: Float
+  - name: wat_bas_minus_sm_urban
+    type: Float
+  - name: wat_bas_minus_sm_number_urban
+    type: Float
+  - name: san_bas_minus_sm_urban
+    type: Float
+  - name: san_bas_minus_sm_number_urban
+    type: Float
+  - name: wat_imp_number_without
+    type: Float
+  - name: wat_bas_number_without
+    type: Float
+  - name: wat_sm_number_without
+    type: Float
+  - name: wat_imp_without
+    type: Float
+  - name: wat_bas_without
+    type: Float
+  - name: wat_sm_without
+    type: Float
+  - name: san_imp_number_without
+    type: Float
+  - name: san_bas_number_without
+    type: Float
+  - name: san_sm_number_without
+    type: Float
+  - name: san_imp_without
+    type: Float
+  - name: san_bas_without
+    type: Float
+  - name: san_sm_without
+    type: Float
+  - name: hyg_bas_number_without
+    type: Float
+  - name: hyg_bas_without
+    type: Float

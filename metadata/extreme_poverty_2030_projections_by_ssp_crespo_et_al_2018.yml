@@ -1,0 +1,59 @@
+name: extreme_poverty_2030_projections_by_ssp_crespo_et_al_2018
+description: "Data on extreme poverty projections by country and region are sourced
+    from the Nature publication by Crespo-Cuaresma et al. (2018). This data is also
+    presented visually at the World Poverty Clock: http://worldpoverty.io/index.html\n\nExtreme
+    poverty is defined by the international poverty line, set at a threshold of $1.90
+    per person per day, which is adjusted for inflation (by normalising to 2011 dollars),
+    and corrected for cross-country price differences (PPP).\n\nThe UN's Sustainable
+    Development Goal (SDG) Target 1.1 is to end extreme poverty by 2030. 'Ending extreme
+    poverty' is assumed when a country reaches an extreme poverty level below 3% of
+    the total population.\n\nScenarios of future extreme poverty rates were assessed
+    and modelled by Crespo-Cuaresma et al. (2018) using a combination of the IMF World
+    Economic Outlook, and multiple Shared Socioeconomic Pathways (SSP). \n\nThe SSPs
+    are defined broadly as follows:\n- SSP1: low challenges for both climate change
+    adaptation and mitigation resulting from income growth which does not rely heavily
+    on natural resources and technological change, coupled with low fertility rate
+    and high educational attainment.\n\n- SSP2: the benchmark scenario and assumes
+    the continuation of current global socioeconomic trends at the global level. \n\n-
+    SSP3: low economic growth coupled with low educational attainment levels and high
+    population growth at the global level are the main elements of the narrative,
+    which is characterized by high mitigation and adaptation challenges.\n\n- SSP4:
+    presents a narrative of worldwide polarization, with high income countries exhibiting
+    relatively high growth rates of income, while developing economies present low
+    levels of education, high fertility and economic stagnation.\n\n- SSP5: presents
+    a scenario with high economic growth (and therefore low adaptation challenges)
+    coupled with high demand for fossil energy from developing economies, but with
+    high global CO2 emissions.\n\nSSP2 is defined as the baseline 'business-as-usual'
+    scenario. \n\nThe categories of 'extremely fragile', 'fragile' and 'non-fragile'
+    have been added for reference based on the OECD (2018) States of Fragility framework.
+    This framework measures the fragility of countries based on multiple political
+    and socioeconomic indicators. More information on this fragility measure can be
+    found at the OECD (2018) report.\n\nReference: OECD (2018), States of Fragility.
+    OECD Publishing, Paris. Available at: https://www.oecd-ilibrary.org/development/states-of-fragility-2018_9789264302075-en"
+data_file: Extreme Poverty 2030 Projections by SSP - Crespo et al. (2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Extreme%20Poverty%202030%20Projections%20by%20SSP%20-%20Crespo%20et%20al.%20(2018)/Extreme
+    Poverty 2030 Projections by SSP - Crespo et al. (2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: ssp1_number_of_people_in_extreme_poverty
+    type: Float
+  - name: ssp2_number_of_people_in_extreme_poverty
+    type: Float
+  - name: ssp3_number_of_people_in_extreme_poverty
+    type: Float
+  - name: ssp4_number_of_people_in_extreme_poverty
+    type: Float
+  - name: ssp5_number_of_people_in_extreme_poverty
+    type: Float
+  - name: ssp1_difference_in_number_in_extreme_poverty_to_baseline
+    type: Float
+  - name: ssp3_difference_in_number_in_extreme_poverty_to_baseline
+    type: Float
+  - name: ssp4_difference_in_number_in_extreme_poverty_to_baseline
+    type: Float
+  - name: ssp5_difference_in_number_in_extreme_poverty_to_baseline
+    type: Float

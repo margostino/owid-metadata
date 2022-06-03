@@ -1,0 +1,13 @@
+name: lost_school_grants_reinikka_and_svensson_2004
+description: ""
+data_file: Lost school grants - Reinikka and Svensson (2004).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Lost%20school%20grants%20-%20Reinikka%20and%20Svensson%20(2004)/Lost
+    school grants - Reinikka and Svensson (2004).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_of_intended_capitation_grants_received_by_schools_in_uganda_1991_1995
+    type: Float

@@ -1,0 +1,13 @@
+name: number_of_deaths_due_to_tetanus
+description: ""
+data_file: Number of deaths due to tetanus.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Number%20of%20deaths%20due%20to%20tetanus/Number
+    of deaths due to tetanus.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: number_of_deaths_from_tetanus_gbd_2016
+    type: Float

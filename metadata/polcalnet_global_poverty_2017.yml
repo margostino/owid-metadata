@@ -1,0 +1,16 @@
+name: polcalnet_global_poverty_2017
+description: Countries for which both consumption and income expenditure data was
+    available, we present mean and median per capita consumption expenditure only.
+data_file: PolcalNet Global Poverty (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/PolcalNet%20Global%20Poverty%20(2017)/PolcalNet
+    Global Poverty (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: mean_monthly_per_capita_expenditure_in_2011_int_money_povcalnet_2017
+    type: Float
+  - name: median_monthly_per_capita_expenditure_in_2011_int_money_povcalnet_2017
+    type: Float

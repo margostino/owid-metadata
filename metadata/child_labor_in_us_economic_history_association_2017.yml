@@ -1,0 +1,26 @@
+name: child_labor_in_us_economic_history_association_2017
+description: |-
+    Total/all figures on child labour have been calculated as a weighted-average based on male:female ratio of 10-14 year-olds in the US from the United States Census Bureau in each respective year.
+
+    References:
+
+    Whaples, Robert. “Child Labor in the United States”. EH.Net Encyclopedia, edited by Robert Whaples. October 7, 2005. Available at: http://eh.net/encyclopedia/child-labor-in-the-united-states/
+
+    Carter, Susan and Richard Sutch. “Fixing the Facts: Editing of the 1880 U.S. Census of Occupations with Implications for Long-Term Labor Force Trends and the Sociology of Official Statistics.” Historical Methods 29 (1996): 5-24
+
+    Historical Statistics of the United States Colonial Times to 1970 (1790-1970). Available at: https://www.census.gov/library/publications/1975/compendia/hist_stats_colonial-1970.html
+data_file: Child Labor in US - Economic History Association (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Child%20Labor%20in%20US%20-%20Economic%20History%20Association%20(2017)/Child
+    Labor in US - Economic History Association (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: child_labor_boys_perc_economic_history_association_2017
+    type: Float
+  - name: child_labor_girls_perc_economic_history_association_2017
+    type: Float
+  - name: child_labor_all_perc_economic_history_association_2017
+    type: Float

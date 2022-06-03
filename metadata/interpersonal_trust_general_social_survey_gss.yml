@@ -1,0 +1,15 @@
+name: interpersonal_trust_general_social_survey_gss
+description: The General Social Survey (GSS) is a project of the independent research
+    organization NORC at the University of Chicago, with principal funding from the
+    National Science Foundation.
+data_file: Interpersonal Trust - General Social Survey (GSS).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Interpersonal%20Trust%20-%20General%20Social%20Survey%20(GSS)/Interpersonal
+    Trust - General Social Survey (GSS).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: interpersonal_trust_perc
+    type: Float

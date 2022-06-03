@@ -1,0 +1,16 @@
+name: total_cases_of_poliomyelitis_virus_by_country_and_year_from_1980_onwards_who_2020
+description: The WHO link above has the dataset saved under point "3.1 Reported incidence
+    time series". The WHO last updated this dataset on 15 July 2020 which comprises
+    the data shown here.
+data_file: Total cases of poliomyelitis virus by country and year from 1980 onwards
+    - WHO (2020).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Total%20cases%20of%20poliomyelitis%20virus%20by%20country%20and%20year%20from%201980%20onwards%20-%20WHO%20(2020)/Total
+    cases of poliomyelitis virus by country and year from 1980 onwards - WHO (2020).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: number_of_polio_cases_who_2017
+    type: Float

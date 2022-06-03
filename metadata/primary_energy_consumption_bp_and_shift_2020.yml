@@ -1,0 +1,36 @@
+name: primary_energy_consumption_bp_and_shift_2020
+description: "Primary energy consumption data was compiled by Our World in Data based
+    on two key data sources: \n1. BP Statistical Review of World Energy: https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html\n2.
+    Shift Energy Data Portal: https://www.theshiftdataportal.org/energy\n\nBP provides
+    the longest and most up-to-date time-series of primary energy. However, it does
+    provide data for all countries. We have therefore supplemented this dataset with
+    energy data from the Shift Energy Data Portal. Where BP provides data for a given
+    country, this data is adopted; for countries where this data is missing, we rely
+    on Shift Energy figures.\n\nThe Shift Project draws on two sources: \n– Etemad
+    & Luciani for the period 1900-1980 Bouda Etemad and Jean Luciani, World Energy
+    Production 1900 – 1985, ISBN 2-600-56007-6, Data digitalized and published with
+    agreement of B. Etemad\n– US EIA Historical Statistics for 1980-2016. U.S. Energy
+    Information Administration\n\nTo convert from total primary energy to per capita
+    figures we use population figures from the UN World Population Prospects: https://population.un.org/wpp/.\n\nTo
+    calculate energy per unit of GDP, we use total real GDP figures from the Maddison
+    Project Database (2018): http://www.ggdc.net/maddison/oriindex.htm. This is measured
+    in 2011$ which are PPP-adjusted.\n\n"
+data_file: Primary energy consumption (BP & Shift, 2020).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Primary%20energy%20consumption%20(BP%20%26%20Shift%2C%202020)/Primary
+    energy consumption (BP & Shift, 2020).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: primary_energy_consumption_twh
+    type: Float
+  - name: annual_change_primary_energy_consumption_perc
+    type: Float
+  - name: annual_change_primary_energy_consumption_twh
+    type: Float
+  - name: energy_consumption_per_capita_kwh
+    type: Float
+  - name: energy_consumption_per_gdp_kwh_per_money
+    type: Float

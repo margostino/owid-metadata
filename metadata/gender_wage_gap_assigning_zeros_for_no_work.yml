@@ -1,0 +1,13 @@
+name: gender_wage_gap_assigning_zeros_for_no_work
+description: ""
+data_file: Gender wage gap (assigning zeros for no work).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Gender%20wage%20gap%20(assigning%20zeros%20for%20no%20work)/Gender
+    wage gap (assigning zeros for no work).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: womens_income_as_a_percent_of_mens
+    type: Float

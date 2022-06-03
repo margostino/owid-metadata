@@ -1,0 +1,38 @@
+name: global_warming_potential_factors_gwp100_ipcc_2014
+description: "Data denotes the global warming potential (GWP) over a 100-year timescale
+    for greenhouse gases relative to the GWP of carbon dioxide (which is denoted as
+    1). Global warming potential measures the relative warming impact of one unit
+    mass of gas relative to one unit of carbon dioxide. For example, a GWP value for
+    gas 'x' of 25 would mean one tonne of 'x' would have 25 times the warming impact
+    of one tonne of carbon dioixde.\n\nGWP100 values are used to convert greenhouse
+    gases into a carbon dioxide equivalent (CO2e) metric by multiplying emissions
+    in mass terms by their respective GWP100 factors.\n\nIn the IPCC's 5th Assessment
+    Report (AR5), it presents GWP both with and without climate change feedback effects.
+    For some gases, for example methane, this can introduce significant uncertainty.
+    In the case of methane, the GWP100 value without feedbacks is 28; with feedbacks
+    this increases to 34. \n\nIn its official figures the IPCC adopts GWP100 factors
+    without climate change feedbacks. Here we present the same figures without climate
+    change feedbacks to maintain consistency with the IPCC."
+data_file: Global warming potential factors (GWP100) - IPCC (2014).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Global%20warming%20potential%20factors%20(GWP100)%20-%20IPCC%20(2014)/Global
+    warming potential factors (GWP100) - IPCC (2014).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: co2_ipcc_2014
+    type: Float
+  - name: ch4_ipcc_2014
+    type: Float
+  - name: n2o_ipcc_2014
+    type: Float
+  - name: cf4_ipcc_2014
+    type: Float
+  - name: hfc_152a_ipcc_2014
+    type: Float
+  - name: sf6_ipcc_2014
+    type: Float
+  - name: pfc_14_ipcc_2014
+    type: Float

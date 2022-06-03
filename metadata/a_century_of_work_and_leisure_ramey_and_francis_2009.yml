@@ -1,0 +1,19 @@
+name: a_century_of_work_and_leisure_ramey_and_francis_2009
+description: ""
+data_file: A Century of Work and Leisure - Ramey and Francis (2009).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/A%20Century%20of%20Work%20and%20Leisure%20-%20Ramey%20and%20Francis%20(2009)/A
+    Century of Work and Leisure - Ramey and Francis (2009).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: average_weekly_hours_worked_per_person_by_demographic_group_ramey_and_francis_2009
+    type: Float
+  - name: average_weekly_hours_devoted_to_school_ramey_and_francis_2009
+    type: Float
+  - name: weekly_home_production_time_by_demographic_group_ramey_and_francis_2009
+    type: Float
+  - name: average_weekly_leisure_estimates_by_age_ramey_and_francis_2009
+    type: Float

@@ -1,0 +1,19 @@
+name: female_and_male_life_expectancy_at_birth_owid_based_on_un_population_division_2017
+description: |-
+    Annually interpolated demographic indicators.
+
+    Note: Guadeloupe includes Saint-Barthelemy and Saint-Martin.
+data_file: Female and male life expectancy at birth - OWID based on UN Population
+    Division (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Female%20and%20male%20life%20expectancy%20at%20birth%20-%20OWID%20based%20on%20UN%20Population%20Division%20(2017)/Female
+    and male life expectancy at birth - OWID based on UN Population Division (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: female_to_male_life_expectancy_ratio_at_birth_owid
+    type: Float
+  - name: female_minus_male_life_expectancy_at_birth_owid
+    type: Float

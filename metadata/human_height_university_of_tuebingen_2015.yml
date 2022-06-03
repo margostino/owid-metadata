@@ -1,0 +1,14 @@
+name: human_height_university_of_tuebingen_2015
+description: Historical heights of soldiers, conscripts, prisoners and others. Please
+    consult the sources for details for each country.
+data_file: Human Height - University of Tuebingen (2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Human%20Height%20-%20University%20of%20Tuebingen%20(2015)/Human
+    Height - University of Tuebingen (2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: human_height_university_of_tuebingen_2015
+    type: Float

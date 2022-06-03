@@ -1,0 +1,18 @@
+name: weekly_home_production_hours_in_the_usa_ramey_2009_and_ramey_francis_2009
+description: |-
+    Following Ramey and Francis (2009), "the activities included in home production are: planning, purchasing goods and services (except medical and personal care services), care of children and adults (both in the household and outside the household), general cleaning, care and repair of the house and grounds (including yard work, but excluding gardening), preparing and clearing food, making, mending, and laundering of clothing and other household textiles.".
+    Ramey and Francis (2009) estimations are based on data assembled by Ramey (2009).
+
+    Ramey (2009)'s data are assembled and estimated from samples based on a multitude of different sources, including diaries, U.S. census, historical statistics, and surveys from the Bureau of Labour Statistics and the American Heritage Time Use Survey. For more details on how these data are constructed see Ramey (2009), pp.3-4, and Appendix A.
+data_file: Weekly home production hours in the USA - Ramey (2009) & Ramey Francis
+    (2009).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Weekly%20home%20production%20hours%20in%20the%20USA%20-%20Ramey%20(2009)%20%26%20Ramey%20Francis%20(2009)/Weekly
+    home production hours in the USA - Ramey (2009) & Ramey Francis (2009).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: home_production_working_hours_per_week_in_the_us_by_gender_and_demographic_group_ramey_and_francis_2009
+    type: Float

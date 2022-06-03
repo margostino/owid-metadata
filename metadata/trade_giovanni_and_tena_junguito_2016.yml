@@ -1,0 +1,13 @@
+name: trade_giovanni_and_tena_junguito_2016
+description: ""
+data_file: Trade – Giovanni and Tena-Junguito (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Trade%20%E2%80%93%20Giovanni%20and%20Tena-Junguito%20(2016)/Trade
+    – Giovanni and Tena-Junguito (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: world_trade_relative_to_1913_federico_and_tena_junguito_2016
+    type: Float

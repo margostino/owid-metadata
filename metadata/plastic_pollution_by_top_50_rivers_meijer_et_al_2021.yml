@@ -1,0 +1,17 @@
+name: plastic_pollution_by_top_50_rivers_meijer_et_al_2021
+description: ""
+data_file: Plastic pollution by top 50 rivers (Meijer et al. 2021).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Plastic%20pollution%20by%20top%2050%20rivers%20(Meijer%20et%20al.%202021)/Plastic
+    pollution by top 50 rivers (Meijer et al. 2021).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: mismanaged_waste_emitted_to_the_ocean_metric_tons_year_1
+    type: Float
+  - name: mismanaged_waste_emitted_to_the_ocean_grams_per_second
+    type: Float
+  - name: share_of_global_plastics_emitted_to_ocean
+    type: Float

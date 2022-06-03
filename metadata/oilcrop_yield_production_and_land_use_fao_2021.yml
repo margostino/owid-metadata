@@ -1,0 +1,36 @@
+name: oilcrop_yield_production_and_land_use_fao_2021
+description: |-
+    Data on vegetable oil production and land use by crop type is sourced directly from the UN Food and Agriculture Organization (FAO) database.
+
+    Our World in Data have calculated each crop's share of total vegetable oil production and land use based on this data.
+
+    Land use data is sourced as the 'Area harvested' variable from its crops database: http://www.fao.org/faostat/en/#data/QC
+
+    Oil production data is sourced from its Food Balances Sheets as the variable 'Production Quantity':http://www.fao.org/faostat/en/#data/FBS
+
+    Our World in Data has also calculated oil yields per crop by dividing oil production by land area used to grow the crop. This is measured in tonnes per hectare. Note that this calculates the oil yield per hectare, which is different from the yield of the total crop: this is because not all of the crop can be used for oil.
+data_file: Oilcrop yield, production and land use (FAO, 2021).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Oilcrop%20yield%2C%20production%20and%20land%20use%20(FAO%2C%202021)/Oilcrop
+    yield, production and land use (FAO, 2021).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: vegetable_oil_production_tonnes
+    type: Float
+  - name: share_of_total_vegetable_oil_production
+    type: Float
+  - name: area_harvested_ha
+    type: Float
+  - name: share_of_total_oilcrop_area
+    type: Float
+  - name: oil_yield_tha
+    type: Float
+  - name: area_needed_to_produce_1_tonne_of_oil_ha
+    type: Float
+  - name: area_needed_to_meet_global_vegetable_oil_demand_ha
+    type: Float
+  - name: share_of_total_oilcrop_area_negative
+    type: Float

@@ -1,0 +1,40 @@
+name: share_of_women_in_top_income_groups_atkinson_casarico_and_voitchovsky_2018_old
+description: Share of women in pre-tax top income groups. Based on tax data. Income
+    includes earned, self-employment and investment income. Capital gains is in general
+    excluded, but to varying degrees between countries.
+data_file: Share of women in top income groups – Atkinson, Casarico & Voitchovsky
+    (2018) [OLD].csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Share%20of%20women%20in%20top%20income%20groups%20%E2%80%93%20Atkinson%2C%20Casarico%20%26%20Voitchovsky%20(2018)%20%5BOLD%5D/Share
+    of women in top income groups – Atkinson, Casarico & Voitchovsky (2018) [OLD].csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_of_women_in_top_10perc
+    type: Float
+  - name: share_of_women_in_top_5perc
+    type: Float
+  - name: share_of_women_in_top_1perc
+    type: Float
+  - name: share_of_women_in_top_01perc
+    type: Float
+  - name: share_of_women_in_top_05perc
+    type: Float
+  - name: share_of_women_in_top_025perc
+    type: Float
+  - name: top_10perc_series_2
+    type: Float
+  - name: top_5perc_series_2
+    type: Float
+  - name: top_1perc_series_2
+    type: Float
+  - name: top_01perc_series_2
+    type: Float
+  - name: top_05perc_series_2
+    type: Float
+  - name: top_025perc_series_2
+    type: Float
+  - name: top_05perc_series_3
+    type: Float

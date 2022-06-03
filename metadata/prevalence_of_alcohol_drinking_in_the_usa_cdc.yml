@@ -1,0 +1,20 @@
+name: prevalence_of_alcohol_drinking_in_the_usa_cdc
+description: |-
+    "Binge drinking is defined as a pattern of alcohol consumption that brings the blood alcohol concentration (BAC) level to 0.08% or more. This pattern of drinking usually corresponds to 5 or more drinks on a single occasion for men or 4 or more drinks on a single occasion for women, generally within about 2 hours."
+
+    "For men, heavy drinking is typically defined as consuming 15 drinks or more per week. For women, heavy drinking is typically defined as consuming 8 drinks or more per week."
+data_file: Prevalence of alcohol drinking in the USA - CDC.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Prevalence%20of%20alcohol%20drinking%20in%20the%20USA%20-%20CDC/Prevalence
+    of alcohol drinking in the USA - CDC.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: binge_drinking
+    type: Float
+  - name: heavy_drinking
+    type: Float
+  - name: adults_who_drank_in_last_30_days
+    type: Float

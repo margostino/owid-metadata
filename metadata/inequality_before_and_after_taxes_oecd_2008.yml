@@ -1,0 +1,13 @@
+name: inequality_before_and_after_taxes_oecd_2008
+description: Inequality before and after taxes measured with the Gini index. 
+data_file: Inequality before and after taxes – OECD (2008).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Inequality%20before%20and%20after%20taxes%20%E2%80%93%20OECD%20(2008)/Inequality
+    before and after taxes – OECD (2008).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: percentage_reduction_in_gini_oecd_2008
+    type: Float

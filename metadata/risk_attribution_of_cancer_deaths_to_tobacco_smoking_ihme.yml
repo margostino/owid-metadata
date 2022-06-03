@@ -1,0 +1,20 @@
+name: risk_attribution_of_cancer_deaths_to_tobacco_smoking_ihme
+description: IHME, Global Burden of Disease provide figures on disease burden and
+    deaths attributed to a range of environmental and lifestyle risk factors. Here
+    data from IHME represents the age-standardized cancer death rate (per 100,000
+    individuals) and share of total cancer deaths attributed to tobacco smoking (which
+    is inclusive of smoking and secondhand smoke). This impact is measured across
+    total cancer types.
+data_file: Risk attribution of cancer deaths to tobacco smoking - IHME.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Risk%20attribution%20of%20cancer%20deaths%20to%20tobacco%20smoking%20-%20IHME/Risk
+    attribution of cancer deaths to tobacco smoking - IHME.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: age_standardized_cancer_death_rate_attributed_to_tobacco_per_100_000
+    type: Float
+  - name: age_standardized_share_of_cancer_deaths_attributed_to_tobacco
+    type: Float

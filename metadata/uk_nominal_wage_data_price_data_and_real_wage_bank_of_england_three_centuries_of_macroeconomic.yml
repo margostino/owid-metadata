@@ -1,0 +1,31 @@
+name: uk_nominal_wage_data_price_data_and_real_wage_bank_of_england_three_centuries_of_macroeconomic
+description: "Data on nominal weekly wages was spliced by the Bank of England and
+    is based on the following sources:\r\nN. Crafts and T. Mills Trends in Real Wages
+    in Britain, 1750-1913, Explorations in Economic History (1994)\r\nFeinstein (1998)\r\nC.
+    H. Feinstein New Estimates of Average Earnings in the United Kingdom, Economic
+    History Review (1990)\r\nC.H. Feinstein, National Income Expenditure and Output
+    of the United Kingdom 1855-1965\r\nONS: Series code LNMQ\r\nONS: Series code KAB9\r\n\r\nThe
+    cost of living index is referred to by the Bank of England as \"Headline Consumer
+    Price Index (CPI) - original method in version 1.0\" and is indexed to 2015. It
+    is spliced by the BoE based on the following sources: Feinstein (1998), Allen
+    (2007), Feinstein (1991), Capie and Collins (1983), Ministry of Labour, ONS retail
+    prices 1919-1990, O'Donoghue et al (2004), and the ONS website. \r\nThe real weekly
+    wage was calculated based on these two series. \r\n\r\nFor all details see the
+    original source."
+data_file: UK Nominal wage data, price data, and real wage – Bank of England ("Three
+    centuries of macroeconomic data") (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/UK%20Nominal%20wage%20data%2C%20price%20data%2C%20and%20real%20wage%20%E2%80%93%20Bank%20of%20England%20(!Three%20centuries%20of%20macroeconomic/UK
+    Nominal wage data, price data, and real wage – Bank of England ("Three centuries
+    of macroeconomic data") (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: nominal_average_weekly_wages_bank_of_england_2017
+    type: Float
+  - name: spliced_consumer_price_index_2015100_bank_of_england_2017
+    type: Float
+  - name: real_average_weekly_wages_bank_of_england_2017
+    type: Float

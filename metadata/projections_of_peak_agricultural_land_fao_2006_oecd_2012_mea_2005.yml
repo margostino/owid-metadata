@@ -1,0 +1,42 @@
+name: projections_of_peak_agricultural_land_fao_2006_oecd_2012_mea_2005
+description: |-
+    This dataset combines actual reported trends in global agricultural land area from the UN Food and Agricultural Organization from 1961-2014, with future projections from various sources.
+
+    Data for the period 1961-2014 is based on the metric "Agricultural land" from the FAO Database. Available at: http://www.fao.org/faostat/en/#data/RL [accessed 22nd August 2017].
+
+    Agricultural land includes arable land, permanent crops and meadows and pasture land.
+
+    Projections to 2050 are based on those reported in OECD (2012) – OECD Environmental Outlook to 2050: The Consequences of Inaction. Available at: http://www.oecd.org/environment/indicators-modelling-outlooks/oecdenvironmentaloutlookto2050theconsequencesofinaction.htm [accessed 22nd August 2017].
+
+    The original sources for these projections are as follows:
+
+    FAO/IMAGE = FAO (UN Food and Agriculture Organisation) (2006), World Agriculture Towards 2030/2050, FAO, Rome.
+
+    IAASTD = International Assessment of Agricultural Knowledge, Science and Technology for Development (2009). Global report, Island Press, Washington, DC.
+
+    MEA = Millennium Ecosystem Assessment (2005), Synthesis report, Island Press, Washington, DC.
+data_file: Projections of peak agricultural land - FAO (2006), OECD (2012), MEA (2005).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Projections%20of%20peak%20agricultural%20land%20-%20FAO%20(2006)%2C%20OECD%20(2012)%2C%20MEA%20(2005)/Projections
+    of peak agricultural land - FAO (2006), OECD (2012), MEA (2005).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: agricultural_area_fao_2006_oecd_2012_mea_2005
+    type: Float
+  - name: faoimage_fao_2006_oecd_2012_mea_2005
+    type: Float
+  - name: iaastd_fao_2006_oecd_2012_mea_2005
+    type: Float
+  - name: oecd_outlook_baseline_fao_2006_oecd_2012_mea_2005
+    type: Float
+  - name: mea_scenario_1_fao_2006_oecd_2012_mea_2005
+    type: Float
+  - name: mea_scenario_2_fao_2006_oecd_2012_mea_2005
+    type: Float
+  - name: mea_scenario_3_fao_2006_oecd_2012_mea_2005
+    type: Float
+  - name: mea_scenario_4_fao_2006_oecd_2012_mea_2005
+    type: Float

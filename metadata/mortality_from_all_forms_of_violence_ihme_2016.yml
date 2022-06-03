@@ -1,0 +1,20 @@
+name: mortality_from_all_forms_of_violence_ihme_2016
+description: Data was amended by Our World in Data to represent the total number of
+    deaths and age-standardized death rate from all forms of violence. This includes
+    the IHME GBD categories of 'interpersonal violence'; 'conflict and terrorism'
+    and 'executions and police conflict'.
+data_file: Mortality from all forms of violence  (IHME (2016)).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Mortality%20from%20all%20forms%20of%20violence%20%20(IHME%20(2016))/Mortality
+    from all forms of violence  (IHME (2016)).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: age_standardized_death_rate_from_all_forms_of_violence_ihme_2016
+    type: Float
+  - name: total_deaths_from_all_forms_of_violence_ihme_2016
+    type: Float
+  - name: death_rate_from_all_forms_of_violence_ihme_2016
+    type: Float

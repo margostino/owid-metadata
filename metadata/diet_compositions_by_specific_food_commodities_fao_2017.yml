@@ -1,0 +1,68 @@
+name: diet_compositions_by_specific_food_commodities_fao_2017
+description: |-
+    Data represents the average daily per capita supply of calories from the range of food commodities. Note that these figures do not correct for waste at the household/consumption level so may not directly reflect the quantity of food finally consumed by a given individual.
+
+    Values given for commodities include supply provided in its raw form, as well as products derived from this commodity (for example, figures for 'wheat' are inclusive of wheat consumed in its raw form as well as derivative products such as bread).
+
+    Figures for Former Soviet Union states have been allocated the average food supply figures of the USSR for the period 1961-1991, then their respective national values from there onwards.
+data_file: Diet compositions by specific food commodities - FAO (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Diet%20compositions%20by%20specific%20food%20commodities%20-%20FAO%20(2017)/Diet
+    compositions by specific food commodities - FAO (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: alcoholic_beverages_fao_2017
+    type: Float
+  - name: animal_fats_fao_2017
+    type: Float
+  - name: barley_fao_2017
+    type: Float
+  - name: bovine_meat_fao_2017
+    type: Float
+  - name: cereals_other_fao_2017
+    type: Float
+  - name: eggs_fao_2017
+    type: Float
+  - name: fish_and_seafood_fao_2017
+    type: Float
+  - name: fruit_fao_2017
+    type: Float
+  - name: maize_fao_2017
+    type: Float
+  - name: meat_other_fao_2017
+    type: Float
+  - name: milk_fao_2017
+    type: Float
+  - name: miscellaneous_fao_2017
+    type: Float
+  - name: mutton_and_goat_meat_fao_2017
+    type: Float
+  - name: oilcrops_fao_2017
+    type: Float
+  - name: pigmeat_fao_2017
+    type: Float
+  - name: poultry_meat_fao_2017
+    type: Float
+  - name: pulses_fao_2017
+    type: Float
+  - name: rice_fao_2017
+    type: Float
+  - name: starchy_roots_fao_2017
+    type: Float
+  - name: sugar_and_sweeteners_fao_2017
+    type: Float
+  - name: sugar_crops_fao_2017
+    type: Float
+  - name: nuts_and_seeds_fao_2017
+    type: Float
+  - name: vegetable_oils_fao_2017
+    type: Float
+  - name: vegetables_fao_2017
+    type: Float
+  - name: wheat_fao_2017
+    type: Float
+  - name: treenuts_fao_2017
+    type: Float

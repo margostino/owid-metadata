@@ -1,0 +1,33 @@
+name: shark_attacks_and_fatalities_global_shark_attack_file_gsaf_2018
+description: "The Global Shark Attack File (GSAF) keeps an incident log that is updated
+    with each new shark attack. Four types of shark attack categories are included:
+    provoked, unprovoked, boating incidents, and sea disasters. The GSAF defines provoked
+    incidents as incidents in which \"the shark was speared, hooked, captured or in
+    which a human drew 'first blood'\" versus unprovoked incidents where this behaviour
+    did not occur. Boating incidents are defined as cases where \"a boat was bitten
+    or rammed by a shark.\" Sea disasters are \"accidents that place people in the
+    day-to-day business of sharks.\" \n\nShark attacks classified as \"Invalid\" or
+    \"Questionable\" have been excluded from estimates.\n\nThe link above provides
+    more details about the type, area, location, activity, whether the victim was
+    a male or female, their age, description of the injury, time of the incident,
+    shark species, and investigator/source for each observation. \n\nWhere a range
+    of dates is provided for a particular incident, we have used the earliest year
+    when plotting the data. For example, where the date is provided as \"Between 1918
+    and 1939\" we plot this as 1918. For years entered as \"Before xxxx\", we have
+    simply input the previous year. The observations 'Portugal / India' for 1580,
+    and 'Africa' for 1846 have been dropped due to their geographical inaccuracy.\n\nThe
+    'Global Shark Attack File'  figures reflect reported/recorded attacks or deaths
+    only. For less recent years, these records could be incomplete."
+data_file: Shark attacks and fatalities - Global Shark Attack File (GSAF) (2018) .csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Shark%20attacks%20and%20fatalities%20-%20Global%20Shark%20Attack%20File%20(GSAF)%20(2018)%20/Shark
+    attacks and fatalities - Global Shark Attack File (GSAF) (2018) .csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: total_number_of_shark_attacks_gsaf_2018
+    type: Float
+  - name: total_number_of_shark_attack_fatalities_gsaf_2018
+    type: Float

@@ -1,0 +1,50 @@
+name: political_regimes_economist_intelligence_unit_2022
+description: |-
+    This dataset provides information on political regimes, using data from the Economist Intelligence Unit's Democracy Index (2022).
+
+    You can download the code and complete dataset, including supplementary variables, from GitHub: https://github.com/owid/notebooks/tree/main/BastianHerre/democracy
+data_file: Political regimes - Economist Intelligence Unit (2022).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Political%20regimes%20-%20Economist%20Intelligence%20Unit%20(2022)/Political
+    regimes - Economist Intelligence Unit (2022).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: regime_eiu
+    type: Float
+  - name: democracy_eiu
+    type: Float
+  - name: elect_freefair_eiu
+    type: Float
+  - name: funct_gov_eiu
+    type: Float
+  - name: pol_part_eiu
+    type: Float
+  - name: dem_culture_eiu
+    type: Float
+  - name: civlib_eiu
+    type: Float
+  - name: number_autreg_eiu
+    type: Float
+  - name: number_hybreg_eiu
+    type: Float
+  - name: number_flawdem_eiu
+    type: Float
+  - name: number_fulldem_eiu
+    type: Float
+  - name: pop_autreg_eiu
+    type: Float
+  - name: pop_hybreg_eiu
+    type: Float
+  - name: pop_flawdem_eiu
+    type: Float
+  - name: pop_fulldem_eiu
+    type: Float
+  - name: pop_missreg_eiu
+    type: Float
+  - name: popw_democracy_eiu
+    type: Float
+  - name: region
+    type: Float

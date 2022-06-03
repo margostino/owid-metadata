@@ -1,0 +1,18 @@
+name: healthcare_access_and_quality_index_ihme_2017
+description: "Global Burden of Disease Study 2015 (GBD 2015) Healthcare Access and
+    Quality Index Based on Amenable Mortality 1990–2015 Global Burden of Disease Study
+    2015 (GBD 2015) estimates were used in an analysis of national levels of personal
+    healthcare access and quality based on 32 causes considered amenable to healthcare
+    over time. \r\nThis dataset includes the the Healthcare Quality and Access (HAQ)
+    Index for global, regional, and national or territory-level estimates for 1990-2015."
+data_file: Healthcare Access and Quality Index – IHME (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Healthcare%20Access%20and%20Quality%20Index%20%E2%80%93%20IHME%20(2017)/Healthcare
+    Access and Quality Index – IHME (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: haq_index_ihme_2017
+    type: Float

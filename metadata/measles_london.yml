@@ -1,0 +1,15 @@
+name: measles_london
+description: To be filled in
+data_file: Measles London.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Measles%20London/Measles
+    London.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: deaths_from_all_causes
+    type: Float
+  - name: measles
+    type: Float

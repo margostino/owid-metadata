@@ -1,0 +1,24 @@
+name: total_gross_official_disbursements_for_medical_research_and_basic_heath_sectors_oecd
+description: |-
+    The sum of Official Development Assistance (ODA) flows from all donors to developing countries for medical research and basic health.
+
+    ODA: The DAC defines ODA as “those flows to countries and territories on the DAC List of ODA Recipients
+    and to multilateral institutions which are:
+    i) provided by official agencies, including state and local governments, or by their executive
+    agencies; and
+    ii) each transaction is administered with the promotion of the economic development and welfare of developing countries as its main objective; and is concessional in character and conveys a grant element of at least 25 per cent (calculated at a rate of discount of 10 per cent).
+
+    Medical research and basic health sectors are as defined by the DAC. Medical research refers to CRS
+    sector code 12182 and basic health covers all codes in the 122 series (see here: http://www.oecd.org/dac/stats/purposecodessectorclassification.htm).
+data_file: Total gross official disbursements for medical research and basic heath
+    sectors - OECD.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Total%20gross%20official%20disbursements%20for%20medical%20research%20and%20basic%20heath%20sectors%20-%20OECD/Total
+    gross official disbursements for medical research and basic heath sectors - OECD.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: total_gross_official_disbursements_for_medical_research_and_basic_heath_sectors
+    type: Float

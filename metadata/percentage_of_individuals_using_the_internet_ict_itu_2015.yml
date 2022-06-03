@@ -1,0 +1,14 @@
+name: percentage_of_individuals_using_the_internet_ict_itu_2015
+description: These are data on the 'Percentage of Individuals using the Internet (excel)'
+    from 2000 to 2014. Downloaded on 14th July 2015.
+data_file: Percentage of Individuals using the Internet (ICT) - ITU (2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Percentage%20of%20Individuals%20using%20the%20Internet%20(ICT)%20-%20ITU%20(2015)/Percentage
+    of Individuals using the Internet (ICT) - ITU (2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: percentage_of_individuals_using_the_internet_ict_2015
+    type: Float

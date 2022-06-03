@@ -1,0 +1,13 @@
+name: inequality_in_latin_america_sedlac_cedlas_and_the_world_bank
+description: ""
+data_file: Inequality in Latin America - SEDLAC (CEDLAS and the World Bank).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Inequality%20in%20Latin%20America%20-%20SEDLAC%20(CEDLAS%20and%20the%20World%20Bank)/Inequality
+    in Latin America - SEDLAC (CEDLAS and the World Bank).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: gini_index_sedlac
+    type: Float

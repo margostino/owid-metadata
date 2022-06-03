@@ -1,0 +1,29 @@
+name: number_of_people_with_and_without_access_to_improved_water_sources_world_bank_and_un
+description: "Dataset derived through the combination of percentage electricity access
+    statistics and UN population figures.\r\n\r\nThe absolute number of people with
+    and without access to improved water sources was derived by multiplying the percentage
+    of the global population with access to improved water sources (from World Bank,
+    World Development Indicators) by United Nations figures on global population in
+    any given year.\r\n\r\nAs defined by the World Bank: \"improved drinking water
+    source includes piped water on premises (piped household water connection located
+    inside the user’s dwelling, plot or yard), and other improved drinking water sources
+    (public taps or standpipes, tube wells or boreholes, protected dug wells, protected
+    springs, and rainwater collection).\"\r\n\r\nAccess to improved water sources
+    (%) data was derived from World Bank World Development Indicators (WDI). Available
+    at: http://data.worldbank.org/ [accessed 2017-06-12].\r\n\r\nGlobal population
+    figures were sourced from the United Nations Population Prospects Division. Available
+    at: https://esa.un.org/unpd/wpp/Download/Standard/Population/ [accessed 2017-06-12]"
+data_file: Number of people with and without access to improved water sources - World
+    Bank and UN.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Number%20of%20people%20with%20and%20without%20access%20to%20improved%20water%20sources%20-%20World%20Bank%20and%20UN/Number
+    of people with and without access to improved water sources - World Bank and UN.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: number_of_people_with_improved_water_sources_world_bank_and_un
+    type: Float
+  - name: number_of_people_without_improved_water_sources_world_bank_and_un
+    type: Float

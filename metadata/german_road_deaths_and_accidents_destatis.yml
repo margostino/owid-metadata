@@ -1,0 +1,23 @@
+name: german_road_deaths_and_accidents_destatis
+description: ""
+data_file: German road deaths and accidents - destatis.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/German%20road%20deaths%20and%20accidents%20-%20destatis/German
+    road deaths and accidents - destatis.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: accidents_reported_to_police
+    type: Float
+  - name: accidents_reported_with_injury
+    type: Float
+  - name: accidents_reported_with_material_damage
+    type: Float
+  - name: road_casualties
+    type: Float
+  - name: road_deaths
+    type: Float
+  - name: road_injuries
+    type: Float

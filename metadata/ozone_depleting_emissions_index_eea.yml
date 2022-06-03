@@ -1,0 +1,15 @@
+name: ozone_depleting_emissions_index_eea
+description: Data represents the consumption of ozone-depleting substances (in ozone-depleting
+    potential tonnes), measured as an index relative to emissions in the year 1986
+    (1986 = 100).
+data_file: Ozone-depleting emissions index - EEA.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Ozone-depleting%20emissions%20index%20-%20EEA/Ozone-depleting
+    emissions index - EEA.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: ozone_depleting_emissions_index_1986_100
+    type: Float

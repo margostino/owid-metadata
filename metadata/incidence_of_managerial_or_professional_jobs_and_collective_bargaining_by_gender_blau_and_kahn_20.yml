@@ -1,0 +1,22 @@
+name: incidence_of_managerial_or_professional_jobs_and_collective_bargaining_by_gender_blau_and_kahn_20
+description: See the authors' data appendix for more detail on how the data was prepared
+    and analyzed.
+data_file: Incidence of managerial or professional jobs and collective-bargaining
+    by gender - Blau and Kahn (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Incidence%20of%20managerial%20or%20professional%20jobs%20and%20collective-bargaining%20by%20gender%20-%20Blau%20and%20Kahn%20(20/Incidence
+    of managerial or professional jobs and collective-bargaining by gender - Blau
+    and Kahn (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: gap_between_men_and_women_in_managerial_jobs_blau_and_kahn_2017
+    type: Float
+  - name: gap_between_men_and_women_in_professional_jobs_blau_and_kahn_2017
+    type: Float
+  - name: gap_between_men_and_women_in_male_professional_jobs_blau_and_kahn_2017
+    type: Float
+  - name: gap_between_men_and_women_in_collective_bargaining_coverage_blau_and_kahn_2017
+    type: Float

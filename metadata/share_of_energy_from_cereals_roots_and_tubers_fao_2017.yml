@@ -1,0 +1,16 @@
+name: share_of_energy_from_cereals_roots_and_tubers_fao_2017
+description: This data details the average share of dietary energy supplied by cereals,
+    roots or tuber food commodities. It is often used as a key indicator of dietary
+    diversity, with individuals at lower-income levels relying on cereals, roots and
+    tubers for a high percentage of total energy intake (indicating poor dietary diversity).
+data_file: Share of energy from cereals, roots and tubers - FAO (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Share%20of%20energy%20from%20cereals%2C%20roots%20and%20tubers%20-%20FAO%20(2017)/Share
+    of energy from cereals, roots and tubers - FAO (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_of_energy_from_cereals_roots_and_tubers_fao_2017
+    type: Float

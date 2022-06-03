@@ -1,0 +1,17 @@
+name: human_rights_protection_score_christopher_farris_2014_and_keith_schnakenberg
+description: The original dataset includes the country ids 666.001, 666.002, and 666.003.
+    These correspond to different human rights reports which were produced for distinct
+    areas in Israel (Israel, pre-1967 borders Israel, occupied territories Palestinian
+    Authority). Because of technical limitations they cannot be shown in these visualisations
+    and shown is only the 'Israel' series.
+data_file: Human Rights Protection Score – Christopher Farris (2014) and Keith Schnakenberg.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Human%20Rights%20Protection%20Score%20%E2%80%93%20Christopher%20Farris%20(2014)%20and%20Keith%20Schnakenberg/Human
+    Rights Protection Score – Christopher Farris (2014) and Keith Schnakenberg.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: can_be_deleted_human_rights_protection_score_by_christopher_farris_and_keith_schnakenberg
+    type: Float

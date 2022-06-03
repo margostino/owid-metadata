@@ -1,0 +1,22 @@
+name: earthquake_deaths_ngdc_noaa
+description: "Estimated number of deaths from earthquake events. This is estimated
+    as the total number from the earthquake event plus secondary impacts (such as
+    a tsunami triggered by an earthquake).\n\nA significant earthquake is classified
+    as one that meets at least one of the following criteria: caused deaths, caused
+    moderate damage (approximately $1 million or more), magnitude 7.5 or greater,
+    Modified Mercalli Intensity (MMI) X or greater, or the earthquake generated a
+    tsunami.\n\nOur World in Data have aggregated significant earthquake deaths by
+    country/location per year. \n\nDue to data availability, reporting and evidence,
+    it's expected that more recent data will be more complete than the long historical
+    record."
+data_file: Earthquake deaths (NGDC-NOAA).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Earthquake%20deaths%20(NGDC-NOAA)/Earthquake
+    deaths (NGDC-NOAA).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: earthquake_deaths_ngdc_noaa
+    type: Float

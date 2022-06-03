@@ -1,0 +1,15 @@
+name: same_sex_marriages_by_sex_in_the_netherlands_cbs_2016
+description: Annual number of same-sex marriages
+data_file: Same-sex marriages by sex in the Netherlands – CBS (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Same-sex%20marriages%20by%20sex%20in%20the%20Netherlands%20%E2%80%93%20CBS%20(2016)/Same-sex
+    marriages by sex in the Netherlands – CBS (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: annual_number_of_two_men_marriages
+    type: Float
+  - name: annual_number_of_two_women_marriages
+    type: Float

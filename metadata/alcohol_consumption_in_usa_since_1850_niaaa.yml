@@ -1,0 +1,24 @@
+name: alcohol_consumption_in_usa_since_1850_niaaa
+description: |-
+    Liters of ethanol per capita (differentiated by beverage type), based on population aged 15 and older prior to 1970 and on population aged 14 and older thereafter.
+
+    The period 1920–1933 marks a period of alcohol prohibition in the United States. Here it is assumed consumption was zero by the NIAAA.
+
+    Data prior to 1977 are from: HYMAN, M.; ZIMMERMAN, M.; GURIOLI, C.; and HELRICH, A. Drinkers, Drinking and Alcohol–Related Mortality and Hospitalizations: A Statistical Compendium, 1980 Edition. New Brunswick, NJ: Rutgers University, 1980.
+data_file: Alcohol consumption in USA since 1850 — NIAAA.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Alcohol%20consumption%20in%20USA%20since%201850%20%E2%80%94%20NIAAA/Alcohol
+    consumption in USA since 1850 — NIAAA.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: beer_niaaa
+    type: Float
+  - name: wine_niaaa
+    type: Float
+  - name: spirits_niaaa
+    type: Float
+  - name: all_beverages_niaaa
+    type: Float

@@ -1,0 +1,35 @@
+name: primary_energy_consumption_bp_and_eia_2022
+description: "Primary energy consumption data was compiled by Our World in Data based
+    on two key data sources: \n1. BP Statistical Review of World Energy: https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html\n2.
+    International data from the U.S. Energy Information Administration (EIA): https://www.eia.gov/international/data/world/total-energy/more-total-energy-data\n\nBP
+    provides the longest and most up-to-date time-series of primary energy. However,
+    it does not provide data for all countries. We have therefore supplemented this
+    dataset with energy data from the EIA. Where BP provides data for a given country,
+    this data is adopted; for countries where this data is missing, we rely on EIA
+    Energy figures.\n\nPer capita figures have been calculated using a population
+    dataset that is built and maintained by Our World in Data, based on different
+    sources:\nhttps://ourworldindata.org/population-sources\n\nTo calculate energy
+    per unit of GDP, we use total real GDP figures from the Maddison Project Database,
+    version 2020: https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2020\nThis
+    dataset is based on Bolt, Jutta and Jan Luiten van Zanden (2020), “Maddison style
+    estimates of the evolution of the world economy. A new 2020 update ”. GDP is measured
+    in 2011$ which are PPP-adjusted."
+data_file: Primary energy consumption BP & EIA (2022).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Primary%20energy%20consumption%20BP%20%26%20EIA%20(2022)/Primary
+    energy consumption BP & EIA (2022).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: primary_energy_consumption_twh
+    type: Float
+  - name: annual_change_primary_energy_consumption_perc
+    type: Float
+  - name: annual_change_primary_energy_consumption_twh
+    type: Float
+  - name: energy_per_capita_kwh
+    type: Float
+  - name: energy_per_gdp_kwh_per_money
+    type: Float

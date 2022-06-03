@@ -1,0 +1,22 @@
+name: share_of_food_lost_by_food_type_and_region_fao_2019
+description: |-
+    Data represents the share of food lost (from post-harvest through to, but not including, retail level) by food group and by region. From the source: “Percentage of food loss refers to the physical quantity lost for different commodities divided by the amount produced. An economic weight is used to aggregate percentages at regional or commodity group levels, so that higher-value commodities carry more weight in loss estimation than lower-value ones”.
+
+    This data is sourced from the UN FAO’s 2019 State of Food and Agriculture report.
+
+    FAO. 2019. The State of Food and Agriculture 2019. Moving forward on food loss and waste reduction. Rome. Available at: http://www.fao.org/3/ca6030en/ca6030en.pdf
+
+    The data was made available in the UN FAO’s interactive report accompanying the chart: http://www.fao.org/state-of-food-agriculture/en/.
+data_file: Share of food lost by food type and region (FAO, 2019).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Share%20of%20food%20lost%20by%20food%20type%20and%20region%20(FAO%2C%202019)/Share
+    of food lost by food type and region (FAO, 2019).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: percentage_of_food_loss_by_food_group_fao_2019
+    type: Float
+  - name: percentage_of_food_loss_by_region_fao_2019
+    type: Float

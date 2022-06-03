@@ -1,0 +1,18 @@
+name: levels_of_urbanization_and_per_capita_gnp_in_various_regions_bairoch_1988
+description: See Table 29.1 (pp. 459) for original data.
+data_file: Levels of Urbanization and per capita GNP in Various Regions - Bairoch
+    (1988).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Levels%20of%20Urbanization%20and%20per%20capita%20GNP%20in%20Various%20Regions%20-%20Bairoch%20(1988)/Levels
+    of Urbanization and per capita GNP in Various Regions - Bairoch (1988).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: urban_population_share_bairoch_1988
+    type: Float
+  - name: per_capita_gross_national_product_bairoch_1988
+    type: Float
+  - name: rural_population_share_bairoch_1988
+    type: Float

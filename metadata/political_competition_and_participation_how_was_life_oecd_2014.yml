@@ -1,0 +1,19 @@
+name: political_competition_and_participation_how_was_life_oecd_2014
+description: ""
+data_file: Political Competition and Participation (How Was Life, OECD (2014)).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Political%20Competition%20and%20Participation%20(How%20Was%20Life%2C%20OECD%20(2014))/Political
+    Competition and Participation (How Was Life, OECD (2014)).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: political_participation_how_was_life_oecd_2014
+    type: Float
+  - name: political_competition_how_was_life_oecd_2014
+    type: Float
+  - name: index_of_democracy_how_was_life_oecd_2014
+    type: Float
+  - name: polity2_how_was_life_oecd_2014
+    type: Float

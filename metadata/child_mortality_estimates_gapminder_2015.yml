@@ -1,0 +1,18 @@
+name: child_mortality_estimates_gapminder_2015
+description: "This is Version 8 of the data set uploaded by Gapminder on 2015 October
+    18\r\n \r\n \r\nThe World series for 1800 to 1960 was calculated by Max Roser
+    on the basis of the Gapminder estimates of child mortality and the Gapminder series
+    on population by country. For each estimate in that period a population weighted
+    global average was calculated.\r\nThe recent annual observations of the World
+    series (1960 and later) is taken from the World Bank (http://data.worldbank.org/indicator/SH.DYN.MORT)."
+data_file: Child mortality estimates - Gapminder (2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Child%20mortality%20estimates%20-%20Gapminder%20(2015)/Child
+    mortality estimates - Gapminder (2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: child_mortality_estimates_gapminder_2015
+    type: Float

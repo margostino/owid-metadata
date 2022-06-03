@@ -1,0 +1,24 @@
+name: temporary_accommodation_in_england_uk_government_2018
+description: |-
+    Figures report the number of households, households with children and number of children in 'temporary accommodation' (TA).
+
+    Temporary accommodation (typically given for a period of 28 days or less) is allocated to households without permanent housing, and are therefore included in annual homelessness accounts. Temporary accommodation includes relocation to bed and breakfasts, hostels, shelters, local authority or privately-owned temporary accommodation.
+
+    The UK National Statistics note: "Complete temporary accommodation data was provided by 299 (92%) local authorities. A further 23 local authorities did provide a return but their totals have been omitted from the release due to quality concerns that placements may have been underreported or double reported."
+
+    Temporary accommodation data is reported quarterly: to maintain consistency with rough sleeper statistics (recorded in Autumn) we have assumed Q3 results for each year.
+data_file: Temporary accommodation in England - UK Government (2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Temporary%20accommodation%20in%20England%20-%20UK%20Government%20(2018)/Temporary
+    accommodation in England - UK Government (2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: total_number_of_households_in_ta_temporary_accomodation
+    type: Float
+  - name: total_number_of_households_in_ta_temporary_accommodation_with_children
+    type: Float
+  - name: total_number_of_children_in_ta_temporary_accommodation
+    type: Float

@@ -1,0 +1,60 @@
+name: wealth_per_capita_by_component_for_various_country_groupings_world_bank_2017
+description: ""
+data_file: Wealth per capita by component for various country groupings - World Bank
+    (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Wealth%20per%20capita%20by%20component%20for%20various%20country%20groupings%20-%20World%20Bank%20(2017)/Wealth
+    per capita by component for various country groupings - World Bank (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: total_wealth
+    type: Float
+  - name: produced_capital_including_urban_land
+    type: Float
+  - name: natural_capital_timber_non_timber_protected_areas_land_sub_soil_assets
+    type: Float
+  - name: natural_capital_renewable_excluding_sub_soil_assets
+    type: Float
+  - name: forest_timber
+    type: Float
+  - name: forest_non_timber
+    type: Float
+  - name: protected_areas
+    type: Float
+  - name: land_crop_pasture
+    type: Float
+  - name: cropland
+    type: Float
+  - name: pastureland
+    type: Float
+  - name: sub_soil_assets_fossil_energy_resources_metals_and_minerals
+    type: Float
+  - name: fossil_energy_resources_oil_natural_gas_coal
+    type: Float
+  - name: oil
+    type: Float
+  - name: natural_gas
+    type: Float
+  - name: coal
+    type: Float
+  - name: metals_and_minerals
+    type: Float
+  - name: human_capital
+    type: Float
+  - name: human_capital_total_male
+    type: Float
+  - name: human_capital_total_female
+    type: Float
+  - name: net_foreign_assets
+    type: Float
+  - name: adjusted_net_national_income
+    type: Float
+  - name: adjusted_net_saving
+    type: Float
+  - name: gross_domestic_product
+    type: Float
+  - name: gross_national_income
+    type: Float

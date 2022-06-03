@@ -1,0 +1,13 @@
+name: health_expenditure_per_capita_world_bank_wdi_2018
+description: ""
+data_file: Health expenditure per capita - World Bank WDI (2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Health%20expenditure%20per%20capita%20-%20World%20Bank%20WDI%20(2018)/Health
+    expenditure per capita - World Bank WDI (2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: current_health_expenditure_per_capita_ppp_current_international_money
+    type: Float

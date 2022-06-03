@@ -1,0 +1,13 @@
+name: population_data_gapminder_up_to_1949_un_population_division_1950_to_2015
+description: ""
+data_file: Population data (Gapminder up to 1949; UN Population Division 1950 to 2015).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Population%20data%20(Gapminder%20up%20to%201949%3B%20UN%20Population%20Division%201950%20to%202015)/Population
+    data (Gapminder up to 1949; UN Population Division 1950 to 2015).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: total_population_gapminder_up_to_1949_un_population_division_1950_to_2015
+    type: Float

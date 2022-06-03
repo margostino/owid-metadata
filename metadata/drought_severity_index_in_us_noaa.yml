@@ -1,0 +1,24 @@
+name: drought_severity_index_in_us_noaa
+description: "The Palmer Drought Severity Index is the most widely used index to measure
+    drought severity over time. is calculated from precipitation and temperature measurements
+    at weather stations. An index value of zero represents the average moisture conditions
+    observed between 1931 and 1990 at a given location. A positive value means conditions
+    are wetter than average, while a negative value is drier than average. \n\nIndex
+    values from locations across US have been averaged together to produce the national
+    or regional values.\n\nPositive values represent wetter-than-average conditions,
+    while negative values represent drier-than-average conditions. A value between
+    -2 and -3 indicates moderate drought, -3 to -4 is severe drought, and -4 or below
+    indicates extreme drought."
+data_file: Drought Severity Index in US (NOAA).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Drought%20Severity%20Index%20in%20US%20(NOAA)/Drought
+    Severity Index in US (NOAA).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: palmer_drought_severity_index_annual_noaa
+    type: Float
+  - name: palmer_drought_severity_index_9_year_avg_noaa
+    type: Float

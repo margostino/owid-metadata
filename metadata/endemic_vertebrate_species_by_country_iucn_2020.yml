@@ -1,0 +1,62 @@
+name: endemic_vertebrate_species_by_country_iucn_2020
+description: "Data denotes the number of endemic vertebrate species within a given
+    organism group by country. Endemic species are those which are known to naturally
+    occur in only one country. \n\nAlso available is the number of these endemic species
+    which are categorised as 'threatened'.  'Threatened' species are those in any
+    of the three Red List categories: Critically Endangered, Endangered, or Vulnerable.
+    They are considered high or greater risk of extinction in the wild.\n\nThis data
+    is only given for the more comprehensively assessed species groups (i.e., where
+    >80% of the species in the group have been assessed)."
+data_file: Endemic vertebrate species by country (IUCN, 2020).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Endemic%20vertebrate%20species%20by%20country%20(IUCN%2C%202020)/Endemic
+    vertebrate species by country (IUCN, 2020).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: mammals_total_endemic
+    type: Float
+  - name: mammals_threatened_endemic
+    type: Float
+  - name: birds_total_endemic
+    type: Float
+  - name: birds_threatened_endemic
+    type: Float
+  - name: crocodiles_and_alligators_total_endemic
+    type: Float
+  - name: crocodiles_and_alligators_threatened_endemic
+    type: Float
+  - name: chameleons_total_endemic
+    type: Float
+  - name: chameleons_threatened_endemic
+    type: Float
+  - name: amphibians_total_endemic
+    type: Float
+  - name: amphibians_threatened_endemic
+    type: Float
+  - name: groupers_total_endemic
+    type: Float
+  - name: groupers_threatened_endemic
+    type: Float
+  - name: herrings_anchovies_etc_total_endemic
+    type: Float
+  - name: herrings_anchovies_etc_threatened_endemic
+    type: Float
+  - name: seahorses_and_pipefishes_total_endemic
+    type: Float
+  - name: seahorses_and_pipefishes_threatened_endemic
+    type: Float
+  - name: sturgeons_total_endemic
+    type: Float
+  - name: sturgeons_threatened_endemic
+    type: Float
+  - name: wrasses_and_parrotfishes_total_endemic
+    type: Float
+  - name: wrasses_and_parrotfishes_threatened_endemic
+    type: Float
+  - name: sharks_and_rays_total_endemic
+    type: Float
+  - name: sharks_and_rays_threatened_endemic
+    type: Float

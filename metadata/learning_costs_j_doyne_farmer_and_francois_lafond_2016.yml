@@ -1,0 +1,13 @@
+name: learning_costs_j_doyne_farmer_and_francois_lafond_2016
+description: ""
+data_file: Learning costs, J. Doyne Farmer and François Lafond (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Learning%20costs%2C%20J.%20Doyne%20Farmer%20and%20Fran%C3%A7ois%20Lafond%20(2016)/Learning
+    costs, J. Doyne Farmer and François Lafond (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: j_doyne_farmer_and_francois_lafond_2016
+    type: Float

@@ -1,0 +1,349 @@
+name: natural_disasters_emdat
+description: |
+    This data has been aggregated by Our World in Data by country and year based on the raw database of disasters published by EM-DAT, CRED / UCLouvain, Brussels, Belgium – www.emdat.be (D. Guha-Sapir).
+
+    Our World in Data has also calculated each metric, adjusted for population, using a long-run population dataset constructed from Gapminder and UN Population Prospects.
+    https://www.gapminder.org/
+    https://population.un.org/wpp/
+
+    Our World in Data has also calculated economic damage metrics adjusted for gross domestic product (GDP), using GDP data from the World Bank.
+    http://data.worldbank.org/data-catalog/world-development-indicators
+data_file: Natural disasters (EMDAT).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Natural%20disasters%20(EMDAT)/Natural
+    disasters (EMDAT).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: deaths_drought
+    type: Float
+  - name: injured_drought
+    type: Float
+  - name: affected_drought
+    type: Float
+  - name: homeless_drought
+    type: Float
+  - name: total_affected_drought
+    type: Float
+  - name: reconstruction_costs_drought
+    type: Float
+  - name: insured_damages_drought
+    type: Float
+  - name: total_damages_drought
+    type: Float
+  - name: affected_rate_per_100k_drought
+    type: Float
+  - name: homeless_rate_per_100k_drought
+    type: Float
+  - name: deaths_earthquake
+    type: Float
+  - name: injured_earthquake
+    type: Float
+  - name: affected_earthquake
+    type: Float
+  - name: homeless_earthquake
+    type: Float
+  - name: total_affected_earthquake
+    type: Float
+  - name: reconstruction_costs_earthquake
+    type: Float
+  - name: insured_damages_earthquake
+    type: Float
+  - name: total_damages_earthquake
+    type: Float
+  - name: affected_rate_per_100k_earthquake
+    type: Float
+  - name: homeless_rate_per_100k_earthquake
+    type: Float
+  - name: deaths_all_disasters
+    type: Float
+  - name: injured_all_disasters
+    type: Float
+  - name: affected_all_disasters
+    type: Float
+  - name: homeless_all_disasters
+    type: Float
+  - name: total_affected_all_disasters
+    type: Float
+  - name: reconstruction_costs_all_disasters
+    type: Float
+  - name: insured_damages_all_disasters
+    type: Float
+  - name: total_damages_all_disasters
+    type: Float
+  - name: affected_rate_per_100k_all_disasters
+    type: Float
+  - name: homeless_rate_per_100k_all_disasters
+    type: Float
+  - name: deaths_volcanic
+    type: Float
+  - name: injured_volcanic
+    type: Float
+  - name: affected_volcanic
+    type: Float
+  - name: homeless_volcanic
+    type: Float
+  - name: total_affected_volcanic
+    type: Float
+  - name: reconstruction_costs_volcanic
+    type: Float
+  - name: insured_damages_volcanic
+    type: Float
+  - name: total_damages_volcanic
+    type: Float
+  - name: affected_rate_per_100k_volcanic
+    type: Float
+  - name: homeless_rate_per_100k_volcanic
+    type: Float
+  - name: deaths_flood
+    type: Float
+  - name: injured_flood
+    type: Float
+  - name: affected_flood
+    type: Float
+  - name: homeless_flood
+    type: Float
+  - name: total_affected_flood
+    type: Float
+  - name: reconstruction_costs_flood
+    type: Float
+  - name: insured_damages_flood
+    type: Float
+  - name: total_damages_flood
+    type: Float
+  - name: affected_rate_per_100k_flood
+    type: Float
+  - name: homeless_rate_per_100k_flood
+    type: Float
+  - name: deaths_mass_movement
+    type: Float
+  - name: injured_mass_movement
+    type: Float
+  - name: affected_mass_movement
+    type: Float
+  - name: homeless_mass_movement
+    type: Float
+  - name: total_affected_mass_movement
+    type: Float
+  - name: reconstruction_costs_mass_movement
+    type: Float
+  - name: insured_damages_mass_movement
+    type: Float
+  - name: total_damages_mass_movement
+    type: Float
+  - name: affected_rate_per_100k_mass_movement
+    type: Float
+  - name: homeless_rate_per_100k_mass_movement
+    type: Float
+  - name: deaths_storm
+    type: Float
+  - name: injured_storm
+    type: Float
+  - name: affected_storm
+    type: Float
+  - name: homeless_storm
+    type: Float
+  - name: total_affected_storm
+    type: Float
+  - name: reconstruction_costs_storm
+    type: Float
+  - name: insured_damages_storm
+    type: Float
+  - name: total_damages_storm
+    type: Float
+  - name: affected_rate_per_100k_storm
+    type: Float
+  - name: homeless_rate_per_100k_storm
+    type: Float
+  - name: deaths_landslide
+    type: Float
+  - name: injured_landslide
+    type: Float
+  - name: affected_landslide
+    type: Float
+  - name: homeless_landslide
+    type: Float
+  - name: total_affected_landslide
+    type: Float
+  - name: reconstruction_costs_landslide
+    type: Float
+  - name: insured_damages_landslide
+    type: Float
+  - name: total_damages_landslide
+    type: Float
+  - name: affected_rate_per_100k_landslide
+    type: Float
+  - name: homeless_rate_per_100k_landslide
+    type: Float
+  - name: deaths_fog
+    type: Float
+  - name: injured_fog
+    type: Float
+  - name: affected_fog
+    type: Float
+  - name: homeless_fog
+    type: Float
+  - name: total_affected_fog
+    type: Float
+  - name: reconstruction_costs_fog
+    type: Float
+  - name: insured_damages_fog
+    type: Float
+  - name: total_damages_fog
+    type: Float
+  - name: affected_rate_per_100k_fog
+    type: Float
+  - name: homeless_rate_per_100k_fog
+    type: Float
+  - name: deaths_wildfire
+    type: Float
+  - name: injured_wildfire
+    type: Float
+  - name: affected_wildfire
+    type: Float
+  - name: homeless_wildfire
+    type: Float
+  - name: total_affected_wildfire
+    type: Float
+  - name: reconstruction_costs_wildfire
+    type: Float
+  - name: insured_damages_wildfire
+    type: Float
+  - name: total_damages_wildfire
+    type: Float
+  - name: affected_rate_per_100k_wildfire
+    type: Float
+  - name: homeless_rate_per_100k_wildfire
+    type: Float
+  - name: deaths_temperature
+    type: Float
+  - name: injured_temperature
+    type: Float
+  - name: affected_temperature
+    type: Float
+  - name: homeless_temperature
+    type: Float
+  - name: total_affected_temperature
+    type: Float
+  - name: reconstruction_costs_temperature
+    type: Float
+  - name: insured_damages_temperature
+    type: Float
+  - name: total_damages_temperature
+    type: Float
+  - name: affected_rate_per_100k_temperature
+    type: Float
+  - name: homeless_rate_per_100k_temperature
+    type: Float
+  - name: deaths_glacial_lake
+    type: Float
+  - name: injured_glacial_lake
+    type: Float
+  - name: affected_glacial_lake
+    type: Float
+  - name: homeless_glacial_lake
+    type: Float
+  - name: total_affected_glacial_lake
+    type: Float
+  - name: reconstruction_costs_glacial_lake
+    type: Float
+  - name: insured_damages_glacial_lake
+    type: Float
+  - name: total_damages_glacial_lake
+    type: Float
+  - name: total_damages_pct_gdp_all_disasters
+    type: Float
+  - name: total_damages_pct_gdp_drought
+    type: Float
+  - name: total_damages_pct_gdp_earthquake
+    type: Float
+  - name: total_damages_pct_gdp_temperature
+    type: Float
+  - name: total_damages_pct_gdp_flood
+    type: Float
+  - name: total_damages_pct_gdp_landslide
+    type: Float
+  - name: total_damages_pct_gdp_mass_movement
+    type: Float
+  - name: total_damages_pct_gdp_storm
+    type: Float
+  - name: total_damages_pct_gdp_volcanic
+    type: Float
+  - name: total_damages_pct_gdp_wildfire
+    type: Float
+  - name: deaths_rate_per_100k_all_disasters
+    type: Float
+  - name: deaths_rate_per_100k_drought
+    type: Float
+  - name: deaths_rate_per_100k_earthquake
+    type: Float
+  - name: deaths_rate_per_100k_temperature
+    type: Float
+  - name: deaths_rate_per_100k_flood
+    type: Float
+  - name: deaths_rate_per_100k_fog
+    type: Float
+  - name: deaths_rate_per_100k_glacial_lake
+    type: Float
+  - name: deaths_rate_per_100k_landslide
+    type: Float
+  - name: deaths_rate_per_100k_mass_movement
+    type: Float
+  - name: deaths_rate_per_100k_storm
+    type: Float
+  - name: deaths_rate_per_100k_volcanic
+    type: Float
+  - name: deaths_rate_per_100k_wildfire
+    type: Float
+  - name: injured_rate_per_100k_all_disasters
+    type: Float
+  - name: injured_rate_per_100k_drought
+    type: Float
+  - name: injured_rate_per_100k_earthquake
+    type: Float
+  - name: injured_rate_per_100k_temperature
+    type: Float
+  - name: injured_rate_per_100k_flood
+    type: Float
+  - name: injured_rate_per_100k_fog
+    type: Float
+  - name: injured_rate_per_100k_glacial_lake
+    type: Float
+  - name: injured_rate_per_100k_landslide
+    type: Float
+  - name: injured_rate_per_100k_mass_movement
+    type: Float
+  - name: injured_rate_per_100k_storm
+    type: Float
+  - name: injured_rate_per_100k_volcanic
+    type: Float
+  - name: injured_rate_per_100k_wildfire
+    type: Float
+  - name: total_affected_rate_per_100k_all_disasters
+    type: Float
+  - name: total_affected_rate_per_100k_drought
+    type: Float
+  - name: total_affected_rate_per_100k_earthquake
+    type: Float
+  - name: total_affected_rate_per_100k_temperature
+    type: Float
+  - name: total_affected_rate_per_100k_flood
+    type: Float
+  - name: total_affected_rate_per_100k_fog
+    type: Float
+  - name: total_affected_rate_per_100k_glacial_lake
+    type: Float
+  - name: total_affected_rate_per_100k_landslide
+    type: Float
+  - name: total_affected_rate_per_100k_mass_movement
+    type: Float
+  - name: total_affected_rate_per_100k_storm
+    type: Float
+  - name: total_affected_rate_per_100k_volcanic
+    type: Float
+  - name: total_affected_rate_per_100k_wildfire
+    type: Float
+  - name: total_damages_pct_gdp_glacial_lake
+    type: Float

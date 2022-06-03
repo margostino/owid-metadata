@@ -1,0 +1,29 @@
+name: output_of_key_industries_in_england_using_bank_of_england_2017
+description: This dataset is produced using 'A4. Ind Production 1270-1870' sheet in
+    BoE dataset. For each variables, output figures are indexed those in year 1700
+    (i.e. 1700 = 100), and they are measured on a log scale.
+data_file: Output of key industries in England - using Bank of England (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Output%20of%20key%20industries%20in%20England%20-%20using%20Bank%20of%20England%20(2017)/Output
+    of key industries in England - using Bank of England (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: tin
+    type: Float
+  - name: iron
+    type: Float
+  - name: coal
+    type: Float
+  - name: wooltextiles
+    type: Float
+  - name: leather
+    type: Float
+  - name: foodstuffs
+    type: Float
+  - name: construction
+    type: Float
+  - name: printed_books
+    type: Float

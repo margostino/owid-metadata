@@ -1,0 +1,24 @@
+name: fertilizer_prices_world_bank_2017
+description: |-
+    Fertilizer prices are measured as a real price index, where prices in 2010 are equal to 100 (2010 = 100).
+
+    Urea prices are reported in real US$ per metric ton.
+data_file: Fertilizer prices - World Bank (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Fertilizer%20prices%20-%20World%20Bank%20(2017)/Fertilizer
+    prices - World Bank (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: urea_world_bank_2017
+    type: Float
+  - name: fertilizer_price_index_2010_100_world_bank_2017
+    type: Float
+  - name: urea_price_projection_world_bank_2017
+    type: Float
+  - name: fertilizer_price_index_projection_world_bank_2017
+    type: Float
+  - name: fertilizer_price_index_world_bank_2017
+    type: Float

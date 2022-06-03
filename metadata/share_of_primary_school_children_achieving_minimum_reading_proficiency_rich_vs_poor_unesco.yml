@@ -1,0 +1,17 @@
+name: share_of_primary_school_children_achieving_minimum_reading_proficiency_rich_vs_poor_unesco
+description: ""
+data_file: Share of primary-school children achieving minimum reading proficiency,
+    rich vs poor - UNESCO.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Share%20of%20primary-school%20children%20achieving%20minimum%20reading%20proficiency%2C%20rich%20vs%20poor%20-%20UNESCO/Share
+    of primary-school children achieving minimum reading proficiency, rich vs poor
+    - UNESCO.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: share_of_children_who_passed_the_minimum_pasec_proficiency_level_poor_unesco
+    type: Float
+  - name: share_of_children_who_passed_the_minimum_pasec_proficiency_level_rich_unesco
+    type: Float

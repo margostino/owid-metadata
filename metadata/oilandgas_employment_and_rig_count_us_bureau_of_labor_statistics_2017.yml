@@ -1,0 +1,14 @@
+name: oilandgas_employment_and_rig_count_us_bureau_of_labor_statistics_2017
+description: Dataset from BLS includes all employees working in oil & gas extraction
+    in the United States.
+data_file: Oil&Gas Employment and Rig Count - US Bureau of Labor Statistics (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Oil%26Gas%20Employment%20and%20Rig%20Count%20-%20US%20Bureau%20of%20Labor%20Statistics%20(2017)/Oil&Gas
+    Employment and Rig Count - US Bureau of Labor Statistics (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: oil_and_gas_employees_us_bureau_of_labor_statistics_2017
+    type: Float

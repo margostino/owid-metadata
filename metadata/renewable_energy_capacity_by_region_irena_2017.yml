@@ -1,0 +1,18 @@
+name: renewable_energy_capacity_by_region_irena_2017
+description: The data presented in the IRENA REsource database comes from a variety
+    of sources. Most of the data are official statistics submitted by countries to
+    IRENA using the IRENA renewable energy statistics questionnaire during its annual
+    data collection cycle or taken from official publications. Where official statistics
+    are unavailable, the statistics are supplemented with IRENA estimates or third
+    party data such as that from industry associations.
+data_file: Renewable Energy Capacity by Region - IRENA (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Renewable%20Energy%20Capacity%20by%20Region%20-%20IRENA%20(2017)/Renewable
+    Energy Capacity by Region - IRENA (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: renewable_energy_capacity_by_region_irena_2017
+    type: Float

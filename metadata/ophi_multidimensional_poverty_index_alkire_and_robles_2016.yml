@@ -1,0 +1,33 @@
+name: ophi_multidimensional_poverty_index_alkire_and_robles_2016
+description: "Definitions\r\n\r\nPeople are considered 'multidimensional poor' if
+    they are deprived in at least one third of the weighted indicators.\r\n\r\nThe
+    ten indicators relate to: Years of Schooling, Child School Attendance, Child Mortality,
+    Nutrition, Electricity, Sanitation, Drinking Water, Floor, Cooking Fuel, Asset
+    Ownership. The first four of these indicators carry a weight of one sixth each
+    (i.e. 0.166). The other six have a weight of one eighteenth each (i.e. 0.055)\r\n\r\nSurvey
+    data\r\n\r\nYears correspond to the year reported for the underlying survey used
+    as source in each country. Whenever surveys correspond to year intervals (e.g.
+    2011-2012), we display the end year for that interval.\r\n\r\nThe source notes
+    that \"The global MPI was first released in 2010, for 104 developing countries,
+    and has been updated yearly with the latest data available. Starting from winter
+    2014/2015, updates are now made twice a year, in summer and winter. In June 2015,
+    the Global MPI was updated for 32 countries and 6 new countries have been added
+    to the list of those last reported in 2014. In total it now covers 101 developing
+    countries, using data ranging from 2005 to 2014.\""
+data_file: OPHI Multidimensional Poverty Index - Alkire and Robles (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/OPHI%20Multidimensional%20Poverty%20Index%20-%20Alkire%20and%20Robles%20(2016)/OPHI
+    Multidimensional Poverty Index - Alkire and Robles (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: multidimensional_poverty_headcount_ratio_alkire_and_robles_2016
+    type: Float
+  - name: percentage_contribution_of_deprivations_in_education_to_overall_poverty_alkire_and_robles_2016
+    type: Float
+  - name: percentage_contribution_of_deprivations_in_health_to_overall_poverty_alkire_and_robles_2016
+    type: Float
+  - name: percentage_contribution_of_deprivations_in_living_standards_to_overall_poverty_alkire_and_robles_2016
+    type: Float

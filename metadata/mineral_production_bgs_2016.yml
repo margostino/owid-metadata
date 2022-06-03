@@ -1,0 +1,32 @@
+name: mineral_production_bgs_2016
+description: Where Russia and the Soviet Union both feature in the data, the Soviet
+    Union series has been added to Russia's own figures. The same is true for the
+    Democratic Republic of Congo/Zaire, West Germany/East Germany/Germany, and Serbia
+    and Montenegro/Yugoslavia, Mozambique/Rhodesia.
+data_file: Mineral production (BGS (2016)).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Mineral%20production%20(BGS%20(2016))/Mineral
+    production (BGS (2016)).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: cadmium_bgs_2016
+    type: Float
+  - name: cobalt_bgs_2016
+    type: Float
+  - name: diamond_bgs_2016
+    type: Float
+  - name: graphite_bgs_2016
+    type: Float
+  - name: lithium_bgs_2016
+    type: Float
+  - name: mercury_bgs_2016
+    type: Float
+  - name: platinum_bgs_2016
+    type: Float
+  - name: uranium_bgs_2016
+    type: Float
+  - name: silicon_bgs_2016
+    type: Float

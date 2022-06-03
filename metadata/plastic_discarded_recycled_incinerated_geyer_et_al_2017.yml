@@ -1,0 +1,22 @@
+name: plastic_discarded_recycled_incinerated_geyer_et_al_2017
+description: "Estimates of the proportion of plastic waste discarded, recycled and
+    incinerated based on data in Geyer et al. (2017).\n\nGeyer et al. (2017) note
+    an average linear rate of increase in recycling of 0.7% per year from 1990 onwards,
+    and 0.7% per year for incineration from 1980 onwards. \n\nData for 1980-2015 is
+    based on historical estimates. Data from 2016-2050 is based solely on extrapolation
+    of consistent growth trends of 0.7% for recycling and incineration; it therefore
+    represents business-as-usual growth but should not be interpreted as a direct
+    projection."
+data_file: Plastic discarded, recycled, incinerated - Geyer et al. (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Plastic%20discarded%2C%20recycled%2C%20incinerated%20-%20Geyer%20et%20al.%20(2017)/Plastic
+    discarded, recycled, incinerated - Geyer et al. (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: estimated_historic_plastic_fate
+    type: Float
+  - name: extrapolation_of_plastic_fate
+    type: Float

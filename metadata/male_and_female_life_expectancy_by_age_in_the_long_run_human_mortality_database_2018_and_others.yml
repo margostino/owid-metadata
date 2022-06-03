@@ -1,0 +1,42 @@
+name: male_and_female_life_expectancy_by_age_in_the_long_run_human_mortality_database_2018_and_others
+description: |-
+    US estimates are based on Hacker (2010) for the period 1780 to 1890. The year 1790 refers to the period 1790-99; see Table 8: New Life Tables for the White Population of the United States, 1780-1900 for the original data consulted for this period. The US Social Security Administration data is used from 1900 to today.
+
+    For other countries,  estimates are based on the Human Mortality Database period tables. Following <a href="http://www.nber.org/papers/w24716" rel="noopener" target="_blank">Goldin and Lleras-Muney (2018)</a>, our data covers only years in which a census was undertaken. Goldin and Lleras-Muney (2018) explain: "census data are available every ten years starting in 1841 for England, and every ten years starting in 1860 for Sweden. For France they occurred every 5 years between 1836 and 1936 (except for 1871 which was held in 1872, and for 1916 which was cancelled) and then for 1946, 1962, 1968, 1975, 1982, 1990 and 1999."
+
+    Note: the United Kingdom refers to the total population of England and Wales.
+data_file: Male and female life expectancy by age in the long run (Human Mortality
+    Database (2018) and others).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Male%20and%20female%20life%20expectancy%20by%20age%20in%20the%20long%20run%20(Human%20Mortality%20Database%20(2018)%20and%20others)/Male
+    and female life expectancy by age in the long run (Human Mortality Database (2018)
+    and others).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: male_life_expectancy_at_birth_hmd_2018_and_others
+    type: Float
+  - name: male_life_expectancy_at_15_hmd_2018_and_others
+    type: Float
+  - name: male_life_expectancy_at_45_hmd_2018_and_others
+    type: Float
+  - name: female_life_expectancy_at_birth_hmd_2018_and_others
+    type: Float
+  - name: female_life_expectancy_at_15_hmd_2018_and_others
+    type: Float
+  - name: female_life_expectancy_at_45_hmd_2018_and_others
+    type: Float
+  - name: female_minus_male_life_expectancy_at_birth_hmd_2018_and_others
+    type: Float
+  - name: female_minus_male_life_expectancy_at_15_hmd_2018_and_others
+    type: Float
+  - name: female_minus_male_life_expectancy_at_45_hmd_2018_and_others
+    type: Float
+  - name: female_to_male_life_expectancy_ratio_at_birth_hmd_2018_and_others
+    type: Float
+  - name: female_to_male_life_expectancy_ratio_at_15_hmd_2018_and_others
+    type: Float
+  - name: female_to_male_life_expectancy_ratio_at_45_hmd_2018_and_others
+    type: Float

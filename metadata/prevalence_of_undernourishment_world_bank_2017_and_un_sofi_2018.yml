@@ -1,0 +1,22 @@
+name: prevalence_of_undernourishment_world_bank_2017_and_un_sofi_2018
+description: |
+    The share of people who are undernourished was derived from the World Bank, World Development Indicators and the UN FAO State of Food Insecurity 2017. Global figures from 2005 onwards are from the UN SOFI (2018) report.
+
+    References:
+
+    World Bank, World Development Indicators. https://data.worldbank.org/indicator [accessed 25th September 2017].
+
+    FAO, IFAD, UNICEF, WFP and WHO. 2017. The State of Food Security and Nutrition in the World 2017. Building resilience for peace and food security. Rome, FAO.
+
+    FAO, IFAD, UNICEF, WFP and WHO. 2018. The State of Food Security and Nutrition in the World 2018. Building climate resilience for food security and nutrition. Rome, FAO.
+data_file: Prevalence of undernourishment - World Bank (2017) & UN SOFI (2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Prevalence%20of%20undernourishment%20-%20World%20Bank%20(2017)%20%26%20UN%20SOFI%20(2018)/Prevalence
+    of undernourishment - World Bank (2017) & UN SOFI (2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: prevalence_of_undernourishment_world_bank_2017_and_un_fao_sofi_2018
+    type: Float

@@ -1,0 +1,17 @@
+name: oecd_consumption_tax_trends_2016
+description: ""
+data_file: OECD – Consumption Tax Trends 2016.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/OECD%20%E2%80%93%20Consumption%20Tax%20Trends%202016/OECD
+    – Consumption Tax Trends 2016.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: countries_with_vat_oecd_2016
+    type: Float
+  - name: value_added_taxes_oecd_2016
+    type: Float
+  - name: taxes_on_specific_goods_and_services_oecd_2016
+    type: Float

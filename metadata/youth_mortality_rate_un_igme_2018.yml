@@ -1,0 +1,21 @@
+name: youth_mortality_rate_un_igme_2018
+description: "Youth Mortality Rate measures the share of newborns who die before reaching
+    the age of 15. \n\nThis dataset was constructed by Our World in Data based on
+    data from the United Nations Inter-agency Group for Child Mortality Estimation
+    (UN IGME).\n\nWe define and calculate 'youth mortality' based on the combination
+    of:\n- under-5 mortality rates (the share of newborns who die before reaching
+    the age of five)\n-  5-14 mortality rates (the share of children aged 5 who die
+    before reaching the age of 15).\n\nBoth of these metrics are available from the
+    UN IGME. Based on these estimates we calculate 'youth mortality': the share of
+    newborns who die before reaching the age of 15."
+data_file: Youth Mortality Rate - UN IGME (2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Youth%20Mortality%20Rate%20-%20UN%20IGME%20(2018)/Youth
+    Mortality Rate - UN IGME (2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: youth_mortality_rates_0_14
+    type: Float

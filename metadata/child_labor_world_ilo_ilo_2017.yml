@@ -1,0 +1,23 @@
+name: child_labor_world_ilo_ilo_2017
+description: ""
+data_file: Child Labor (World ILO) - ILO (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Child%20Labor%20(World%20ILO)%20-%20ILO%20(2017)/Child
+    Labor (World ILO) - ILO (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: child_labor_all_world_ilo_ipec
+    type: Float
+  - name: child_labor_boys_world_2000_2012_ilo
+    type: Float
+  - name: child_labor_girls_world_2000_2012_ilo
+    type: Float
+  - name: children_5_14_years_in_employment_ilo
+    type: Float
+  - name: children_5_14_years_not_in_employment_ilo
+    type: Float
+  - name: child_labor_incidence_ilo
+    type: Float

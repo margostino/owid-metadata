@@ -1,0 +1,20 @@
+name: long_term_wheat_yields_fao_2017_and_bayliss_smith_1984
+description: |-
+    This dataset combines data from two key sources.
+
+    Wheat yields from 1961 onwards are as reported by the UN Food and Agricultural Organization (FAO) from its FAOstat database. Available online: http://www.fao.org/faostat/en/#data/QC [accessed 24th August 2017].
+
+    Data from prior to 1961 is sourced from Bayliss-Smith & Wanmali (1984). Understanding Green Revolutions: Agrarian Change and Development Planning in South Asia. Available at: https://www-cambridge-org.ezproxy.is.ed.ac.uk/core/books/understanding-green-revolutions/761959C5635C85DB4C36E6B44C19A5EF [accessed 24th August 2017].
+
+    All values have been converted to a metric of tonnes per hectare.
+data_file: Long-term wheat yields - FAO (2017) & Bayliss-Smith (1984).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Long-term%20wheat%20yields%20-%20FAO%20(2017)%20%26%20Bayliss-Smith%20(1984)/Long-term
+    wheat yields - FAO (2017) & Bayliss-Smith (1984).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: wheat_fao_2017_and_bayliss_smith_1984
+    type: Float

@@ -1,0 +1,13 @@
+name: friends_and_family_support_oecd_based_on_gallup_2016
+description: ""
+data_file: Friends and family support – OECD based on Gallup (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Friends%20and%20family%20support%20%E2%80%93%20OECD%20based%20on%20Gallup%20(2016)/Friends
+    and family support – OECD based on Gallup (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: people_who_report_having_friends_or_relatives_they_can_count_on
+    type: Float

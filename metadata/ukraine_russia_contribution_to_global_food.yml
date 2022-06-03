@@ -1,0 +1,27 @@
+name: ukraine_russia_contribution_to_global_food
+description: ""
+data_file: Ukraine-Russia contribution to global food.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Ukraine-Russia%20contribution%20to%20global%20food/Ukraine-Russia
+    contribution to global food.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: russia_production
+    type: Float
+  - name: ukraine_production
+    type: Float
+  - name: russia_exports
+    type: Float
+  - name: ukraine_exports
+    type: Float
+  - name: russia_share_global_production
+    type: Float
+  - name: ukraine_share_global_production
+    type: Float
+  - name: russia_share_global_exports
+    type: Float
+  - name: ukraine_share_global_exports
+    type: Float

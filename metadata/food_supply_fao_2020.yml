@@ -1,0 +1,49 @@
+name: food_supply_fao_2020
+description: |-
+    This dataset is sourced from the UN Food and Agriculture Organization (FAO) and combines data from its Food Balance Sheets into a complete series from 1961 to 2017. In the original FAO dataset, food supply data from 1961 to 2013 is stored under its 'old methodology' variable set. Data from 2014 to 2017 was stored under its 'new methodology' for food balance sheets.
+
+    Our World in Data has combined this data to give a complete series from 1961 onwards. No transformations have been made to the original data.
+
+
+    Food supply is defined as food available for human consumption. At country level, it is calculated as the food remaining for human use after deduction of all non-food utilizations (i.e. food = production + imports + stock withdrawals − exports − industrial use − animal feed – seed – wastage − additions to stock). Wastage includes losses of usable products occurring along distribution chains from farm gate (or port of import) up to the retail level. However, such values do not include consumption-level waste (i.e. retail, restaurant and household waste) and therefore overestimates the average amount of food actually consumed.
+data_file: Food supply (FAO, 2020).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Food%20supply%20(FAO%2C%202020)/Food
+    supply (FAO, 2020).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: food_supply_kcalcapitaday_grand_total
+    type: Float
+  - name: fat_supply_quantity_gcapitaday_grand_total
+    type: Float
+  - name: protein_supply_quantity_gcapitaday_grand_total
+    type: Float
+  - name: meat_food_supply_quantity_kgcapitayr
+    type: Float
+  - name: bovine_meat_food_supply_quantity_kgcapitayr
+    type: Float
+  - name: poultry_meat_food_supply_quantity_kgcapitayr
+    type: Float
+  - name: pigmeat_food_supply_quantity_kgcapitayr
+    type: Float
+  - name: mutton_and_goat_meat_food_supply_quantity_kgcapitayr
+    type: Float
+  - name: meat_other_food_supply_quantity_kgcapitayr
+    type: Float
+  - name: eggs_food_supply_quantity_kgcapitayr
+    type: Float
+  - name: milk_excluding_butter_food_supply_quantity_kgcapitayr
+    type: Float
+  - name: fish_seafood_food_supply_quantity_kgcapitayr
+    type: Float
+  - name: animal_products_protein_supply_quantity_gcapitaday
+    type: Float
+  - name: vegetal_products_protein_supply_quantity_gcapitaday
+    type: Float
+  - name: fruits_excluding_wine_food_supply_quantity_kgcapitayr
+    type: Float
+  - name: vegetables_food_supply_quantity_kgcapitayr
+    type: Float

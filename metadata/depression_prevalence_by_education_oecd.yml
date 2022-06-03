@@ -1,0 +1,38 @@
+name: depression_prevalence_by_education_oecd
+description: Share of adults (aged 25-64 years) who report having depression in data
+    surveys, disaggregated by highest level of education. This is further differentiated
+    based on those who are employed, active (those actively looking for work), and
+    the total (which is the total population, including those unemployed).
+data_file: Depression prevalence by education - OECD.csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Depression%20prevalence%20by%20education%20-%20OECD/Depression
+    prevalence by education - OECD.csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: all_levels_of_education_active
+    type: Float
+  - name: all_levels_of_education_employed
+    type: Float
+  - name: all_levels_of_education_total
+    type: Float
+  - name: below_upper_secondary_education_active
+    type: Float
+  - name: below_upper_secondary_education_employed
+    type: Float
+  - name: below_upper_secondary_education_total
+    type: Float
+  - name: tertiary_education_active
+    type: Float
+  - name: tertiary_education_employed
+    type: Float
+  - name: tertiary_education_total
+    type: Float
+  - name: upper_secondary_and_post_secondary_non_tertiary_education_active
+    type: Float
+  - name: upper_secondary_and_post_secondary_non_tertiary_education_employed
+    type: Float
+  - name: upper_secondary_and_post_secondary_non_tertiary_education_total
+    type: Float

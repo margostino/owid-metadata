@@ -1,0 +1,13 @@
+name: health_expenditure_us_1929_2013_private_us_census_and_wdi_2013
+description: ""
+data_file: Health Expenditure US 1929-2013 Private - US Census and WDI (2013).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Health%20Expenditure%20US%201929-2013%20Private%20-%20US%20Census%20and%20WDI%20(2013)/Health
+    Expenditure US 1929-2013 Private - US Census and WDI (2013).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: us_health_expenditure_private_us_census_and_wdi_2013
+    type: Float

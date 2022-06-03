@@ -1,0 +1,18 @@
+name: plastic_importers_to_china_brooks_et_al_2018
+description: |-
+    Quantity of plastic exports to China by the top 10 exporting countries in 2016. This is given in tonnes of plastic waste imported by China.
+
+    Data is based on the UN Comtrade Database.
+data_file: Plastic importers to China - Brooks et al. (2018).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Plastic%20importers%20to%20China%20-%20Brooks%20et%20al.%20(2018)/Plastic
+    importers to China - Brooks et al. (2018).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: plastic_exports_to_china_tonnes
+    type: Float
+  - name: share_of_chinese_plastic_imports_perc
+    type: Float

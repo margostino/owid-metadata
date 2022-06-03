@@ -1,0 +1,16 @@
+name: top_marginal_income_tax_rate_reynolds_2008
+description: Hong Kong’s maximum tax (the “standard rate”) has normally been 15 percent,
+    effectively capping the marginal rate at high income levels (in exchange for no
+    personal exemptions). The highest U.S. tax rate of 39.6 percent after 1993 was
+    reduced to 38.6 percent in 2002 and to 35 percent in 2003.
+data_file: Top marginal income tax rate – Reynolds (2008).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Top%20marginal%20income%20tax%20rate%20%E2%80%93%20Reynolds%20(2008)/Top
+    marginal income tax rate – Reynolds (2008).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: top_marginal_income_tax_rate_reynolds_2008
+    type: Float

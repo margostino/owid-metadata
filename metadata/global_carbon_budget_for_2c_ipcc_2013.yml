@@ -1,0 +1,21 @@
+name: global_carbon_budget_for_2c_ipcc_2013
+description: "The carbon budget refers to the maximum quantity of carbon which can
+    be released to maintain a 50 percent probability of global average temperature
+    rise remaining below two-degrees celcius (the target set within the UN Paris climate
+    agreement).\r\n\r\nThis has been measured relative to the quantity of carbon which
+    would be released if all fossil fuel reserves were burned without the use of carbon
+    capture and storage (CCS) technology. The difference between the two is defined
+    as 'unburnable carbon'.\r\n\r\nReferences:\r\n\r\nIntergovernmental Panel on Climate
+    Change Climate Change 2013: The Physical Science Basis, Summary for Policy Makers,
+    WG1 Contribution to IPCC AR5. Available at: http://www.ipcc.ch/pdf/assessment-report/ar5/wg1/WG1AR5_SPM_FINAL.pdf"
+data_file: Global Carbon Budget for 2C - IPCC (2013).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Global%20Carbon%20Budget%20for%202C%20-%20IPCC%20(2013)/Global
+    Carbon Budget for 2C - IPCC (2013).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: global_carbon_budget_ipcc_2013
+    type: Float

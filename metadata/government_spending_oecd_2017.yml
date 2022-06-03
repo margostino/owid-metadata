@@ -1,0 +1,19 @@
+name: government_spending_oecd_2017
+description: ""
+data_file: Government spending – OECD (2017).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Government%20spending%20%E2%80%93%20OECD%20(2017)/Government
+    spending – OECD (2017).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: total_government_spending_per_capita
+    type: Float
+  - name: expenditures_on_general_government_outsourcing_perc_of_gdp
+    type: Float
+  - name: general_government_procurement_expenditure_perc_of_gdp
+    type: Float
+  - name: general_government_procurement_expenditure_perc_government_expenditures
+    type: Float

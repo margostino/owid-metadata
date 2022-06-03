@@ -1,0 +1,20 @@
+name: gini_coefficients_oecd_2016
+description: 'All estimates use the new OECD methodology for calculating incomes,
+    introduced in 2012. The source notes: "Data calculated according to the new OECD
+    Terms of reference. Compared to previous terms of reference, these include a more
+    detail breakdown of current transfers received and paid by households as well
+    as a revised definition of household income, including the value of goods produced
+    for own consumption as an element of self-employed income."'
+data_file: Gini Coefficients – OECD (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Gini%20Coefficients%20%E2%80%93%20OECD%20(2016)/Gini
+    Coefficients – OECD (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: gini_coefficient_income_after_taxes_and_transfers_oecd_income_distribution_database_2016
+    type: Float
+  - name: gini_coefficient_before_taxes_and_transfers_oecd_income_distribution_database_2016
+    type: Float

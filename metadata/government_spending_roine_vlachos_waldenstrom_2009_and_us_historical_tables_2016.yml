@@ -1,0 +1,14 @@
+name: government_spending_roine_vlachos_waldenstrom_2009_and_us_historical_tables_2016
+description: ""
+data_file: Government Spending – Roine, Vlachos, Waldenström (2009) and US Historical
+    Tables (2016).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Government%20Spending%20%E2%80%93%20Roine%2C%20Vlachos%2C%20Waldenstr%C3%B6m%20(2009)%20and%20US%20Historical%20Tables%20(2016)/Government
+    Spending – Roine, Vlachos, Waldenström (2009) and US Historical Tables (2016).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: central_gov_expenditure_roine_vlachos_waldenstrom_2009_and_us_historical_tables_2016
+    type: Float

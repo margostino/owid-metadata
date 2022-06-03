@@ -1,0 +1,93 @@
+name: energy_land_use_scenario_analysis_owid_based_on_unece_and_ember
+description: |-
+    This dataset was calculated by Our World in Data based on:
+
+    1.  Land use intensity data sourced from the UNECE's Lifecycle Assessment of Electricity Generation Options assessment. This provides data on the amount of land needed to produce one unit of electricity across different energy sources. This is based on literature review of life-cycle assessments of electricity sources: these not only include the land used for individual power plants, but also include any land use upstream in supply chains, such as mining for fuel or raw materials.
+
+    2. Electricity consumption data sourced from Ember Climate.
+
+    By multiplying annual electricity consumption for each country by the average land use of different energy sources, we have calculated the amount of land that would be needed if a country got all of its electricity from a single source. This is an unrealistic and simplistic scenario, but serves to provide a magnitude estimate of how much would be needed for energy production under different circumstances.
+
+    References:
+    UNECE (2021). Lifecycle Assessment of Electricity Generation Options. United Nations Economic Commission for Europe. Available at: https://unece.org/sed/documents/2021/10/reports/life-cycle-assessment-electricity-generation-options
+
+    Ember Climate. Available at: https://ember-climate.org/
+data_file: Energy land use scenario analysis (OWID based on UNECE & EMBER).csv
+data_base_url_file: https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Energy%20land%20use%20scenario%20analysis%20(OWID%20based%20on%20UNECE%20%26%20EMBER)/Energy
+    land use scenario analysis (OWID based on UNECE & EMBER).csv
+arguments:
+  - name: entity
+    type: String
+  - name: year
+    type: Int
+variables:
+  - name: land_all_coal
+    type: Float
+  - name: land_all_gas
+    type: Float
+  - name: land_all_coal_ccs
+    type: Float
+  - name: land_all_gas_ccs
+    type: Float
+  - name: land_all_hydro
+    type: Float
+  - name: land_all_nuclear
+    type: Float
+  - name: land_all_solar_silicon
+    type: Float
+  - name: land_all_solar_cadmium
+    type: Float
+  - name: land_all_concentrating_solar
+    type: Float
+  - name: land_all_wind
+    type: Float
+  - name: land_all_coal_share
+    type: Float
+  - name: land_all_gas_share
+    type: Float
+  - name: land_all_coal_ccs_share
+    type: Float
+  - name: land_all_gas_ccs_share
+    type: Float
+  - name: land_all_hydro_share
+    type: Float
+  - name: land_all_nuclear_share
+    type: Float
+  - name: land_all_solar_silicon_share
+    type: Float
+  - name: land_all_solar_cadmium_share
+    type: Float
+  - name: land_all_concentrating_solar_share
+    type: Float
+  - name: land_all_wind_share
+    type: Float
+  - name: land_actual_coal
+    type: Float
+  - name: land_actual_gas
+    type: Float
+  - name: land_actual_hydro
+    type: Float
+  - name: land_actual_nuclear
+    type: Float
+  - name: land_actual_solar
+    type: Float
+  - name: land_actual_wind
+    type: Float
+  - name: land_actual_total
+    type: Float
+  - name: land_energy_intensity
+    type: Float
+  - name: land_actual_coal_share
+    type: Float
+  - name: land_actual_gas_share
+    type: Float
+  - name: land_actual_hydro_share
+    type: Float
+  - name: land_actual_nuclear_share
+    type: Float
+  - name: land_actual_solar_share
+    type: Float
+  - name: land_actual_wind_share
+    type: Float
+  - name: land_actual_total_share
+    type: Float
