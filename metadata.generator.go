@@ -10,6 +10,7 @@ import (
 	"github.com/margostino/owid-metadata/model"
 	"github.com/margostino/owid-metadata/utils"
 	"golang.org/x/oauth2"
+	"gopkg.in/yaml.v3"
 	"io/ioutil"
 	"strings"
 )
