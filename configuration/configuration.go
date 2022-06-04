@@ -1,5 +1,7 @@
 package configuration
 
+import "github.com/margostino/owid-metadata/common"
+
 type Configuration struct {
 	MetadataPath      string `yaml:"metadata_path"`
 	SchemaFile        string `yaml:"schema_file"`

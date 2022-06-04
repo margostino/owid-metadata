@@ -1,6 +1,7 @@
 package common
 
 import (
+	"gopkg.in/yaml.v3"
 	"io/ioutil"
 	"log"
 	"os"
